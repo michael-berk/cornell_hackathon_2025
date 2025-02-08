@@ -14,7 +14,7 @@
 
 AWS Config:
 # AWS Configuration
-AWS_PROFILE = "default"  # Change this to your AWS profile name
-AWS_REGION = "us-west-2"  # Update to your region
-KNOWLEDGE_BASE_ID = "KXX0OZ3DZ4"
-MODEL_ID = "anthropic.claude-3-5-sonnet-20241022-v2:0"  # Claude 3.5 Sonnet Model
+AWS_PROFILE = "default"  # Change this to your AWS profile name  
+AWS_REGION = "us-west-2"  # Update to your region  
+KNOWLEDGE_BASE_ID = "KXX0OZ3DZ4"  
+MODEL_ID = "anthropic.claude-3-5-sonnet-20241022-v2:0"  # Claude 3.5 Sonnet Model  
