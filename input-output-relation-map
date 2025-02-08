@@ -1,0 +1,46 @@
+graph TD;
+    %% User Inputs
+    UserInputs[User Inputs] -->|Defines| Topic
+    UserInputs -->|Defines| ProficiencyLevel
+    UserInputs -->|Defines| TimeCommitment
+    UserInputs -->|Defines| UserLearningGoals
+    
+    %% System Outputs
+    Topic -->|Informs| Hook
+    Topic -->|Informs| SystemGeneratedLearningGoals
+    Topic -->|Informs| KeyConcepts
+    Topic -->|Informs| SuggestedReadings
+    Topic -->|Informs| WorkedExample
+    Topic -->|Informs| Exercise
+    
+    ProficiencyLevel -->|Adjusts| Hook
+    ProficiencyLevel -->|Adjusts| SuggestedReadings
+    ProficiencyLevel -->|Adjusts| SystemGeneratedLearningGoals
+    ProficiencyLevel -->|Adjusts| WorkedExample
+    
+    TimeCommitment -->|Adjusts| SystemGeneratedLearningGoals
+    TimeCommitment -->|Adjusts| SuggestedReadings
+    TimeCommitment -->|Adjusts| Exercise
+    TimeCommitment -->|Adjusts| WorkedExample
+    
+    UserLearningGoals -->|Informs| SystemGeneratedLearningGoals
+    
+    %% System-Generated Learning Goals Dependencies
+    SystemGeneratedLearningGoals -->|Informs| KeyConcepts
+    SystemGeneratedLearningGoals -->|Informs| SuggestedReadings
+    SystemGeneratedLearningGoals -->|Informs| Hook
+    SystemGeneratedLearningGoals -->|Informs| WorkedExample
+    SystemGeneratedLearningGoals -->|Informs| Exercise
+    
+    %% Key Concepts and Readings Dependencies
+    KeyConcepts -->|Provide Context| SuggestedReadings
+    KeyConcepts -->|Appear In| Exercise
+    
+    SuggestedReadings -->|Support| Exercise
+    SuggestedReadings -->|Inform| WorkedExample
+    
+    %% Worked Example and Exercise Dependencies
+    WorkedExample -->|Supports| LearningGoal
+    WorkedExample -->|Informs| Exercise
+    
+    Exercise -->|Helps Achieve| LearningGoal
