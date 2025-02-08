@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <style>
+        #gazeDot {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body onload="startWebGazer()">
+    <h2 style="text-align:center;">Eye Tracking with WebGazer.js</h2>
+    <p style="text-align:center;">Move your eyes and see the red dot follow!</p>
+    <div id="gazeDot"></div>
+
+    <script>
+        function startWebGazer() {
+            webgazer.setGazeListener((data, elapsedTime) => {
+                if (!data) return;
+                let dot = document.getElementById("gazeDot");
+                dot.style.left = data.x + "px";
+                dot.style.top = data.y + "px";
+            }).begin();
+        }
+    </script>
+</body>
+</html>

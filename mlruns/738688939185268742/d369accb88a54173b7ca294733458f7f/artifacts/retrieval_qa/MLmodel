@@ -1,0 +1,47 @@
+artifact_path: retrieval_qa
+flavors:
+  langchain:
+    code: null
+    langchain_version: 0.3.18
+    model_data: model
+    model_load: runnable_load
+    model_type: RunnableSequence
+    streamable: true
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.langchain
+    model_data: model
+    model_load: runnable_load
+    model_type: RunnableSequence
+    predict_stream_fn: predict_stream
+    python_version: 3.9.21
+    streamable: true
+is_signature_from_type_hint: false
+mlflow_version: 2.20.1
+model_size_bytes: 8273
+model_uuid: 723a70906a96451797973673f0abb357
+run_id: d369accb88a54173b7ca294733458f7f
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: json_object
+signature:
+  inputs: '[{"type": "string", "name": "input", "required": true}]'
+  outputs: '[{"type": "string", "name": "input", "required": true}, {"type": "array",
+    "items": {"type": "object", "properties": {"id": {"type": "any", "required": false},
+    "metadata": {"type": "object", "properties": {"location": {"type": "object", "properties":
+    {"s3Location": {"type": "object", "properties": {"uri": {"type": "string", "required":
+    true}}, "required": true}, "type": {"type": "string", "required": true}}, "required":
+    true}, "score": {"type": "double", "required": true}, "source_metadata": {"type":
+    "object", "properties": {"x-amz-bedrock-kb-chunk-id": {"type": "string", "required":
+    true}, "x-amz-bedrock-kb-data-source-id": {"type": "string", "required": true},
+    "x-amz-bedrock-kb-source-uri": {"type": "string", "required": true}}, "required":
+    true}, "type": {"type": "string", "required": true}}, "required": true}, "page_content":
+    {"type": "string", "required": true}, "type": {"type": "string", "required": true}}},
+    "name": "context", "required": true}, {"type": "string", "name": "answer", "required":
+    true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-02-08 22:19:53.634622'
