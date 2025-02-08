@@ -1,0 +1,2273 @@
+American Economic Association
+Incorporating Fairness into Game Theory and Economics
+Author(s): Matthew Rabin
+Source: The American Economic Review, Vol. 83, No. 5 (Dec., 1993), pp. 1281-1302
+Published by: American Economic Association
+Stable URL: http://www.jstor.org/stable/2117561
+Accessed: 07/12/2010 13:40
+Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at
+http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless
+you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you
+may use content in the JSTOR archive only for your personal, non-commercial use.
+Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at
+http://www.jstor.org/action/showPublisher?publisherCode=aea.
+Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed
+page of such transmission.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of
+content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms
+of scholarship. For more information about JSTOR, please contact support@jstor.org.
+American Economic Association is collaborating with JSTOR to digitize, preserve and extend access to The
+American Economic Review.
+http://www.jstor.org
+
+Incorporating Fairness into Game Theory and Economics 
+By MATTHEW RABIN* 
+People like to help those who are helping them, and to hurt those who are 
+hurting them. Outcomes reflecting such motivations are called fairness equilib- 
+ria. Outcomes are mutual-max when each person maximizes the other's material 
+payoffs, and mutual-min when each person minimizes the other's payoffs. It is 
+shown that every mutual-max or mutual-min Nash equilibrium is a fairness 
+equilibrium. If payoffs are small, fairness equilibria are roughly the set of 
+mutual-max and mutual-min outcomes; if payoffs are large, fairness equilibria 
+are roughly the set of Nash equilibria. Several economic examples are consid- 
+ered, and possible welfare implications of fairness are explored. (JEL A12, A13, 
+D63, C70) 
+Most current economic models assume 
+that people pursue only their own material 
+self-interest and do not care about "social" 
+goals. One exception to self-interest which 
+has received some attention by economists 
+is simple altruism: people may care not only 
+about their own well-being, but also about 
+the well-being of others. Yet psychological 
+evidence indicates that most altruistic be- 
+havior is more complex: people do not seek 
+uniformly to help other people; rather, they 
+do so according to how generous these other 
+people are being. Indeed, the same people 
+who are altrustic to other altruistic people 
+are also motivated to hurt those who hurt 
+them. If somebody is being nice to you, 
+fairness dictates that you be nice to him. 
+If somebody is being mean to you, fairness 
+allows-and 
+vindictiveness dictates-that 
+you be mean to him. 
+Clearly, these emotions have economic 
+implications. If an employee has been ex- 
+ceptionally loyal, then a manger may feel 
+some obligation to treat that employee well, 
+even when it is not in his self-interest to do 
+so. Other examples of economic behavior 
+induced by social goals are voluntary reduc- 
+tions of water-use during droughts, conser- 
+vation of energy to help solve the energy 
+crisis (as documented, for instance, in Ken- 
+neth E. Train et al. [1987]), donations to 
+public television stations, and many forms 
+of voluntary labor. (Burton A. Weisbrod 
+[1988] estimates that, in the United States, 
+the total value of voluntary labor is $74 
+billion annually.) 
+On the negative side, a consumer may not 
+buy a product sold by a monopolist at an 
+"unfair" price, even if the material value to 
+the consumer is greater than the price. By 
+not buying, the consumer lowers his own 
+material well-being so as to punish the 
+monopolist. An employee who feels she has 
+been mistreated by a firm may engage in 
+acts of sabotage. Members of a striking la- 
+bor union may strike longer than is in their 
+material interests because they want to pun- 
+ish a firm for being unfair. 
+*Department of Economics, 787 Evans Hall, Uni- 
+versity of California, Berkeley, CA 94720. I thank Nikki 
+Blasberg, Jeff Ely, April Franco, and especially Gadi 
+Barlevy for research assistance; George Akerlof, Colin 
+Camerer, Joe Farrell, Jonathan Feinstein, Ruth Given, 
+Danny Kahneman, Annette Montgomery, Richard 
+Thaler, and especially Bill Dickens for useful conversa- 
+tions; and Gadi Barlevy, Roland Benabou, Nikki 
+Blasberg, Gary Bolton, Jeff Ely, April Franco, Drew 
+Fudenberg, Rachel Kranton, Michael Lii, James Mont- 
+gomery, Jim Ratliff, Halsey Rogers, Lones Smith, Jeff 
+Zweibel, two anonymous referees, and especially Eddie 
+Dekel-Tabak, Jim Fearon, Berkeley's David Levine, 
+and Vai-Lam Mui for helpful comments on earlier 
+drafts of this paper. I also thank the Institute of 
+Business and Economic Research at the University of 
+California-Berkeley for their funding of research assis- 
+tance and the National Science Foundation (Grant 
+SES92-10323) 
+for financial support. 
+1281 
+
+1282 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+By modeling such emotions formally, one 
+can begin to understand their economic and 
+welfare implications more rigorously and 
+more generally. In this paper, I develop a 
+game-theoretic framework for incorporating 
+such emotions into a broad range of eco- 
+nomic models.1 My framework incorporates 
+the following three stylized facts: 
+(A) People are willing to sacrifice their own 
+material well-being to help those who 
+are being kind. 
+(B) People are willing to sacrifice their own 
+material well-being to punish those who 
+are being unkind. 
+(C) Both motivations (A) and (B) have a 
+greater effect on behavior as the mate- 
+rial cost of sacrificing becomes smaller. 
+In the next section, I briefly present some 
+of the evidence from the psychological liter- 
+ature regarding these stylized facts. In Sec- 
+tion II, I develop a game-theoretic solution 
+concept "fairness equilibrium" that incor- 
+porates these stylized facts. Fairness equi- 
+libria do not in general constitute either a 
+subset or a superset of Nash equilibria; that 
+is, incorporating fairness considerations can 
+both add new predictions to economic mod- 
+els and eliminate conventional predictions. 
+In Section III, I present some general re- 
+sults about which outcomes in economic 
+situations are likely to be fairness equilibria. 
+The results demonstrate the special role of 
+"mutual-max" outcomes (in which, given the 
+other person's behavior, each person maxi- 
+mizes the other's material payoffs) and 
+"mutual-min" outcomes (in which, given the 
+other person's behavior, each person mini- 
+mizes the other's material payoffs). The fol- 
+lowing results hold: 
+(i) Any Nash equilibrium that is either a 
+mutual-max outcome or mutual-min 
+outcome is also a fairness equilibrium. 
+(ii) If material payoffs are small, then, 
+roughly, an outcome is a fairness equi- 
+librium if and only if it is a mutual-max 
+or a mutual-min outcome. 
+(iii) If material payoffs are large, then, 
+roughly, an outcome is a fairness equi- 
+librium if and only if it is a Nash equi- 
+librium. 
+I hope this framework will eventually be 
+used to study the implications of fairness in 
+different economic situations. While I do 
+not develop extended applications in this 
+paper, Section IV contains examples illus- 
+trating the economic implications of my 
+model of fairness. I develop a simple model 
+of monopoly pricing and show that fairness 
+implies that goods can only be sold at below 
+the classical monopoly price. I then explore 
+the implications of fairness in an extended 
+labor example. 
+I consider some welfare implications of 
+my model in Section V. Many researchers in 
+welfare economics have long considered is- 
+sues of fairness to be important in evaluat- 
+ing the desirability of different economic 
+outcomes. Yet while such policy analysis 
+incorporates economists' judgments of fair- 
+ness and equity, it often ignores the con- 
+cerns for fairness and equity of the eco- 
+nomic actors being studied. By considering 
+how people's attitudes toward fairness in- 
+fluence their behavior and well-being, my 
+framework can help incorporate such con- 
+cerns more directly into policy analysis and 
+welfare economics. 
+While my model suggests that the behav- 
+ioral implications of fairness are greatest 
+when the material consequences of an eco- 
+nomic interaction are not too large, there 
+'While many recognize the importance of social 
+motivations in economic phenomena, these emotions 
+have not been investigated widely within the formal 
+apparatus of mainstream economics. Other researchers 
+who have done so include George Akerlof (1982), 
+Peter H. Huang and Ho-Mou Wu (1992), Vai-Lam Mui 
+(1992), and Julio J. Rotemberg (1992); but these and 
+other economic models have tended to be context- 
+specific. While the current version of my model only 
+applies to two-person complete-information games, it 
+applies to all such games. If it is extended naturally, it 
+will therefore have specific consequences in any eco- 
+nomic or social situation that can be modeled by non- 
+cooperative game theory. (By its generality, my model 
+may also contribute to psychological research. While 
+some psychology researchers have tried to formulate 
+general principles of behavior, I believe that noncoop- 
+erative game theory provides a useful language for 
+doing so more carefully. My model, for instance, helps 
+demonstrate that some seemingly different behaviors in 
+different contexts are explicable by common underlying 
+principles.) 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1283 
+are several reasons why this does not imply 
+that the economic implications of fairness 
+are minor. First, while it is true that fairness 
+influences behavior most when material 
+stakes are small, it is not clear that it makes 
+little difference when material stakes are 
+large. Little empirical research on the eco- 
+nomic implications of fairness has been con- 
+ducted, and much anecdotal evidence sug- 
+gests that people 
+sacrifice substantial 
+amounts of money to reward or punish kind 
+or unkind behavior. Second, many major 
+economic institutions, most notably decen- 
+tralized markets, are best described as accu- 
+mulations of minor economic interactions, 
+so that the aggregate implications of depar- 
+tures from standard theory in these cases 
+may be substantial. Third, the fairness com- 
+ponent of a person's overall well-being can 
+be influenced substantially by even small 
+material changes. 
+Finally, even if material incentives in a 
+situation are so large as to dominate behav- 
+ior, fairness still matters. Welfare eco- 
+nomics should be concerned not only with 
+the efficient allocation of material goods, 
+but also with designing institutions such that 
+people are happy about the way they inter- 
+act with others. For instance, if a person 
+leaves an exchange in which he was treated 
+unkindly, then his unhappiness at being so 
+treated should be a consideration in evalu- 
+ating the efficiency of that exchange. Armed 
+with well-founded psychological assump- 
+tions, economists can start to address the 
+nonmaterial benefits and costs of the free 
+market and other institutions.2 
+I conclude the paper in Section VI with a 
+discussion of some of the shortfalls of my 
+model and an outline of possible extensions. 
+I. Fairness in Games: Some Evidence 
+In this section, I discuss some psychologi- 
+cal research that demonstrates the stylized 
+facts outlined in the Introduction. Consider 
+fact A: "People are willing to sacrifice their 
+own material well-being to help those who 
+are being kind." The attempt to provide 
+public goods without coercion is an arche- 
+typical example in which departures from 
+pure self-interest can be beneficial to soci- 
+ety, and it has been studied by psychologists 
+as a means of testing for the existence of 
+altruism and cooperation. Laboratory exper- 
+iments of public goods have been conducted 
+by, among others, John M. Orbell (1978), 
+Gerald Marwell and Ruth Ames (1981), 
+Werner Guth (1982), Alphons J. C. van de 
+Kragt et al. (1983), R. Mark Isaac et al. 
+(1984, 1985), Oliver Kim and Mark Walker 
+(1984), James Andreoni (1988a, b), and Isaac 
+James Walker (1988a, b). These experiments 
+typically involve subjects choosing how much 
+to contribute toward a public good, where 
+the self-interested contribution is small or 
+zero. The evidence from these experiments 
+is that people cooperate to a degree greater 
+than would be implied by pure self-interest. 
+Many of these experiments are surveyed in 
+Robyn M. Dawes and Richard H. Thaler 
+(1988), who conclude that, for most experi- 
+ments of one-shot public-good decisions in 
+which the individually optimal contribution 
+is close to 0 percent, the contribution rate 
+ranges between 40 percent and 60 percent 
+of the socially optimal level.3 
+These experiments indicate that contribu- 
+tions toward public goods are not, however, 
+the result of "pure altruism," where people 
+seek unconditionally to help others. Rather, 
+the willingness to help seems highly contin- 
+gent on the behavior of others. If people do 
+not think that others are doing their fair 
+share, then their enthusiasm for sacrificing 
+for others is greatly diminished. 
+2Indeed, I show in Section V that there exist situa- 
+tions in which the unique fairness equilibrium leaves 
+both players feeling that they have been treated un- 
+kindly. This means that negative emotions may be 
+endogenously generated by particular economic struc- 
+tures. I also state and prove an unhappy theorem: 
+every game contains at least one such "unkind equilib- 
+rium." That is, there does not exist any situation in 
+which players necessarily depart with positive feelings. 
+3Further examples of stylized fact A can be found in 
+Richard E. Goranson and Leonard Berkowitz (1966), 
+Martin Greenberg and David Frisch (1972), Elizabeth 
+Hoffman and Matthew Spitzer (1982), and Daniel Kah- 
+neman et al. (1986a,b). 
+
+1284 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+Indeed, stylized fact B says that people 
+will in some situations not only refuse to 
+help others, but will sacrifice to hurt others 
+who are being unfair. This idea has been 
+most widely explored in the "ultimatum 
+game," discussed at length in Thaler (1988). 
+The ultimatum game consists of two people 
+splitting some fixed amount of money X 
+according to the following rules: a "pro- 
+poser" offers some division of X to a "de- 
+cider." If the decider says yes, they split the 
+money according to the proposal. If the 
+decider says no, they both get no money. 
+The result of pure self-interest is clear: pro- 
+posers will never offer more than a penny, 
+and deciders should accept any offer of at 
+least a penny. Yet experiments clearly reject 
+such behavior. Data show that, even in one- 
+shot settings, deciders are willing to punish 
+unfair offers by rejecting them, and pro- 
+posers tend to make fair offers.4 Some pa- 
+pers illustrating stylized fact B are Goran- 
+son and Berkowitz (1966), Jerald Greenberg 
+(1978), Guth et al. (1982), Kahneman et al. 
+(1986a,b), and Alvin E. Roth et al. (1991). 
+Stylized fact C says that people will not 
+be as willing to sacrifice a great amount of 
+money to maintain fairness as they would be 
+with small amounts of money. It is tested 
+and partially confirmed in Gerald Leventhal 
+and David Anderson (1970), but its validity 
+is intuitive to most people. If the ultimatum 
+game were conducted with $1, then most 
+deciders would reject a proposed split of 
+($0.90, $0.10). If the ultimatum game were 
+conducted with $10 million, the vast major- 
+ity of deciders would accept a proposed 
+split of ($9 million, $1 million).5 Consider 
+also the following example from Dawes and 
+Thaler (1988 p. 145): 
+In the rural areas around Ithaca it is 
+common for farmers to put some fresh 
+produce on a table by the road. There 
+is a cash box on the table, and cus- 
+tomers are expected to put money in 
+the box in return for the vegetables 
+they take. The box has just a small slit, 
+so money can only be put in, not taken 
+out. Also, the box is attached to the 
+table, so no one can (easily) make off 
+with the money. We think that the 
+farmers who use this system have just 
+about the right model of human na- 
+ture. They feel that enough people 
+will volunteer to pay for the fresh corn 
+to make it worthwhile to put it out 
+there. The farmers also know that if it 
+were easy enough to take the money, 
+someone would do so. 
+This example is in the spirit of stylized fact 
+C: people succumb to the temptation to 
+pursue their interests at the expense of oth- 
+ers in proportion to the profitability of do- 
+ing so. 
+From an economist's point of view, it 
+matters not only whether stylized facts A-C 
+are true, but whether they have important 
+economic implications. Kahneman et al. 
+(1986a, b) present strong arguments that 
+these general issues are indeed important. 
+For anyone unconvinced of the importance 
+of social goals empirically or intuitively, one 
+purpose of this paper is to help test the 
+proposition theoretically: will adding fair- 
+ness to economic models substantially alter 
+conclusions? If so, in what situations will 
+conclusions be altered, and in what way? 
+II. A Model 
+To formalize fairness, I adopt the frame- 
+work developed by John Geanakoplos, 
+David Pearce, and Ennio Stacchetti (1989) 
+(hereafter, GPS). They modify conventional 
+game theory by allowing payoffs to depend 
+on players' beliefs as well as on their actions 
+(see also Itzhak Gilboa and David Schmei- 
+dler, 1988).6 While explicitly incorporating 
+4The decision by proposers to make fair offers can 
+come from at least two motivations: self-interested 
+proposers might be fair because they know unfair of- 
+fers may be rejected, and proposers themselves have a 
+preference for being fair. 
+5Clearly, however, a higher percentage of deciders 
+would turn down an offer of ($9,999,999.90, $0.10) than 
+turn down ($0.90, $0.10). In his footnote 6, Thaler 
+(1988) concurs with these intuitions, while pointing out 
+the obvious difficulty in financing experiments of the 
+scale needed to test them fully. 
+6Outside the context of noncooperative game the- 
+ory, Akerlof and William T. Dickens (1982) presented 
+an earlier model incorporating beliefs directly into 
+people's utility functions. 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1285 
+Player 
+2 
+Opera 
+Boxing 
+Opera 
+2X,X 
+0,0 
+Player 
+1 
+Boxing 
+0,0 
+X,2X 
+FIGURE 1. EXAMPLE 1: BATTLE OF THE SEXES 
+beliefs substantially complicates analysis, I 
+argue that the approach is necessary to cap- 
+ture aspects of fairness. Fortunately, GPS 
+show that many standard techniques and 
+results have useful analogues in these "psy- 
+chological games." 
+In developing my model of fairness, I 
+extend the GPS approach with an addi- 
+tional step which I believe will prove essen- 
+tial for incorporating psychology into eco- 
+nomic research: I derive psychological games 
+from basic "material games." Whereas GPS 
+provide a technique for analyzing games 
+that already incorporate emotions, I use 
+assumptions about fairness to derive psy- 
+chological games from the more traditional 
+material description of a situation. Doing 
+so, I develop a model that can be applied 
+generally and can be compared directly to 
+standard economic analysis. 
+To motivate both the general framework 
+and my specific model, consider Example 1 
+(see Fig. 1), where X is a positive number. 
+(Throughout the paper, I shall represent 
+games with the positive "scale variable" X. 
+This allows me to consider the effects of 
+increasing or decreasing a game's stakes 
+without changing its fundamental strategic 
+structure.) This is a standard battle-of-the- 
+sexes game: two people prefer to go to the 
+same event together, but each prefers a 
+different event. Formally, both players pre- 
+fer to play either (opera, opera) or (boxing, 
+boxing) rather than not coordinating; but 
+player 1 prefers (opera, opera), and player 2 
+prefers (boxing, boxing). 
+The payoffs are a function only of the 
+moves made by the players. Suppose, how- 
+ever, that player 1 (say) cares not only about 
+his own payoff, but depending on player 2's 
+motives, he cares also about player 2's pay- 
+off. In particular, if player 2 seems to be 
+intentionally helping player 1, then player 1 
+will be motivated to help player 2; if player 
+2 seems to be intentionally hurting player 1, 
+then player 1 will wish to hurt player 2. 
+Suppose player 1 believes (a) that player 
+2 is playing boxing, and (b) that player 2 
+believes player 1 is playing boxing. Then 
+player 1 concludes that player 2 is choosing 
+an action that helps both players (playing 
+opera would hurt both players). Because 
+player 2 is not being either generous or 
+mean, neither stylized fact A nor B applies. 
+Thus, player 1 will be neutral about his 
+effect on player 2 and will pursue his mate- 
+rial self-interest by playing boxing. If this 
+argument is repeated for player 2, one can 
+show that, in the natural sense, (boxing, 
+boxing) is an equilibrium: if it is common 
+knowledge that this will be the outcome, 
+then each player is maximizing his utility by 
+playing his strategy. 
+Of course, (boxing, boxing) is a conven- 
+tional Nash equilibrium in this game. To see 
+the importance of fairness, suppose player 1 
+believes (a) that player 2 will play boxing, 
+and (b) that player 2 believes that player 1 is 
+playing opera. Now player 1 concludes that 
+player 2 is lowering her own payoff in order 
+to hurt him. Player 1 will therefore feel 
+hostility toward player 2 and will wish to 
+harm her. If this hostility is strong enough, 
+player 1 may be willing to sacrifice his own 
+material well-being, and play opera rather 
+than boxing. Indeed, if both players have a 
+strong enough emotional reaction to each 
+other's behavior, then (opera, boxing) is an 
+equilibrium. If it is common knowledge that 
+they are playing this outcome, then, in the 
+induced atmosphere of hostility, both play- 
+ers will wish to stick with it. 
+Notice the central role of expectations: 
+player l's payoffs do not depend simply on 
+the actions taken, but also on his beliefs 
+about player 2's motives. Could these emo- 
+tions be directly modeled by transforming 
+the payoffs, so that one could analyze this 
+transformed game in the conventional way? 
+This turns out to be impossible. In the natu- 
+ral sense, both of the equilibria discussed 
+above are strict: each player strictly prefers 
+to play his strategy given the equilibrium. In 
+the equilibrium (boxing, boxing), player 1 
+
+1286 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+strictly prefers playing boxing to opera. In 
+the equilibrium (opera, boxing) player 1 
+strictly prefers opera to boxing. No matter 
+what payoffs are chosen, these statements 
+would be contradictory if payoffs depended 
+solely on the actions taken. To formalize 
+these preferences, therefore, it is necessary 
+to develop a model that explicitly incorpo- 
+rates beli-efs.7 I now construct such a model, 
+applicable to all two-person, finite-strategy 
+games. 
+Consider a two-player, normal form game 
+with (mixed) strategy sets S1 and S2 for 
+players 1 and 2, derived from finite pure- 
+strategy sets A1 and A2. Let vi: SI x S2 -l- 
+be player i's material payoffs.8 
+From this "material game," I now con- 
+struct a "psychological game" as defined in 
+GPS. I assume that each player's subjective 
+expected utility when he chooses his strat- 
+egy will depend on three factors: (i) his 
+strategy, (ii) his beliefs about the other 
+player's strategy choice, and (iii) his beliefs 
+about the other player's beliefs about his 
+strategy. Throughout, I shall use the follow- 
+ing notation: a1 E SI and a2 E S2 represent 
+the strategies chosen by the two players; 
+b, E S, and b2 E S2 represent, respectively, 
+player 2's beliefs about what strategy player 
+1 is choosing, and player l's beliefs about 
+what strategy player 2 is choosing; c1 E S1 
+and c2 eS2 
+represent player l's beliefs 
+about what player 2 believes player l's strat- 
+egy is, and player 2's beliefs about what 
+player 1 believes player 2's strategy is. 
+The first step to incorporating fairness 
+into the analysis is to define a "kindness 
+function," fM(ai, b1), which measures how 
+kind player i is being to player j. (I assume 
+in this paper that players have a shared 
+notion of kindness and fairness and that 
+they apply these standards symmetrically. In 
+Rabin (1992), I show that most of the re- 
+sults of this paper hold if multiple kindness 
+functions are allowed.) 
+If player i believes that player j is choos- 
+ing strategy b1., how kind is player i being by 
+choosing ai? Player i is choosing the payoff 
+pair (7ri(ai, bj), i1j(bj, at)) from among the 
+set of all payoffs feasible if player j is choos- 
+ing strategy b1 [i.e., from among the set 
+fl(bj) 
+{(wi(a, bj), wj(bj, a)) a E Si}]. The 
+players might have a variety of notions of 
+how kind player i is being by choosing any 
+given point in 11(bj). While I shall now 
+proceed with a specific (and purposely sim- 
+plistic) measure of kindness, I show in the 
+Appendix that the results of this paper are 
+valid for any kindness function that specifies 
+the equitable payoffs as some rule for shar- 
+ing along the Pareto frontier. 
+Let rjh(bj) be player j's highest payoff in 
+fl(bi), and let '-f(b1) be player j's lowest 
+payoff among points that are Pareto-efficient 
+in H(b1). Let the "equitable payoff" be 
+7je(bj) = [7rjL(b) + 7ri(bj)]/2. 
+When the 
+Pareto frontier is linear, this payoff literally 
+corresponds to the payoff player j would get 
+if player i "splits the difference" with her 
+among Pareto-efficient points. More gener- 
+ally, it provides a crude reference point 
+against which to measure how generous 
+player i is being to player j. Finally, let 
+7wmin(bj) be the worst possible payoff for 
+player j in the set fl(bj). 
+From these payoffs, I define the kindness 
+function. This function captures how much 
+more than or less than player j's equit- 
+able payoff player i believes he is giving to 
+player j. 
+Definition 1: Player i's kindness to player j 
+is given by 
+fi (aj ,bj) =_ 7Tj(bj,ai) 
+- 
+j( bJ) 
+Ir 
+)(bj), 
+ah) 
+- 
+i(bj) 
+I f 
+bi.p( 1).min 
+(b1) =O, then fi(ai, bj) =0. 
+7My point here is that the results I get could not be 
+gotten simply by respecifying the payoffs over the phys- 
+ical actions in the game. Van Kolpin (1993) argues that 
+one can apply conventional game theory to these games 
+by including the choice of beliefs as additional parts of 
+plavers' strategies. 
+I shall emphasize pure strategies in this paper, 
+though formal definitions allow for mixed strategies, 
+and all stated results apply to them. One reason I 
+de-emphasize mixed strategies is that the characteriza- 
+tion of preferences over mixed strategies is not 
+straightforward. In psychological games, there can be a 
+difference between interpreting mixed strategies liter- 
+ally as purposeful mixing by a player versus interpret- 
+ing them as uncertainty by other players. Such issues of 
+interpretation are less important in conventional game 
+theory, and consequently incorporating mixed strate- 
+gies is more straightforward. 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1287 
+Note that f, = 0 if and only if player i is 
+trying to give player j her equitable payoff.9 
+If fi < 0, player i is giving player j less than 
+her equitable payoff. Recalling the defini- 
+tion of the equitable payoff, there are two 
+general ways for fi to be negative: either 
+player i is grabbing more than his share on 
+the Pareto frontier of H1(b) or he is choos- 
+ing an inefficient point in H(b1). Finally, 
+fi > 0 if player i is giving player j more than 
+her equitable payoff. Recall that this can 
+happen only if the Pareto frontier of H(bj) 
+is a nonsingleton; otherwise 7rr = 7Jh 
+I shall let the function fj(bj, ci) represent 
+player i's beliefs about how kindly player j 
+is treating him. While I shall keep the two 
+notationally distinct, this function is for- 
+mally equivalent to the function fj(aj, bi). 
+Definition 2: Player i's belief about how kind 
+player j is being to him is given by 
+- 
+ri(ci, bj) )-_iT(Cj) 
+f j ( bj,~ ci ) 
+7 
+)=_#7 
+min 
+If ri C 
+i 
+(Ci) = O, then fj(bj, cj) = 0. 
+Because the kindness functions are nor- 
+malized, the values of fif() and fj(*) must 
+lie in the interval [- 1,2] Further, the kind- 
+ness functions are insensitive to positive 
+affine transformations of the material pay- 
+offs (overall utility, as defined shortly, will 
+be sensitive to such transformations). 
+These kindness functions can now be used 
+to specify fully the players' preferences. 
+Each player i chooses ai to maximize his 
+expected utility Ui(ai, bj, ci), which incorpo- 
+rates both his material utility and the play- 
+ers' shared notion of fairness: 
+Ui(ai bj, ci) 
+= ri(ai, bj) + fj(bj, ci) [1 + fi(ai, bj)] . 
+The central behavioral feature of these 
+preferences reflects the original discussion. 
+If player i believes that player j is treating 
+him badly- fj() < 0-then 
+player i wishes 
+to treat player j badly, by choosing an ac- 
+tion ai such that fif() is low or negative. If 
+player j is treating player i kindly, then 
+fj( ) will be positive, and player i will wish 
+to treat player j kindly. Of course, the spec- 
+ified utility function is such that players will 
+trade off their preference for fairness against 
+their material well-being, and material pur- 
+suits may override concerns for fairness. 
+Because 
+the kindness 
+functions 
+are 
+bounded above and below, this utility func- 
+tion reflects stylized fact C: the bigger the 
+material payoffs, the less the players' behav- 
+ior reflects their concern for fairness. Thus, 
+the behavior in these games is sensitive to 
+the scale of material payoffs. Obviously, I 
+have not precisely determined the relative 
+power of fairness versus material interest or 
+even given units for the material payoffs; my 
+results in specific examples are, therefore, 
+only qualitative. 
+Notice that the preferences Vi(ai, bj, ci) 
+rri(ai, bj) + fj(bj, ci) . fi(ai, bj) would yield 
+precisely the same behavior as the utility 
+function Ui(ai, bj, ci). I have made the pref- 
+erences slightly more complicated so as to 
+capture one bit of realism: whenever player 
+j is treating player i unkindly, player i's 
+overall utility will be lower than his material 
+payoffs. That is, fj() < 0 implies Ui() < 
+7ri ). If a person is treated badly, he leaves 
+the situation bitter, and his ability to take 
+revenge only partly makes up for the loss in 
+welfare. 1 
+Because these preferences form a psycho- 
+logical game, I can use the concept of psy- 
+chological Nash equilibrium defined by GPS; 
+this is simply the analog of Nash equilib- 
+rium for psychological games, imposing the 
+additional condition that all higher-order 
+9When 7h 
+= 
+min, all of player i's responses to b 
+yield player j the same payoff. Therefore, there is no 
+issue of kindness, and fi = 0. 
+'0As Lones Smith has pointed out to me, however, 
+this specification has one unrealistic implication: if 
+player 1 is being "mean" to player 2 (f1 < 0), then the 
+nicer player 2 is to player 1, the happier is player 1, 
+even if one ignores the implication for material payoffs. 
+While this is perhaps correct if people enjoy making 
+suckers of others, it is more likely that a player will feel 
+guilty if he is mean to somebody who is nice to him. 
+
+1288 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+beliefs match actual behavior. I shall call 
+the solution concept thus defined "fairness 
+equilibrium." 11 
+Definition 3: The pair of strategies (aj,a2) 
+E (S1, S2) is a fairness equilibrium if, for 
+i=1,2, j*i, 
+(1) 
+ai E argmaxaEsiUi;(a,bj,ci) 
+(2) 
+ci=bi=ai. 
+Is this solution concept consistent with 
+the earlier discussion of Example 1? In par- 
+ticular, is the "hostile" outcome (opera, 
+boxing) a fairness equilibrium? If c1 = b1 = 
+a1 = opera and c2 = b2 = a2 = boxing, then 
+player 2 feels hostility, and f2 = - 1. Thus, 
+player l's utility from playing U is 0 (with 
+fl = -1) and from playing boxing it is X -1 
+(with f1 = 0). Thus, if X < 1, player 1 prefers 
+opera to boxing given these beliefs. Player 2 
+prefers boxing to opera. For X < 1, there- 
+fore, (opera, boxing) is an equilibrium. In 
+this equilibrium, both players are hostile 
+toward each other and unwilling to coordi- 
+nate with the other if it means conceding to 
+the other player.12 
+Because the players will feel no hostility 
+if they coordinate, both (opera, opera) and 
+(boxing, boxing) are also equilibria for all 
+values of X. Again, these are conventional 
+outcomes; the interesting implication of 
+Player 
+2 
+Cooperate 
+Defect 
+Cooperate 
+4X,F4X 
+,6X 
+Player 
+1 
+Defect 
+6X,O 
+X,X 
+FIGURE 2. EXAMPLE 2: PRISONER'S DILEMMA 
+fairness in Example 1 is that the players' 
+hostility may lead each to undertake costly 
+punishment of the other. The game Pris- 
+oner's Dilemma shows, by contrast, that 
+fairness may also lead each player to sacri- 
+fice to help the other player (see Fig. 2). 
+Consider the cooperative outcome, (coop- 
+erate, cooperate). If it is common knowl- 
+edge to the players that they are playing 
+(cooperate, cooperate), then each player 
+knows that the other is sacrificing his own 
+material well-being in order to help him. 
+Each will thus want to help the other by 
+playing cooperate, so long as the material 
+gains from defecting are not too large. Thus, 
+if X is small enough (less than -), (cooper- 
+ate, cooperate) is a fairness equilibrium. 
+For any value of X, however, the Nash 
+equilibrium (defect, defect) is also a fairness 
+equilibrium. This is because if it is common 
+knowledge that they are playing (defect, de- 
+fect), then each player knows that the other 
+is not willing to sacrifice X in order to give 
+the other 6X. Thus, both players will be 
+hostile; in the outcome (defect, defect), each 
+player is satisfying both his desire to hurt 
+the other and his material self-interest. 
+The prisoner's dilemma illustrates two is- 
+sues I discussed earlier. First, one cannot 
+fully capture realistic behavior by invoking 
+"pure altruism." In Example 2, both (coop- 
+erate, cooperate) and (defect, defect) are 
+fairness equilibria, and I believe this predic- 
+tion of the model is in line with reality. 
+People sometimes cooperate, but if each 
+expects the other player to defect, then they 
+both will. Yet, having both of these as equi- 
+libria is inconsistent with pure altruism. 
+Suppose that player l's concern for player 2 
+were independent of player 2's behavior. 
+1iGPS prove the existence of an equilibrium in all 
+psychological games meeting certain continuity and 
+convexity conditions. The kindness function used in the 
+text does not yield utility functions that are everywhere 
+continuous, so that GPS's theorem does not apply 
+(although I have found no counterexamples to exis- 
+tence). As I discuss in Appendix A, continuous kind- 
+ness functions that are very similar to the one used in 
+the text, and for which all general results hold, can 
+readily be constructed. Such kindness functions would 
+guarantee existence using the GPS theorem. 
+12For X < 1, (boxing, opera) is also an equilibrium. 
+In this equilibrium, both players are with common 
+knowledge "conceding," and both players feel hostile 
+toward each other because both are giving up their 
+best possible payoff in order to hurt the other player. 
+The fact that, for 
+X < 1, (opera, boxing) is an 
+equilibrium, but (boxing, opera) is not, might suggest 
+that (opera, boxing) is "more likely." 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1289 
+Then if he thought that player 2 was playing 
+cooperate, he would play cooperate if and 
+only if he were willing to give up 2X in 
+order to help player 2 by 4X; if player 1 
+thought that player 2 was playing defect, 
+then he would play cooperate if and only if 
+he were willing to give up X in order to 
+help player 2 by 5X. Clearly, then, if player 
+1 plays cooperate in response to cooperate, 
+he would play cooperate in response to de- 
+fect. In order to get the two equilibria, 
+player 1 must care differentially about help- 
+ing (or hurting) player 2 as a function of 
+player 2's behavior.13 
+The second issue that the prisoner's 
+dilemma illustrates is the role of intention- 
+ality in attitudes about fairness. Psychologi- 
+cal evidence indicates that people deter- 
+mine the fairness of others according to 
+their motives, not solely according to ac- 
+tions taken.14 In game-theoretic terms, 
+"motives" can be inferred from a player's 
+choice of strategy from among those choices 
+he has, so what strategy a player could have 
+chosen (but did not) can be as important as 
+what strategy he actually chooses. For ex- 
+ample, people differentiate between those 
+who take a generous action by choice and 
+those who are forced to do so. Consider 
+Example 3, depicted in Figure 3. 
+This is the "prisoner's dilemma" in which 
+player 2 is forced to cooperate. It corre- 
+sponds, for instance, to a case in which 
+someone is forced to contribute to a public 
+good. In this degenerate game, player 1 will 
+always defect, so the unique fairness equi- 
+librium is (defect, cooperate). This contrasts 
+to the possibility of the (cooperate, cooper- 
+ate) equilibrium in the prisoner's dilemma. 
+The difference is that now player 1 will feel 
+no positive regard for player 2's "decision" 
+to cooperate, because player 2 is not volun- 
+Player 
+2 
+C 
+C 
+4X,74X 
+Player 
+1 
+D 6X,L 
+FIGURE 3. EXAMPLE 3: PRISONER'S NON-DILEMMA 
+Player 
+2 
+Dare 
+Chicken 
+Dare 
+-2X,-2X 
+2X,O 
+Player 
+1 
+Chicken 
+0,2X 
+X,X 
+FIGURE 4. EXAMPLE 4: CHICKEN 
+tarily doing player 1 any favors; you are not 
+grateful to somebody who is simply doing 
+what he must.15 
+In both Examples 1 and 2, adding fairness 
+creates new equilibria but does not get rid 
+of any (strict), Nash equilibria. Example 4, 
+the game "Chicken" 16 illustrates that fair- 
+ness can rule out strict Nash equilibria (see 
+Fig. 4). 
+This game is widely studied by political 
+scientists, because it captures well situations 
+in which nations challenge each other. Each 
+country hopes to "dare" while the other 
+country backs down [outcomes 
+(dare, 
+chicken) and (chicken, dare)]; but both 
+dread most of all the outcome (dare, dare), 
+in which neither nation backs down. 
+130f course, I am ruling out "income effects" and 
+the like as explanations; but that is clearly not what 
+causes the multiplicity of equilibria in public-goods 
+experiments. 
+14Greenberg and Frisch (1972) and Goranson and 
+Berkowitz (1966) find evidence for this proposition, 
+though not in as extreme a form as implied by my 
+model. 
+15Player l's complete indifference to player 2's plight 
+here is because I have excluded any degree of pure 
+altruism from my model. Indeed, many of the strong 
+results throughout the paper are because I am ruling 
+out ure altruism. 
+While I will stick to the conventional name for 
+this game, I note that it is extremely speciesist-there 
+is little evidence that chickens are less brave than 
+humans and other animals. 
+
+1290 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+Consider the Nash equilibrium (dare, 
+chicken), where player 1 "dares" and player 
+2 "chickens out." Is it a fairness equilib- 
+rium? In this outcome, it is common knowl- 
+edge that player 1 is hurting player 2 to help 
+himself. If X is small enough, player 2 
+would therefore deviate by playing dare, 
+thus hurting both player 1 and himself. Thus, 
+for small X, (dare, chicken) is not a fairness 
+equilibrium; nor, obviously, is (chicken, 
+dare). Both Nash equilibria are, for small 
+enough X, inconsistent with fairness. 
+Whereas fairness does not rule out Nash 
+equilibrium in Examples 1 and 2, it does so 
+in Example 4. The next section presents 
+several propositions about fairness equilib- 
+rium, including one pertaining to why fair- 
+ness rules out Nash equilibria in Chicken, 
+but not in Prisoner's Dilemma or Battle of 
+the Sexes. 
+III. Some General Propositions 
+In the pure-strategy Nash equilibria of 
+Battle of the Sexes, each taking the other 
+player's strategy as given, each player is 
+maximizing the other player's payoff by 
+maximizing his own payoffs. Thus, each 
+player can satisfy his own material interests 
+without violating his sense of fairness. In 
+the Nash equilibrium of Prisoner's Dilemma, 
+each player is minimizing the other player's 
+payoff by maximizing his own. Thus, bad 
+will is generated, and "fairness" means that 
+each player will try to hurt the other. Once 
+again, players simultaneously satisfy their 
+own material interests and their notions of 
+fairness. 
+These two types of outcomes-where 
+players mutually maximize each other's ma- 
+terial payoffs, and where they mutually min- 
+imize each other's material payoffs-will 
+play an important role in many of the re- 
+sults of this paper, so I define them for- 
+mally: 
+Definition 4: A strategy pair (a1, a2) E 
+(S1 S2) is a mutual-max outcome if, for i= 
+1,2, jii, 
+aieargmaxaE Si7j(a, a). 
+Definition 5: A strategy pair (a1, a2) E 
+(SP S2) is a mutual-min outcome if, for i= 
+1,2, j 
+i, ai E argminaeSi 7j(a, a1). 
+The following definitions will also prove 
+useful. Each of these definitions character- 
+izes an outcome of a game in terms of the 
+value of "kindness" fi induced by each of 
+the players. 
+Definition 6: (a) An outcome is strictly posi- 
+tive if, for i = 1,2, fi > 0. (b) An outcome is 
+weakly positive if, for i = 1, 2, fi 2 0. (c) An 
+outcome is strictly negative if, for i = 1,2, 
+fi < 0. (d) An outcome is weakly negative if, 
+for i = 1, 2, fi < 0. (e) An outcome is neutral 
+if, for i = 1,2, fi = 0. (f) An outcome is 
+mixed if, for i=1,2, 
+j#i, 
+fifi<0. 
+Using these definitions, I state a proposi- 
+tion about two types of Nash equilibria that 
+will necessarily also be fairness equilibria 
+(all proofs are in Appendix B). 
+PROPOSITION 1: Suppose that (a1, a2) is 
+a Nash equilibrium, and either a mutual-max 
+outcome or a mutual-min outcome. Then 
+(a1, a2) is a fairness equilibrium. 
+Note that the pure-strategy Nash equilib- 
+ria in Chicken do not satisfy either premise 
+of Proposition 1. In each, one player is 
+maximizing the other's payoff, while the 
+other is minimizing the first's payoff. If X is 
+small enough, so that emotions dominate 
+material payoffs, then the player who is 
+being hurt will choose to hurt the other 
+player, even when this action is self-destruc- 
+tive, and will play dare rather than chicken. 
+While Proposition 1 characterizes Nash 
+equilibria that are necessarily fairness equi- 
+libria, Proposition 2 characterizes which 
+outcomes-Nash 
+or non-Nash-can 
+possi- 
+bly be fairness equilibria. 
+PROPOSITION 2: Every fairness equilib- 
+rium outcome is either strictly positive or 
+weakly negative. 
+Proposition 2 shows that there will always 
+be a certain symmetry of attitude in any 
+fairness equilibrium. It will never be the 
+case that, in equilibrium, one person is kind 
+while the other is unkind. 
+While Propositions 1 and 2 pertain to all 
+games, irrespective of the scale of material 
+payoffs, I present in the remainder of this 
+
+VOL. 83 NO. 5 
+RABIN. INCORPORATING FAIRNESS INTO GAME THEORY 
+1291 
+section several results that hold when mate- 
+rial payoffs are either arbitrarily large or 
+arbitrarily small. To do so, I will consider 
+classes of games that differ only in the scale 
+of the material payoffs. Given the set of 
+strategies S1 X S2 and the payoff functions 
+(-1(a1, a2), n-2(a1, a2)), let W be the set of 
+games with strategies Si X S2 and, for all 
+X > 0, material payoffs 
+(X 
+71(al, a2), X 
+n72(al, 
+a2)). 
+Let G(X)e -' 
+be the game corresponding 
+to a given value of X. 
+Consider Chicken again. It can be verified 
+that, if X is small enough, then both (dare, 
+dare) and (chicken, chicken) are fairness 
+equilibria. Note that, while these two out- 
+comes are (respectively) mutual-min and 
+mutual-max outcomes, they are not Nash 
+equilibria. Yet, when X is small, the fact 
+that they are not equilibria in the "material" 
+game is unimportant, because fairness con- 
+siderations will start to dominate. Propo- 
+sition 3 shows that the class of "strict" 
+mutual-max and mutual-min outcomes are 
+fairness equilibria for X small enough. 
+PROPOSITION 
+3: For any outcome 
+(a1, a2) that is either a strictly positive mu- 
+tual-max outcome or a strictly negative 
+mutual-min outcome, there exists an X such 
+that, for all X E (0, X), (a1, a2) 
+is a fairness 
+equilibrium in G(X). 
+While Proposition 3 gives sufficient condi- 
+tions for outcomes to be fairness equilibria 
+when material payoffs are small, Proposi- 
+tion 4 gives conditions for which outcomes 
+will not be fairness equilibria when material 
+payoffs are small. 
+PROPOSITION 4: Suppose that (a1, a2)e 
+(S1,S2) 
+is not a mutual-max income, nor a 
+mutual-min outcome, nor a Nash equilibrium 
+in which either player is unable to lower the 
+payoffs of the other player. Then there exists 
+an X such that, for all X E (0, X), (al, a2) is 
+not a fairness equilibrium in G(X). 
+Together, Propositions 3 and 4 state that, 
+for games with very small material payoffs, 
+finding the fairness equilibria consists ap- 
+proximately of finding the Nash equilibria in 
+each of the following two hypothetical 
+games: (i) the game in which each player 
+tries to maximize the other player's material 
+payoffs and (ii) the game in which each 
+player tries to minimize the other player's 
+material payoffs. 
+There are two caveats to this being a 
+general characterization of the set of fair- 
+ness equilibria in low-payoff games. First, 
+Proposition 3 does not necessarily hold for 
+mutual-max or mutual-min outcomes in 
+which players are giving each other the eq- 
+uitable payoffs (i.e., when the outcomes are 
+neutral). Thus, "non-strict" mutual-max and 
+mutual-min outcomes need to be double- 
+checked. Second, it is also necessary to 
+check whether certain types of Nash equi- 
+libria in the original game are also fairness 
+equilibria, even though they are neither mu- 
+tual-max nor mutual-min outcomes. The po- 
+tentially problematic Nash equilibria are 
+those in which one of the players has no 
+options that will lower the other's material 
+payoffs. 
+I now turn to the case in which material 
+payoffs are very large. Proposition 5 states 
+essentially that as material payoffs become 
+large, the players' behavior is dominated by 
+material self-interest. In particular, players 
+will play only Nash equilibria if the scale of 
+payoffs is large enough. 
+PROPOSITION 5: If (al, a2) 
+is a strict 
+Nash equilibrium for games in W, then there 
+exists an X such that, for all X > X, (al, a2) 
+is a fairness equilibrium in G(X).17 If (al, a2) 
+is not a Nash equilibrium for games in W, 
+then there exists an Xsuch that, for all X> X, 
+(al, a2) is not a fairness equilibrium in G(X). 
+The only caveat to the set of Nash equi- 
+libria being equivalent to the set of fairness 
+equilibria when payoffs are large is that 
+17 
+17A Nash equilibrium is strict if each player is choos- 
+ing his unique optimal strategy. Mixed-strategy Nash 
+equilibria are, for instance, never strict, because they 
+involve the players being indifferent among two or 
+more actions. 
+
+1292 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+some non-strict Nash equilibria are not fair- 
+ness equilibria. 
+IV. Two Applications 
+One context in which fairness has been 
+studied is monopoly pricing (see e.g., Thaler, 
+1985; Kahneman et al., 1986a,b). Might 
+consumers 
+see 
+conventional 
+monopoly 
+prices as unfair and refuse to buy at such 
+prices even when worth it in material terms? 
+If this is the case, then even a profit-maxi- 
+mizing monopolist would price below the 
+level predicted by standard economic the- 
+ory. I now present a game-theoretic model 
+of a monopoly and show that this intuition 
+is an implication of fairness equilibrium. 
+I assume that a monopolist has costs c 
+per unit of production, and a consumer 
+values the product at v. These are common 
+knowledge. The monopolist picks a price 
+p E [c, v] as the consumer simultaneously 
+picks a "reservation" price r E [c, v], above 
+which he is not willing to pay. If p < r, then 
+the good is sold at price p, and the payoffs 
+are p - c for the monopolist and v - p for 
+the consumer. If p> r, then there is no 
+sale, and the payoffs are 0 for each player. 
+Though this is formally an infinite-strategy 
+game, it can be analyzed using my model of 
+fairness.18 Applying Nash equilibrium allows 
+any outcome. We might, however, further 
+narrow our prediction, because the strategy 
+r = v for the consumer weakly dominates all 
+other strategies (this would also be the re- 
+sult of subgame perfection if this were a 
+sequential game, with the monopolist set- 
+ting the price first). Thus, if players cared 
+only about material payoffs, a reasonable 
+outcome in this game is the equilibrium 
+where p = r = v, so that the monopolist ex- 
+tracts all the surplus from trade. 
+What is the highest price consistent with 
+a fairness equilibrium at which this product 
+could be sold? First, what is the function 
+fc(r, p), how fair the consumer is being to 
+the monopolist? Given that the monopolist 
+sets p, the only question is whether the 
+monopolist gets profits p - c or profits 0. If 
+r 2 p, then the consumer is maximizing both 
+the monopolist's and his own payoffs, so 
+fc(r, p) = 0. If r < p, then the consumer is 
+minimizing the monopolist's payoffs, so 
+fc(r, p) = - 1. One implication of this is that 
+the monopolist will always exploit its posi- 
+tion, because it will never feel positively 
+toward the consumer; thus, r > p cannot be 
+a fairness equilibrium. 
+Because r < p leads to no trade, this 
+means that the only possibility for an equi- 
+librium with trade is when p = r. How fair 
+is the monopolist being to the consumer 
+when p = r = z? Calculations show that 
+fM(z,z)=[c-z]/2[v-c]. 
+Because I am 
+considering only values of z between c and 
+v, this number is negative. Any time the 
+monopolist is not setting a price equal to its 
+costs, 
+the 
+consumer 
+thinks 
+that 
+the 
+monopolist is being unfair. This is because 
+the monopolist is choosing the price that 
+extracts as much surplus as possible from 
+the consumer, given the consumer's refusal 
+to buy at a price higher than z. 
+To see whether p = r = z is a fairness 
+equilibrium for a given z, one must see 
+whether the consumer would wish to devi- 
+ate by setting r < z, thus eliminating the 
+monopolist's profits. The consumer's total 
+utility from r < z is 
+UC=O+fM(Z,z) 
+[1+ -1] =0. 
+The consumer's total utility from sticking 
+with strategy r = z is 
+UC = V-z 
++ fM(Z, Z) [1 +0] 
+= v - z + [c - z]/2[v 
+- c]. 
+Calculations show that the highest price 
+consistent with fairness equilibrium is given 
+18Note, however, that I have artificially limited the 
+strategy spaces of the players, requiring them to make 
+only mutually beneficial offers; there are problems with 
+the definitions of this paper if the payoff space of a 
+game is unbounded. Moreover, though I believe that 
+all results would be qualitatively similar with more 
+realistic models, the exact answers provided here are 
+sensitive to the specification of the strategy space. 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1293 
+by 
+z* = [2v2-2cu 
++ c]/[1 + 2v-2c]. 
+This number is strictly less than v when 
+v > c. Thus, the highest equilibrium price 
+possible is lower than the conventional 
+monopoly price when fairness is added to 
+the equation. This reflects the arguments of 
+Kahneman et al. (1986a, b): a monopolist 
+interested in maximizing profits ought not 
+to set price at "the monopoly price," be- 
+cause it should take consumers' attitudes 
+toward fairness as a given. 
+I can further consider some limit results 
+as the stakes become large in this game. Let 
+the monopolist's costs and the consumer's 
+value be C 
+cX and V 
+uX, respectively. I 
+represent the percentage of surplus that the 
+monopolist is able to extract by (z*- C)- 
+(V - C). Algebra shows that this equals 
+[2(V - C)/[1 + 2(V - C)], and the limit of 
+this as X becomes arbitrarily large is 1. 
+That is, the monopolist is able to extract 
+"practically all" of the surplus, because re- 
+jecting an offer for the sake of fairness is 
+more costly for the consumer. 
+Another interesting implication of the 
+model is that dz*/dc > 0 for all parameter 
+values. This means that the higher are the 
+monopolist's costs, the higher the price the 
+consumer will be willing to pay (assuming 
+that the consumer knows the firm's costs). 
+This is one interpretation of the results pre- 
+sented in Thaler (1985): consumers are will- 
+ing to pay more for the same product from 
+a high-cost firm than from a low-cost firm. 
+An area of economics where fairness has 
+been widely discussed (more so than in 
+monopoly pricing) is labor economics.19 I 
+now present an extended example that re- 
+sembles the "gift-exchange" view of the em- 
+ployment relationship discussed in Akerlof 
+(1982). Consider the situation in which a 
+worker chooses an effort level and the firm 
+simultaneously chooses a benefit level for 
+the worker.20 Formally, the worker chooses 
+either a high or low effort level: e E {H, L}. 
+If e = H, the firm receives revenue R > 0, 
+and the worker receives disutility y. If e = L, 
+the firm receives no revenue, and the worker 
+experiences no disutility. Simultaneously, 
+the firm chooses a benefit level b e [0, R]. 
+Material payoffs are as follows: 
+/b1/2-y 
+if e=H 
+w 
+bl/2 
+if e=L 
+rt(R 
+- b)1/2 
+if e= H and b < R 
+F 
+0 
+if e=Lorb>R 
+where 7rW is the worker's material payoffs, 
+and WF is the firm's material payoffs.21 
+This situation is essentially a continuous- 
+strategy prisoner's dilemma, because each 
+player has a dominant strategy: the worker 
+maximizes his material payoffs by choosing 
+e = L, and the firm maximizes its material 
+payoffs by choosing b = 0. Thus, the unique 
+Nash equilibrium is the nasty one in which 
+e = L and b = 0. Because this outcome is 
+also a mutual-min outcome, this will be a 
+fairness equilibrium in which the players 
+feel negatively toward each other. 
+I now consider the possibility of a positive 
+fairness equilibrium. First observe that the 
+kindness of the worker to the firm is fw = 
+if the worker puts in high effort, and fw = 
+-- 
+if the worker puts in low effort. This is 
+because e = H involves the worker fully 
+yielding along the Pareto frontier to the 
+firm, and e = L means that the worker is 
+choosing the best Pareto-efficient point for 
+himself, given the firm's choice of b. 
+Given the worker's choice of effort, the 
+kindest the firm can be to the worker is to 
+choose b= R; the least kind is clearly to 
+choose b = 0. Therefore the equitable mate- 
+rial payoff to the worker is R1/2/2- 
+y if 
+e = H, and R1/2/2 if e = L. Using this, one 
+19For some examples discussing the role in labor 
+economics of fairness and related issues, see Akerlof 
+(1982), John Bishop (1987), James N. Baron (1988), 
+David I. Levine (1991, 1993), and Rotemberg (1992). In 
+Rabin (1992), I applied this model of fairness to several 
+more examples from labor economics. 
+20This model is a version of one suggested to me by 
+James Montgomery (pers. comm.). 
+21The assumptions that the parties are risk-averse 
+and that the firm's payoff is 0 (rather than negative) if 
+e = L are made for convenience and are not essential. 
+
+1294 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+can calculate that the kindness of the firm 
+to the worker is given by fF = (b/R)1/2 
+- 
+Using this, consider the possibility of a 
+positive fairness equilibrium. What is the 
+firm's utility if it is commonly known that 
+the worker is setting e = H? It is given by 
+UF = (R - b)1/2+ 
+[2 + (b/R)1/2J 
+Thus, the firm will maximize its utility by 
+setting dUF 7db = 0, and one gets the result 
+that b* = R /(1+ 4R). With this level of b, 
+the firm's kindness to the worker is fF = 
+[1/(1 + 4R)]'/2 
+- 
+Finally, in order for this to constitute a 
+fairness equilibrium, it must be that the 
+worker would wish to set e = H rather than 
+e = L. The two possible utility levels are: 
+Uw(e 
+H) = b1/2 _ y 
++ ([1(1+4R)] 
+1/2_ 
+Uw(e 
+L) = b1/2 
++ ([1(1+4R)] 
+1/2 
+1}(- 
+) 
+Algebra yields the conclusion that the 
+worker would not strictly prefer to choose 
+e = L if and only if 
+R < 0.25[1/(0.5 + Y)1/2_1]. 
+For all such combinations of R and y, 
+therefore, there exists a "gift-giving" equi- 
+librium in which the worker sets e = H, and 
+the firm gives the worker a bonus of b* = 
+R /(1 + 4R). Note that the larger is y, the 
+smaller R must be for there to exist a gift- 
+giving equilibrium. The rpason for this is 
+roughly as follows. If y is large, the worker 
+is very tempted to "cheat" the firm by not 
+working hard. The only way he will not 
+cheat is if the firm is being very kind. But 
+the firm's material costs to yielding a given 
+percentage of profits to the worker in- 
+creases as R increases; thus, only if R is 
+very small will the firm give the worker a 
+generous enough share of profits to induce 
+the worker to be kind. 
+Player 
+2 
+Grab 
+Share 
+Grab 
+X,X 
+2X,O 
+Player 
+1 
+Share 
+O,2X 
+X,X 
+FIGURE 5. EXAMPLE 5: THE GRABBING GAME 
+In fact, if y 2 2, then there is no gift- 
+giving equilibrium, no matter how small is 
+R. This is because the firm's material incen- 
+tives are such that it will choose to be 
+unkind to the worker, so that the worker 
+will choose to be unkind to the firm. Thus, 
+overall the model says that workers and 
+firms will cooperate if neither is too tempted 
+by material concerns to cheat. 
+V. Fairness and Welfare 
+I consider now some welfare implications 
+of fairness.22 My perspective here is that 
+the full utility functions (combining material 
+payoffs and "fairness payoffs") are the util- 
+ity functions with which to determine social 
+welfare. As such, I believe one should care 
+not solely about how concerns for fairness 
+support or interfere with material efficiency, 
+but also about how these concerns affect 
+people's overall welfare. 
+Consider Example 5 (see Fig. 5). In this 
+game, two people are shopping, and there 
+are two cans of soup left. Each person can 
+either try to grab both cans, or not try to 
+grab. If both grab or both do not grab, they 
+each get one can; if one grabs, and the 
+22Robert H. Frank (1988, 1990) and others have 
+explored how the existence of various emotions are 
+understandable as adaptive evolutionary features of 
+humans. While this view of emotions as "adaptive" 
+may be broadly correct, Frank himself emphasizes that 
+emotions can also be destructive in many situations. 
+People's propensity for revenge can be harmful as well 
+as helpful. My model of people's preferences for fair- 
+ness will help economists do exactly what is done with 
+"material" preferences-study 
+how these preferences 
+play out in different economic settings. 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1295 
+other does not, then the grabber gets both 
+cans. This is a constant-sum version of the 
+prisoner's dilemma: each player has a domi- 
+nant strategy, and the unique Nash equilib- 
+rium is (grab, grab). As in the prisoner's 
+dilemma, the noncooperative (grab, grab) 
+outcome is a fairness equilibrium, no matter 
+the value of X. For small X, however, the 
+positive, mutual-max outcome (share, share) 
+is also a fairness equilibrium. Moreover, 
+because these two fairness equilibria yield 
+the same material payoffs, (share, share) 
+always Pareto-dominates (grab, grab). 
+Shopping for minor items is a situation in 
+which people definitely care about material 
+payoffs, and this concern drives the nature 
+of the interaction; but they probably do not 
+care a great deal about individual items. If 
+two people fight over a couple of cans of 
+goods, the social grief and bad tempers are 
+likely to be of greater importance to the 
+people than whether they get the cans. In- 
+deed, while both (grab, grab) and (share, 
+share) are fairness equilibria when material 
+payoffs are arbitrarily small, the overall util- 
+ity in each equilibrium is bounded away 
+from zero.23 As the material payoffs involved 
+become arbitrarily small, equilibrium utility 
+levels do not necessarily become arbitrarily 
+small. This is realistic: no matter how minor 
+the material implications, people's well- 
+being is affected by the friendly or un- 
+friendly behavior of others. 
+In Example 5, as with many examples in 
+this paper, there is both a strictly positive 
+and a strictly negative fairness equilibrium. 
+Are there games that contain only positive 
+or only negative fairness equilibria? If there 
+are, this could be interpreted as saying that 
+there are some economic situations that en- 
+dogenously determine the friendliness or 
+hostility of the people involved. More gen- 
+erally, one could consider the question of 
+which types of economic structures are likely 
+to generate which types of emotions. 
+The prisoner's dilemma illustrates that 
+there do exist situations that endogenously 
+generate hostility. Applying Proposition 5, 
+the only fairness equilibrium of the pris- 
+oner's dilemma with very large material 
+payoffs is the Nash equilibrium, where both 
+players defect. This fairness equilibrium is 
+strictly negative. Interpreting a negative 
+fairness equilibrium as a situation in which 
+parties become hostile to each other, this 
+implies that if mutual cooperation is bene- 
+ficial, but each person has an irresistible 
+incentive to cheat when others are cooper- 
+ating, then people will leave the situation 
+feeling hostile. 
+Are there opposite, happier situations, in 
+which the strategic logic of a situation dic- 
+tates that people will depart on good terms? 
+In other words, are there games for which 
+all fairness equilibria yield strictly positive 
+outcomes? Proposition 6 shows that the an- 
+swer is no.24 
+PROPOSITION 6: In every game, there ex- 
+ists a weakly negative fairness equilibrium. 
+Proposition 6 states that it is never guar- 
+anteed that people will part with positive 
+feelings. It implies a strong asymmetry in 
+my model of fairness: there is a bias toward 
+negative feelings. What causes this asymme- 
+try? Recall that if a player is maximizing his 
+own material payoffs, then he is being either 
+mean or neutral to the other player, be- 
+cause being "nice" inherently involves sacri- 
+ficing material well-being. Thus, while there 
+are situations in which material self-interest 
+tempts a player to be mean even if other 
+players are being kind, material self-interest 
+will never tempt a player to be kind when 
+other players are being mean, because the 
+23In particular, the utility from (share, share) is 
+positive for each player, and the utility from (grab, 
+grab) is negative for each player: (share, share) 
+Pareto-dominates (grab, grab). This again highlights 
+the fact that social concerns take over when material 
+pavoffs are small. 
+24The proof of Proposition 6 invokes the existence 
+theorem of GPS, which applies only if the kindness 
+functions are continuous, so that technically I have 
+established this result only when applying variants of 
+the kindness functions that are continuous. See Ap- 
+pendix A for a discussion of the continuity assumption. 
+
+1296 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+only way to be kind is to go against one's 
+material self-interest. 
+VI. Discussion and Conclusion 
+The notion of fairness in this paper cap- 
+tures several important regularities of be- 
+havior but leaves out other issues. Evidence 
+indicates, for instance, that people's notions 
+of fairness are heavily influenced by the 
+status quo and other reference points. For 
+instance, Kahneman et al. (1986a,b) illus- 
+trate that the consumer's view of the fair- 
+ness of prices charged by a firm can be 
+heavily influenced by what that firm has 
+charged in the past. 
+Extending the model to more general sit- 
+uations will create issues that do not arise in 
+the simple two-person, normal-form, com- 
+plete-information games discussed in this 
+paper. The central distinction between 
+two-person games and multiperson games is 
+likely to be how a person behaves when he 
+is hostile to some players but friendly to- 
+ward others. The implications are clear if he 
+is able to choose whom to help and whom 
+to hurt; it is more problematic if he must 
+choose either to help everybody or to hurt 
+everybody, such as when choosing the con- 
+tribution level to a public good. Does one 
+contribute to reward those who have con- 
+tributed or not contribute to punish those 
+who have not contributed. 
+Extending the model to incomplete-infor- 
+mation games is essential for applied re- 
+search, but doing so will lead to important 
+new issues. Because the theory depends so 
+heavily on the motives of other players, and 
+because interpreting other players' motives 
+depends on beliefs about their payoffs and 
+information, incomplete information is likely 
+to have a dramatic effect on decision-mak- 
+ing. Extending the model to sequential 
+games is also essential for applied research. 
+In conventional game theory, observing past 
+behavior can provide information; in psy- 
+chological games, it can conceivably change 
+the motivations of the players. An impor- 
+tant issue arises: can players "force" emo- 
+tions; that is, can a first-mover do something 
+that will compel a second player to regard 
+him positively? One might imagine, for in- 
+stance, that an analogue to Proposition 6 
+Player 
+2 
+Share 
+Grab 
+Trust 
+6X,6X 
+0,12X 
+Player 
+1 
+Dissolve 
+5X,5X 
+5X,5X 
+FIGURE 6. EXAMPLE 6: LEAVING A PARTNERSHIP 
+might no longer be true, and sequential 
+games could perhaps be used as mecha- 
+nisms that guarantee positive emotions. 
+Finally, future research can also focus on 
+modeling additional emotions. In Example 
+6, for instance, my model predicts no coop- 
+eration, whereas it seems plausible that co- 
+operation would take place (see Fig. 6).25 
+This game represents the following situa- 
+tion. Players 1 and 2 are partners on a 
+project that has thus far yielded total profits 
+of 1OX. Player 1 must now withdraw from 
+the project. If player 1 dissolves the part- 
+nership, the contract dictates that the play- 
+ers split the profits fifty-fifty. But total prof- 
+its would be higher if player 1 leaves his 
+resources in the project. To do so, however, 
+he must forgo his contractual rights and 
+trust player 2 to share the profits after the 
+project is completed. So, player 1 must de- 
+cide whether to "dissolve" or to "trust"; if 
+he trusts player 2, then player 2 can either 
+"grab" or "share." 
+What will happen? According to the no- 
+tion of fairness in this paper, the only 
+(pure-strategy) equilibrium is for player 1 to 
+split the profits now, yielding an inefficient 
+solution. The desirable outcome (trust, 
+share) is not possible because player 2 will 
+deviate. The reason is that he attributes no 
+positive motive to player 1-while 
+it is true 
+that player 1 trusted player 2, he did so 
+simply to increase his own expected mate- 
+rial payoff. No kindness was involved. 
+One might think that (trust, share) is a 
+reasonable outcome. This would be the out- 
+come, for instance, if it is assumed that 
+25 
+A related example was first suggested to me by Jim 
+Fearon (pers. comm.). 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1297 
+players wish to be kind to those who trust 
+them. If player 1 plays "trust" rather than 
+"split," he is showing he trusts player 2. If 
+player 2 feels kindly toward player 1 as a 
+result of this trust, then he might not grab 
+all the profits. If it is concluded that the 
+idea that people are motivated to reward 
+trust is psychologically sound, then it could 
+be incorporated into formal models. 
+APPENDIX 
+A: 
+THE KINDNESS 
+FUNCTION 
+CAN BE 
+GENERALIZED 
+There is a broad class of kindness func- 
+tions for which all of the results of this 
+paper hold. Indeed, the proofs of all results 
+contained in the body of the paper are 
+general enough that they establish the re- 
+sults for the kindness functions that I now 
+define. 
+Definition Al requires that (i) fairness 
+cannot lead to infinitely positive or infinitely 
+negative utility, and (ii) how kind player i is 
+being to player j is an increasing function of 
+how high a material payoff player i is giving 
+player j. 
+Definition Al: A kindness 
+function 
+is 
+bounded and increasing if: 
+(i) there exists a number N such that 
+fi(ai, bj)E [- N, N] for all aE Si and 
+b. ES S; and 
+(ii) fi(ai, bj) > fM(a', b1) if and only if 
+7rr(bj, ai) > rj(bj, a'). 
+Definition A2 requires that the payoff 
+that player j "deserves" is strictly between 
+player j's worst and best Pareto-efficient 
+payoffs, so long as the Pareto frontier is not 
+a singleton. 
+Definition A2: Consider 11(bj), Trjh(bj), 
+and 
+Trj(b1) as defined in the paper. A kindness 
+function fi(ai,kb) is a Pareto split if there 
+exists some rje(bj) such that: 
+(i) irj(bj, ai) > 7rje(bj) implies that fi(ai, bj) 
+> 0; 7j(bj, ai) = irr(b1) implies that 
+f.(a, b) =0; and irr (bj, a ) < wrje(bj) im- 
+plies thiat fi(ai, bj) < 0; 
+(ii) Trjh(b) 2 Trje(bj) 
+2 nrj(bj); and 
+(iii) if 1rjh(bj) > rjf(bj), then irjh(bj) > rje(bj) 
+Propositions 1, 2, and 6 are all true for 
+any kindness function meeting Definitions 
+Al and A2. Propositions 3, 4, and 5, how- 
+ever, pertain to when material payoffs are 
+made arbitrarily large or arbitrarily small. 
+In order for these results to hold, one must 
+guarantee that notions of the fairness of 
+particular outcomes do not dramatically 
+change when all payoffs are doubled (say). 
+Definition A3 is a natural way to do so. 
+Definition A3: A kindness function fi(ai, bj) 
+is affine if changing all payoffs for both 
+players by the same affine transformation 
+does not change the value of fi(ai, bj). 
+All the propositions in this paper hold for 
+any kindness function meeting Definitions 
+Al, A2, and A3. One substantial generaliza- 
+tion allowed for here is that the kindness 
+function can be sensitive to affine transfor- 
+mations of one player's payoffs. If all of 
+player 2's payoffs are doubled, then it may 
+be that fairness dictates that he get 
+more-or 
+less-than 
+before. The definition 
+and all of the limit results simply character- 
+ize what happens if both players' payoffs 
+are comparably changed. 
+Knowing that the general results of this 
+paper hold for a large class of kindness 
+functions is also important should existence 
+be problematic. While fairness equilibria ex- 
+ist in all of the examples of this paper, I 
+have proved no general existence result and 
+cannot invoke the existence theorem of GPS, 
+because of possible discontinuities. 
+The kindness function in the text can be 
+discontinuous in b1 at points where irjh(bj) 
+= 
+-rjm,n(bj); at such points, lI(bj) is a single 
+point, and fi(ai, bj) is set equal to zero 
+independent of ai. The discontinuity comes 
+from the fact that, by normalizing the kind- 
+ness function by [ 
+h(bj) - 
+1rrjin(bj)], the 
+kindness function can be bounded away 
+from zero even when HO(b1) is arbitrarily 
+small. While I chose this kindness function 
+so as to emphasize that kindness or mean- 
+ness can be large issues even when the 
+stakes are small, this property could be made 
+less extreme. For instance, one could choose 
+
+1298 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+the kindness function as 
+g(ai, bj) 
+j(bj , a).- 
+rje(bj) 
+(1 - y)[ Tjh(bj)- 
+7'rin(bj) + y(7rmax _ 7rmin)] 
+where wrax and <r"m are player j's maxi- 
+mum and minimum payoffs in the entire 
+game. This kindness function is well-defined 
+for all y E (0,1], so long as Tjmax + Trn 
+(which is true unless one has a game in 
+which no decisions by either player could 
+possibly affect player j's payoff). A second 
+type of discontinuity in the kindness func- 
+tions is that 7r-(b2) can be discontinuous in 
+b2. This discontinuity can be smoothed out 
+with the following definition: for D > 0, let 
+72e( b2, D) 
+- maxb EB2{7r2(b*) + Dlb2 - b*11}. 
+It can be shown that 72-(b2, D) is a well- 
+defined function and is continuous in b2. To 
+construct a continuous kindness function 
+(and thus allow the application of the GPS 
+existence proof), one need merely replace 
+7w by wr(b2, D) in the above definition. It 
+can be shown (proof available from the au- 
+thor upon request) that there exists a D > 0 
+defined for each game such that the result- 
+ing kindness function satisfies Definitions 
+Al, A2, and A3 for all y. Moreover, by 
+choosing y arbitrarily close to 0 and D 
+arbitrarily large, one essentially defines 
+kindness functions that are "smoothed" ver- 
+sions of that used in the paper. 
+While the precise kindness function used 
+is not important to the qualitative results of 
+this paper, the way I specify the overall 
+utility function is perhaps more restrictive. 
+One aspect that clearly determines some of 
+the results in this paper is the fact that I 
+completely exclude "pure altruism"; that is, 
+I assume that unless player 2 is being kind 
+to player 1, player 1 will have no desire to 
+be kind to player 2. Psychological evidence 
+suggests that, while people are substantially 
+motivated by the type of "contingent altru- 
+ism" I have incorporated into the model, 
+pure altruism can also sometimes be impor- 
+tant. 
+One natural way to expand the utility 
+function to incorporate pure altruism would 
+be as follows: 
+Ui(ai, bj, ci) 
+-ri(ai, bj) 
++ [ a + (1- a)fj(bj, ci)] [1 + fi(ai, bj)] 
+where a E [0, 1]. 
+In this utility function, if a > 0, then the 
+player i will wish to be kind to player j even 
+if player j is being "neutral" to player i. 
+The relative importance of pure versus con- 
+tingent altruism is captured by the parame- 
+ter a; if a is small, then outcomes will be 
+much as in the model of this paper; if a is 
+close to 1, then pure altruism will dominate 
+behavior. 
+As discussed above with regard to the 
+kindness function, my model assumes that 
+the fairness utility is completely indepen- 
+dent of the scale of the material payoffs. 
+Consider a situation in which a proposer's 
+offer to split $1 evenly is rejected by a 
+decider. My model says that the proposer 
+will leave the situation unhappy not only 
+because he has no money, but because he 
+was badly treated. Yet my model implies 
+that the proposer will be as unhappy, but no 
+more so, when leaving a situation in which 
+the decider rejected an offer to split $1 
+million evenly. 
+This seems unrealistic-the 
+bitterness he 
+feels should be larger the greater the harm 
+done. The assumption could, however, be 
+relaxed while maintaining all the general 
+results of the paper. I could specify the 
+utility function as: 
+Ui(ai, bj, ci) 
+- ri(ai, bj) + G(X) - fj(bj, ci) [1 + fi(ai, bj)] 
+where G(X) 
+is positive and increasing 
+in X.26 
+26This specification and one of the conditions men- 
+tioned to maintain the limit results were suggested by 
+Roland Benabou (pers. comm.). 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1299 
+This might create problems for the limit 
+results of the paper. However, the condi- 
+tions that G(X)/X 
+-> 0 as X -X o and that 
+G(X) is bounded away from 0 as X -)0 
+would suffice for all propositions to hold. In 
+this case, I am assuming that a person's 
+fairness utility is less sensitive to the scale of 
+payoffs than is his material utility, not that 
+it is totally insensitive. 
+APPENDIX B: PROOFS 
+PROOF OF PROPOSITION 1: 
+Since (a1, a2) is a Nash equilibrium, both 
+players must be maximizing their material 
+payoffs. First, suppose that (al, a2) is a 
+mutual-max outcome. Then both f1 and f2 
+must be nonnegative. Thus, both players 
+have positive regard for the other. Since 
+each player is choosing a strategy that maxi- 
+mizes both his own material well-being and 
+the material well-being of the other player, 
+this must maximize his overall utility. 
+Next, suppose that (a1, a2) is a mutual-min 
+outcome. Then f1 and f2 will both be non- 
+positive, so that each player will be moti- 
+vated to decrease the material well-being of 
+the other. Since he is doing so while simul- 
+taneously maximizing his own material 
+well-being, this must maximize his utility. 
+PROOF OF PROPOSITION 2: 
+Suppose that an outcome has one player 
+being positive (fi > 0), while the other player 
+is not being positive (fj < 0). If fi > 0, then 
+it must be that player i could increase his 
+payoff in such a way that player j would be 
+harmed, simply by changing his strategy to 
+maximize his own material interest. If f; < 0, 
+it is inconsistent with utility maximization 
+for player i not to do so; therefore, this 
+outcome cannot be a fairness equilibrium. 
+The only outcomes consistent with fairness 
+equilibrium, therefore, are those for which 
+both fi and fj are strictly positive, or nei- 
+ther is. This establishes the proposition. 
+PROOF OF PROPOSITION 3: 
+As X -) 0, the gain in material payoffs 
+from changing a strategy approaches zero, 
+and eventually it is dominated by the fair- 
+ness payoffs. If (al,a2) 
+is a strictly positive 
+mutual-max outcome, each player would 
+strictly prefer to play ai, since this uniquely 
+maximizes the fairness product. Thus, this is 
+a fairness equilibrium. If (a1, a2) is a strictly 
+negative mutual-min outcome, each player 
+would strictly prefer to play ai, since this 
+uniquely maximizes the fairness product. 
+Thus, this too would be a fairness equilib- 
+rium. 
+PROOF OF PROPOSITION 4: 
+Suppose that (a1, a2) is not a Nash equi- 
+librium. Then (without loss of generality) 
+player 1 is not maximizing his material pay- 
+offs. 
+Suppose that player 1 is not minimizing 
+player 2's payoffs. Then he is not minimiz- 
+ing f1. Given that player 1 is also not maxi- 
+mizing his own material payoffs, this can be 
+maximizing behavior only if f2 > 0. Player 2 
+will choose f2 > 0 only if f1 > 0. Thus, both 
+f1 and f2 are greater than 0; but if the 
+material payoffs are small, this means that 
+the players must choose to maximize f1 and 
+f2, so that this must be a mutual-max out- 
+come. 
+Suppose that player 1 is not maximizing 
+player 2's payoffs. Then he is not maximiz- 
+ing f1. If the payoffs are small, and given 
+that player 1 is not maximizing his own 
+payoffs, this implies that f2 < 0. This means, 
+as payoffs are small, that player 1 will mini- 
+mize player 2's payoffs, so that f1 < 0. If he 
+does so, player 2 will in turn minimize player 
+l's payoffs. Thus, this outcome is a min-min 
+outcome. This establishes that if (a,, a2) 
+is 
+not a mutual-max, mutual-min, or Nash 
+equilibrium, then it will not be a fairness 
+equilibrium for small enough X. 
+Now suppose that (a1, a2) is a Nash equi- 
+librium, but one in which each player could 
+lower the other player's material payoffs by 
+changing his strategy. Suppose that (a1, a2) 
+is not a mutual-max outcome. Then (without 
+loss of generality) player 1 could increase 
+player 2's material payoffs. Since player 1 is 
+maximizing his own material payoffs in a 
+way that hurts player 2, it is known that 
+f1 < 0. This can be optimal for small X only 
+if f2 < 0. If f2 < 0, then earlier arguments 
+imply that this must be a mutual-min out- 
+come. Suppose f2 = 0. Then this can be 
+
+1300 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+optimal for player 2 only if she has no 
+choice of lowering player l's payoffs; other- 
+wise, the fact that f1 < 0 would compel her 
+to change strategies. This condition on 
+player 2's choices directly contradicts the 
+assumption that she could lower player l's 
+payoffs. This establishes the proposition. 
+PROOF OF PROPOSITION 5: 
+If (a1, a2) is a strict Nash equilibrium, 
+then the difference in material payoffs from 
+playing the equilibrium strategy versus a 
+nonequilibrium strategy becomes arbitrarily 
+large as X becomes arbitrarily large. Be- 
+cause the fairness gains and losses are inde- 
+pendent of X, ai eventually becomes a strict 
+best reply to a1 as X becomes large. 
+If (a1, a2) is not a Nash equilibrium, then, 
+for at least one player, the benefit in mate- 
+rial payoffs from deviating from (a1, a2) be- 
+comes arbitrarily large as X becomes arbi- 
+trarily large. Because the fairness gains and 
+losses are independent of X, ai is eventu- 
+ally dominated by some other strategy with 
+respect to ai as X becomes large. 
+PROOF OF PROPOSITION 6: 
+From the material game, consider the psy- 
+chological game from the preferences Vi= 
+7ri(ai, bj) + min[ fj(ci, bj), O] min[ fi(ai, bj), O]. 
+When the kindness functions are continu- 
+ous, GPS's general existence result means 
+that this game has at least one equilibrium, 
+(a*, a*). I will now argue that any such 
+equilibrium is also a fairness equilibrium. 
+First, I show that, for i = 1, 2, fi(a*, a*) < 
+0. Suppose fi(a*,a*)> 
+0. Let a' be such 
+that at E argmaxa 
+sITi(a, 
+a7 ). Then 
+i(a ati j, 
+a* ) > Vi ( a*, al*, a* ) 
+which contradicts the premise. This is be- 
+cause the material payoff to i is higher with 
+a' than with a*, and because fM(a, a*) < 0, 
+so that the fairness payoff cannot be any 
+lower than from a*. 
+Thus, for i-=1,2, fi(aa*,a*)<0; 
+but this 
+implies that, for each player, maximizing 
+V(a 
+, a*, 
+a*) 
+is the same as maximizing 
+Ui(ai,aj,a*). 
+Thus, (a>,a 
+) is a fairness 
+equilibrium. 
+REFERENCES 
+Akerlof, George, "Labor Contracts as a Par- 
+tial Gift Exchange," Quarterly Journal of 
+Economics, November 1982, 97, 543-69. 
+Akerlof, George and Dickens, William T., "The 
+Economic Consequences 
+of Cognitive 
+Dissonance," American Economic Re- 
+view, June 1982, 72, 307-19. 
+Andreoni, James, (1988a) "Privately Provided 
+Public Goods in a Large Economy: The 
+Limits of Altruism," Journal of Public 
+Economics, February 1988, 35, 57-73. 
+, (1988b) "Why Free Ride? Strate- 
+gies and Learning in Public Goods Exper- 
+iments," Journal of Public Economics, 
+December 1988, 37, 291-304. 
+Baron, James N., "The Employment Relation 
+as a Social Relation," Journal of the 
+Japanese and International Economies, 
+December 1988, 2, 492-525. 
+Bishop, John, "The Recognition and Reward 
+of Employee Performance," Journal of 
+Labor Economics, 
+October 
+1987, 5, 
+S36-56. 
+Dawes, Robyn M. and Thaler, Richard H., 
+"Anomalies: Cooperation," Journal of 
+Economic Perspectives, Summer 1988, 2, 
+187-98. 
+Frank, Robert H., Passions Within Reason: 
+The Strategic Role of the Emotions, New 
+York: Norton, 1988. 
+, "A Theory of Moral Sentiments," 
+in Jane J. Mansbridge, ed., Beyond Self- 
+Interest, Chicago: University of Chicago 
+Press, 1990, pp. 71-96. 
+Geanakoplos, John, Pearce, David and Stac- 
+chetti, Ennio, "Psychological Games and 
+Sequential Rationality," Games and Eco- 
+nomic Behavior, March 1989, 1, 60-79. 
+Gilboa, Itzhak and Schmeidler, David, "Infor- 
+mation Dependent Games: Can Common 
+Sense Be Common Knowledge?" Eco- 
+nomics Letters, 1988, 27 (3), 215-21. 
+Goranson, Richard E. and Berkowitz, Leonard, 
+"Reciprocity and Responsibility Reac- 
+
+VOL. 83 NO. 5 
+RABIN: INCORPORATING FAIRNESS INTO GAME THEORY 
+1301 
+tions to Prior Help," Journal of Personal- 
+ity and Social Psychology, February 1966, 
+3, 227-32. 
+Greenberg, Jerald, "Effects of Reward Value 
+and Retaliative Power on Allocation De- 
+cisions: Justice, Generosity or Greed?" 
+Journal of Personality and Social Psychol- 
+ogy, April 1978, 36, 367-79. 
+Greenberg, Martin S. and Frisch, David, "Ef- 
+fect of Intentionality on Willingness to 
+Reciporocate a Favor," Journal of Experi- 
+mental Social Psychology, March 1972, 8, 
+99-111. 
+Guth, Werner, Schmittberger, Rolf and Schwarze, 
+Bernd, "An Experimental Analysis of Ul- 
+timatum Bargaining," Journal of Eco- 
+nomic Behavior and Organization, De- 
+cember 1982, 3, 367-88. 
+Hoffman, Elizabeth and Spitzer, Matthew, "The 
+Coase Theorem: Some Experimental 
+Tests," Journal of Law and Economics, 
+April 1982, 75, 73-98. 
+Huang, Peter H. and Wu, Ho-Mou, "Emotional 
+Responses in Litigation," International 
+Review of Law and Economics, March 
+1992, 12, 31-44. 
+Isaac, R. Mark, McCue, Kenneth F. and Plott, 
+Charles, "Public Goods Provision in an 
+Experimental Environment," Journal of 
+Public Economics, February 1985, 26, 
+51-74. 
+and Walker, James, (1988a) "Group 
+Size Effects in Public Goods Provision: 
+The Voluntary Contribution Mechanism," 
+Quarterly Journal of Economics, February 
+1988, 103, 179-99. 
+and 
+, (1988b) "Communica- 
+tion and Free-Riding Behavior: The Vol- 
+untary Contribution Mechanism," Eco- 
+nomic Inquiry, October 1988, 26, 585-608. 
+_ 
+and Thomas, Susan H., "Di- 
+vergent Evidence on Free Riding: An Ex- 
+perimental Examination of Possible Ex- 
+planations," Public Choice, 1984, 43 (2), 
+113-49. 
+Kahneman, Daniel, Knetsch, Jack L. and Thaler, 
+Richard H., (1986a) "Fairness as a Con- 
+straint on Profit Seeking: Entitlements in 
+the Market," American Economic Review, 
+September 1986, 76, 728-41. 
+_ 
+and _ 
+_, (1986b) "Fair- 
+ness and the Assumptions of Economics," 
+Journal of Business, October 1986, 59, 
+S285-S300. 
+Kim, Oliver and Walker, Mark, "The Free 
+Rider Problem: Experimental Evidence," 
+Public Choice, 1984, 43 (1), 3-24. 
+Kolpin, Van, "Equilibrium Refinements in 
+Psychological Games," Games and Eco- 
+nomic Behavior, 1993 (forthcoming). 
+Leventhal, Gerald and Anderson, David, "Self- 
+Interest and the Maintenance of Equity," 
+Journal of Personality and Social Psychol- 
+ogy, May 1970, 15, 57-62. 
+Levine, David I., "Cohesiveness, Productivity, 
+and Wage Dispersion," Journal of Eco- 
+nomic Behavior and Organization, March 
+1991, 15, 237-55. 
+, "Fairness, Markets, and Ability To 
+Pay: Evidence from Compensation Exec- 
+utives," American Economic Review, De- 
+cember 1993, 83 (5), 1241-59. 
+Marwell, Gerald and Ames, Ruth, "Economists 
+Free Ride, Does Anyone Else?: Experi- 
+ments on the Provision of Public Goods, 
+IV," Journal of Public Economics, June 
+1981, 15, 295-310. 
+Mui, Vai-Lam, "Two Essays in the Eco- 
+nomics of Institutions: I. Envy," Ph.D. 
+dissertation, Department of Economics, 
+University of California-Berkeley, 1992. 
+Orbell, John M., Dawes, Robyn M. and van de 
+Kragt, Alphons J. C., "Explaining Discus- 
+sion Induced Cooperation," Journal of 
+Personality and Social Psychology, May 
+1978, 54, 811-19. 
+Rabin, Matthew, "Incorporating Fairness Into 
+Game Theory and Economics," Depart- 
+ment of Economics Working Paper No. 
+92-199, University of California-Berkeley, 
+July 1992. 
+Rotemberg, Julio J., "Human Relations in the 
+Workplace," mimeo, Massachusetts Insti- 
+tute of Technology, January 1992. 
+Roth, Alvin E., Prasnikar, Vesna, Okuno- 
+Fujiwara, Masahiro and Zamir, Shmuel, 
+"Bargaining and Market Behavior in 
+Jerusalem, Ljubljana, Pittsburgh, and 
+Tokyo: An Experimental Study," Ameri- 
+can Economic Review, December 1991, 
+81, 1068-95. 
+Thaler, Richard H., "Mental Accounting and 
+
+1302 
+THE AMERICAN ECONOMIC REVIEW 
+DECEMBER 1993 
+Consumer Choice," Marketing Science, 
+Summer 1985, 4, 199-214. 
+, "Anomalies: 
+The 
+Ultimatum 
+Game," Journal of Economic Perspectives, 
+Fall 1988, 2, 195-207. 
+Train, Kenneth E., McFadden, Daniel L. and 
+Goett, Andrew A., "Consumer Attitudes and 
+Voluntary Rate Schedules for Public Util- 
+ities," Review of Economics and Statistics, 
+August 1987, 64, 383-91. 
+van de Kragt, Alphons J. C., Orbell, John M. 
+and Dawes, Robyn M., "The Minimal Con- 
+tributing Set as a Solution to Public Goods 
+Problems," American Political Science Re- 
+view, March 1983, 77, 112-22. 
+Weisbrod, Burton A., The Nonprofit Economy, 
+Cambridge, MA: Harvard University 
+Press, 1988.

@@ -1,0 +1,1057 @@
+Fundamental Economics of Depletable 
+Energy Supply 
+Jeffrey Krautkraemer and Michael Toman 
+November  2003  • Discussion Paper 03-01 
+ 
+ 
+Resources for the Future 
+1616 P Street, NW 
+Washington, D.C. 20036 
+Telephone: 202–328–5000 
+Fax: 202–939–3460 
+Internet: http://www.rff.org 
+ 
+© 2003 Resources for the Future. All rights reserved. No 
+portion of this paper may be reproduced without permission of 
+the authors. 
+Discussion papers are research materials circulated by their 
+authors for purposes of information and discussion. They have 
+not necessarily undergone formal peer review or editorial 
+treatment. 
+
+ 
+Fundamental Economics of Depletable Energy Supply 
+Jeffrey Krautkraemer and Michael Toman 
+Abstract 
+In this paper, we first present and discuss the basic logic underlying all neoclassical economic 
+theories of “optimal” energy supply: maximization of the present value of some stream of economic 
+returns. We then discuss how the economic theory of optimal resource depletion has evolved since 
+Hotelling’s classic 1931 article. We also consider the power of the theory to support improved empirical 
+understanding of actual behavior. Our discussion of empirical literature indicates that this work has so far 
+provided only limited empirical understanding. 
+ 
+Key Words:  depletable resources, energy, intertemporal optimization 
+JEL Classification Numbers:  Q4 
+ 
+
+ 
+Contents 
+ 
+Introduction............................................................................................................................. 1 
+1. Basic Hypotheses in the Economics of Depletable Energy Supply................................. 2 
+2. The Simple ‘Cake-Eating’ Model of Resource Extraction.............................................. 3 
+3. A More General Theory of Economically Efficient Depletable Resource Supply........ 7 
+3.1 Resource Extraction...................................................................................................... 7 
+3.2 Exploration and New Resource Development.............................................................. 9 
+3.3 Capacity Investment and Capacity Constraints .......................................................... 12 
+4. Effects of Uncertainty....................................................................................................... 13 
+5. Market Failures and Distortions ..................................................................................... 14 
+6. Empirical Analysis of Depletable Energy Supply.......................................................... 15 
+6.1 The ‘Hotelling Valuation Principle’ for Assessing Resource Scarcity....................... 16 
+6.2 Data on Reserves......................................................................................................... 17 
+6.3 Models of Depletable Energy Supply Behavior ......................................................... 18 
+7. Concluding Remarks ........................................................................................................ 20 
+References.............................................................................................................................. 25 
+
+ 
+1 
+Fundamental Economics of Depletable Energy Supply 
+Jeffrey Krautkraemer and Michael Toman∗ 
+Introduction 
+The economic principles governing the efficient production of depletable energy resources 
+(oil, natural gas, and coal) have been a subject of interest and controversy for over 70 years.  The 
+pathbreaking article on the subject by Hotelling (1931) was motivated by then-current concerns 
+about scarcity of energy and other natural resources that have a remarkably familiar ring to 
+contemporary ears.  More recently, the “energy crisis” of the 1970s motivated new concerns 
+about the availability of sufficient energy resources and the capacity of economic markets to 
+effectively allocate those resources over space and time. 
+In this article, we first present and discuss the basic logic underlying all neoclassical 
+economic theories of “optimal” energy resource provision:  maximization of the present value of 
+some stream of economic returns.  We then discuss how the economic theory of optimal resource 
+depletion has evolved since Hotelling's article.  We consider in turn theories of economically 
+efficient energy resource extraction and new resource development.  After presenting the basic 
+theoretical framework, we discuss extensions incorporating investment in fixed production 
+capacity, uncertainty, and various market distortions, as well as extensions incorporating 
+nondepletable “backstop” energy resources.   
+The utility of an economic theory is to be found not merely in its conceptual elegance, but 
+also in its power to support improved empirical understanding of actual behavior.  Our 
+discussion of empirical literature indicates that this work has so far provided only limited 
+empirical understanding of observed energy supply behavior. 
+                                                 
+∗ Krautkraemer:  Professor of Economics, Washington State University.  Toman:  former Senior Fellow, Resources 
+for the Future; adjunct faculty member, Nitze School of Advanced International Studies, Johns Hopkins University.  
+This paper was prepared for the forthcoming Encyclopedia of Energy to be published by Academic Press (Cutler 
+Cleveland, ed.). Responsibility for the content of the paper is the authors’ alone. 
+
+Resources for the Future 
+Krautkraemer and Toman 
+2 
+Throughout the article, we cite some key examples in which the theory and application of 
+depletable energy supply are developed in the literature.  Some relatively recent surveys provide 
+more detailed references (Cairns 1990, Walls 1992, Epple and Londregan 1993, Toman and 
+Walls 1995, Krautkraemer 1998).  
+1. Basic Hypotheses in the Economics of Depletable Energy Supply 
+The fundamental assumption underlying all of mainstream economic theory is that economic 
+actors are motivated to make choices by the goal of maximizing some measure of economic 
+returns.  The textbook model of commodity supply is a simple case in point.  In that model, 
+competitive producers (producers lacking any market power, taking prices of inputs and outputs 
+as given) seek to maximize profit, the excess of gross revenue over their opportunity cost of 
+production, including returns to capital and entrepreneurial effort.  Profit is maximized when the 
+market price of output, a measure of incremental gain from expanding production, equals the 
+incremental cost of output expansion taking into consideration all possible technological 
+possibilities for cost-effectively combining various inputs. 
+The same assumption underlies the economics of depletable energy supply.  However, in that 
+theory, the measure of returns assumed to motivate behavior is a present value of current and 
+future net revenues that accrue over time from a sequence of production decisions.  A present 
+value metric is used in depletable energy economics because, for reasons explained further 
+below, the act of producing or developing more or less resource today has unavoidable 
+consequences for future potential returns because of the interplay of economics, geology, and 
+technology.  If these future consequences were ignored by totally myopic producers, their 
+cumulative effects would come as an unanticipated and unwelcome surprise later.  Since there is 
+every reason to assume that producers are aware of these intertemporal connections and, being 
+aware, are motivated to account for them, it makes more sense from the standpoint of theoretical 
+logic to suppose that producers systematically account for them in evaluating the present value of 
+a sequence of decisions over time. 
+
+Resources for the Future 
+Krautkraemer and Toman 
+3 
+The foregoing does not imply that energy producers are omniscient or free of forecast error.  
+That is prima facie not the case.  Later in the article we discuss how the theory of depletable 
+energy supply has been extended to incorporate various kinds of uncertainties.  Those extensions 
+emphasize the key role that expectations play in influencing supply behavior.  What is assumed 
+in the economics of depletable energy supply, however, is that producers are capable of avoiding 
+systematic and persistent errors over time.  This assumption can and sometimes is questioned, 
+but we know of no persuasive economic theory based on alternative assumptions that has been 
+formulated. 
+It is worth noting in this regard that the calculation of a present value involves the choice of 
+discount rate(s) to deflate future returns relative to current returns.  In characterizing producer 
+behavior in depletable energy supply theory, the appropriate discount rates would reflect the 
+competitive rate of return capital invested in the energy industry could earn in other uses, 
+including adjustments for various kinds of financial risks.  Since in practice market-based rates 
+of return put disproportionate weight on returns in the first few years of an activity, the 
+assumption that producers are not systematically biased in their expectations of future returns is 
+not as difficult to swallow as it might first seem. 
+The standard theory of depletable energy supply can be extended well beyond a simple 
+description of a single competitive firm.  In addition to uncertainty, already noted, the theory can 
+be extended to incorporate a number of market distortions, including property rights problems, 
+environmental spillovers, taxes, and market power.  However, efforts to describe the exercise of 
+market power by energy producers like the Organization of Petroleum Exporting Countries 
+(OPEC) and its members have been especially unsuccessful.  A number of political and other 
+factors must be incorporated to properly treat market power. 
+2. The Simple ‘Cake-Eating’ Model of Resource Extraction 
+In the simplest case, it is assumed that a known, finite stock of the energy resource is being 
+allocated over some number of time periods to maximize the present value of net returns.  
+Producers calculate returns to extraction in different periods based on price expectations (in the 
+simple model expectations are assumed always to be realized), and knowledge of costs based on 
+
+Resources for the Future 
+Krautkraemer and Toman 
+4 
+technological and geological information.  Returns across periods are linked in this model by the 
+simple fact that any energy resource produced in some period is by definition not available for 
+production in future periods (energy resources obviously cannot be recycled).  Only a finite 
+amount of energy resource is available in this framework, and all of it will eventually be 
+extracted.  But the finite availability of fossil fuels is not the only key feature of energy supply, 
+even in the simplest framework.   
+In this framework, the present value of net returns is maximized when the “equi-marginal 
+principle” is satisfied.  This principle requires that the marginal net return from the extraction 
+and sale of the energy resource be the same in every time period with positive extraction.  This, 
+in turn, requires the current value of marginal net profit to be increasing at the rate of discount 
+applied to future returns.   
+This principle can be stated in simple mathematical terms.  Let Pt denote the price of 
+extracted energy resource at time t, qt  the quantity extracted at time t, C(qt ) the cost of 
+extracting Pt, and δ the discount rate.  Then, under the equi-marginal principle, it must be that:  
+(1) 
+ 
+λ
+δ
+δ
+δ
+=
+=
++
+′
+−
+=
++
+′
+−
+=
++
+′
+−
+=
+′
+−
+L
+L
+t
+t
+t
+q
+C
+P
+q
+C
+P
+q
+C
+P
+q
+C
+P
+)
+1(
+)
+(
+)
+1(
+)
+(
+)
+1(
+)
+(
+)
+(
+2
+2
+2
+1
+1
+1
+0
+0
+, 
+where λ denotes the common present value of marginal net profit.  This number can be 
+interpreted as the present value shadow price or in situ value of the resource stock, since it 
+reflects the incremental increase in present value that would be enjoyed if a resource owner 
+could experience an augmentation of resource stock.  It also is referred to in the literature as the 
+user cost” or “scarcity rent” associated with depletion of the resource stock. 
+At any point in time, then: 
+(2)  
+λ
+δ
+t
+t
+t
+q
+C
+P
+)
+1(
+)
+(
++
++
+′
+=
+ 
+In any successive time periods,  
+(3)  
+Pt−1 −
+′ 
+C (qt−1)
+(1+ δ)t−1
+= Pt −
+′ 
+C (qt )
+(1+ δ)t
+   or    Pt −
+′ 
+C (qt ) = (1+ δ)[Pt−1 −
+′ 
+C (qt−1)]. 
+
+Resources for the Future 
+Krautkraemer and Toman 
+5 
+These conditions are known as the “Hotelling Rule” [see below] in honor of Hotelling's 
+contribution to the literature.  The first efficiency condition requires that at any point in time, the 
+marginal gain from additional extractions equals the full opportunity cost of extraction, including 
+the present value of future losses from a diminished future resource stock as well as 
+conventionally defined incremental production costs.   
+The second efficiency condition requires that the rate of return to holding the asset be equal 
+to the rate of discount.  This condition can be thought of in terms of asset market equilibrium, 
+since presumably the discount rate is the rate of return that could be earned by investing in other 
+assets.  The markets for assets will not be in equilibrium if the rate of return to holding one asset 
+is greater than the rate of return to holding some other asset.  If that were the case, investment in 
+the higher (lower) return asset would increase (decrease).  Thus, asset market equilibrium 
+requires that the rate of return to holding a nonrenewable resource asset be the same as the rate of 
+return to other assets in the economy as represented by the discount rate.   
+The user cost, or shadow price of the remaining stock, depends upon future extraction costs 
+and the future price path.  These depend in turn on developments in resource production 
+technology, the size of the remaining stock, and future availability of substitutes.  The future 
+price of the resource can depend upon the general level of economic activity, so expectations 
+about population and economic growth are important determinants of the scarcity rent or user 
+cost.  Technological progress can affect extraction cost, the availability of substitutes, and the 
+remaining resource stock.  For example, the development of directional drilling techniques has 
+lowered the cost of extraction and increased the amount of recoverable oil from some deposits.  
+Increased computing capability has enhanced the ability to use information from exploration 
+activities and lowered the cost of discovering and developing new oil reserves (Bohi 1999).   
+The model we have described above can be extended in several directions.  If we switch from 
+considering a single competitive producer to a price-setting monopolist, we can infer that the 
+monopolist will reallocate output from earlier to later in the life of the resource base, since this 
+generates higher prices early on and near-term returns are worth more than discounted future 
+returns.  But since the stock of resource is fixed and is necessarily exhausted under either market 
+structure, resources that are not produced earlier will be produced later.  If, to take another 
+scenario, the stock of the resource is fixed but uncertain, then again extraction early on would be 
+
+Resources for the Future 
+Krautkraemer and Toman 
+6 
+less than in a situation with certainty about the resource stock since producers would put weight 
+on the possibility of more scarce and therefore more valuable carry-over stocks.  If, on the other 
+hand, there is a renewable “backstop” energy form that can be supplied if the price of depletable 
+energy climbs high enough, the Hotelling Rule will still hold, but the net price path will rise at 
+the rate of discount until it meets the unit cost of the backstop just at the point of full depletion.   
+Despite its seeming intuitive appeal, however, the basic Hotelling model is built upon very 
+shaky assumptions.  It assumes a known stock of a resource of homogeneous quality and that the 
+extraction technology does not change over time.  In fact, nonrenewable resource stocks are not a 
+given: exploration for new deposits, as well as the further development of existing deposits, is an 
+important feature of fossil fuel supply.  For many nonrenewable resources, including fossil fuels, 
+the discovery of additional deposits has exceeded consumption so that known, or proved reserves 
+have actually increased over many time periods.  For example, U.S. oil reserves increased from 
+13 billion barrels in 1930 to 33.8 billion barrels at the end of 1990, while production in that 
+period was 124 billion barrels (Adelman 1993).  More than 30 billion barrels were produced 
+from 1991 to 2000, but reserves at the end of 2000 were 29.7 billion barrels.  The increase in 
+world oil reserves is even more dramatic—proved reserves increased from 660 billion barrels at 
+the end of 1980 to 1,009 billion barrels at the end of 1990.  This increased slightly to 1,046 
+billion barrels at the end of 2000 even though 250 billion barrels were produced from 1991–2000 
+(British Petroleum 2001).   
+Nonrenewable resources, including energy resources, also vary in quality and in their cost of 
+extraction.  Moreover, cost conditions for extraction in a specific petroleum reservoir change 
+over the economic life of the reservoir: as natural drive is depleted, cost rises and yield per unit 
+extraction effort falls, unless costly secondary and other recovery enhancement measures (e.g., 
+injection of water or carbon dioxide) are undertaken to stimulate reservoir pressure.  In short, 
+resource stocks are neither fixed nor homogeneous, contrary to the assumptions underlying the 
+simple Hotelling Rule.  It is not surprising, therefore, that the simple rule has done poorly in 
+describing actual supply behavior (see below).  We must look to a richer theory if we want to 
+better understand observed behavior. 
+
+Resources for the Future 
+Krautkraemer and Toman 
+7 
+Empirically, since the resource price should reflect both the marginal extraction cost and the 
+scarcity rent, one generally would expect from (3) that the price of a nonrenewable resource 
+would be increasing over time.  However, there has not been a persistent increase in prices of 
+fossil fuels (or other nonrenewable resources), but rather fluctuations over various time periods. 
+Fossil fuel prices fell over much of the twentieth century, peaked dramatically in the 1970s and 
+early 1980s, and have generally fallen since then—see Figures 1–3.  This further illustrates the 
+need for a richer theory to capture observed behavior. 
+3. A More General Theory of Economically Efficient Depletable Resource Supply 
+A more useful general theory must take into account the stylized facts noted above—that 
+resources are heterogeneous, with extraction costs that vary systematically over time with 
+depletion of resource deposits; and that resources can be augmented through exploration and 
+development.  Moreover, a complete theory must account for the high degree of capital intensity 
+of the extractive sector and the implications of this in terms of potential constraints on productive 
+capacity. 
+3.1 Resource Extraction 
+Let us first address generalization of the Hotelling extraction model to deal with resource 
+heterogeneity.  Among the many good papers to deal with this case, Pindyck (1978) and Heal 
+(1976) are particularly noteworthy.  To examine this part of the problem, we continue to treat 
+reserves as fixed for the moment, and we ignore capacity constraints.   
+The cost of extraction is assumed to be given by some function, 
+)
+,
+(
+t
+t R
+q
+C
+, where Rt is the 
+stock of resource that has not yet been depleted.  Incorporating this “stock effect” into extraction 
+cost is a simple if somewhat imprecise way to introduce resource heterogeneity into the 
+extraction cost relationship.  The relationship is relatively straightforward if we focus on a single 
+energy resource development: as the resource in this development declines, cost is assumed to 
+rise (deeper pits to be dug, more waste material to be removed, weaker reservoir pressure).  It is 
+less straightforward if we are attempting to describe heterogeneity among resource deposits, as 
+discussed below. 
+
+Resources for the Future 
+Krautkraemer and Toman 
+8 
+With cost rising as the resource is depleted, the assumption of complete physical exhaustion 
+from extraction—which is not empirically realistic anyway—no longer makes sense in the 
+theoretical model either.  Instead, what drives extraction behavior is economic exhaustion of the 
+resource—at some point, cost becomes so high relative to the price that buyers are willing to pay 
+that a particular mine or field is abandoned. 
+With resource heterogeneity and incomplete physical exhaustion, the simple Hotelling model 
+summarized by the efficiency conditions (1)–(3) no longer applies.  Instead, we must modify the 
+equi-marginal principle as in the following equation:  
+(4)  
+∑
++
+−
++
+=
++
++
+=
++
+=
+−
+T
+t
+s
+s
+t
+Rs
+qt
+t
+t
+qt
+t
+C
+C
+C
+P
+1
+)
+1
+)(
+(
+)
+1(
+δ
+λ
+δ
+ 
+In (4), subscripts q and R on cost C signify rates of change of cost with respect to the 
+extraction rate and the depletion of reserves, respectively.  The term λt is a generalized measure 
+of user cost that reflects the rate at which future extraction cost is increased as a consequence of 
+future depletion.  This stock effect is part of the full opportunity cost of current extraction. 
+Manipulating (4) a bit algebraically yields:  
+(5)  
+Rt
+t
+q
+t
+qt
+t
+C
+C
+P
+C
+P
++
+−
++
+=
+−
+−
+−
+]
+)[
+1(
+1
+,
+1
+δ
+. 
+Equation (5) shows how with increased stock providing a kind of “dividend” in terms of 
+holding down extraction cost over time (CRt < 0), the net return from depletion no longer has to 
+rise at the rate of discount rate to induce resource owners to retain their holdings.   
+Application of this framework to describe the depletion over time of different energy 
+deposits is frequently done but somewhat more problematic (Livernois and Uhler 1987).  In the 
+simplest case where resource quality varies across deposits but is homogeneous within a deposit, 
+the optimal extraction pattern generally requires exploiting those deposits in a sequence from 
+low cost to high cost.  The user cost for a lower-cost deposit is greater than the user cost for a 
+higher-cost deposit.  At the time of transition from one deposit to the next-most-costly deposit, 
+the marginal extraction cost plus user cost is the same at each deposit.  This implies that the 
+resource price rises at a rate slower than the rate of interest during the transition.  Simultaneous 
+extraction from different deposits can be optimal when marginal extraction cost at a deposit 
+
+Resources for the Future 
+Krautkraemer and Toman 
+9 
+increases with the extraction rate, or if extractive capacity is fixed. 
+The current pattern of petroleum extraction obviously violates the rule of exploiting lower-
+cost deposits before higher-cost deposits.  The cost of extraction from petroleum reserves in the 
+Middle East is much lower than the cost of extraction from reserves in the United States.  This 
+suggests that the simple modeling device of incorporating resource inventory in the extraction 
+cost relationship probably aggregates over and therefore blurs some important distinctions.  The 
+case of petroleum is further complicated by the actions of large oil producers in OPEC using 
+market power to restrict their output to levels below what would occur under perfect 
+competition. The higher-than-competitive price that results provides the incentive for higher-cost 
+producers to extract from their reserves.  The higher noncompetitive price also distorts the 
+capital investment decision, as the marginal cost of investment in capacity varies widely from 
+$343 in Saudi Arabia to over $10,000 in the United States.  Efficient allocation would result in 
+the equalization of marginal investment cost across geographical regions. 
+3.2 Exploration and New Resource Development 
+Exploration is an economic activity and, like other economic activities, marginal benefit and 
+marginal cost play a key role in determining how much exploration occurs.  Again, a key paper 
+in the development of this analysis is Pindyck (1978).  Expenditures on exploration and 
+development reduce current profit with an expected return of adding valuable reserves for future 
+exploitation.  The efficient level of exploration activity balances the expected marginal cost of 
+exploration with the expected benefit of exploration.   
+The expected marginal benefit of exploration is not just the discovery and development of 
+new reserves per se; in a model of incomplete resource exhaustion, the quantity of the resource 
+stock is not determinative.  The marginal benefit of exploration comes from the discovery of 
+reserves whose cost of development and extraction is less than or equal to the cost of the reserves 
+currently being depleted.  In other words, the marginal value of new reserves equals the user cost 
+of current resource depletion along an efficient time path of extraction and new reserve 
+development.   
+
+Resources for the Future 
+Krautkraemer and Toman 
+10 
+One feature of the full opportunity cost of exploration activity is that it reduces the stock of 
+exploration opportunities, so that future additions to reserves tend to become more costly.  In 
+other words, there is a user cost similar to that in (4) associated with depleting the stock of 
+exploration opportunities, in addition to direct exploration costs.  If we then combine the 
+conditions for efficient exploration, development, and extraction, we get: 
+(6)  
+price = (marginal extraction cost) + (extraction user cost) 
+         = (marginal extraction cost) + (marginal direct cost of finding new reserves) 
+                     +(user cost of reduced long-term development prospects) 
+The heuristic equality in (6) can be related to intuition about opportunity cost in economics 
+more generally.  The extraction user cost is the cost of depleting an existing inventory, which can 
+be replenished but only (in the model) at an ever-rising cost.  The sum of marginal extraction 
+cost and marginal direct cost of finding new reserves gives a measure of the cost of using and 
+replacing the inventory, but it ignores the ultimate cost of natural capital depreciation reflected in 
+the user cost of reduced long-term development prospects. 
+Once we allow for reserves to vary endogenously with economic (and technological) 
+conditions, the inexorable upward movement of prices implied by (3) or even (5) no longer need 
+hold.  Depending on the degree to which current extraction costs are rising as a consequence of 
+depletion and the cost of new reserve additions, including their user cost, it is possible in the 
+model for new discoveries to outstrip depletion, at least for a while, causing a U-shaped energy 
+price path.  This is a reassuring finding since such behavior has been observed in energy and 
+other resource markets (Slade 1982), and a model incapable of replicating such behavior would 
+have little use.  The ability to de facto enlarge reserves through technological breakthroughs that 
+increase recoverability and lower the costs of extraction from existing deposits, or make new 
+deposits easier to find and access (lowering reserve replacement costs), likewise could exert 
+downward pressure on prices, possibly for a long period of time. 
+The simple model of endogenous exploration and reserves makes the simplifying 
+assumptions that reserves are found on average in order of increasing cost and can be found in 
+infinitely divisible amounts.  Given the uncertainties surrounding the exploration process, the 
+former assumption obviously is an oversimplification.  When the discovery of deposits is more 
+
+Resources for the Future 
+Krautkraemer and Toman 
+11 
+random, the aggregate extraction cost function cannot be described by a reserve stock indicator 
+alone (Swierzbinski and Mendelsohn 1989).   
+If the discovery of deposits is “lumpy,” exploration and discovery can occur in “episodes,” 
+with intervals of no exploration between those episodes.  Exploration does not generally occur in 
+strictly discrete episodes, but it does vary with the resource price, and large discoveries do put 
+significant but temporary downward pressures on price.  The theory would then predict that the 
+in situ value of the resource increases between major discoveries and jumps up or down when 
+exploration occurs, depending upon whether the exploration outcome is less or more favorable 
+than expected.  The resource price path can follow a “saw-tooth” pattern while still having a 
+downward trend over some time periods, depending upon the actual exploration outcomes.  The 
+likelihood that the resource price will be increasing over time increases as unexplored prospects 
+become more scarce. 
+Exploration also provides new information about future exploration prospects that can lead to 
+revised expectations about the future value of the resource stock and generate new expected time 
+paths for the resource price and quantity extracted.  For example, a firm may revise its 
+expectations about the probability of successful exploration either upward or downward in 
+response to information obtained from its current exploration.  In this case, a variety of patterns 
+is possible for the realized price path, including a generally downward trend.  The arrival of 
+previously unanticipated information can alter the resource price, extraction, and exploration 
+paths so that the observed price path deviates systematically from a deterministic calculation.  
+The observed time paths for the resource price and in situ resource value may represent a 
+combination of the initial portion of many different expected price paths rather than outcomes 
+along one fully anticipated price path.   
+Moreover, because individual energy producers can learn something about the information 
+possessed by others via observing their behavior (e.g., by another producer not drilling in a 
+certain area), information has certain “public good” aspects.  To ensure that enough information 
+about energy resources is collected and disseminated to society at large, it may be necessary for 
+the government to undertake or underwrite investments in resource delineation. 
+
+Resources for the Future 
+Krautkraemer and Toman 
+12 
+3.3 Capacity Investment and Capacity Constraints  
+The basic nonrenewable resource model does not capture the capital intensity of extractive 
+industries.  The development and extraction of fossil fuels is capital intensive, and the timing and 
+size of investment in extractive capacity are functions of the cost of capital and the expected 
+price path.  Once the existence of capacity constraints is incorporated, the behavior of the energy 
+resource price along an efficient path generally will depart from the kind of behavior implied by 
+(5) (or its extension to incorporate new reserve additions).  This problem too has been studied by 
+a number of authors (Lasserre 1985, Powell and Oren 1989, Cairns and Lasserre 1991). 
+If extraction is expected to decrease over time, either because the present value price of the 
+resource is declining or the extraction cost increases with depletion, the extractor would seek to 
+reduce its capital input over time if it were able to do so.  However, this is not possible if capital 
+is nonmalleable (i.e., once invested in oil fields, it cannot easily be converted into rail car 
+investments).  The energy-producing firm takes this into account when the initial investment is 
+made, and the initial capital investment is lower than it would have been if capital were 
+malleable.  
+Once in place, this lower initial extractive capacity is likely to constrain the rate of extraction 
+from the deposit, at least early in the extraction horizon.  In addition, it may be relatively costly 
+to increase extractive capacity, at least quickly.  Firms may invest in advance of the need for 
+some capacity in order to smooth out their investment costs over time, but they will also invest 
+slowly in response to previously unanticipated price increases.  Consequently, the short-run 
+supply curve for an energy resource may be very inelastic and so variations in market demand 
+(especially increases) may be mediated more by price changes than by quantity changes.  The 
+result is that short-term energy prices can be relatively volatile. 
+In the standard nonrenewable resource model, an increase (decrease) in the interest rate 
+decreases (increases) the relative value of extraction in the future relative to current extraction 
+and so tilts the depletion path toward the present and away from the future.  However, if a large 
+capital investment is necessary before extraction begins, an increase in the interest rate increases 
+the cost of the capital investment.  Thus, a higher interest rate reduces the incentive to use 
+capital, and can lead to lower rather than greater initial extraction whether or not capital is 
+
+Resources for the Future 
+Krautkraemer and Toman 
+13 
+malleable.   
+The effect of the higher interest rate on the capital investment outweighs the effect of the 
+higher interest rate on user cost if the initial resource stock is relatively large (Farzin 1984).  A 
+lower interest rate increases conservation if the interest rate is low (when user cost is high and 
+capital cost is low), but decreases conservation when the interest rate is high (user cost is low and 
+capital cost is high).  A higher (lower) interest rate also can increase the capital cost of a 
+backstop technology, increasing the maximum or “choke” price for the depletable energy 
+resource and resulting in less (more) rapid extraction.   
+4. Effects of Uncertainty 
+There is uncertainty regarding the future values of many important influences on the 
+intertemporal supply of depletable energy resources:  future price, future extraction cost, the 
+costs and outcome of exploration and development activities, and the cost and timing of the 
+availability of a backstop technology.  The intertemporal extraction and resource development 
+patterns and price path are affected by uncertainty in a variety of ways, depending on the source 
+and nature of the uncertainty.  From a financial perspective, the risk associated with holding 
+reserves of a depletable energy resource can be mitigated by also owning other assets.  The 
+necessary return to holding the energy resource asset—including  the rate of in situ appreciation 
+plus the benefits of increased reserves in moderating costs can be less if the return is negatively 
+correlated with the return to other assets in a portfolio, thereby reducing overall risk.   
+Even with modern developments in financial markets, like energy commodities futures that 
+more tightly link energy and financial markets and provide added options for risk management, 
+in practice it is not possible for energy producers to completely insure away fluctuations in net 
+income.  Moreover, firms will not be indifferent to risks even if their basic management posture 
+is what economists call “risk neutral.”  Work by Pindyck (1980) and others shows that these 
+impacts depend on the curvature of incremental cost relationships, among other factors.  For 
+example, uncertainty about the growth of demand would shift extraction from the future to the 
+present; if the degree of uncertainty increases with time, a limiting case would be the risk of 
+expropriation, meaning no return from future production.  Uncertainty about reserves could 
+
+Resources for the Future 
+Krautkraemer and Toman 
+14 
+increase or decrease the marginal value of new discoveries compared to a situation of the same 
+average conditions with no uncertainty.   
+5. Market Failures and Distortions 
+Assessing the effects of various market failures and distortions on depletable energy supply is 
+complicated by the inherently intertemporal nature of these resources.  Whether a market 
+imperfection results in depletion that is more or less rapid or extensive than the socially efficient 
+depletion rate or volume depends upon how the distortions change over time and interact with 
+dynamic changes in resource scarcity signaled by the extraction and exploration user costs.   
+For example, a monopolist would want to restrict output to raise price and increase returns.  This 
+would mean a lower cost of extraction in the future compared to a competitive industry facing 
+the same demand conditions and extracting more quickly.  (In actuality, demand conditions 
+themselves would change in response to the higher monopoly prices, as energy users adapted to 
+more energy-efficient and alternative-energy technologies.)  This in turn would encourage more 
+output.  Nevertheless, the monopolist could restrict output over time in such a way that the 
+cumulative depletion of the resource (and cumulative development of new resources over time) 
+was less than under competition.  This is a different prediction than the one obtained from a 
+simple model with fixed homogeneous reserves. 
+Government interventions also can tilt the market's depletion path toward the present or the 
+future.  Energy resource industries are subject to a variety of taxes in addition to the taxes paid 
+by firms generally.  One motivation for depletable resource taxation is that depletable natural 
+resources like fossil energy are part of the national heritage and resource rents should accrue to 
+the general welfare.  Depletable energy resources can be subject to severance taxes per unit 
+extracted or royalty payments as a percentage of the resource price.  In general, the effect of such 
+a tax on the intertemporal extraction pattern depends on how the present value of the tax changes 
+over time as well as on the magnitudes of depletion effects in the cost structure.   
+For example, the present value of a constant severance tax decreases over time and so shifts 
+extraction from the present to the future.  However, the tax still reduces net returns in any period 
+compared to a no-tax alternative, thereby reducing the contemporaneous incentive to extract.  
+
+Resources for the Future 
+Krautkraemer and Toman 
+15 
+While less extraction would moderate the depletion effect on cost, it is still likely that total 
+recovery of the energy resource will fall over time as a result of the tax.  In particular, reserves 
+that were formerly marginally economic to extract become sub-economic.  Moreover, the tax 
+would reduce the return to investment in new reserves (Deacon 1993). 
+The extraction and consumption of energy resources are associated with a wide variety of 
+environmental externalities.  The effect of externalities on the market's depletion path can depend 
+upon the exact nature of the externality.  There are two broad categories of externalities: flow 
+externalities and stock externalities.  Flow externalities represent a situation in which the 
+environmental damage is a function of the current rate of energy production or consumption.  An 
+example relevant to energy supply would be the air pollution by-products of energy use in the 
+process of mining.  More persistent stock externalities arise when the environmental damage is a 
+function of cumulative emissions.  Examples of more persistent externalities would include 
+atmospheric accumulation of carbon dioxide and its effect on the global climate, contamination 
+of ground water from oil or coal extraction that is only slowly reversed by natural processes, and 
+unremediated damage to natural landscapes through strip mining.   
+Flow externalities can result in a depletion rate that is too rapid or too slow relative to the 
+socially efficient supply rate, depending upon how the present value of the marginal external 
+damage changes over time.  The effect of stock externalities is similar to the impact of resource 
+depletion on the cost of extraction:  these stock effects imply a slower rate of depletion and less 
+total depletion than the market would choose on its own.   
+6. Empirical Analysis of Depletable Energy Supply 
+Efforts to empirically test the theoretical implications of resource depletion models as 
+descriptions of observed energy supply behavior are hampered by a lack of data.  Data for in situ 
+reserve values are not readily available.  Market data on the value of firms are generally 
+available, but exclude depletable resource values, and data on extraction and development costs 
+are usually proprietary information.  Consequently, the empirical economic analysis of resource 
+supply and scarcity has taken a variety of less direct paths.  Analysts have attempted in a number 
+of ways to use available data to construct dynamic empirical models based on the basic 
+
+Resources for the Future 
+Krautkraemer and Toman 
+16 
+theoretical tenets sketched above.  
+6.1 The ‘Hotelling Valuation Principle’ for Assessing Resource Scarcity 
+An illustration of the methods for testing the resource scarcity implications of the depletable 
+energy supply model involves the relationship between average reserve value and current net 
+price using cross-section data.  Miller and Upton (1985a) argue that this relationship can be 
+written as:  
+(7) 
+V0
+S0
+= α + (P0 −C0) . 
+Here V
+0 denotes reserve value, S
+0 is the resource endowment, and 
+0
+0
+C
+P −
+is the price net 
+of extraction cost; the term α, which can be positive or negative, reflects influences like 
+changing cost and price trends.   
+The model was found to be consistent with pooled, cross-section data from December 
+1979 to August 1981 for 39 oil and gas producing firms in the United States (Miller and Upton 
+1985a).  A subsequent test of the Hotelling Valuation Principle using data from August 1981 to 
+December 1983 produced a quite different result: in that analysis, an increase in the net price 
+translated into an increase in average reserve value less than half as large (Miller and Upton 
+1985b).   
+An explanation for why the Hotelling Valuation Principle might overvalue reserves, at least 
+in the case of oil and natural gas production, is that it affords producers greater flexibility for 
+choosing output than they actually have.  The extraction of petroleum over time is restricted by 
+declining well pressure as the reservoir is depleted.  If the rate of extraction declines at the rate a 
+because of declining well pressure, the average reserve value is:  
+ 
+(8) 
+V0
+S0
+=
+a
+a + r - g (P0 −C0)  
+where g is the expected rate of change in net price (Adelman 1990, 1993).   
+This example and others in the literature provide strong empirical evidence that a simple 
+
+Resources for the Future 
+Krautkraemer and Toman 
+17 
+model of finite resource depletion does not adequately explain the observed behavior of 
+depletable energy resource prices and in situ reserve values.  This is not terribly surprising given 
+the many other features of depletable resource supply already discussed—such as exploration for 
+and discovery of new deposits, technological change, and capital investment—that alter the 
+implications of finite availability.  It seems clear that these other factors have overshadowed 
+finite availability of the resource as determinants of the observed dynamic behavior of 
+nonrenewable resource prices and in situ values. 
+6.2 Data on Reserves 
+In the theoretical models of depletable energy supply we have discussed, measures of 
+reserves or resources play a significant role as indicators of cost drivers, not just in terms of 
+physical availability.  Before looking at efforts to empirically model depletable energy supply, 
+therefore, it is worth making some brief comments on the nature of available data for reserves.   
+The classification scheme of the United States Geological Survey defines total resources, 
+including energy resources, as materials that have been discovered or might be discovered and 
+used (Brobst 1979).  Reserves are that portion of total resources that can be economically 
+extracted.  Undiscovered resources are classified as hypothetical, if in a known mining district, 
+or speculative.  Identified but currently noneconomic resources are categorized as para-marginal 
+or sub-marginal.  The physical measures of reserves often are compared to measures of the rate 
+of use in order to determine the remaining life of the reserves.   
+Since reserves are defined in terms of economic recovery, whether or not a deposit is 
+classified as a reserve changes with the resource price and extraction cost.  In addition, since 
+costly investment is required to “prove” reserves, there is a limited incentive to prove reserves 
+beyond a certain point.  The reserve to consumption ratio for petroleum increased from 35 in 
+1972 (Slade 1987) to 45 in 1990 (World Resources Institute 1994), even though commercial 
+energy consumption increased by more than 50% between 1971 and 1991 (World Resources 
+Institute 1994).  Physical measures of reserves thus probably have more meaning as an indicator 
+of inventory on hand than as a more fundamental indicator of resource cost (Adelman 1993). 
+
+Resources for the Future 
+Krautkraemer and Toman 
+18 
+ 
+6.3 Models of Depletable Energy Supply Behavior 
+Behavioral models of depletable energy or other resource supply seek to develop empirical 
+counterparts to theoretical efficiency conditions like (4) through (6) in order to describe how 
+supply decisions (reserve development and extraction) respond to economic incentives (prices 
+and cost drivers).  Much of this work has focused on oil and gas supply, though some 
+applications to mineral resources (e.g., nickel) also can be found in the literature.  Relatively 
+little of this kind of modeling work has been done for coal, since the depletion effects central to 
+the development of the dynamic efficiency conditions discussed above seem to be of very limited 
+relevance to coal supply (with large reserves and continued technical progress in resource 
+exploitation, see Darmstadter 1999). 
+The problem of developing empirical behavioral models based on the theory of efficient 
+depletable energy supply is quite difficult for several reasons.  One problem, noted above, is the 
+poor data on reserves and costs.  But even with better data, it is inherently complicated to 
+develop reliable empirical models for complex dynamic process, and resource depletion is 
+inherently dynamic.  Moreover, because behavior depends so much on expectations of unknown 
+future influences in this dynamic framework, the empirical analyst must formulate a hypothesis 
+about the nature of the expectations driving behavior.   
+Finally, the theory we have discussed previously applies most directly to an individual 
+decisionmaking unit and perhaps even to decisions within a specific resource-bearing location.  
+Once the analysis is extended to cover multiple extraction and investment decisions from 
+heterogeneous deposits, some difficult aggregation problems arise.  Care is needed not to omit or 
+mix together key influences.  For example, the yield from exploratory drilling likely depends on 
+both how much the best resource prospects have been depleted by past activity and what 
+advances in drilling technique can do to raise discoveries per unit of effort.   
+Basically, two types of modeling approaches are found in the literature: process optimization 
+simulation models and econometrically estimated models.  Process optimization simulation 
+models specify and numerically solve sets of equations based on first-order efficiency conditions 
+
+Resources for the Future 
+Krautkraemer and Toman 
+19 
+like (4) through (6).  For example, the model could incorporate a specification in which the 
+reserves discovered per foot of new drilling depend on cumulative past drilling in that province.  
+This specification could be used along with other information to determine the efficient level of 
+reserve development as a function of the direct cost and user cost of drilling, plus the marginal 
+(shadow) value of additional reserves.  One prominent example of such a model in the United 
+States is the oil and gas supply component of the National Energy Modeling System (NEMS) 
+operated by the Energy Information Administration (EIA 2000); Deacon (1993) provides a 
+smaller-scale example.   
+Numerical parameters in such models come from a variety of sources:  statistical curve 
+fitting, engineering experience, and informed judgment, among others.  Because these models 
+are not derived from statistically fitting equations to data, it is not possible to construct classical 
+confidence intervals and statistics for assessing the reliability of the model outputs.  They are 
+useful principally for “what if” exercises—by supplying different sets of input variables (e.g., oil 
+prices and technical recovery parameters for drilling), one can see the consequences of changes 
+in these assumptions.  Whether the model structure is properly specified empirically cannot be 
+independently assessed.  The simulation models also do not incorporate uncertainty and 
+expectations formation.  Implicitly in dynamic optimization models, individuals are assumed to 
+accurately judge the future. 
+Econometrically estimated models also are rooted in the theoretical efficiency conditions.  
+However, these models are parameterized using statistical methods that seek to define supply 
+decisions as functions of causal variables.  The most sophisticated of these frameworks explicitly 
+model expectations formation using the rational expectations time series approaches pioneered in 
+macroeconomics (Epple 1985, Hendricks and Novales 1987, Walls 1992).   
+In brief, these methods explicitly include representations of expectations formation based on 
+past observations of price and cost influences; assuming that producers are not systematically 
+biased in their expectations and fairly rapidly learn about a systemic change in market or 
+technological conditions, statistical techniques can be used to estimate the parameters of the 
+expectations process and the underlying parameters linking supply choices to the relevant 
+economic influences.  The point is to provide consistent estimates of the basic technological and 
+geological parameters undergirding the supply process, so that the effects of policy intervention 
+
+Resources for the Future 
+Krautkraemer and Toman 
+20 
+or shifts in market conditions can be separated out and understood.   
+However, success with this class of models has been limited, notwithstanding their 
+conceptual appeal.  The models are difficult and data-intensive to construct and estimate; they 
+are not well-suited to geographical or other finer-grained breakdowns of activity into constituent 
+parts; and the results have not always been very powerful.  In particular, some approaches have 
+not coped well with what appear to be basic nonlinearities in the relationship between unit 
+supply cost and reserves.  A prospect for future work is a better blending of the engineering 
+expertise found in energy systems modelers with the dynamic economic models discussed here 
+(Walls 1994). 
+7. Concluding Remarks 
+Finite availability is one defining characteristic of a depletable energy resource and 
+generates the “Hotelling Rule” that the marginal value of a nonrenewable resource stock 
+increases at the rate of interest.  However, many other factors, including exploration, capital 
+investment, and heterogeneous reserve quality, also are important to the economics of energy 
+depletion and development.  The investigation of how these other factors affect the empirical 
+implications of the Hotelling model has been spurred by the frequent failure of the basic 
+Hotelling model to explain the observed dynamic behavior of nonrenewable resource prices and 
+in situ values.   
+These other factors can affect price and depletion paths in a number of ways, particularly 
+when considered in combination with each other.  The variety of possible outcomes makes it 
+difficult, if not impossible, to make any general predictions about the overall impact on price and 
+extraction paths.  These other factors, particularly the discovery of new deposits and 
+technological progress that lowers the cost of extracting and processing nonrenewable resources, 
+appear to play a relatively greater role than finite availability in determining observed empirical 
+outcomes. 
+While models that include these other factors have enriched the Hotelling model, they 
+have not completely reconciled the economic theory of nonrenewable resources with the 
+observed data.  The distinction between the responses of supply to anticipated versus 
+
+Resources for the Future 
+Krautkraemer and Toman 
+21 
+unanticipated changes in extraction cost, interest rate, reserve discoveries, availability of 
+backstop substitutes, and other factors figures prominently as a topic for future empirical 
+research.  The empirical evidence also indicates that the discovery of new deposits and 
+technological progress in resource extraction and discovery have significantly mitigated the 
+impacts of finite geological availability on the relative cost and supply of depletable energy 
+resources.  While the future holds promise with respect to the development of new substitutes for 
+fossil energy and greater energy efficiency, improvements in extraction and exploration 
+technologies that reduce costs and allow the economical use of lower-grade reserves also are 
+likely to continue.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+
+Resources for the Future 
+Krautkraemer and Toman 
+22 
+ 
+Figure 1: Real Price of Coal, 1949—1999, in chained 1996 dollars, calculated by using gross 
+domestic product implicit price deflators. 
+ 
+Source: Annual Energy Review, U.S. Energy Information Administration, United States 
+Department of Energy, http://www.eia.doe.gov/emeu/aer/txt/tab0708.htm. 
+ 
+ 
+ 
+ 
+Real Coal Price 1949-1999
+0
+10
+20
+30
+40
+50
+60
+
+Resources for the Future 
+Krautkraemer and Toman 
+23 
+ 
+ 
+Figure 2: Real Price of Natural Gas, 1949–2000, in chained 1996 dollars, calculated by using gross 
+domestic product implicit price deflators. 
+ 
+Natural Gas Wellhead Real Price, 1
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+Year
+ 
+ 
+Source: Annual Energy Review, U.S. Energy Information Administration, United States 
+Department of Energy, http://www.eia.doe.gov/emeu/aer/pdf/pages/sec6_19.pdf. 
+ 
+ 
+
+Resources for the Future 
+Krautkraemer and Toman 
+24 
+ 
+Figure 3: Crude Oil Domestic First Purchase Price, 1949–2000, in chained 1996 dollars, calculated 
+by using gross domestic product implicit price deflators 
+ 
+Source: Annual Energy Review, U.S. Energy Information Administration, United States 
+Department of Energy, http://www.eia.doe.gov/emeu/aer/pdf/pages/sec5_39.pdf. 
+ 
+Crude Oil Domestic First Purchase Price
+1949-2000
+0
+10
+20
+30
+40
+50
+60
+1949
+1953
+1957
+1961
+1965
+1969
+1973
+1977
+1981
+1985
+1989
+1993
+1997
+Year
+
+Resources for the Future 
+Krautkraemer and Toman 
+25 
+References 
+Adelman, Morris A. (1990). Mineral depletion with special reference to petroleum. Review of 
+Economics and  Statistics. 72(1): 1–10. 
+_____ (1993). Modelling world oil supply. Energy Journal 14(1): 1–32. 
+Bohi D.  (1999). Technological improvement in petroleum exploration and development. In 
+Productivity in Natural Resource Industries. R. David Simpson, ed., Washington, DC: 
+Resources for the Future. 
+Brobst, Donald A. (1979). Fundamental concepts for the analysis of resource availability. In 
+Scarcity and Growth Reconsidered. V. Kerry Smith, ed., Baltimore: Johns Hopkins 
+University Press for Resources for the Future, 106–159. 
+British Petroleum (2001). BP Statistical Review of World Energy, June.  Available at 
+http://www.bp.com/downloads/702/BPwebglobal.pdf (accessed November 12, 2002). 
+Cairns, Robert D. (1990). The economics of exploration for non-renewable resources. Journal of 
+Economic Surveys 4(4): 361–395. 
+Cairns, Robert D., and Pierre Lasserre (1991). Investment in a multiple-deposit non-renewable 
+resource industry: Some results and remaining puzzles. Journal of Environmental 
+Economics and Management 21(1) (July): 52–66. 
+Darmstadter J. (1999). Innovation and productivity in U.S. coal mining. In Productivity in 
+Natural Resource Industries. R. David Simpson, ed., Washington, DC: Resources for the 
+Future. 
+Deacon, Robert T. (1993). Taxation, depletion, and welfare: A simulation study of the U.S. 
+petroleum resource.  Journal of Environmental Economics and Management 24(2) 
+(March): 159–187. 
+EIA (Energy Information Administration) (2000). The National Energy Modeling System: An 
+Overview 2000. Washington, DC: U.S. Dept. of Energy. 
+Epple, Dennis (1985). The econometrics of exhaustible resource supply: a theory and an 
+application.  In Energy Foresight and Strategy. Thomas J. Sargeant, ed., Washington, 
+DC: Resources for the Future. 
+ 
+
+Resources for the Future 
+Krautkraemer and Toman 
+26 
+Epple, Dennis, and John Londregan (1993). Strategies for modeling exhaustible resources 
+supply.  In Handbook of Natural Resource and Energy Economics, Vol. 3. A.V. Kneese 
+and J.L. Sweeney, eds., Amsterdam: Elsevier. 
+Farzin, Y. Hossein (1984). The effect of the discount rate on depletion of exhaustible resources. 
+Journal of Political Economy 92(5): 841–851. 
+Heal, Geoffrey M. (1976). The relationship between price and extraction cost for a resource with 
+a backstop technology. Bell Journal of Economics. 7(2): 371–378. 
+Hendricks, K., and A. Novales (1987) Estimation of dynamic investment functions in oil 
+exploration. Stanford Hoover Institute Working Papers in Economics: E87-52. Standford, 
+CA: Hoover Institution. 
+Hotelling, Harold (1931). The Economics of Exhaustible Reesources. The Journal of Political 
+Economy 39(2), 137-175. 
+Krautkraemer, Jeffrey A. (1998). Nonrenewable resource scarcity. Journal of Economic 
+Literature, 36(4) (December): 2065–2107. 
+Lasserre, Pierre (1985). Capacity choice by mines. Canadian Journal of Economics 18(4) 
+(November): 831–842. 
+Livernois, John R., and Russell S. Uhler (1987). Extraction costs and the economics of 
+nonrenewable resources. Journal of Political Economy 95(1) (February): 195–203. 
+Miller, Merton H., and Charles W. Upton (1985a). A test of the Hotelling valuation principle.  
+Journal of Political Economy 93(1): 1–25. 
+_____ (1985b). The pricing of oil and gas: some further results. Journal of Finance 40(3): 1009-
+1018. 
+Pindyck, Robert S. (1978). The optimal exploration and production of nonrenewable resources. 
+Journal of Political Economy 86(5) (October): 841–861. 
+Pindyck, Robert S. (1980). Uncertainty and exhaustible resource markets. Journal of Political 
+Economy 88(6): 1203–1225. 
+Powell, Stephen G., and Shmuel S. Oren (1989). The transition to non-depletable energy social 
+planning and market models of capacity expansion. Operation Research 37(3) (May-
+June): 373–383. 
+ 
+
+Resources for the Future 
+Krautkraemer and Toman 
+27 
+Slade, Margaret E. (1982). Trends in natural resource commodity prices: An analysis of the time 
+domain. Journal of Environmental Economics and Management 9(2): 122–137. 
+____ (1987). Natural resources, population growth and economic well-being: Issues and 
+evidence. In Population Growth and Economic Development. D. Gale Johnson and 
+Ronald D. Lee, eds., Madison, WI: University of Wisconsin Press, pp. 331–372. 
+Swierzbinski, Joseph E., and Robert Mendelsohn (1989). Exploration and exhaustible resources: 
+the microfoundations of aggregate models. International Economic Review 30(1) 
+(February): 175–186. 
+Toman, Michael A., and Margaret Walls (1995). Nonrenewable resource supply: Theory and 
+practice. In Handbook of Environmental Economics. D.W. Bromley, ed., Oxford and 
+Cambridge: Blackwell. 
+Walls, Margaret (1994). Using a “hybrid” approach to model oil and gas supply: A case study of 
+the Gulf of Mexico outer continental shelf. Land Economics 70(1) (February): 1–19. 
+Walls, Margaret (1992). Modeling and forecasting the supply of oil and gas: A survey of existing 
+approaches. Resources and Energy 14(3) (September): 287–309. 
+World Resources Institute (1994). World Resources 199495: People and the Environment. 
+Oxford: Oxford University Press.
