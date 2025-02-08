@@ -3,6 +3,15 @@
 <head>
     <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
     <style>
+        body { text-align: center; }
+        .calibration-dot {
+            width: 20px;
+            height: 20px;
+            background: blue;
+            border-radius: 50%;
+            position: absolute;
+            cursor: pointer;
+        }
         #gazeDot {
             position: absolute;
             width: 15px;
@@ -12,20 +21,50 @@
         }
     </style>
 </head>
-<body onload="startWebGazer()">
-    <h2 style="text-align:center;">Eye Tracking with WebGazer.js</h2>
-    <p style="text-align:center;">Move your eyes and see the red dot follow!</p>
+<body>
+    <h2>Eye Tracking with Calibration</h2>
+    <p>Click on the blue dots to calibrate.</p>
+    
     <div id="gazeDot"></div>
 
     <script>
-        function startWebGazer() {
-            webgazer.setGazeListener((data, elapsedTime) => {
+        let calibrationClicks = 0;
+
+        function placeCalibrationDots() {
+            let positions = [
+                [50, 50], [window.innerWidth / 2, 50], [window.innerWidth - 50, 50],
+                [50, window.innerHeight / 2], [window.innerWidth - 50, window.innerHeight / 2],
+                [50, window.innerHeight - 50], [window.innerWidth / 2, window.innerHeight - 50], [window.innerWidth - 50, window.innerHeight - 50]
+            ];
+
+            positions.forEach(([x, y]) => {
+                let dot = document.createElement("div");
+                dot.className = "calibration-dot";
+                dot.style.left = `${x}px`;
+                dot.style.top = `${y}px`;
+                dot.onclick = function () {
+                    webgazer.recordScreenPosition(x, y);
+                    calibrationClicks++;
+                    dot.style.background = "green"; // Mark as clicked
+
+                    if (calibrationClicks >= positions.length) {
+                        startTracking();
+                    }
+                };
+                document.body.appendChild(dot);
+            });
+        }
+
+        function startTracking() {
+            webgazer.setGazeListener((data) => {
                 if (!data) return;
                 let dot = document.getElementById("gazeDot");
-                dot.style.left = data.x + "px";
-                dot.style.top = data.y + "px";
+                dot.style.left = `${data.x}px`;
+                dot.style.top = `${data.y}px`;
             }).begin();
         }
+
+        window.onload = placeCalibrationDots;
     </script>
 </body>
 </html>
