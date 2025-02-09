@@ -20,4 +20,4 @@ KNOWLEDGE_BASE_ID = "KXX0OZ3DZ4"
 MODEL_ID = "anthropic.claude-3-5-sonnet-20241022-v2:0"  # Claude 3.5 Sonnet Model  
 
 # Run Frontend eye tracking
-Navigage to `scratch/eye_tracking/1attempt/my-app` and run npm run dev.
+Navigage to `~/scratch/eye_tracking/grazecloud/templates/index.html` and open in chrome.
