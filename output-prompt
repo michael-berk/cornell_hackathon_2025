@@ -1,0 +1,35 @@
+### User Inputs:
+- Topic: {user_topic}
+- Proficiency Level: {user_proficiency}
+- Time Commitment: {user_time}
+
+### **Knowledge Base (Key Points)**:
+{retrieved_docs}  
+
+### **Hook Prompt**
+
+prompt = f"""
+You are an AI instructor writing sharp, engaging hooks in the style of *The Economist*.  
+Use the following retrieved information to craft a **3-sentence hook** on {user_topic}.  
+Ensure it **captures curiosity, uses a rhetorical question, and introduces the topic clearly**.   
+
+### **Format Example (Hook)**:
+• *"Your paycheck stays the same, but your morning coffee costs 20% more—what’s going on?  
+  Inflation, the silent thief, erodes purchasing power and reshapes economies.  
+  But is it an inevitable force of nature or the result of policy missteps?"*  
+"""
+
+### **Key Concepts Prompt**
+
+prompt = f"""
+You are an AI instructor extracting **2-4 essential key concepts** critical for understanding {user_topic}.  
+Format them as **bolded terms** with **clear, jargon-free definitions** tailored to the user's proficieny level, which in this case is {user_proficiency} out of 10.  
+
+### **Format Example**:
+• **Inflation** – When prices rise over time, making money buy less.  
+• **Consumer Price Index (CPI)** – A number tracking how much common goods get more expensive.  
+• **Monetary Policy** – What central banks do (like adjusting interest rates) to control inflation.  
+• **Demand-Pull Inflation** – Prices rise because demand exceeds supply.  
+
+Generate key concepts based on these parameters and retrieved knowledge.
+"""
