@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaze Tracking with Bounding Box</title>
+    <title>Gaze Tracking with Word Bounding Boxes & CSV Logging</title>
     <script src="https://api.gazerecorder.com/GazeCloudAPI.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { text-align: center; font-family: Arial, sans-serif; }
+        body { text-align: center; font-family: Arial, sans-serif; padding: 20px; }
+
+        #text-container {
+            font-size: 50px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 50px;
+        }
+
+        .word-box {
+            display: inline-block;
+            padding: 10px;
+            border: 3px solid black;
+            position: relative;
+            background: rgba(0, 0, 255, 0.1); /* Default light blue */
+            transition: background 0.2s ease;
+        }
 
         #gazeDot {
             position: absolute;
@@ -18,79 +36,71 @@
             display: none;
             pointer-events: none;
         }
-
-        #boundingBox {
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background: rgba(0, 0, 255, 0.2); /* Light blue */
-            border: 2px solid blue;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            transition: background 0.2s ease;
-        }
-
-        #chart-container {
-            width: 80%;
-            max-width: 600px;
-            margin: 20px auto;
-        }
     </style>
 </head>
 <body>
-    <h2>Gaze Tracking with Bounding Box</h2>
-    <p>Move your eyes. If your gaze enters the bounding box, it will highlight!</p>
+    <h2>Gaze Tracking with Word Bounding Boxes & CSV Logging</h2>
+    <p>Look at a word, and its box will highlight. Download your gaze data as a CSV file.</p>
     <button onclick="startTracking()">Start Eye Tracking</button>
     <button onclick="stopTracking()">Stop Eye Tracking</button>
     <button onclick="downloadCSV()">Download CSV</button>
-    
-    <div id="gazeDot"></div>
-    <div id="boundingBox"></div>
 
-    <div id="chart-container">
-        <canvas id="gazeChart"></canvas>
-    </div>
+    <div id="text-container"></div>
+    <div id="gazeDot"></div>
 
     <script>
+        const textContainer = document.getElementById("text-container");
         const gazeDot = document.getElementById("gazeDot");
-        const boundingBox = document.getElementById("boundingBox");
-        let gazeDataLog = []; 
-        let gazeChart;
+        const phrase = "remote: warning: See https://gh.io/lfs for more information.  remote: warning: File WebGazer/www/media/video/demo.mp4 is 65.25 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com."; 
+        let gazeDataLog = [];
+
+        // Split text into words and wrap in bounding boxes
+        phrase.split(" ").forEach(word => {
+            const span = document.createElement("span");
+            span.className = "word-box";
+            span.innerText = word;
+            textContainer.appendChild(span);
+        });
 
         function startTracking() {
             GazeCloudAPI.StartEyeTracking();
-            gazeDot.style.display = "block"; 
-
-            if (!gazeChart) {
-                const ctx = document.getElementById("gazeChart").getContext("2d");
-                gazeChart = new Chart(ctx, {
-                    type: "scatter",
-                    data: { datasets: [{ label: "Gaze Points", data: [], borderColor: "blue", backgroundColor: "rgba(0, 0, 255, 0.5)", pointRadius: 3 }] },
-                    options: {
-                        scales: {
-                            x: { title: { display: true, text: "X Coordinate" }, min: 0, max: window.innerWidth },
-                            y: { title: { display: true, text: "Y Coordinate" }, min: 0, max: window.innerHeight }
-                        }
-                    }
-                });
-            }
+            gazeDot.style.display = "block";
 
             GazeCloudAPI.OnResult = function (GazeData) {
                 if (GazeData.state === 0) { // Valid gaze data
                     const x = Math.round(GazeData.docX);
                     const y = Math.round(GazeData.docY);
-                    const timestamp = new Date().toISOString(); 
+                    const timestamp = new Date().toISOString();
 
-                    // Move gaze dot instantly
-                    gazeDot.style.transform = `translate(${x}px, ${y}px)`;
+                    // Move gaze dot using absolute positioning
+                    gazeDot.style.left = `${x}px`;
+                    gazeDot.style.top = `${y}px`;
 
-                    // Check if gaze is inside bounding box
-                    checkBoundingBox(x, y);
+                    let gazedWord = "None"; // Default value
 
-                    // Log data & update chart in real time
-                    gazeDataLog.push({ timestamp, x, y });
-                    updateChart(x, y);
+                    // Check if gaze dot center is inside any word box
+                    document.querySelectorAll(".word-box").forEach(wordBox => {
+                        const rect = wordBox.getBoundingClientRect();
+
+                        // Adjust for scrolling position
+                        const boxLeft = rect.left + window.pageXOffset;
+                        const boxRight = rect.right + window.pageXOffset;
+                        const boxTop = rect.top + window.pageYOffset;
+                        const boxBottom = rect.bottom + window.pageYOffset;
+
+                        const dotX = x + gazeDot.clientWidth / 2;
+                        const dotY = y + gazeDot.clientHeight / 2;
+
+                        if (dotX >= boxLeft && dotX <= boxRight && dotY >= boxTop && dotY <= boxBottom) {
+                            wordBox.style.background = "rgba(0, 0, 255, 0.5)"; // Highlight when looked at
+                            gazedWord = wordBox.innerText;
+                        } else {
+                            wordBox.style.background = "rgba(0, 0, 255, 0.1)"; // Reset color when not looked at
+                        }
+                    });
+
+                    // Store gaze data
+                    gazeDataLog.push({ timestamp, x, y, word: gazedWord });
                 }
             };
 
@@ -109,25 +119,12 @@
 
         function stopTracking() {
             GazeCloudAPI.StopEyeTracking();
-            gazeDot.style.display = "none"; 
-        }
+            gazeDot.style.display = "none";
 
-        function updateChart(x, y) {
-            if (gazeChart) {
-                const dataset = gazeChart.data.datasets[0].data;
-                dataset.push({ x, y });
-                if (dataset.length > 100) dataset.shift();
-                gazeChart.update();
-            }
-        }
-
-        function checkBoundingBox(x, y) {
-            const boxRect = boundingBox.getBoundingClientRect();
-            if (x >= boxRect.left && x <= boxRect.right && y >= boxRect.top && y <= boxRect.bottom) {
-                boundingBox.style.background = "rgba(0, 0, 255, 0.6)"; // Darker blue when gaze is inside
-            } else {
-                boundingBox.style.background = "rgba(0, 0, 255, 0.2)"; // Light blue when outside
-            }
+            // Reset all word boxes to default color
+            document.querySelectorAll(".word-box").forEach(wordBox => {
+                wordBox.style.background = "rgba(0, 0, 255, 0.1)";
+            });
         }
 
         function downloadCSV() {
@@ -136,9 +133,9 @@
                 return;
             }
 
-            let csvContent = "data:text/csv;charset=utf-8,Timestamp,X,Y\n";
+            let csvContent = "data:text/csv;charset=utf-8,Timestamp,X,Y,Word\n";
             gazeDataLog.forEach(entry => {
-                csvContent += `${entry.timestamp},${entry.x},${entry.y}\n`;
+                csvContent += `${entry.timestamp},${entry.x},${entry.y},${entry.word}\n`;
             });
 
             const encodedUri = encodeURI(csvContent);
