@@ -1,8 +1,0 @@
-'0':
-  model_data: model.pkl
-  model_load: runnable_load
-  model_type: RunnableLambda
-'1':
-  model_data: model
-  model_load: runnable_load
-  model_type: RunnableBinding

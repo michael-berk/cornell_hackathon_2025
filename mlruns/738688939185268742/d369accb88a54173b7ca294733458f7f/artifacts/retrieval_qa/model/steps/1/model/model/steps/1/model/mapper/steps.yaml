@@ -1,4 +1,0 @@
-answer:
-  model_data: model
-  model_load: runnable_load
-  model_type: RunnableBinding
