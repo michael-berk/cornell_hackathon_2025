@@ -1,0 +1,4 @@
+context:
+  model_data: model.pkl
+  model_load: runnable_load
+  model_type: RunnableLambda

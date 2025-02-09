@@ -1,0 +1,8 @@
+_type: retriever_chain
+input_key: query
+memory: null
+metadata: null
+name: null
+output_key: source_documents
+tags: null
+verbose: false

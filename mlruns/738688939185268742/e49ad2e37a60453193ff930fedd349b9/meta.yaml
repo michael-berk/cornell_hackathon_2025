@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/michael.berk/dev/cornell_hackathon/cornell_hackathon_2025/mlruns/738688939185268742/e49ad2e37a60453193ff930fedd349b9/artifacts
+end_time: 1739053564268
+entry_point_name: ''
+experiment_id: '738688939185268742'
+lifecycle_stage: active
+run_id: e49ad2e37a60453193ff930fedd349b9
+run_name: handsome-wasp-904
+run_uuid: e49ad2e37a60453193ff930fedd349b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739053557883
+status: 3
+tags: []
+user_id: michael.berk

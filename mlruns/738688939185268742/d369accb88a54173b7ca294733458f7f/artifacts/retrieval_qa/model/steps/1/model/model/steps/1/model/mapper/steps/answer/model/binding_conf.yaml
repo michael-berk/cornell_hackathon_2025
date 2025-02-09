@@ -1,0 +1,14 @@
+bound:
+  model_data: model
+  model_load: runnable_load
+  model_type: RunnableSequence
+config:
+  model_data: config.pkl
+  model_load: pickle_load
+config_factories: []
+custom_input_type: null
+custom_output_type: null
+kwargs:
+  model_data: kwargs.pkl
+  model_load: pickle_load
+name: null

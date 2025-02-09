@@ -2,23 +2,31 @@ import click
 import os
 import mlflow
 
-from langchain_openai import OpenAI
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_aws.retrievers import AmazonKnowledgeBasesRetriever
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableLambda
-from src.utils.api import resolve_openai_api_key
-from src.utils.retriever import load_retriever, clean_query
+from langchain.llms import Bedrock
 
-# TODO: parameterize some of these with a constants file
-VS_INDEX_DIRECTORY = os.path.join(os.getcwd(), "data/vs_index")
+# AWS Bedrock environment configuration
+os.environ["AWS_PROFILE"] = "default"  # Your AWS CLI profile
+os.environ["AWS_REGION"] = "us-west-2"  # AWS region where Bedrock is available
+
+# Amazon Knowledge Base ID
+KNOWLEDGE_BASE_ID = "your-knowledge-base-id"  # Replace with your knowledge base ID
 
 
 def create_chain():
-    retriever = load_retriever(VS_INDEX_DIRECTORY)
+    # Configure the AWS Bedrock Retriever
+    retriever = AmazonKnowledgeBasesRetriever(
+        knowledge_base_id=KNOWLEDGE_BASE_ID,
+        retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 4}},
+    )
 
+    # System and user prompt configuration
     system_prompt = (
-        "Return relevant products to the user query."
+        "Return relevant information from the knowledge base based on the user query."
         "Context: {context}."
     )
     prompt = ChatPromptTemplate.from_messages(
@@ -28,38 +36,45 @@ def create_chain():
         ]
     )
 
-    question_answer_chain = create_stuff_documents_chain(OpenAI(), prompt)
+    # Configure Bedrock LLM
+    bedrock_llm = Bedrock(
+        model_id="anthropic.claude-v2",  # Replace with your desired model
+        region_name="us-west-2"
+    )
 
+    # Create the question-answer chain
+    question_answer_chain = create_stuff_documents_chain(bedrock_llm, prompt)
+
+    # Combine query cleaning and retrieval chain
     return (
-        RunnableLambda(lambda x: {"input": clean_query(x) if isinstance(x, str) else clean_query(x.get("input", ""))})
+        RunnableLambda(lambda x: {"input": x.strip() if isinstance(x, str) else x.get("input", "").strip()})
         | create_retrieval_chain(retriever, question_answer_chain)
     )
 
 
 @click.command()
-@click.option(
-    "--api-key",
-    required=False,
-    help="Your OpenAI API key. Optional if already set as an environment variable.",
-)
-def log_retriever(api_key):
-    resolve_openai_api_key(api_key)
-    mlflow.set_experiment("RAG")
+def log_retriever():
+    mlflow.set_experiment("RAG")  # Log experiment in MLflow
 
-    # Create a RAG chain with simple preprocessing
+    # Define loader_fn to recreate the retriever
+    def loader_fn(dir):
+        return AmazonKnowledgeBasesRetriever(
+            knowledge_base_id=KNOWLEDGE_BASE_ID,
+            retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 4}},
+        )
+
+    # Create RAG chain with Bedrock and Amazon Knowledge Base Retriever
     chain = create_chain()
 
-    # Log the model
+    # Log the model with the loader function
     with mlflow.start_run() as run:
         model_info = mlflow.langchain.log_model(
             chain,
             artifact_path="retrieval_qa",
-            loader_fn=load_retriever,  # Preprocessing function for loading the retriever
-            persist_dir=VS_INDEX_DIRECTORY,
+            loader_fn=loader_fn,  # Provide the loader function for the retriever
             input_example={"input": "hi"},  # Example input for validation
-            code_paths=["src"],  # Add utils for path resolution 
         )
-        print(f"Model uri: {model_info.model_uri}")
+        print(f"Model URI: {model_info.model_uri}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/michael.berk/dev/cornell_hackathon/cornell_hackathon_2025/mlruns/738688939185268742/d369accb88a54173b7ca294733458f7f/artifacts
+end_time: 1739053202540
+entry_point_name: ''
+experiment_id: '738688939185268742'
+lifecycle_stage: active
+run_id: d369accb88a54173b7ca294733458f7f
+run_name: classy-mare-581
+run_uuid: d369accb88a54173b7ca294733458f7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739053193575
+status: 3
+tags: []
+user_id: michael.berk

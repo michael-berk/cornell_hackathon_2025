@@ -1,0 +1,16 @@
+'0':
+  model_data: model
+  model_load: runnable_load
+  model_type: RunnableBinding
+'1':
+  model_data: model.pkl
+  model_load: runnable_load
+  model_type: ChatPromptTemplate
+'2':
+  model_data: model.yaml
+  model_load: config_load
+  model_type: Bedrock
+'3':
+  model_data: model.yaml
+  model_load: config_load
+  model_type: StrOutputParser

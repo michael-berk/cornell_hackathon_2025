@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaze Tracking with Word Bounding Boxes & CSV Logging</title>
+    <script src="https://api.gazerecorder.com/GazeCloudAPI.js"></script>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; padding: 20px; }
+
+        #text-container {
+            font-size: 50px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 50px;
+        }
+
+        .word-box {
+            display: inline-block;
+            padding: 10px;
+            border: 3px solid black;
+            position: relative;
+            background: rgba(0, 0, 255, 0.1); /* Default light blue */
+            transition: background 0.2s ease;
+        }
+
+        #gazeDot {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: red;
+            border-radius: 50%;
+            display: none;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gaze Tracking with Word Bounding Boxes & CSV Logging</h2>
+    <p>Look at a word, and its box will highlight. Download your gaze data as a CSV file.</p>
+    <button onclick="startTracking()">Start Eye Tracking</button>
+    <button onclick="stopTracking()">Stop Eye Tracking</button>
+    <button onclick="downloadCSV()">Download CSV</button>
+
+    <div id="text-container"></div>
+    <div id="gazeDot"></div>
+
+    <script>
+        const textContainer = document.getElementById("text-container");
+        const gazeDot = document.getElementById("gazeDot");
+        const phrase = "remote: warning: See https://gh.io/lfs for more information.  remote: warning: File WebGazer/www/media/video/demo.mp4 is 65.25 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com."; 
+        let gazeDataLog = [];
+
+        // Split text into words and wrap in bounding boxes
+        phrase.split(" ").forEach(word => {
+            const span = document.createElement("span");
+            span.className = "word-box";
+            span.innerText = word;
+            textContainer.appendChild(span);
+        });
+
+        function startTracking() {
+            GazeCloudAPI.StartEyeTracking();
+            gazeDot.style.display = "block";
+
+            GazeCloudAPI.OnResult = function (GazeData) {
+                if (GazeData.state === 0) { // Valid gaze data
+                    const x = Math.round(GazeData.docX);
+                    const y = Math.round(GazeData.docY);
+                    const timestamp = new Date().toISOString();
+
+                    // Move gaze dot using absolute positioning
+                    gazeDot.style.left = `${x}px`;
+                    gazeDot.style.top = `${y}px`;
+
+                    let gazedWord = "None"; // Default value
+
+                    // Check if gaze dot center is inside any word box
+                    document.querySelectorAll(".word-box").forEach(wordBox => {
+                        const rect = wordBox.getBoundingClientRect();
+
+                        // Adjust for scrolling position
+                        const boxLeft = rect.left + window.pageXOffset;
+                        const boxRight = rect.right + window.pageXOffset;
+                        const boxTop = rect.top + window.pageYOffset;
+                        const boxBottom = rect.bottom + window.pageYOffset;
+
+                        const dotX = x + gazeDot.clientWidth / 2;
+                        const dotY = y + gazeDot.clientHeight / 2;
+
+                        if (dotX >= boxLeft && dotX <= boxRight && dotY >= boxTop && dotY <= boxBottom) {
+                            wordBox.style.background = "rgba(0, 0, 255, 0.5)"; // Highlight when looked at
+                            gazedWord = wordBox.innerText;
+                        } else {
+                            wordBox.style.background = "rgba(0, 0, 255, 0.1)"; // Reset color when not looked at
+                        }
+                    });
+
+                    // Store gaze data
+                    gazeDataLog.push({ timestamp, x, y, word: gazedWord });
+                }
+            };
+
+            GazeCloudAPI.OnCalibrationComplete = function () {
+                console.log("Gaze Calibration Complete!");
+            };
+
+            GazeCloudAPI.OnCamDenied = function () {
+                alert("Camera access denied. Please enable your webcam.");
+            };
+
+            GazeCloudAPI.OnError = function (msg) {
+                console.error("Error:", msg);
+            };
+        }
+
+        function stopTracking() {
+            GazeCloudAPI.StopEyeTracking();
+            gazeDot.style.display = "none";
+
+            // Reset all word boxes to default color
+            document.querySelectorAll(".word-box").forEach(wordBox => {
+                wordBox.style.background = "rgba(0, 0, 255, 0.1)";
+            });
+        }
+
+        function downloadCSV() {
+            if (gazeDataLog.length === 0) {
+                alert("No gaze data recorded.");
+                return;
+            }
+
+            let csvContent = "data:text/csv;charset=utf-8,Timestamp,X,Y,Word\n";
+            gazeDataLog.forEach(entry => {
+                csvContent += `${entry.timestamp},${entry.x},${entry.y},${entry.word}\n`;
+            });
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", "gaze_tracking_data.csv");
+            document.body.appendChild(link);
+            link.click();
+        }
+    </script>
+</body>
+</html>
