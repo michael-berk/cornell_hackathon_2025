@@ -33,3 +33,51 @@ Format them as **bolded terms** with **clear, jargon-free definitions** tailored
 
 Generate key concepts based on these parameters and retrieved knowledge.
 """
+
+### **System Learning Goal Prompt**
+
+prompt = f"""
+Generate a **precise, structured learning goal** that defines what the system should prioritize when creating content for {user_topic}.  
+This goal will **inform other AI-generated outputs** (e.g., key concepts, examples, exercises).  
+
+### **Instructions**:
+- The learning goal should be **concise and machine-readable**, serving as a guiding variable.  
+- Tailor it to the user's proficiency level, which in this case is **{user_proficiency} out of 10**.  
+- Keep the goal **specific and constrained by the user’s time commitment**.  
+
+### **Format Example (Internal Learning Goals)**:
+- **Proficiency 2/10:** "Introduce inflation, its causes, and its effects on purchasing power."  
+- **Proficiency 5/10:** "Explain how central banks use monetary policy to manage inflation and stabilize the economy."  
+- **Proficiency 8/10:** "Enable evaluation of inflation trends using economic models and historical data."  
+
+Return only the **system learning goal as a single structured sentence** that can be stored as a variable.
+"""
+
+### **Suggested Readings Prompt**
+
+prompt = f"""
+Query the **RAG database of top university syllabuses** to recommend readings for {user_topic},  
+tailored to the user's proficiency level (**{user_proficiency} out of 10**) and available time (**{user_time}**).  
+Ensure selections are **authoritative, structured, and within the user's reading capacity (130 wpm)**.  
+
+### **Reading Length Constraints**:
+- **1 hour** → ≤ 25,000 characters (~4,500 words)  
+- **30 minutes** → ≤ 12,500 characters (~2,250 words)  
+- **15 minutes** → ≤ 6,250 characters (~1,100 words)  
+
+### **Instructions**:
+1. **Must-Know Reading** (≤ 30 min)  
+   - One essential, engaging, beginner-friendly reading.  
+
+2. **Progressive Learning Plan** (≤ Total Time)  
+   - Three additional readings, structured week-by-week if needed.  
+
+### **Format Example**:  
+📖 **Must-Know Reading:** "Inflation: What You Need to Know" (~20 min)  
+📚 **Progressive Readings:**  
+- **Week 1:** "The Great Inflation" (~30 min)  
+- **Week 2:** "Monetary Policy & Inflation" (~45 min)  
+- **Week 3:** "The Inflation Puzzle" (~1 hr)  
+
+Return **a structured list**, ensuring selections fit the user's **time, proficiency, and learning goal**.
+"""
