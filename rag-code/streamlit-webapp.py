@@ -7,6 +7,30 @@ from datetime import datetime
 # Set up the Streamlit app
 st.set_page_config(page_title="User Data Form", layout="centered")
 
+st.markdown(
+    """
+    <style>
+        @keyframes fire {
+            0% { text-shadow: 0px 0px 20px orange; }
+            50% { text-shadow: 0px 0px 30px red; }
+            100% { text-shadow: 0px 0px 20px orange; }
+        }
+
+        .fire-text {
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            animation: fire 1.5s infinite alternate;
+        }
+    </style>
+
+    <div class="fire-text">🔥 Streamlit Fire Effect 🔥</div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # st.markdown("""
 #     <style>
 #         /* Make the entire page scrollable */
