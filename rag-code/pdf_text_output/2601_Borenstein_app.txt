@@ -1,0 +1,145 @@
+Online Appendix for
+“The Private and Public Economics of Renewable Electricity Generation”
+Severin Borenstein
+Published in Journal of Economic Perspectives, Winter 2012
+Calculation of subsidies for fossil fuels
+The paper states that “Adeyeye et. al. (2009) estimate that total subsidies for fossil fuels
+from 2002-2008 were $72 billion in the United States, of which about $21 billion plausibly
+went to domestically produced coal and natural gas that went into electricity production.”
+Based on the descriptions on page 7-16 of Adeyeye et. al. (2009), this includes all of the
+categories that are primarily subsidizing coal: Credit for Production of Nonconventional
+Fuels ($14.1b), Black Lung Disability Trust Fund ($1.0b), Characterizing Coal Royalty
+Payments as Capital Gains ($1.0b), Exclusion of Beneﬁt Payments to Disabled Miners
+($0.4b), Other-Fuel Exploration & Development Expensing ($0.3b), Other-Fuel Excess of
+Percentage over Cost Depletion ($0.3b), Special Rules for Mining Reclamation Reserves
+($0.2b), Natural Gas Distribution Lines Treated as Fifteen-Year Modiﬁed Accelerated Cost
+Recovery System (MACRS) Property ($0.1b), Expensing Advanced Mine Safety Equip-
+ment ($0.03b). In addition, for a number of oil and natural gas items, I’ve prorated for the
+value of natural gas used in electricity generation as a share of all oil and gas production
+in the U.S., which average about 16% over this period. This percentage is applied to Oil
+and Gas Exploration & Development Expensing ($7.1b), Oil and Gas Excess Percentage
+over Cost Depletion ($5.4b), Exception from Passive Loss Limitations for Oil and Gas
+($0.2b). I also include in this category Reduced Government Take from Federal Oil and
+Gas Leasing ($7.0b), which is charging below-market rates for leases. These are arguably
+subsidies, but they are actually unlikely to be passed through to prices for natural gas. I do
+not include the Foreign Tax Credits, which could be subsidies, but are extremely unlikely
+to aﬀect domestic prices for natural gas or coal.
+1
+
+Calculation of Levelized Cost for Residential Solar Photovoltaic Power
+This is an extended version of the published section on levelized cost of residential solar
+PV, including citations for assumptions and discussion of some issues in more detail.
+In this section, I apply the analytic approach described above to update the calculations
+of levelized cost of residential solar power from Borenstein (2008a), taking into account
+recent changes in the cost of solar photovoltaic systems.
+According to Barbose et al (2011), residential-scale solar systems (less than 10 kilowatt
+capacity) in 2010 varied in average price from $6.3/watt in New Hampshire to $8.4/watt
+in Utah, with California – by far the largest state for residential solar – at $7.30. Taking
+California’s number as the benchmark, Table 2 presents the implied levelized cost of power
+for a 5 kilowatt system located in Sacramento, California, under alternative real discount
+rates. The underlying assumptions, noted in the table, are intended to be median estimates,
+if anything tilted somewhat towards a lower cost of solar power.
+The real interest rate of 3 percent implies a levelized cost of $0.315 per kilowatt-hour.
+I follow Borenstein (2008a) in adjusting for the timing of production, increasing the value
+of residential solar by 20 percent, which is slightly higher than the estimated gains of 15%-
+17% in a typical grid operation (with generation reserves) for Southwest facing panels in
+Sacramento, but lower than the 40%-50% premium in an “ideal” economic grid with no
+generation reserves and prices clearing the market hour by hour. I adjust for the location
+of production, increasing value by just 1 percent as found in Borenstein (2008a), because
+residential solar panels are not disproportionately located in congested areas. These eﬀects
+are incorporated by adjusting the levelized cost down to $0.260 per kilowatt-hour (=
+0.315
+1.2·1.01).
+An additional downward adjustment of $0.02 per kilowatt-hour accounts for
+long-run savings in transmission investment, as discussed in Borenstein (2008b, p. 10),
+which brings the net cost to $0.240.1 This compares to levelized costs for combined-cycle
+gas-ﬁred generation that are now generally below $0.08 per kilowatt-hour given recent price
+forecasts for natural gas that account for supply increases from new production techniques.
+Adjusting next for environmental externalities raises the issues discussed earlier about
+the cost of those externalities. If one assumes that new residential solar generation substi-
+tutes for new combined-cycle gas turbines, then the local pollutant reduction is valued at
+1 Even the ﬁgure $0.02 per kilowatt-hour is above the average transmission cost per kilowatt-hour in most
+U.S. utilities including California.
+2
+
+Table 2: Levelized Cost of Residential Solar Photovoltaic Power
+Real Interest Rate
+1%
+3%
+5%
+7%
+9%
+Real Levelized Cost
+$0.249
+$0.315
+$0.389
+$0.468
+$0.551
+Assumptions: Five kilowatt system costs $36,500 installed (California estimate for 2010 from Barbaose et
+al (2011, p. 21)). Panels last for 30 years with no shading or soiling and no maintenance costs, producing
+on average 0.77 kilowatts over all hours in ﬁrst year (based on Sharp corporation calculator for SSW
+facing panels in Sacramento, California (http://sharpusa.cleanpowerestimator.com/default.aspx). Output
+of panels declines by 0.5% per year due to degradation (Barbose et al (2011, p. 47)). Inverter replaced
+after 10 (at $2552) and 20 (at $2171) years, based on current cost of $3000 (Barbose et al (2011, p. 16))
+declining by 2% annually in real terms (Borenstein (2008a) and cites therein).
+about $0.0015 per kilowatt-hour according to Muller, Mendelsohn and Nordhaus (2011).
+That leaves a cost gap between residential solar and combined-cycle gas turbine generation
+of at least $0.158. The gas plant emits slightly less than 0.0005 tons of carbon dioxide per
+kilowatt-hour of electricity, so residential solar would be cost competitive on a social cost
+basis only if the cost of carbon dioxide emissions were greater than $316 per ton. Nearly
+all social cost and price forecasts for carbon dioxide are well below $100 per ton (Green-
+stone, Kopits and Wolverton, 2011), which leaves residential solar still at least $0.108 per
+kilowatt-hour more expensive.
+This analysis is for the cost of installation in 2010. Barbose et al (2011) report prelim-
+inary data suggesting that costs for systems below 10 kilowatts fell $0.5 per kilowatt in
+the ﬁrst half of 2011, but they don’t report details for California. Nonetheless, this high-
+lights the fact that such cost analyses are in constant ﬂux as technology improves and as
+supply/demand factors change. It’s also important to note that I have used the retail cost
+of installation (before subsidies) to represent the social cost of photovoltaics. Depending
+on the degree of capacity utilization, exercise of market power and the supply/demand
+balance in the equipment and installation markets, retail price may be above or below
+long-run marginal cost of production and distribution of a given technology.
+This analysis does not account for distribution cost savings from distributed generation
+or for spillovers from learning-by-doing, for which analyses oﬀer much less guidance. On
+the other side, it also doesn’t incorporate reduced output due to shading or soiling of the
+panels, or installation at a less-than-ideal angle due to the building orientation, as discussed
+in Borenstein (2008b). Nor does it account for the cost of extra generation reserves to
+backup intermittent generation. In addition, it does not incorporate the expected returns
+to waiting and the option value of waiting: if cost declines are expected to occur for
+exogenous reasons, then installing solar in the future could have a higher social net present
+3
+
+value that installing today. In addition, to the extent there is uncertainty about the rate
+of cost declines – in solar and in alternatives to solar – then waiting retains the option
+to pursue a diﬀerent technology for a given project if it turns out to be less expensive.
+Nonetheless, this analysis does give a good notion of the gap that those omitted factors
+would have to ﬁll on net in order for residential solar photovoltaics to cost-eﬀectively
+substitute for gas-ﬁred generation.
+Medium-scale and large-scale solar photovoltaics installations and large-scale solar ther-
+mal generation are more cost competitive.
+Contracts for these larger systems are not
+public, but reports in the industry press suggest the unsubsidized levelized cost from these
+installations is probably between $0.15 and $0.20 per kilowatt-hour in 2011, before any of
+the market or externality adjustments, and likely using more than a 3% real cost of capital.
+These systems enjoy the same production timing beneﬁt as residential solar, but less (or
+none) of the reduction in line losses and transmission savings. These systems would require
+a much lower cost of carbon dioxide to be competitive with gas-ﬁred generation, though
+still probably $100 per ton or greater.
+REFERENCES
+Adeyeye, Adenike, James Barrett, Jordan Diamond, Lisa Goldman, John Pendergrass, and
+Daniel Schramm. 2009. Estimating U.S. Government Subsidies to Energy Sources:
+2002-2008. Washington, DC: Environmental Law Institute.
+Barbose, Galen, Na¨im Dargouth, Ryan Wiser and Joachim Seel. 2011. “Tracking the Sun
+IV: An Historical Summary of the Installed Cost of Photovoltaics in the U.S. from
+1998 to 2010.” Lawrence Berkeley National Laboratory Paper LBNL-5047E.
+http://eetd.lbl.gov/ea/emp/reports/lbnl-5047e.pdf
+Borenstein, Severin. 2008a. “The market value and cost of solar photovoltaic electricity
+production.” Center for the Study of Energy Markets Working Paper 176.
+http://www.ucei.berkeley.edu/PDF/csemwp176.pdf.
+Borenstein, Severin. 2008b. “Response to Critiques of ‘The market value and cost of solar
+photovoltaic electricity production’.”
+http://faculty.haas.berkeley.edu/borenste/PVwork.html
+Muller, Nicholas Z., Robert Mendelsohn and William Nordhaus. 2011. “Environmental
+Accounting for Pollution in the United States Economy” American Economic Review
+101(4): 1649-1675.
+4

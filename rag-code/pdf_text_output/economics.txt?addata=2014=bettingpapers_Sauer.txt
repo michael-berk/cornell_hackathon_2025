@@ -1,0 +1,4984 @@
+Journal of Economic Literature
+Vol. XXXVI (December 1998), pp. 2021–2064
+Sauer: Economics of Wagering Markets
+The Economics of Wagering Markets
+RAYMOND D. SAUER1 
+1. Introduction
+T
+HIS PAPER ANALYZES the economics
+of wagering markets, specifically
+markets in which participants take a fi-
+nancial position on the outcome of a
+sporting event such as a horse race or a
+football game. Although these markets
+are a tiny feature of most economies,
+they present significant opportunities for
+economic analysis. These stem from the
+fact that wagering markets are especially
+simple financial markets, in which the
+scope of the pricing problem is reduced.
+As a result, wagering markets can pro-
+vide a clear view of pricing issues which
+are more complicated elsewhere.
+Two basic questions form the root of
+the research analyzed in this paper.
+First, given that expected returns in the
+aggregate are negative, why do people
+trade in these markets? Second, are the
+prices, i.e. odds and point spreads, we
+observe consistent with equilibrium
+models of agents who make informed,
+optimizing choices? These questions do
+not have simple answers, but in attack-
+ing them the literature has deepened
+our understanding of the forces at work
+in wagering markets and elsewhere.
+Early work on wagering markets fol-
+lowed post-war advances in expected
+utility theory. These studies had the
+modest aim of using data on racetrack
+betting to examine risk-taking behavior
+in a simple, repeated context. The as-
+sumption, explicit in William McGlothin
+(1956, p. 605) and implicit elsewhere,
+was that “there is sufficient compara-
+bility among individuals to make an
+investigation of group risk-taking be-
+havior meaningful.” This approach, in
+which aggregate data is used to charac-
+terize the preferences of a representa-
+tive agent, was a successful first step in
+developing and explaining basic stylized
+facts. However, many results from re-
+cent research cannot be explained
+within this framework.
+The efficient markets hypothesis has
+proven to be a more flexible empirical
+tool. Since these are gambling (as op-
+posed to capital) markets, efficiency im-
+plies that the expected rate of return to
+bettors has an upper bound of zero; i.e.,
+it denies the existence of profitable
+wagering opportunities. Although some
+papers are concerned with this issue in
+a narrow sense, many analyses exploit
+features unique to wagering markets to
+study questions of general interest in
+economics and finance. The optimality
+of learning in a stochastic environment,
+the nature of the error term in pricing
+models, and the identification of in-
+formed trading are examples where the
+concept of market efficiency has been
+creatively employed.
+To preview the subsequent discus-
+sion, there is a substantial amount of
+2021
+1 Clemson University. I am grateful to Bill Dou-
+gan, Dave Gordon, Mike Maloney, Frank Wolak,
+two anonymous referees, and seminar participants
+at Clemson and Florida State for many helpful
+comments and suggestions.
+
+evidence that prices set in wagering
+markets are, to a first approximation,
+efficient forecasts of outcomes. Yet
+there are important (and interesting)
+exceptions to this rule. These excep-
+tions often highlight the effects of dif-
+ferences in information possessed by
+different agents. Ultimately, it is clear
+that prices formed in the wagering mar-
+ket aggregate scarce information from
+diverse sources. An asset-pricing frame-
+work which assumes agents with identi-
+cal information and identical prefer-
+ences is incapable of explaining these
+findings. Models focusing on diverse in-
+formation, heterogeneous agents, and
+transaction costs are required to better
+understand these markets.
+Section 2 introduces the institutions,
+concepts, and notation that form the ba-
+sis for the subsequent discussion of em-
+pirical work. It is particularly important
+to be clear about what is meant by the
+term “efficient” in various contexts.
+This section uses a simple model of the
+wagering market as an example to
+clarify this issue. This example, which
+emphasizes differential motivations and
+information 
+of 
+market 
+participants,
+helps to explain evidence that is
+inconsistent with a generic concept of
+efficiency.
+Section 3 considers the motivation
+for gambling. It is important to at least
+ask the question “why do people trade
+in these markets” even if the answers
+are not completely satisfying. The rep-
+resentative agent model of a wagering
+market based on expected utility maxi-
+mization with local risk preference is
+discussed in detail here.
+The bulk of the discussion considers
+the empirical evidence on the nature of
+prices in these markets. Section 4
+reviews the literature on racetrack
+betting, with special attention given to
+the favorite-long shot bias. Section 5
+focuses on the point spread betting
+market for North American football and
+basketball games. Section 6 attempts to
+put these findings in perspective.
+2. Odds, Institutions, and Efficiency
+2.1 Odds and Institutions
+Betting on athletic events dates to an-
+cient times. The indigenous population
+of North America, for example, bet on
+foot races and ball games (Stewart Culin
+1921). The Circus Maximus in Rome was
+one of many racetracks scattered across
+the Roman Empire (John Humphrey 1986).
+This arena drew crowds of 260,000 peo-
+ple, who were described en route to the
+stadium as “already in a fury of anxiety
+about their bets.”2  
+The laws regulating wagering markets
+are the result of a perpetual tug of war
+between gambling interests and reform-
+ers.3  In the United States, pari-mutuel
+markets have been the principal means
+of wagering on horse races, primarily
+because state prohibitions on bookmak-
+ing were passed early in the 20th cen-
+tury. Currently, bookmaking on sport-
+ing events in the U.S. is legal only in
+Nevada. This market has grown rapidly,
+in part due to reductions in the Federal
+excise tax on wagering from 10 percent
+to 0.25 percent. Between 1972 and
+1995, the annual wagering on sports
+(exclusive of horse races) in Nevada
+grew more than two hundredfold, from
+$1 million to over $2 billion.4  
+2 Tertulian, an opponent of gambling, quoted in
+H. A. Harris, 1972, p. 229.
+3 See Reuven Brenner and Gabriele Brenner
+(1990, Ch. 5); also Wray Vamplew (1976) on book-
+making in the U.K., and William Robertson (1964,
+pp. 195–200 and 299–301) on racetrack betting in
+the U.S. John Findlay (1986) and Roger Longrigg
+(1972) provide informative histories of gambling
+in the U.S., and horse racing throughout the
+world, respectively.
+4 These figures are from the Monthly Revenue
+Report issued by the Nevada Gaming Control
+Board. The illegal market is believed to be far
+greater in size; Gaming and Wagering Business
+Magazine estimated it to be $20.7 billion in 1988.
+2022
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+Three forms of wagering are promi-
+nent in the literature covered here:
+pari-mutuel odds, odds offered by book-
+makers, and point spreads offered by
+bookmakers. The pari-mutuel system is
+exclusively used by racetracks in North
+America, France, Hong Kong, and Ja-
+pan, and coexists with a bookmaking
+market in Australia and Great Britain.
+Nevada bookmakers take bets on races
+at major tracks, and offer odds or point
+spreads on team sports such as baseball,
+basketball, and football. The legal book-
+making market is less restricted, more
+extensive, and more liquid in Great
+Britain and Australia.
+In pari-mutuel betting, a predeter-
+mined percentage is taken out of the
+betting pool to cover the market
+maker’s costs, and the remainder is re-
+turned to winning bettors in proportion
+to their individual stake. Consider a
+pari-mutuel betting pool on the winner
+of a horse race. Let Wi be the total
+dollars bet on horse i to win, and
+W = Σi = 1,nWi denote the total wagered
+on all n horses. Also, denote horse i’s
+share of the win pool as wi = Wi ⁄ W. The
+takeout rate is τ, and the fraction
+Q = (1 − τ) of the wagering pool is re-
+turned to winning bettors. The gross re-
+turn to a winning $1 bet on horse i is
+thus:5 
+Ri = QW ⁄ Wi = Q ⁄ wi
+(1)
+Let 
+Oi = Ri − 1 
+denote 
+the 
+odds
+against horse i, which measure the net
+return per dollar wagered. In the pari-
+mutuel system, the actual payoffs to
+winning bettors are determined once
+and for all at the close of the betting
+period.
+Bookmakers offer their patrons a set
+of payoffs conditional on the outcome
+of a given event. The payoffs offered
+may change during the betting period,
+but the payoff to each bet is determined
+at the time the bet is placed. The return
+conditional on winning is thus known at
+the time of the wager, in contrast to the
+pari-mutuel system, where heavy bet-
+ting late in the period can reduce re-
+turns below acceptable levels.6  Indi-
+viduals who make bets large enough to
+affect the odds naturally prefer to bet
+with a bookmaker.
+Point spread betting on football
+games is the staple of the Las Vegas
+sports betting market. In a point spread
+wager the payoff depends on the differ-
+ence in points scored by the two oppos-
+ing teams. Point spreads (PS) are typi-
+cally reported as the number of points
+by which one team is favored to beat
+another. Define the actual difference in
+points, DP, as the points scored by the
+favored team less those scored by the
+underdog. Bets on the favorite pay off
+when DP − PS > 0, bets on the under-
+dog pay off when DP − PS < 0, and all
+bets are refunded when DP = PS. The
+“eleven for ten rule” characterizes stan-
+dard terms in the Las Vegas market,
+where τ = .1 and successful bets return
+net winnings of $1 to every $(1 + τ)
+wagered.
+It is easy to see how the point spread
+represents a price in this market. Let p
+represent the probability that wagers on
+5 This is a simplification. A typical pari-mutuel
+system truncates the payoff to the nearest 5 cents
+on the dollar, with a minimum payoff of 5 cents on
+the dollar. Let tr(x) truncate x to the closest inte-
+ger. The payoff determined by the system just de-
+scribed is Ri = max(1.05, .05*tr(20QW/Wi)). It is
+extremely rare for the minimum to be binding in
+win betting, although it does arise periodically in
+show betting (where bets on the top three finish-
+ers receive payoffs) in races with extreme favor-
+ites.
+6 There is an important exception to this rule. In
+Britain’s betting shops it is common to make wa-
+gers at the “starting price,” which is the officially
+determined odds prevailing in the bookmaking
+market at post time of the race. The unknown na-
+ture of the return is thus similar to that in the
+pari-mutuel system. Note that many of these bets
+are made before the market on the race opens;
+hence the odds are not yet known.
+ Sauer: Economics of Wagering Markets
+2023
+
+the favorite pay off; i.e. p = prob(DP −
+PS) > 0. The expected cost of an at-
+tempt to gain $1 by betting on the fa-
+vorite is the amount wagered times the
+probability of losing, or $(1 + τ)(1 –
+p).7  Since p falls as PS increases, the
+expected cost of a wager on the favored
+team, i.e. its price, is increasing in PS.
+2.2 Efficiency Defined
+Although there is no single definition
+of market efficiency, there are several
+concepts that are widely utilized in vari-
+ous empirical settings. This section
+introduces three concepts that will be
+referred to in the paper. The most
+restrictive of the three requires that
+expected returns be equal across wager-
+ing prospects.
+Constant Returns. The constant ex-
+pected returns model is the basis for
+many investigations of the efficiency of
+racetrack betting. If it is assumed that
+the takeout rate τ = 0, and that all
+agents are fully informed, have identical
+risk-neutral preferences, and maximize
+wealth, an immediate implication of
+optimizing behavior is that the expected
+return from betting on all horses equals
+1. This is easily seen. Let pi be the
+probability that horse i wins, i = 1, ..., n.
+Using (1), the expected return to bet-
+ting $1 on horse i is given by
+ERi = piQ ⁄ wi.
+Consider a value-weighted portfolio
+with weights vi equal to the share of the
+win pool for each horse, vi = wi. The
+return to a value-weighted portfolio is
+important since it represents the return
+to the representative agent. Q = 1 when
+τ = 0, thus the expected (and actual) re-
+turn to the value-weighted portfolio is
+Σi vi pi ⁄ wi = Σi pi = 1.
+Now suppose ERk > 1. This implies
+that the expected return to a value
+weighted portfolio of all horses exclud-
+ing k is less than 1. Since all agents are
+equally informed and have identical
+preferences, all agents observe that
+their wealth is increased by betting on
+horse k. Additional betting on horse k
+increases wk, reduces ERk, and in-
+creases the expected return for all other
+horses. Hence ERk > 1 cannot repre-
+sent an equilibrium. This argument
+extends to all n horses. Expected re-
+turns of 1 for all n horses is thus
+required for equilibrium this setup.
+When τ > 0, equilibrium assuming con-
+stant expected returns requires that the
+return to any value weighted portfolio
+of all horses is Q = (1 − τ) < 1.
+Subjective probabilities refer to the
+betting 
+market’s 
+estimate 
+of 
+each
+horse’s chance of winning the race. This
+term has its root in the constant returns
+model. Let the subjective probability
+that horse i wins the race be si, and
+satisfy the equation Qsi ⁄ wi = Q. That is,
+people bet such that they expect the
+return from each horse to equal Q. This
+assumption is the basis for using bet-
+ting shares from the win pool, wi to
+measure si. Further, assume that si = pi.
+If the constant returns model is true,
+then wi = pi —horse i’s share of the win
+pool measures its true probability of
+winning.
+Empirical analyses which examine the
+rate of return to wagers across different
+classes of prospects (categories of
+horses) implicitly test a version of the
+constant returns model where the hy-
+pothesized return is Q < 1. The theo-
+retical basis for such tests is weak, how-
+ever, since the motivation for wagering
+in the presence of a positive takeout
+rate must be addressed. A preference
+for gambling must be introduced, and
+this preference must be “just right” to
+generate constant returns when τ > 0.
+Local risk-loving in a utility of wealth
+framework will not generate constant
+7 We can assume prob(DP=PS)=0 with no loss of
+generality, since bets are refunded when DP=PS.
+2024
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+returns in equilibrium, as shown by
+Richard Quandt (1986) and discussed in
+Section 3.
+The Absence of a Profit Opportunity
+and Efficient Point Spreads.  Many
+papers calculate the profitability of
+wagering rules. These tests are moti-
+vated by the idea that gambling markets
+can’t simultaneously yield profits for
+both market makers and the aggregate
+betting public. Since profits for market
+makers must be non-negative, the exis-
+tence of profitable wagering rules is, at
+a minimum, inconsistent with informed
+behavior by bettors. A simple test of the
+absence of profit opportunities concept
+of efficiency examines returns to follow-
+ing a particular wagering rule. Rejec-
+tion of the hypothesis that ERk ≤ 1
+would 
+provide 
+statistical 
+evidence
+against the absence of profit opportuni-
+ties concept of efficiency.
+In point spread betting, the absence
+of a profit opportunity restricts the
+probability of making a successful point
+spread wager. With zero takeout, pay-
+offs are at odds of 1 to 1, and this con-
+cept of efficiency implies (i) that the
+probability of a successful wager is .5,
+and (ii) that PS is the median of the DP
+distribution.
+Takeout weakens the implication.
+Again, let p be the probability that
+bets on the favorite are winners, with
+odds set at 1 to (1 + τ). The absence of
+a profit opportunity requires that the
+expected return to a bet on the favorite
+be no greater than the cost of a wager,
+i.e., that p(1 + (1 + τ)) ≤ (1 + τ). The same
+requirement must hold for wagers on
+the underdog, which restricts (1 − p)
+(1 + (1 + τ)) ≤ (1 + τ). Combining these
+conditions, the absence of a profit op-
+portunity requires that8 
+1 ⁄ (2 + τ) ≤ p ≤ (1 + τ) ⁄ (2 + τ)
+(2)
+which is less restrictive than the median
+condition when τ > 0 .
+Equilibrium Pricing Functions. The
+equilibrium of an explicit model can be
+viewed as characterization of efficient
+prices. Equilibrium pricing functions
+depend importantly on the information
+structure and behavioral assertions im-
+posed on market participants. Examples
+include Quandt (1986) and Hyun Song
+Shin (1992), two leading models of the
+favorite-long shot bias.
+Pricing functions derived from ex-
+plicit models are important because they
+fill the gap between the two generic
+concepts of efficiency discussed above.
+The absence of profit opportunities is
+too weak to explain some persistent fea-
+tures of the data which are inconsistent
+with constant returns. The favorite-long
+shot bias is one such example.
+If one insists that the efficiency con-
+cept be restricted to models in which all
+agents are fully informed and share
+common preferences, then equilibrium
+pricing functions derived under alterna-
+tive assumptions would not qualify as
+efficient. I believe a broader definition
+of efficiency is warranted. Suppose we
+consider a model in which uninformed
+agents have a taste for betting on
+horses, and a group of informed bettors
+maximizes a concave function of wealth.
+Let the model generate an equilibrium
+in which both sets of agents are at least
+as well off pursuing this activity than
+the next best alternative, with no profit
+opportunity for new entrants. Basic
+models of exchange characterize such
+outcomes as efficient. However, the
+constant returns concept of financial
+market efficiency would exclude this
+pricing function if, for instance, the
+expected return to an informed bettor
+differed across categories of horses.
+What is important is that we have test-
+able models which predict observed
+phenomena. For this reason, it is useful
+8 This implication obviously holds for any two-
+sided condition.
+ Sauer: Economics of Wagering Markets
+2025
+
+to adopt a broad definition of efficiency
+which 
+includes 
+equilibrium 
+pricing
+functions from well-posed models of
+the wagering market.
+2.3 Efficiency in Markets 
+   with Heterogeneous Agents: 
+   An Example
+Wagering markets are fascinating in
+part because cheering for competitors is
+linked to loyalty, passion, and other “ir-
+rational” concepts. These traits surely
+affect the behavior of some market par-
+ticipants. But since prices (odds and
+point spreads in this context) are deter-
+mined at the margin, it is not a given
+that these traits will affect market
+prices. It is the marginal agent, about
+whom little is known from psychological
+studies, that is crucial to pricing.
+The following example illustrates
+some important points related to mar-
+ket efficiency, and is intended to pro-
+vide a unifying basis for interpreting much
+of the empirical work that follows.
+A Horse Race with “Irrational” Bet-
+ting. Consider a horse race contested by
+three horses of equal ability but differ-
+ent color. Index each horse by hi and
+denote the probability that hi wins by
+pi = 1 ⁄ 3, i = 1, 2, 3. Further assume that
+each of N uninformed bettors wagers $1
+on the horse of their favorite color.
+Color 
+preferences 
+are 
+distributed
+evenly so that $N/3 is bet on each
+horse. For simplicity, assume there is
+no takeout so that all money bet is dis-
+tributed to the winning bettors.
+In this example, each bet is a fair one
+since the expected return to a $1 bet on
+hi is ERi = piN ⁄ (N ⁄ 3) = 1. Suppose an
+economist using the constant returns
+concept examines data generated by a
+series of these races. The economist
+would find this market to be efficient,9
+despite the fact that the basis for deci-
+sion making has nothing to do with the
+outcome of the race.
+Now change the scenario. Suppose
+that in each race, horse k is randomly
+chosen to be more likely to win. Specifi-
+cally, 
+let 
+prob(hk = hi) = 1 ⁄ 3, i = 1, 2, 3;
+and pk = p = 2 ⁄ 3, pj = 1 ⁄ 6, j ≠ k. The unin-
+formed bettors place wagers as before.
+The efficiency conclusion is the same if
+the economist, like the bettors, does
+not know which horse has been chosen
+more likely to win.
+Informed 
+Betting 
+and 
+Efficiency.
+Now introduce a single informed agent
+with knowledge of the correct set of
+probabilities and of the betting by oth-
+ers, and assume his objective is to maxi-
+mize the expected profit from betting.
+Let si
+u represent the subjective prob-
+abilities (i.e. betting shares) of the
+uninformed 
+bettors. 
+Rufus 
+Isaacs
+(1953) studied this problem and showed
+that the optimal wager is always positive
+when Qpi ⁄ si
+u > 1, which is clearly the
+case for hk.10 Denoting the amount wa-
+gered on hk by x, expected profits are
+EΠ = p (N + x)
+(N ⁄ 3 + x) x − x
+where p = 2 ⁄ 3 by assumption. In this
+case, the expected profit maximizing wa-
+ger is x∗ = N ⁄ 3. If the informed agent
+bets optimally, the total amount wagered
+is now 4N ⁄ 3, with 2N ⁄ 3 bet on hk and
+N ⁄ 3 bet on each of the other horses. The
+expected return to betting $1 on hk is
+now ERk = (2 ⁄ 3)(4N ⁄ 3) ⁄ (2N ⁄ 3) = 4 ⁄ 3 >1.
+Our economist will discover this eventu-
+ally (hk is now always favored and thus
+easily identified), and correctly pro-
+nounce this market to be inefficient.
+As the number of informed agents is
+increased, the betting on hk increases
+and expected returns to bets on all
+9 Which it is, since there is no incentive to alter
+choices.
+10 See L.C. MacLean, W.T. Ziemba, and G.
+Blazenko (1992 for an analysis incorporating risk
+aversion).
+2026
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+horses converge towards 1 again. Wil-
+liam Hurley and Lawrence McDonough
+(1995) derive the non-cooperative Nash
+solution for the case of M ≥ 1 informed
+agents. Since informed agents will only
+consider betting on hk in this example,
+the problem for informed agent m is to
+maximize
+EΠm = p (N + Σx)
+(N⁄3 + Σx)xm − xm
+where Σx represents the betting of all M
+informed agents.
+Solving this problem assuming in-
+formed agents are identical yields a
+solution 
+for 
+xm = x∗ = x∗(N, M, p, σk).11
+Total betting by informed agents Mx∗ is
+increasing in M. As a result, the ex-
+pected return to betting hk, ERk =
+ p(N + Mx∗) ⁄ (N ⁄ 3 + Mx∗) asymptotically
+approaches 1.
+Table 1 presents the optimal wager
+x∗ and total wagering Mx∗ by informed
+agents as M increases. The rightmost
+columns of Table 1 present the ex-
+pected return to betting hk and the ag-
+gregate subjective probability of all
+agents. The calculations are made for
+the case described above, with N set to
+100. This enables the wagering magni-
+tudes to be interpreted as percentages
+relative to the volume of uninformed
+betting.
+As indicated by the case in which
+M = 1, the difference between 1 and ERi
+can be substantial when the number of
+informed agents is small.12  Neverthe-
+less, it does not take many informed
+agents to drive expected returns close
+to 1. It is worth noting also that the
+uninformed agents are treated some-
+what implausibly in this example, since
+it is profitable for them to switch their
+bets from their preferred color to the
+betting favorite. Such behavior in-
+creases the tendency for expected re-
+turns to converge to 1.
+Discussion. This example illustrates
+several points that are sometimes ob-
+scured in the debate on financial mar-
+ket efficiency. First, all agents need not
+be informed for a market to be effi-
+cient. In this example, a conclusion of
+market efficiency is reached with either
+zero (which is fortuitous) or a small
+number of informed agents. Second, a
+finding of efficiency does not imply the
+absence of irrational behavior. By irra-
+tional, I mean simply that some partici-
+pants base their wagers on irrelevant
+data, as in this example. This line of
+thinking has important implications. An
+example is how we interpret survey evi-
+dence on expectations and behavior.
+Survey evidence documenting biased
+expectations does not necessarily imply
+that market prices will be similarly
+biased.
+Third, it is the marginal agent that is
+crucial to efficient pricing. Indeed,
+once the information asymmetry is in-
+troduced, competition among marginal
+agents is required for efficiency. Repre-
+sentative agent models in which all bet-
+tors have access to identical public in-
+formation are quite restrictive, and will
+11 The solution for xm proceeds as before, using
+∂xj ⁄ ∂xm = 0, j = 1, 2, ..., M.
+The resulting quadratic equation 
+x2 + x(2N ⁄ 3)
+
+
+1
+M − (M − 1)
+M2
+ ⋅ 
+p
+1 − p
+
+
+
+ 
+             + (N ⁄ 3)2
+M2
+ − 
+p
+1 − p ⋅ 2N2 ⁄ 9
+M2  = 0
+yields the solution x∗(N, M, p, sk) :
+x∗ = (N ⁄ 3)
+
+
+(M − 1)z − 1
+M
+
+
+
+ + 1
+2M
+ √
+(4N2 ⁄ 9)
+
+
+
+1 
+M − z(M − 1)
+
+
+
+2
+ − 4 
+
+
+
+N2 ⁄ 9
+M2  − z(N ⁄ 3)(2N ⁄ 3)
+
+
+
+ 
+where z = p ⁄ (1 − p)M2.
+12 This requires of course that there be a sub-
+stantial difference between the true probabilities
+and subjective probabilities of the uninformed
+agents, as in this example.
+ Sauer: Economics of Wagering Markets
+2027
+
+be rejected when private information is
+important and limited to small groups.
+Horse race betting is just such a case.
+Many results in this literature which de-
+part from the constant expected returns
+standard are related to these factors.
+Finally, it is well known but worth re-
+iterating that efficiency is not a stand-
+alone concept. Efficient prices embody
+properties that are implied by a given
+model, and are therefore dependent on
+the behavioral assertions, constraints,
+and information structure that charac-
+terize the model. Hence, the source of
+error when efficiency is rejected is by
+no means immediately obvious. My own
+view is that the generic efficient mar-
+kets hypothesis is a very useful bench-
+mark. Its generality is at once a great
+strength, since it can be widely applied,
+and a great weakness, since it will be
+rejected in settings where idiosyncratic
+conditions are important. But rejections
+of efficiency don’t just highlight limita-
+tions of the basic model; they must be
+studied carefully, for it is these cases
+which add the most to our under-
+standing of the forces that create mar-
+ket prices.
+3. Models of Gambling Behavior 
+and Gambling Markets
+3.1 Utility-of-Wealth Models 
+   of Gambling
+Models of gambling based on ex-
+pected utility date back to Daniel
+Bernoulli’s famous solution to the St.
+Petersburg paradox. Bernoulli posited
+that individuals value a gamble using a
+probability-weighted 
+utility 
+function
+instead of the standard mathematical
+expectation (see Kenneth Arrow 1952,
+pp. 420–21; and Mark Machina 1987, p.
+122–23).13  Since the solution requires
+TABLE 1
+INFORMED AGENTS, OPTIMAL WAGER SIZE AND EXPECTED RETURNS
+Number of Informed
+Optimal Wager
+Total Informed
+Expected Return
+Probability Subjective
+M
+x*
+Mx*
+pRk
+Rk-1
+ 0
+—
+ 0.0
+2.000
+0.333
+ 1
+33.3
+33.3
+1.333
+0.500
+ 2
+28.9
+57.7
+1.155
+0.577
+ 3
+23.3
+69.9
+1.097
+0.608
+ 4
+19.2
+76.8
+1.070
+0.623
+ 5
+16.2
+81.1
+1.055
+0.632
+ 6
+14.0
+84.1
+1.045
+0.638
+ 7
+12.3
+86.3
+1.038
+0.642
+ 8
+11.0
+87.9
+1.033
+0.645
+ 9
+ 9.9
+89.2
+1.029
+0.648
+10
+ 9.0
+90.3
+1.026
+0.650
+15
+ 6.2
+93.4
+1.017
+0.655
+20
+ 4.8
+95.1
+1.013
+0.658
+25
+ 3.8
+96.0
+1.010
+0.660
+50
+ 2.0
+98.0
+1.005
+0.663
+Notes: The calculations assume pk = 2/3 and sk = 1/3. N is set to 100 so that the wagers listed can be interpreted as
+percentages relative to the size of the uninformed betting pool.
+13 Arrow (1952) provides a particularly compre-
+hensive discussion of axiomatic foundations for
+and methodological objections to expected utility
+theory. Machina (1987) provides a helpful intro-
+duction to non-expected utility models, in which
+2028
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+marginal utility to be decreasing in
+wealth, it is incapable of explaining the
+acceptance of fair gambles.14  That peo-
+ple accept some fair (and unfair) gam-
+bles implies that either they obtain
+pleasure from gambling or that mar-
+ginal utility is not universally declining.
+The classic paper of Milton Friedman
+and Leonard Savage (1948) assumes the
+latter. The Friedman–Savage explana-
+tion is based on the assumption of a
+convex (increasing marginal utility) seg-
+ment in the middle range of an other-
+wise concave utility function. Hence,
+individuals in the first concave segment
+are predicted to purchase low prob-
+ability, high payoff gambles that reach
+well into the convex segment, while si-
+multaneously insuring against wealth-
+decreasing risks. The concave segment
+at higher levels of wealth limits the
+gains from gambling and hence the size
+of the prize for which people are willing
+to gamble. Several facts about lotter-
+ies—that prizes are typically not “win-
+ner take all” but multiple in nature, and
+that poor people tend to play the lottery
+and rich ones do not—are consistent
+with Friedman and Savage.15 
+Jack Hirshleifer (1966) pointed out a
+critical flaw in this approach. While the
+purchase of low probability, high payoff
+gambles by the poor fits the data, the
+application to middle-income individu-
+als implies that they are “plungers of an
+extreme sort.”16  Strictly taken, the
+model implies that middle-income indi-
+viduals would gamble their way into
+either the poor or rich sections of the
+income distribution.
+The approach of Harry Markowitz
+(1952) avoids this pitfall. The Mark-
+owitz model places the convex segment
+of utility at current wealth, and thereby
+treats gambling as exploitation of local
+risk preference. The local nature of this
+model has the advantage of allowing all
+segments of the income distribution to
+make rational gambles. Nevertheless,
+like Friedman and Savage, Markowitz
+relies exclusively on the curvature of a
+utility of wealth function to explain
+gambling behavior.17  
+3.2 Local Risk Preference 
+   in a Representative Agent Model 
+   of the Betting Market
+Early models of racetrack betting—
+notably 
+Martin 
+Weitzman 
+(1965),
+Mukhtar Ali (1977), and Quandt (1986)
+—employ the local risk preference as-
+sumption. Weitzman’s model is the first
+in which prices observed in the betting
+market are given a coherent equilib-
+rium interpretation. Weitzman’s data
+are a sample of over 12,000 races run at
+the objective function is non-linear in the prob-
+abilities. These latter models have not been
+adapted to empirical studies of gambling, with the
+exception of John Conlisk (1993), discussed below.
+14 Declining marginal utility implies that the
+utility of current wealth exceeds the expected util-
+ity of any fair gamble. Hence, it can explain why
+people are unwilling to pay more than a small
+amount for a gamble with infinite expected value,
+i.e., the St. Petersburg game. This game tosses a
+fair coin n times and pays the gambler 2n dollars,
+where n is the first time a head appears.
+15 The data unequivocally show that the percent
+of income allocated to lottery games declines
+sharply with income. Actual expenditure on lotter-
+ies varies in diverse ways across income and socio-
+economic classes. See Charles Clotfelter and Phil-
+lip Cook (1991, pp.95–104).
+16 For individuals in the middle range, the ex-
+pected utility of a small gamble spanning a tiny
+segment of wealth will be dominated by that of a
+large gamble which reaches far into the convex
+segment of the utility function. These individuals
+are thus predicted to make much larger gambles
+(of higher probability) than those with lower
+wealth.
+17 Positing a wiggle in an otherwise smoothly de-
+clining marginal utility function strikes many as
+being equally ad hoc as positing a taste for gam-
+bling. Of course there are ways to generate such
+functions. Applebaum and Katz (1981) create a
+Friedman–Savage function based on an asset mar-
+ket argument, in which low wealth is a barrier to
+earning a high rate of return. An increasing rate of
+return in the middle range of wealth generates
+convexity in a utility function which is concave in
+the lower and upper wealth regions.
+ Sauer: Economics of Wagering Markets
+2029
+
+New York tracks over a 10–year period.
+Let Ri be the return per $ conditional
+on winning and p^i the sample estimate
+of the probability of winning associated
+with that return. Weitzman found that a
+rectangular hyperbola and a modified
+hyperbolic form estimated by weighted
+least squares achieved a remarkably
+good fit to the (Ri, p^i)  pairs (R2 ex-
+ceeded .98 in both cases). The latter
+function was consistent with local risk
+preference.18  
+Weitzman’s model of the wagering
+market posits a representative agent,
+Mr. Avmart, who maximizes expected
+utility given a local preference for risk.
+Assume that Avmart bets $b and let
+mi = Ri ∗ b. The points (mi, p^i)  on the
+hyperbolic curve represent an equilib-
+rium relation between money prizes
+and the probability of winning them,
+and the representative agent is neces-
+sarily indifferent between points on this
+curve. Were Avmart not indifferent to
+points on this curve, more betting
+would take place on preferred combina-
+tions reducing their return (and raising
+others) until the agent was indifferent
+between the resulting combinations.
+The resulting curve then would be what
+we observe. Similarly, given a momen-
+tary deviation of an (m, p^) combination
+off the curve, “Avmarts will line up at
+the ticket window to drive the prob-
+ability versus return curve back to the
+proper shape (Weitzman 1965, p. 24).”
+Weitzman and Ali (1977) employ the
+observed relation between probability and
+return to recover the (local) shape of the
+representative agent’s utility function.
+Quandt (1986) took the argument one
+step further. Weitzman’s data, along
+with other data before and since, exhib-
+ited a phenomenon now referred to as
+“the favorite-long shot bias.”19  In short,
+this bias exists when the expected
+return to betting favorites exceeds that
+of betting long shots. Quandt showed
+that, assuming local risk preference in
+utility, a necessary condition for equi-
+librium in the wagering market is that
+favorites yield higher expected returns
+than long shots.
+The favorite-long shot bias can be
+characterized by the condition pi ⁄ wi >
+ pj ⁄ wj when wi > wj. Assume that agents
+know the true probabilities, and recall
+that pi = wi, i = 1, …, n, implies ERi = Q
+for each horse. Let pi = wi hold for every
+horse. This cannot be an equilibrium if
+Avmart exhibits local risk preference.
+Since the longest shot is the riskiest (a
+preferred attribute) and its expected
+return is the same as all other horses,
+Avmart would prefer to bet on the
+longest shot when pi = wi for all horses.
+This activity increases wi for long shots
+and reduces it for others. Quandt shows
+that pi ⁄ wi > pj ⁄ wj implies pi > pj when
+Avmart exhibits local risk preference;
+that is, higher expected returns accrue
+to higher probability horses.
+These papers represent the high-
+water mark of the representative agent
+model of racetrack betting. They show
+how aggregate returns in the betting
+market can be viewed as an equilibrium
+outcome of optimizing trades by a
+representative agent with local risk
+preference. Subsequent empirical work
+reveals the limitations of this model,
+however. First, not all markets exhibit
+the favorite-long shot bias. Second,
+there is substantial evidence of differ-
+ential returns earned by informed
+18 The rectangular hyperbola ρ = A/R of course
+generates a constant expected return of A when
+subjective probabilities equal their empirical
+counterparts. Weitzman’s estimate of A was .8545,
+trivially higher than Q (.85) at New York tracks
+during this period. Although the modified hyper-
+bolic form fit the data better, Weitzman notes that
+constant expected returns “is a good first-order ap-
+proximation” to the data.
+19 These empirical studies and other attempts at
+explaining this phenomenon are discussed in Sec-
+tion 4.
+2030
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+market participants. These findings, dis-
+cussed in Section 4, indicate that there
+is more to racetrack betting than is cap-
+tured by this model. To fully under-
+stand these features requires more so-
+phisticated modeling of the behavior of
+various market participants.
+3.3 Critiques and Alternatives to Utility-
+   of-Wealth Models of Gambling
+Paul Samuelson (1952), Hirshleifer
+(1966), and others have argued that
+gambling is not wealth-oriented in the
+Friedman–Savage sense.20  Hirshleifer’s
+observation that most gambling involves
+repetitious wagers with small stakes
+illustrates the point. Most bets that
+people make (say $10 to win on a horse
+at odds of 3–1) are simply incapable of
+generating wealth changes of any conse-
+quence. But if gambling is motivated by
+something other than convex utility,
+what alternatives can shed light on the
+economics of gambling markets?
+Richard Thaler and William Ziemba
+(1988) argue that behavioral proposi-
+tions such as mental accounting and
+prospect theory are consistent with
+some empirical features of wagering
+markets. This is true, and future papers
+on wagering markets will certainly be
+motivated by the behavioral approach.
+The potential lack of generality in this
+approach is troublesome however. One
+can think of numerous stories to explain
+things not predicted by an economic
+model, perhaps one or more stories for
+every anomaly. Extensions of the basic
+economic model may ultimately be a
+more productive line of inquiry.
+One promising extension is the model
+of John Conlisk (1993), which focuses
+on the pleasures of gambling.21  In do-
+ing so, he is forced to confront the no-
+tion that a direct “association of utilities
+with gambles can lead to a theory . . .
+without scientific content,” an issue of
+obvious importance. Conlisk appends
+what he calls “a tiny utility of gambling”
+to an otherwise standard expected util-
+ity model. He considers fair gambles in
+which amount G is won with probability
+p, and amount L is lost with probability
+1–p. Fairness implies that a given gam-
+ble can be summarized by the pair
+(G, p), where pG = (1 − p)L.
+Gambles are assumed to add to utility
+in the following way. Let U(W) repre-
+sent a standard utility of wealth func-
+tion, which is bounded and exhibits de-
+creasing absolute risk aversion. The
+preference function is
+E(G, p, W) = pU(W + G)
+ + (1 − p)U[W − pG ⁄ (1 − p)] + εV(G, p)
+which is an expected utility function
+augmented with an additional utility of
+gambling, εV(G, p), where ε is a non-
+negative scale parameter. V(G, p) has
+the properties V(0, p) = 0, V1(G, p) > 0,
+V11(G, p) < 0,  V(G, 0) = 0,  and V2(G, p) > 0
+for G > 0.
+These restrictions on the taste for
+gambling enable Conlisk to derive test-
+able implications from the model. As-
+suming that ε is sufficiently small, he
+shows that (1) there is a limit to the size
+of an acceptable gambling prospect; i.e.
+there is a sense in which small gambles
+are preferred to large ones; (2) there is
+a uniquely preferred gamble size; and
+(3) both of these magnitudes increase
+20 In discussing the issue, Samuelson (1952, p.
+671) writes “Warning: what constitutes a prize is a
+tricky concept. When I go to a casino, I go not
+alone for the dollar prizes but also for the pleas-
+ures of gaming—for the soft lights and the sweet
+music. In such cases the X’s (prizes) should be
+complicated vectors embodying all these ele-
+ments.”
+21 Vernon Smith (1971) also tinkered with an ex-
+pected utility model modified to include a direct
+utility of gambling. Smith’s primary focus, how-
+ever, was on how different payoff structures (odds
+vs. point spreads) affected expected utility in the
+absence of a taste for gambling. This topic is taken
+up in Section 3.4.
+ Sauer: Economics of Wagering Markets
+2031
+
+with wealth.22  In particular, the model
+satisfies one essential requirement of
+Friedman and Savage—it predicts the ac-
+ceptance of small gambles and the pur-
+chase of insurance when risks are large.
+Intuitively, the basis for these implica-
+tions is that for small gambles, the util-
+ity-of-gambling effect is first-order small,
+whereas the risk aversion effect is sec-
+ond-order small. Finally, note that indi-
+viduals of various wealth levels will accept
+fair gambles in this framework, an impli-
+cation consistent with Markowitz’ normali-
+zation of the convex segment of utility.
+On the empirical side, Conlisk makes
+the case that experimental evidence of
+“excess risk-seeking” in prior studies is
+consistent with the implications of his
+model of gambling. Nevertheless, in its
+current form, the restrictions required
+for empirical testing are not present. In
+effect, with the curvature properties of
+two additive functions loosely specified, the
+variety of admissible choices is too ex-
+tensive. Conlisk (p. 262) reports, however,
+that Alexander Pollatsek and Amos Tver-
+sky (1970) “present an axiomatic devel-
+opment that, specialized to the prospect
+(G, p)” can yield a specific functional
+form for V(G, p). Restrictions on V(G, p)
+would give the model additional punch.
+Conlisk’s model represents a significant
+advance over the ad hoc specifications of
+convexity in earlier models. Although addi-
+tional elements are required for an em-
+pirically tractable model of the wagering
+market, this is a serious treatment of the
+motivation for gambling and its implica-
+tions, and deserves further exploration.
+3.4 The Structure of Gambling Markets:
+   Why Is There No Odds Market 
+   for Football Games?
+Why do Las Vegas bookmakers offer
+point spread betting at fixed odds of
+10–11, but choose not to make an odds
+market on the winner of the game? The
+layman’s answer is that the point spread
+wager is more exciting, particularly
+when a lopsided contest is scheduled.
+Gilbert Bassett, Jr. (1981) provides an
+elegant alternative explanation in which
+bettors have no innate preference for
+one type of wager over the other. Bet-
+tors are assumed to wager an amount
+which is a nondecreasing function of
+their perceived expected return. The
+bookmaker is assumed to set odds or
+spread such that a profit is realized in-
+dependent of the game’s outcome. To
+make a market in this setting obviously
+requires that bettors have disparate
+probability beliefs. These beliefs are
+modeled by distributions over the point
+difference which differ only by a loca-
+tion parameter.
+The critical element in the Bassett
+model is the bookmaker’s takeout. All
+bettors are charged a fixed fee, which,
+coupled with the odds, generates the
+price of a contingent claim to $1. In the
+absence of this fee, betting volume is
+the same in each betting game. With a
+positive fee, point spreads generate
+more betting when the distribution of
+point differences is symmetric and uni-
+modal. The bookmaker’s takeout drives
+a wedge between the two sides of the
+market. In Bassett’s model this wedge is
+minimized when the odds are equal-
+ized, as in the point spread game.
+The model of Bill Woodland and
+Linda Woodland (1991) emphasizes the
+role of risk aversion in determining the
+preferred betting game. Woodland and
+Woodland identify two problems with
+the Bassett model. First, the fixed take-
+out assumed by Bassett raises the price
+of a contingent claim for the long odds
+bettor by a much greater percentage
+than the short odds bettor. This effect
+can be very pronounced at long odds,
+for example, when the fee is 5 cents and
+22 If ε exceeds a critical level, then every fair
+prospect will be accepted.
+2032
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+the price of obtaining $1 by betting on
+the long shot is, say, 10 cents or less.
+Second, Woodland and Woodland are
+skeptical of the implication in Bassett
+that odds betting on football games
+would be just as likely to be observed as
+point spread betting in the absence of
+takeout. Something other than takeout (or
+perhaps in addition to it) may be at work.
+Woodland and Woodland show that
+the optimal wager size of a risk-averse,
+U(W) maximizing individual is greater
+when the odds are close to even, as in
+the point spread game, than when they
+are disparate, as in betting on the win-
+ner.23  Their model’s assumption of risk-
+averse, utility of wealth maximizing
+agents provides the basis for arguing
+that spread betting will be preferred to
+odds at equilibrium values. Further,
+they argue that the standard assumption
+of local risk preference is inconsistent
+with point spread betting: since odds
+betting on the winner is inherently risk-
+ier, local risk preference would imply
+that betting on the winner dominates
+betting against the spread. This is a use-
+ful observation, but it does not imply
+that concavity in U(W) is the culprit in
+driving out an odds market for football
+games.
+While these are interesting models,
+neither has solved the riddle. There
+may be better attacks on the question
+than comparisons of wagering volume,
+since the odds market in football prob-
+ably fails for reasons that are indepen-
+dent of the success of point spreads.
+Note that several forms of wagering are
+offered on all of the sports discussed in
+this paper. Thus, the existence of one
+form of wagering does not preclude the
+existence of another form. Consider
+also the bookmaking market on horse
+races in the U.K. In lopsided races with
+an extreme favorite, many bookmakers
+do not offer odds against the favorite,
+while 
+simultaneously 
+offering 
+odds
+against the long shot horses in various
+forms. This suggests that it is not profit-
+able to make a market on extreme favor-
+ites, in contrast to the long shots. This
+situation parallels that of a heavy favor-
+ite in a noncompetitive football game. If
+there is a solid economic (as opposed to
+a taste-based) explanation for the domi-
+nance of point spreads over odds, this
+explanation should explain why book-
+makers make a market on long shots but
+not heavy favorites in lopsided races.
+4. Empirical Analyses
+of Racetrack Betting
+4.1 The Betting Market 
+   and the Probability 
+   of Winning a Race
+Psychologists Richard Griffith (1949)
+and McGlothlin (1956) were the first to
+use the racetrack betting market as a
+vehicle for studying behavior under un-
+certainty. These studies used the win
+pool shares, wi = Wi ⁄ W, to evaluate the
+ability of market participants to discern
+small differences in the probabilities of
+outcomes.
+Consider an n horse race, where
+pi, (i = 1, 2, ..., n) is the probability that
+horse i wins. The net share of the win
+pool after takeout is given by
+πi = Wi ⁄ QW = wi ⁄ Q = Ri
+−1
+(1′)
+which is the inverse of equation (1). πi
+can be viewed as the price of obtaining a
+claim to $1 in the event that horse i wins
+the race. As before, Ri is the gross return
+to $1 bet on horse i, and the odds
+Oi = Ri − 1 measure the net return.
+Griffith (1949) grouped horses from
+23 It is assumed that the perceived net return
+from the wager is positive. Of course this cannot
+be true in the aggregate, so this model fails to
+satisfy basic notions of rationality. Woodland and
+Woodland do not address the question of why in-
+dividuals with their assumed objective would per-
+sist in this activity when takeout assures that on
+average they lose money.
+ Sauer: Economics of Wagering Markets
+2033
+
+1386 races into 11 categories according
+to their odds. Horses with Oi ≤ 1 com-
+prised the lowest-odds group, and
+horses with Oi > 15 comprised the long-
+est odds group. Let Hk be the number
+of horses in class k, and Nk be the num-
+ber of winning horses in this group. The
+expected number of winners in group k
+is Nk
+e = pkHk. Griffith compares Hk with
+Nk ⁄ wk for a sample of 1386 races.
+Clearly, Hk ≈ Nk ⁄ wk only to the extent
+that wk ≈ pk. Griffith (pp. 292–93) finds
+the “near congruence of” Nk ⁄ wk and Hk
+“remarkable.” This congruence implies
+that wk ≈ pk, which justifies the use of
+win pool shares as estimates of subjec-
+tive probability.
+Arthur Hoerl and Herbert Fallin’s
+(1974) study of the win pool is espe-
+cially clear on this point. Hoerl and
+Fallin categorized races by the number
+of contestants, which ranged from 5 to
+12 horses. They ranked horses within
+each race by their track odds, and com-
+pared the average subjective probability
+with the observed proportion of victo-
+ries for each ranking. These compari-
+sons are presented in Table 2. The sub-
+jective and objective probabilities move
+together quite closely; both decline in
+lock-step fashion as one moves from the
+highest ranked to the lowest ranked
+horse in a race. Table 3 presents Hoerl
+and Fallin’s calculation of the average
+finishing position for the horses in these
+races. This number declines monotoni-
+cally with the rank of the horse in all
+eight race categories. Like Griffith,
+Hoerl and Fallin (1974, p. 230) con-
+cluded that the betting market “demon-
+strates that individuals with incentive
+can on the average successfully dis-
+criminate small differences” in the like-
+lihood of outcomes.
+4.2 The Favorite–Long Shot Bias
+Evidence. But Griffith also found that
+for horses with the lowest odds (favor-
+ites), Nk ⁄ wk was slightly higher than Hk,
+implying that wk < pk for these classes.
+For horses with higher odds (long
+shots), Griffith observed the opposite,
+implying that wk > pk in this range.
+Hence, the win pool shares were lower
+than win frequencies for favorites, and
+slightly higher than win frequencies
+for long shots. This tendency is also
+clear in Hoerl and Fallin’s data, which
+can be discerned by looking carefully at
+the most and least favored horses in
+Table 2.24 
+McGlothlin (1956) framed the ques-
+tion in terms of expected returns, and
+carried out parametric statistical tests.
+McGlothlin classified horses from his
+sample of 9248 races into nine groups
+according to the odds of each horse. In
+the absence of takeout, the expected
+profit of a $1 wager on horses in group
+k is Ek = pk ⁄ wk − 1.25  McGlothlin used
+the ratio Nk ⁄ Hk to measure pk, and cal-
+culated wk using the published odds of
+each horse.
+The benchmark value of Ek is zero,
+which is realized when pk=wk. McGloth-
+lin calculated Ek to be .08 for the two
+groups of horses with the lowest odds
+(3–1 and less), and Ek to be roughly -.10
+for the three groups of horses with the
+highest odds (8–1 and higher). These
+figures were 2–4 times their standard
+errors. Thus, expected returns on favor-
+ites exceeded those of long shots in
+McGlothlin’s sample of races, a finding
+which has been repeated in many sam-
+ples since.
+Wayne Snyder (1978) surveyed six
+24 Although the departures from equality are
+small, the ordering of the differences between ob-
+jective and subjective probabilities in the tails is
+systematic. Statistical tests on the differences as a
+group provided no evidence against the null hy-
+pothesis, although Hoerl and Fallin noted the ten-
+dency to over-predict in the right tail.
+25 Since Q < 1 , the true expected profit of a $1
+wager is Ek′ = pk ⁄ πk − 1. Note that Ek′ − Ek = τ
+when pk = wk, so McGlothlin’s Ek is essentially a
+normalization of Ek′ to 0.
+2034
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+studies (including Griffith, McGlothlin,
+and Weitzman) encompassing 50,000
+races in North America, each docu-
+menting the favorite-long shot bias.
+Snyder aggregated the rates of return
+for various odds categories, with the
+takeout added back, as in McGlothlin.
+The pre-takeout rate of return varies
+TABLE 2
+COMPARISON OF SUBJECTIVE PROBABILITIES AND ACTUAL WINNING FREQUENCIES
+BY ODDS RANK OF HORSE
+No. of
+No. of
+Odds Rank of Horse
+Entries
+Races
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+ 5
+ 69
+Subj. prob.
+.42
+.25
+.17
+.11
+.06
+Obs. freq.∗
+.41
+.30
+.20
+.07
+.03
+ 6
+181
+Subj. prob.
+.36
+.23
+.17
+.12
+.08
+.04
+Obs. freq.
+.43
+.21
+.20
+.11
+.03
+.02
+ 7
+312
+Subj. prob.
+.33
+.22
+.16
+.12
+.09
+.06
+.03
+Obs. freq.
+.34
+.21
+.16
+.12
+.08
+.08
+.02
+ 8
+352
+Subj. prob.
+.31
+.20
+.15
+.12
+.09
+.06
+.04
+.03
+Obs. freq.
+.33
+.25
+.13
+.09
+.07
+.06
+.04
+.02
+ 9
+283
+Subj. prob.
+.30
+.20
+.05
+.11
+.09
+.06
+.05
+.03
+.02
+Obs. freq.
+.35
+.15
+.17
+.13
+.08
+.06
+.02
+.01
+.02
+10
+241
+Subj. prob.
+.29
+.19
+.14
+.11
+.08
+.06
+.05
+.03
+.02
+.02
+Obs. freq.
+.31
+.17
+.16
+.10
+.07
+.07
+.06
+.04
+.02
+.01
+11
+154
+Subj. prob.
+.27
+.18
+.14
+.11
+.08
+.07
+.05
+.04
+.03
+.02
+.01
+Obs. freq.
+.27
+.18
+.19
+.08
+.05
+.05
+.05
+.05
+.04
+.04
+.01
+12
+233
+Subj. prob.
+.26
+.17
+.13
+.10
+.08
+.07
+.05
+.04
+.03
+.02
+.02
+.01
+Obs. freq.
+.28
+.14
+.17
+.12
+.10
+.06
+.02
+.05
+.03
+.03
+.01
+.00
+Source: Hoerl and Fallin (1974); data are from all 1,825 races run at Aqueduct and Belmont Park (NY) in 1970.
+∗ Observed frequency.
+TABLE 3
+MEAN ORDER OF FINISH BY ODDS RANK OF HORSE
+No. of
+No. of
+Odds Rank of Horse
+Entries
+Races
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+ 5
+ 69
+2.1
+2.4
+2.9
+3.4
+4.1
+ 6
+181
+2.2
+2.9
+3.2
+3.6
+4.2
+4.9
+ 7
+312
+2.8
+3.2
+3.7
+4.0
+4.3
+4.6
+5.4
+ 8
+352
+2.8
+3.2
+3.9
+4.2
+4.7
+5.1
+5.7
+6.4
+ 9
+283
+3.1
+3.6
+4.1
+4.6
+5.1
+5.3
+6.0
+6.4
+7.1
+10
+241
+3.1
+4.0
+4.3
+5.1
+5.3
+5.6
+6.2
+6.5
+7.0
+7.9
+11
+154
+3.8
+4.0
+4.7
+5.2
+5.7
+5.8
+6.3
+6.9
+7.2
+7.8
+8.5
+12
+233
+3.9
+4.6
+5.1
+5.4
+6.0
+6.2
+6.7
+7.2
+7.6
+7.7
+8.7
+9.1
+Source: Hoerl and Fallin (1974); data are from all 1,825 races run at Aqueduct and Belmont Park (NY) in 1970.
+ Sauer: Economics of Wagering Markets
+2035
+
+from 9.1 percent for odds-on horses
+(Oi < 1), to –23.7 percent for horses with
+the highest odds (33–1 and up).
+Jack Dowie (1976) found the same
+pattern of returns in the British book-
+making market, hence this finding is not
+unique to pari-mutuel markets. Indeed,
+the bias is more pronounced in Dowie’s
+data, which encompass all 2,777 races
+run in Britain during 1973. Figure 1
+displays the rates of return from Snyder
+(1978) and a similar construction using
+Dowie’s data. The returns to extreme
+long shots are markedly lower in the
+U.K. market. In addition, the returns to
+low odds horses present a puzzle.
+Breaking down the data more finely,
+Dowie’s figures indicate that book-
+makers lost money when taking bets on
+extreme favorites, horses with Oi ≤ 0.5.
+There were 107 such horses, with a be-
+fore-tax rate of return of .085 at final
+odds, which is roughly the bookmaker’s
+loss for these bets.26  
+Ali (1977) analyzed betting in a sam-
+ple of 20,247 harness races in a fash-
+ion similar to Hoerl and Fallin. In con-
+trast to Hoerl and Fallin’s data, Ali’s
+data were strongly inconsistent with
+the null hypothesis that subjective and
+objective 
+probabilities 
+were 
+equal.
+Table 4 contains estimates of objective
+26 An explanation consistent with evidence in
+Section 4.4 is that these horses were bet heavily
+and their odds were reduced during the betting
+cycle. (Note that this implies the bookies’ losses
+were even greater than 8.5% for these horses).
+Offsetting these losses, perhaps, are profits for
+bookmakers on horses who were thought to be
+heavy favorites but whose odds drifted out in the
+betting. In both cases, incomplete adjustment of
+the odds occurs during the market period, result-
+ing in improved but imperfect estimates of the
+probability of winning.
+0.75
+20
+0
+-20
+-40
+-60
+-80
+Figure 1.  The Favorite-Longshot Bias in the U.S. Pari-mutuel (Snyder) and U.K. Bookmaking (Dowie) Markets
+Note:  Snyder’s are pari-mutuel returns with the takeout added back; hence the norm is zero. Dowie’s are pre-tax returns 
+at SP odds. Hence the norm for Dowie is less than zero to account for the costs of bookmaking.
+Rate of Return
+Midpoint of Odds Range
+1.25
+2.50
+5.00
+7.50
+10.00
+15.00
+33.00
+2036
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+probabilities, and the differences be-
+tween subjective and estimated objec-
+tive prob-abilities, wk − p^k,  for three
+studies: Ali (1977); Peter Asch, Burton
+Malkiel and Richard Quandt (1982); and
+Kelly Busche and Christopher Hall
+(1988). Ali’s findings are in the first two
+columns of Table 4, where the bias is
+clearly evident.27  Asch, Malkiel and
+Quandt (1982) found the same pattern
+in betting data from Atlantic City’s race
+course.
+The data from Hong Kong are differ-
+ent. Busche and Hall (1988) analyzed a
+sample of 2,653 races run in Hong Kong
+between 1981 and 1986. They found no
+evidence of biased returns in the Hong
+Kong pari-mutuel market. wk − p^k is
+negative (–.035 and –.036) for the top
+ranked horse in the North American
+studies, indicating the favorite was rela-
+tively underbet.28  In Hong Kong, this
+difference is positive. Whereas the sub-
+jective probability exceeds the objective
+by about .01 for North American long
+shots, there is no pattern in the Hong
+Kong long shots.
+A Psychological Explanation. There
+are several potential reasons for the ex-
+istence of the favorite-long shot bias.
+An obvious explanation is that bettors
+may underestimate the chances of
+TABLE 4
+THE DIFFERENCE BETWEEN SUBJECTIVE AND OBJECTIVE PROBABILITIES IN THREE SAMPLES
+Ali (1977)
+Asch, Malkiel, & Quandt (1982)
+Busche & Hall (1988)
+Rank
+p^k
+wk − p^k
+p^k
+wk − p^k
+p^k
+wk − p^k
+ 1
+0.358
+–0.035
+0.361
+–0.036
+0.276
+ 0.008
+ 2
+0.205
+ 0.003
+0.218
+–0.013
+0.190
+–0.003
+ 3
+0.153
+–0.001
+0.170
+–0.025
+0.151
+–0.009
+ 4
+0.105
+ 0.007
+0.115
+–0.011
+0.099
+ 0.012
+ 5
+0.076
+ 0.006
+0.071
+ 0.001
+0.084
+ 0.003
+ 6
+0.055
+ 0.005
+0.050
+–0.002
+0.063
+ 0.003
+ 7
+0.034
+ 0.008
+0.030
+ 0.004
+0.048
+ 0.001
+ 8
+0.021
+ 0.007
+0.017
+ 0.008
+0.047
+–0.010
+ 9
+0.006
+ 0.012
+0.034
+–0.006
+10
+0.021
+ 0.000
+11
+0.023
+–0.005
+12
+0.014
+–0.001
+13
+0.010
+ 0.001
+14
+0.013
+–0.005
+Notes: The probabilities need not sum to one because different numbers of horses participated in each race. p^k is
+the estimated objective probability for horses in each group, and wk − p^k is the difference between the subjective
+and objective probabilities. A positive value for wk − p^k indicates that horses in this group were overbet relative to a
+standard in which expected returns were equal across all classes of horses. The original sources reported tests of
+statistical significance for the variate wk − p^k. For the samples of Ali and Asch, Malkiel and Quandt, favorites (rank
+1) were significantly underbet and extreme longshots were significantly underbet; there is no such pattern in the
+Busche and Hall data. Ali’s sample is from 20,247 harness races run at 3 New York tracks from 1970–74. Asch,
+Malkiel, and Quandt’s sample is from 729 races run at Atlantic City during the 1978 season. Busche and Hall’s
+sample is from 2,653 races in Hong Kong from 1981 to 1986.
+27 The t-ratios reported by Ali testing the hy-
+pothesis that wk = p^k, are –10.3 for the favorite,
+insignificant for the second and third ranked
+horses, and above 3.0 for the 4th–8th ranked
+horses.
+28 It was also statistically significant, about 10
+times its standard error mean in Ali, and twice as
+large in Asch, Malkiel, and Quandt.
+ Sauer: Economics of Wagering Markets
+2037
+
+favorites and overestimate those of the
+long shots. A common bias reported in
+the psychological literature is that peo-
+ple 
+systematically 
+overestimate 
+the
+probabilities of small probability events.
+In 
+laboratory 
+experiments, 
+subjects
+asked to estimate the probability of
+death from hazardous events underesti-
+mate common hazards, like a heart at-
+tack, and overestimate unlikely hazards,
+like being struck by lightning (Paul
+Slovic, Baruch Fischoff, and Sarah
+Lichtenstein 1982). Griffith viewed his
+findings on pari-mutuel betting as evi-
+dence that the biases found in surveys
+and experiments had a real-world coun-
+terpart in the favorite–long shot bias.
+The favorite–long shot bias may thus
+be another manifestation of such mis-
+perceptions. But this argument is not
+persuasive. The questions asked in
+these experiments tend to be one-shot
+in nature. Other experiments, for exam-
+ple Gerald Dwyer et al. (1993), show
+that probability estimates made by indi-
+viduals improve markedly as they ac-
+quire more experience with their envi-
+ronment. Similarly, biases reported by
+survey respondents are smaller in envi-
+ronments with repeated exposure to
+risk (W. Kip Viscusi and Charles O’Con-
+nor 1984).29  The racetrack itself is a
+highly repetitious environment. Hence,
+it seems presumptuous to assign the
+cause of the favorite–long shot bias to
+systematic misperceptions.30  
+Variations in Local Risk Preference.
+As discussed above, Weitzman, Ali, and
+Quandt viewed the favorite–long shot
+bias as evidence of local risk preference
+in utility. The Hong Kong evidence
+shows that the bias is not universal,
+which casts doubt on the generality of
+this explanation. Ali (1977) estimated
+the degree of local risk preference ex-
+hibited by the representative agent and
+found that it varied in two important
+ways. First, the implied preference for
+risk was greater in the small market
+track than in the large market.31  If one
+assumes there is a fixed cost of arbi-
+trage, this result can be explained by
+the model in Section 2.3. The larger is
+the pool (N), the number of informed
+bettors who can cover their fixed costs
+by betting (n) increases. As can be seen
+in Table 1, increasing n causes the bias
+wk − pk to shrink towards zero.
+Second, Ali found that bettors exhibit
+greater risk preference in the last race
+of the day relative to earlier races. The
+last race offers a chance for losing bet-
+tors to “get out”; i.e. to recoup their
+losses with a final wager. Low prob-
+ability/high odds horses provide that op-
+portunity, and are thus over bet relative
+to a constant expected returns standard.
+Thaler and Ziemba (1988) interpret this
+as evidence of “mental accounting.” Al-
+though one can speculate on rational
+reasons why bettors might want to avoid
+going home losers, this piece of Ali’s
+evidence is certainly inconsistent with
+the standard economic framework.
+Heterogeneous Bettors in Pari-mutuel
+Markets. Models with heterogeneous
+agents have been shown to yield out-
+comes consistent with observed returns
+in several dimensions. Hurley and
+McDonough’s (1995) model provides a
+concise explanation of the bias. Suppose
+29 One hypothesis is that survey respondents
+overreact to newly identified risks, but adjust
+these expectations with more experience. A new
+hypothesis explored in Daniel Benjamin and Wil-
+liam Dougan (1997) is that subgroups of the popu-
+lation report estimates specific to their own co-
+hort. Correcting for cohort effects, the reported
+biases in the original experiments lose much of
+their significance.
+30 Note, however, that one psychological expla-
+nation for gambling is that those who persist in the
+activity in the face of unfavorable odds (and
+mounting losses) exhibit biased evaluation of out-
+comes (Thomas Gilovich, 1983).
+31 The parameter characterizing risk preference
+was .17 at the small market track and .06 at the
+large market track.
+2038
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+there are two groups of people betting
+on a two-horse race, with pF > .5 for one
+of the two horses. The uninformed
+group bets equal amounts on each
+horse. The other group is informed;
+they know the true probabilities of win-
+ning and maximize the expected profit
+from betting. This setup is quite appeal-
+ing in both its descriptive and analytical
+simplicity; it captures the essence of the
+racetrack market where a group of
+knowledgeable bettors seeks to profit
+on the action of a group that is poorly
+informed. In the model with no takeout
+rate and an unlimited number of in-
+formed bettors, the market equilibrium
+is perfect and win pool shares equal the
+objective probabilities of winning.
+When the number of informed bet-
+tors is small, the influence of the unin-
+formed remains in the odds in equilib-
+rium. With an unlimited number of
+informed bettors the bias emerges when
+the takeout rate is positive. In this case,
+the equilibrium win pool share for the
+favorite is QpF. In this solution, in-
+formed bettors never bet on the long
+shot, and bets on the favorite take place
+until the expected profits are reduced
+to zero.32 
+Hurley and McDonough (1996b) also
+explore a model in which all bettors are
+boundedly rational. Here, bettors’ prob-
+ability estimates are drawn from an ar-
+bitrary distribution centered on the true
+probabilities. The simplest version is a
+two-horse race with zero takeout. Each
+bettor assumes that the current odds
+will prevail in the end, and wagers a
+fixed amount on the horse with the
+greatest expected value. Hurley and
+McDonough show that the betting un-
+der these assumptions yields odds
+which converge to a unique equilib-
+rium. The equilibrium win pool share of
+the favorite, wF∗, solves the equation
+wF + G(wF) = 1, where G(wF) is the distri-
+bution function of the bettors prob-
+ability beliefs. Let pF > .5 be a solution.
+Since G(pF) = .5 by assumption, pF +
+ G(pF) > 1; hence only solutions where
+wF∗ < pF are possible when pF > .5.33  
+The setup of this model has its ap-
+peal, but its implications are not so
+pleasant. First, in the absence of take-
+out there is a profit opportunity at equi-
+librium odds. Second, the favorite–long
+shot bias diminishes and ultimately
+reverses as takeout is increased. This is
+the opposite result of the earlier model.
+In sum, the models explored by Hurley
+and McDonough are useful and impor-
+tant attempts to capture what is empiri-
+cally observed at North American race-
+tracks. But more work of this sort is
+needed to get the magnitudes right.
+Information Asymmetry in the Book-
+making Market. Hyun Song Shin (1991,
+1992) modeled the bookmaking market
+with an emphasis on the information
+asymmetry between the bookmaker and
+the bettor. There is always a chance
+that the bettor knows a great deal more
+about the outcome of the race than the
+bookmaker. Shin’s papers show that
+asymmetric information creates a favor-
+ite-long shot bias through an optimal
+pricing response by the bookmaker. Shin
+(1992) analyzes the problem for an n-
+horse race in a competitive equilibrium
+environment, and is our focus here.
+The model allows for two types of
+bettors: a single insider, and a large
+group of uninformed outsiders. The
+32 Hurley and McDonough (1995) ran some ex-
+periments with this model, which did not support
+the implication that the takeout was responsible
+for the bias. In experiments with and without take-
+out, a bias of equal magnitude appeared in the two
+situations. The number of bettors was small how-
+ever (17 and 18). More extensive experiments of
+this nature, in particular, experiments in which the
+number of bettors varies, seem worthwhile.
+33 For example, let probability beliefs be charac-
+terized by the uniform distribution [.55,.75] with
+pF = .65. 
+Then 
+G(wF) = (wF − .55) ⁄ .2, 
+and
+wF∗ = .625 < pF.
+ Sauer: Economics of Wagering Markets
+2039
+
+bookmaker contracts with a single bet-
+tor of unknown identity. The book-
+maker knows two sets of probabilities:
+the probability that the bettor is an in-
+sider, and the ex ante probabilities of
+each horse winning the race. The book-
+maker sets prices with the knowledge that
+there is a probability, z, that he will con-
+tract with the insider, who has superior
+knowledge of the outcome of the race.
+The probability beliefs of the bettors
+are extreme. The insider has been given
+a window to the future, and knows the
+outcome of the race with certainty. The
+outsiders don’t know the outcome of
+the race, but each believes with cer-
+tainty that a particular horse will win.
+Hence, both types will make a bet of
+the maximum amount allowed on their
+horse—let it be $1—regardless of the
+prices offered by the bookmaker. The
+outsiders are distributed in proportion
+to each horse’s winning probability.
+Thus, if pi = α, then α is the proportion
+of outsiders that would bet on horse i.
+While extreme, these assumptions en-
+able a clear view of the problem and
+yield an explicit solution.34  
+The problem for the bookmaker is to
+determine the expected profit-maximiz-
+ing set of prices π:(π1, … πn) . Hence the
+payoff when the bettor selects the win-
+ner is 1 ⁄ πi.
+The following considers the simplest
+case where z is constant across all
+horses. Conditional on the bettor being
+an outsider, expected profits for the
+bookmaker are V(π|outsider) = 1 − Σipi
+2 ⁄ πi.
+If the bettor is an insider, expected
+profits are V(π|insider) = 1−Σipi ⁄ πi. Hence,
+the expected profit function for the book-
+maker is
+V(π) = 1 − ∑[
+i
+z pi + (1 − z)pi
+2] ⁄ πi
+(3)
+The bookmaker is assumed to operate
+in a competitive environment and earn zero
+profit. The simplest characterization of
+optimizing prices thus restricts the sum
+of prices to be the minimum sum with
+nonnegative expected profit for the
+bookmaker. Hence the objective is35 
+min
+
+
+π1 + … + πn|V(π1, … πn) ≥ 0
+
+
+
+Letting Ai = √
+[zpi + (1 − z)pi
+2], the solu-
+tion is given by
+πi∗ = Ai ⋅∑As
+s
+(4)
+Recall that πi is the price of a contingent
+claim to $1 in the event horse i wins.
+Hence the deviation in the sum of the
+prices 
+from 
+1, D = Σiπi∗ − 1, 
+can 
+be
+thought of as the market spread.
+Using (4) and the definition of Ai it is
+simple to show that πi = pi when z = 0
+(there is no chance of an insider).
+Prices equal probabilities, D = 0, and
+there is no bias in the odds.
+The favorite–long shot bias emerges
+when z > 0.36  For example, consider a
+2-horse race, where p1 = .25, p2 = .75, and
+z is constant at .05. Using (4), we find
+that π1∗ = .2746 and π2∗ = .7746, with D =
+1.0492. The spread of 4.92 percent
+amounts to compensation for losses im-
+posed on the bookmaker when the in-
+sider trades. The normalized prices
+πi∗ ⁄ D are .2617 and .7384, respectively.
+The normalized prices (the bookmaking
+market’s counterpart to wi) thus over-
+state the probability that the long shot
+wins, and understate the probability
+that the favorite wins.
+Shin 
+(1993) 
+explores 
+a 
+testable
+implication of this model. Shin shows
+34 Shin (1992) shows that a more general specifi-
+cation of outsider expectations yields similar quali-
+tative results, but without an explicit solution.
+35 This is a modification of Shin’s setup which is
+used to simplify the discussion.
+36 The market is feasible only if z is “small,”
+since large values of z result in strictly negative
+profits for all sets of the bookmakers prices. The
+model thus suggests a motive for restricting in-
+sider trading, since a market may not exist when z
+is large.
+2040
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+that the market spread can be approxi-
+mated by the linear regression D = z(n − 1)
++ h(p). The main focus is on the coeffi-
+cient of the (n-1) term.37  The estimated
+coefficient measures z, which must be
+positive (and small) for the model to be
+supported. For a sample of 136 races
+run in the U.K. during the first week of
+July 1991, Shin obtains a statistically
+significant estimate of .02 of the z coef-
+ficient.
+Leighton 
+Vaughan 
+Williams 
+and
+David Paton (1997) find that the market
+spread varies in predictable ways with
+proxies for insider trading. First, in
+higher quality races where the role of
+private information is relatively unim-
+portant (z ≈ 0), Vaughan Williams and
+Paton find no relation between the
+spread and n. Second, they find that the
+spread is greater in races where there
+are large changes in the odds, a feature
+consistent with the presence of inside
+information.
+The evidence from Paul Gabriel and
+James Marsden (1990, 1991) provides
+additional support for Shin’s model.
+Gabriel and Marsden compare the re-
+turns to winning bets in the pari-mutuel
+pools to those obtained in the parallel
+bookmaking 
+market. 
+Gabriel 
+and
+Marsden (1991) find that pari-mutuel
+returns exceed the returns from book-
+makers (at final odds), and on this basis
+conclude that the betting market is not
+efficient. This result calls for explana-
+tion.38  Nevertheless, notice how the re-
+turns differ as the odds increase, as dis-
+played in Table 5. For winners at
+bookmakers’ odds of 10–1 or less, the
+difference in the return is 8.9 percent;
+this difference grows to 29 percent as
+long shot winners are added to the
+group. This implies that the bias is
+more pronounced in the U.K. bookmak-
+ing market than in the U.K. tote mar-
+ket. This may help to explain the differ-
+ence in Figure 1 between the returns in
+the U.S. pari-mutuel and U.K. book-
+maker’s market. Shin’s model focuses
+on a bookmaker who adjusts prices as a
+TABLE 5
+DIFFERENCE BETWEEN PARI-MUTUEL AND BOOKMAKING PAYOFFS FOR WINNING 10P BETS
+Odds Range 
+of Winner
+Number of
+Observations
+Pari-mutuel
+Return
+Return at
+Bookmakers’ Odds
+Difference
+% Difference
+Odds < 10
+1271
+52.7
+48.4
+ 4.3
+ 8.9
+Odds < 15
+1353
+63.9
+53.7
+10.2
+19.0
+Odds < 20
+1408
+74.8
+59.1
+15.7
+26.6
+All
+1435
+81.6
+63.4
+18.2
+28.7
+Source: Gabriel and Marsden (1991).
+Notes: Data are grouped by the final odds in the bookmaking market. All differences are significant at the .01 level.
+37 h(p) is an index related to the dispersion of pi,
+but is not of interest here.
+38 Note that the pari-mutuel odds are by defini-
+tion average odds, and that the final odds offered
+in the bookmaking market are more akin to mar-
+ginal odds. Evidence discussed in the next section
+suggests that the volume of late betting (the mar-
+ginal odds) is more informed than early betting,
+and that adjustment of pari-mutuel odds during
+the betting period is incomplete. Note that
+Gabriel and Marsden do not measure average re-
+turns to bets placed in the bookmaking market. If
+heavy betting is responsible for falling odds, the
+average return to bettors in the bookmaking mar-
+ket will be understated by their figures. There re-
+mains a puzzle however; the hypothesis just stated
+does not explain why bettors in off-course betting
+shops place wagers that are settled at final odds
+rather than in the pari-mutuel market.
+ Sauer: Economics of Wagering Markets
+2041
+
+consequence of the non-zero prob-
+ability of confronting an insider that
+backs a long shot. This threat induces
+him to trim the odds on long shots rela-
+tive to favorites. Pari-mutuel pools, by
+construction, are not subject to this
+source of the bias.
+4.3 Evidence of Informed Trading
+Stephen Figlewski (1979) used a
+multi-nomial logit model to determine
+if the pari-mutuel odds incorporated
+the opinion of experts. Let Zi be a
+vector of information on horse i. pi is
+assumed to be related to Z by the
+function
+pi = eβzi ⁄ ∑
+eβZj
+j=1
+n
+where n is the number of contestants in
+the race and β is a parameter estimated
+by maximum likelihood. Let Z be com-
+posed of two components, Z = [Z1 Z2],
+with the associated parameter vector
+β = [β1 β2]′. For each horse i, the compo-
+nents are Z1i = wi, and Z2i, which contains
+forecasts of the finishing position of
+horse i by 14 expert handicappers.39
+Denote the estimated probability of the
+horse that won the kth race by Pw
+k , and
+the likelihood function for the sample of
+M independent races is
+L = ∏ 
+k = 1
+M
+Pwk
+The properties of this model imply that
+when β = 0, pi = 1 ⁄ n. The significance of
+[Z1 Z2] is assessed using likelihood ratio
+tests. As Figlewski states, “the important
+question is whether adding handicapper
+information significantly improves the fit
+over what was obtained using the odds
+alone.” The effect is marginal; the null
+hypothesis that the handicappers add no
+information (β2 = 0) is rejected at the 10
+percent but not the 5 percent level.
+When Figlewski uses the parameter esti-
+mates in an out-of-sample test, he finds
+that the “handicapper data contributes
+nothing.” The “track odds fully discount
+the published choices of professional
+handicappers” (p. 86–87).
+Figlewski also ran a test based on
+data where the on-track and off-track
+pools were disaggregated. Figlewski
+conjectured that the off-track bettors
+were less informed than their on-track
+counterparts. In this test, the handicap-
+per information added significant im-
+provement to the predictions based
+solely on the off-track pool, while pro-
+ducing no improvement in the predic-
+tions based solely on the on-track pool,
+supporting Figlewski’s conjecture.
+Asch, Malkiel, and Quandt (1982)
+suggest that informed bettors are more
+likely to wait until the end of the bet-
+ting period in pari-mutuel markets be-
+fore making their bets, a view which is
+widely held. There are two reasons for
+this. The first is a consequence of the
+fact that all payoffs are determined by
+the final odds in pari-mutuel markets.
+Early in the betting the posted odds are
+more volatile—since the pools are small
+at that point, a modest wager can drop
+the odds on a horse from 7–1 to 3–1.
+Informed bettors can obtain a lower
+variance of their estimate of the ex-
+pected return late in the period, when
+the pool is bigger as a result of the ac-
+cumulated betting. The second reason
+is strategic. A bettor (or group of bet-
+tors, such as a racing stable) with inside
+information obviously prefers to keep
+the information private. Betting large
+sums can affect the odds and alert tote-
+board watchers—the racetrack’s version
+39 The handicappers’ forecasts of the top two
+finishers were incorporated in the following way.
+Suppose that handicapper 1 picked horse i to win,
+handicapper 2 picked horse i to finish second, and
+that the other 12 handicappers do not pick horse i
+to finish in the top two. Then, if handicapper 1’s
+picks (1st choice, followed by the second) are fol-
+lowed by handicapper 2’s, and so on, Z2i would be
+[1 0 0 1 0 0 0 0 0 0 0 0 ....].
+2042
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+of a technical analyst—that something
+is up. Betting late into a larger pool
+thus reduces the likelihood of creating
+bandwagon effects in the odds.
+Asch et al. use data from the 765
+races run at Atlantic City Race Course
+in 1978. They find that the winning
+horse is “bet down,” that is, its final
+odds, OFINAL, are lower than the morn-
+ing line estimate of the odds produced
+by the track’s expert handicapper, OML.
+These results are presented in Table
+6.A. OFINAL/OML is 0.96 for horse the
+ultimately wins the race. The ratio for
+all other horses (including the second
+and third place finishers) ranges from
+1.06 to 1.63.
+Furthermore, late money appears to
+be more informed than early money.
+Asch, Malkiel, and Quandt calculated
+the marginal odds based exclusively on
+wagers made in the last eight minutes
+of the betting. Using marginal odds,
+OFINAL/OML is 0.82 for the winner, and
+remains above 1 for horses that don’t
+win. As Asch, Malkiel, and Quandt
+(1982, p. 306) put it, “winning horses are
+especially preferred by the late bettors.”
+N. F. R. Crafts (1985) studied the
+bookmaking market in the U.K. along
+these lines. In this market, the odds
+analogous to the North American morn-
+ing line are issued as the FP, or forecast
+price, by Sporting Life, a daily trade
+publication. Representatives of Sport-
+ing Life observe the betting, noting in
+particular the very large bets and the
+odds at which they are transacted. A de-
+scription of the betting is then printed
+in a subsequent edition of the paper. At
+the end of each betting period, these
+representatives determine the starting
+prices for the horses, SP, which are the
+odds offered in the on-course bookmak-
+ing market at the end of the betting pe-
+riod. Crafts notes that the practice of
+paying off at odds offered at the time of
+each transaction enhances the value of
+inside information, since bandwagon ef-
+fects from betting large sums do not af-
+fect the payoff.40 
+Craft’s sample covers 16,769 horses
+that ran between September 1982 and
+January 1983. Denote the subjective
+probabilities at FP and SP odds as sFP
+and sSP. Horses for which either
+(i) 1.5 ≤ sSP / sFP < 2, or (ii) sSP ⁄ sFP ≥ 2 are
+considered 
+to 
+have 
+been 
+“heavily
+backed;” i.e. the wagers in the market
+40 It is important to understand how bookmak-
+ers change odds during the betting period. Stan-
+dard practice is to begin with offers of low odds on
+all horses, and to push the odds out until they start
+to attract betting. This addresses, to a degree, an
+adverse selection problem that the bookmaker
+would face if he initially offered odds equal to his
+forecast of optimal prices (whereupon relatively
+informed bettors would wager only on his mis-
+takes). Given the typical odds progression, the
+critical question for informed agents is how long
+to wait before accepting the offered odds. In the
+case of a tightly knit betting coup, the group will
+let the odds drift out until the final minute, and
+wager all of their money at once (at various loca-
+tions) before the odds can adjust. Note that as the
+relevant information becomes more widely held,
+the incentive to wait is offset by the knowledge
+that others are likely to accept the bookmakers
+odds, and that this betting may reduce the odds
+available on your horse.
+TABLE 6A
+RATIO OF FINAL ODDS AND MARGINAL ODDS TO
+MORNING LINE ODDS BY FINISH POSITION FOR 729
+RACES RUN AT ATLANTIC CITY (NJ) IN 1978
+Horses
+Finishing
+OFINAL / OML
+OLATE / OML
+First
+0.96
+0.82
+Second
+1.16
+1.06
+Third
+1.22
+1.17
+Also Rans
+1.59
+1.63
+Source: Asch, Malkiel, and Quandt (1982, p. 193).
+Notes: Figures in the columns are ratios of average
+odds. OFINAL are the final odds, OML are the morning
+line odds (projected by the track’s handicapper), and
+OLATE  are the marginal odds produced by bettors in
+the last third of the betting period.
+ Sauer: Economics of Wagering Markets
+2043
+
+have pushed the odds down well below
+the forecast level. Table 6.B presents
+Crafts’ results. There are 712 horses
+satisfying the former and 397 horses
+satisfying the latter, more pronounced
+condition. Bets on these horses at SP
+odds are not profitable, earning pre-tax
+returns of –.01 and –.09, respectively.
+Bets made at FP odds would have
+yielded returns of .64 and 1.41, the lat-
+ter being phenomenally profitable. On
+the flip side, the 1,175 horses whose
+odds drifted out were very poor bets:
+horses with sFP ⁄ sSP ≥ 2 yielded returns of
+–.64 at FP and –.13 at SP odds; horses
+with 1.5 ≤ sFP ⁄ sSP < 2 yielded returns of
+–0.63 at FP and –0.38 at SP odds.
+Using pari-mutuel data from races
+run in Chicago, Robert Losey and John
+Talbott, Jr. (1980) obtained a similar re-
+sult. Losey and Talbott’s simulation
+placed 579 bets on all horses for which
+the Daily Racing Form’s expert handi-
+capper placed a morning line of 3–1 or
+less, but whose final pari-mutuel odds
+exceeded this estimate. The returns
+were –28.4 percent, which exceeds by a
+large margin the 17 percent loss (take-
+out rate + breakage) expected if the
+rates of return were equal across
+horses.
+What does one make of these rates of
+return? It is clear that trading in these
+markets creates measures of the prob-
+ability of winning which are signifi-
+cantly better than measures produced
+by an individual or group of experts.
+This suggests that the betting market
+aggregates disparate sources of informa-
+tion into a superior probability estimate
+of the race’s outcome. Second, the odds
+adjustment stops short of achieving con-
+stant returns; to equalize returns (at SP
+odds) between horses whose odds have
+fallen and those that have risen would
+require additional reductions and addi-
+tional increases for each group.41 Third,
+and this is Crafts’ main point, these re-
+turns clearly point to the existence of
+an informed class of bettors. The pub-
+lished descriptions of the betting are
+helpful in this regard, for they establish
+that bets were made at odds substan-
+tially greater than SP odds for many of
+these winners. Consider these descrip-
+tions, first for a winner that had never
+TABLE 6B
+RATES OF RETURN AT FP AND SP ODDS FOR HORSES CHARACTERIZED BY ODDS MOVEMENTS 
+FOR 16,769 HORSES IN THE U.K., 1982–83
+Odds Movement
+Number of Horses
+Rate of Return at FP
+Rate of Return at SP
+Heavily Backed:
+      pSP / pFP ≥ 2
+397
+ 1.41
+–0.09
+  1.5 ≤ pSP / pFP < 2
+712
+ 0.64
+–0.01
+ Drifting Out
+  1.5 ≤ pFP / pSP < 2
+858
+–0.63
+–0.38
+      pFP / pSP ≥ 2
+317
+–0.64
+–0.13
+Source: Crafts (1985, p. 298)
+Notes: pSP is the implied subjective probability at SP odds, pFP the same at FP odds. Horses whose odds decline in
+the betting will have pSP / pFP ratios which exceed 1.0; vice versa for horses whose odds increase during the betting.
+Rates of return do not include the 4% (10%) tax on course (off course) in effect at the time.
+41 Incomplete adjustment is related to the favor-
+ite-long shot bias, since horses whose odds shorten
+are more likely to be favorites, and those who
+lengthen long shots. This feature is closely related
+to Hurley and McDonough’s (1995) model of the
+bias.
+2044
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+previously finished better than fourth—
+“dropped dramatically from 12–1 to
+7–2,” and second on a winner with a
+similar record—“following some 8–1
+and 6–1 was reduced from 4–1 to 11–4
+favorite” (Crafts 1985, p. 301). It seems
+quite unlikely that the average punter
+was responsible for the tumbling odds
+in these cases.
+Adi Schnytzer and Yuval Shilony
+(1995) provide indirect evidence of
+inside 
+information. 
+Schnytzer 
+and
+Shilony study the betting market in
+Australia, in which on-track and off-
+track pari-mutuel betting coincides with
+an on-track bookmaking market. Their
+data consists of the win pool shares
+from the on- and off-track pari-mutuel
+markets for all horses competing in 168
+races run in 1984. The betting from
+both sources is aggregated into a single
+pool for determining payoffs, with
+about 3/4 of the money originating from
+off-track bets. Let wi
+on represent the
+share of the on-track win pool for horse
+i, and wi
+off represent that of the off-track
+market. Betting at the two sources is
+quite different: the correlation coeffi-
+cient of wi
+on and wi
+off is only .48; the rank
+order correlation is .40. On-track bet-
+tors appear to be better informed, ob-
+taining a (pre-takeout) rate of return of
+9.7 percent compared with a loss of 3
+percent in the off-track market.
+Schnytzer and Shilony consider the
+hypothesis that on-track pari-mutuel
+bettors can capitalize on inside informa-
+tion created in the bookmaking market.
+Their story, like that of Asch et al., is
+based on common racetrack wisdom. An
+individual possessing inside information
+will generally be better off placing large
+bets with bookmakers rather than in the
+pari-mutuel pool, for two reasons. First,
+bookmakers will accept large wagers at
+the odds posted the moment the bet is
+placed, whereas a large wager reduces
+the odds in the pari-mutuel pool. Sec-
+ond, large bets signal information to
+others when the odds on a horse fall
+sharply, and can create bandwagon ef-
+fects in the betting. Bandwagon effects
+will further reduce the pari-mutuel
+odds, while having no effect on bets
+already contracted for in the bookmak-
+ing market. Schnytzer and Shilony hy-
+pothesize that on-track pari-mutuel bet-
+tors observe tumbling odds generated
+by insiders in the bookmaking market
+and can capitalize on this activity,
+whereas the off-track bettors are unable
+to do so.
+Schnytzer and Shilony use the differ-
+ence between wi
+on and wi
+off as a proxy for
+“plunges” in the on-track market odds
+based on inside information. Let X1i = 1
+when wi
+on − wi
+off > 0.1; X1i = 0 otherwise;
+and 
+X2i = 1 
+when 
+0 < wi
+on − wi
+off ≤ 0.1;
+X2i = 0 otherwise. Hence, when X1i = 1,
+the on-track market’s subjective prob-
+ability that horse i wins exceeds that in
+the off-track pool by .1 or more; less so
+when X2i = 1.
+The authors estimate equations simi-
+lar to Figlewski (1979) in order to test
+for the presence of inside information.
+Their maintained hypothesis is that all
+public information is fully reflected in
+the (much larger) off-course pools.
+Consider then a set of regressors
+Z = [Z1 Z2 X] with associated coefficients
+β = [β1 β2 β3]′ for the Figlewski model in
+which Z1i = wi
+off, Z2i = wi
+on, and Xi contains
+the proxies X1i and X2i defined above.
+The basic model contains just public in-
+formation (Z1). If private information is
+either not present or not useful, then
+the exclusion restriction β2 = 0 should
+be 
+accepted, 
+but 
+it 
+is 
+decisively
+rejected. If X is added to the basic
+model, one obtains a similar result,
+rejecting the hypothesis that β3 = 0. If
+one accepts Schnytzer and Shilony’s
+hypothesis that the off-track pools fully
+reflect all public information, this evi-
+dence suggests that inside information
+ Sauer: Economics of Wagering Markets
+2045
+
+is present at the track and important to
+predicting the outcome of the race.
+The startling finding in Schnytzer and
+Shilony is the following. Suppose one
+obtained measures of wi
+on − wi
+off just
+prior to the race. The authors show that
+bets placed on horses in proportion to
+this difference would have realized an
+after-tax profit of between 26.1 and
+32.5 percent—very large numbers, in-
+deed.42  Although the sample of races
+is small and the exercise should be
+replicated, this is substantial evidence
+of inside information in the on-track
+betting market.
+4.4 Are There Profitable 
+    Wagering Rules?
+The answer to this question is a quali-
+fied “Yes.” The qualifications stem from
+the fact that (1) some opportunities
+arise infrequently; and, (2) in some
+cases the betting pools are small, limit-
+ing the ability of net earnings to cover
+the opportunity cost of time. With these
+caveats in mind, there are some inter-
+esting cases of wagering rules which
+have been found to be profitable in
+these markets. We discuss them in
+turn.
+Trends in the Odds. Based on his ear-
+lier paper, Crafts (1994) proposed the
+following trading rule in the U.K. mar-
+ket: bet when a horse has not yet
+started this year, sSP ⁄ sFP > 1.5, and the
+SP odds are less than 7–1. The heavier
+than anticipated betting indicates in-
+sider knowledge of the horse’s fitness
+and the stable’s intentions to put forth a
+winning effort. Bets at SP earned rate
+of profit of .558, and a phenomenal
+2.619 had one made a bet at FP (the
+first insider to move?). Although the
+odds have tumbled, the market has not
+completely adjusted to the presence of
+inside information by the close of bet-
+ting. Crafts (1994, p. 548) appropriately
+cautions those seeking to capitalize: “in
+a period of five years only 88 bets
+would have resulted from a very sub-
+stantial investment of time and effort.”
+Based on their similar findings on late
+betting, Asch, Malkiel, and Quandt
+(1984) seek to determine if following
+the late money in the North American
+pari-mutuel market could be profitable.
+The rule they explore is much less spe-
+cialized than that of Crafts (1994), and
+does not fare so well. Bets are placed
+on horses whose odds drop late in the
+betting. Although they initially report
+evidence of positive profits, this was the
+result of a programming error.43  The
+results reported in Asch, Malkiel and
+Quandt (1986) correct the original pro-
+gramming error and also test the system
+on a new set of data. Although following
+the late money yields a loss which beats
+the track’s takeout rate, the scheme is
+not profitable.
+Pseudo-Arbitrage 
+Using 
+the 
+Win
+Pool’s Probability Estimates. Ali (1977)
+examined daily double bets, which re-
+quire the bettor to select the winner of
+consecutive races. Assuming the win
+pool provides efficient estimates of
+probabilities and that the two races are
+independent, efficient odds for the dou-
+ble bet are simply the inverse of the
+multiple of the two probabilities less 1.
+Ali’s data conform to this prediction.
+David Harville (1973) presented a set
+of formulas for determining the prob-
+ability that horse j finishes second or
+third in an n-horse race. These formulas
+are based on pk, the probability that
+horse k wins the race, and a critical as-
+sumption concerning ρj, the probability
+that horse j beats all horses other than
+horse k. The joint probability that horse
+42 The authors note that the information re-
+quired to exploit this was not available to on-track
+bettors in the real time setting.
+43 Place and show odds were converted to pay-
+offs with faulty computer code.
+2046
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+k wins with horse j second is assumed to
+be pk ⋅ ρj, where ρj = pj ⁄ (1 − pk).44  Ex-
+tending this logic, combinations of joint
+probabilities can be used to estimate
+the probability of any rank order of fin-
+ish. This can be used to estimate the
+probabilities of exactas, bets where the
+order of the first two finishers must be
+selected, and place and show bets,
+which pay off if the selected horse fin-
+ishes in the top two or top three, re-
+spectively. The resulting equations have
+been widely applied and are now known
+as the “Harville formulas.”
+In a clever application of efficient
+markets theory, Hausch, Ziemba, and
+Mark Rubinstein (1981) constructed a
+wagering rule for place and show bet-
+ting. Hausch et al. obtain efficient esti-
+mates of the probabilities of winning
+from the win pool and use the Harville
+formulas to calculate the probabilities
+of running second or third. The ques-
+tion, then, is whether the place and show
+pools are efficient. Assuming the Harville
+formulas measure the true place and show
+probabilities, Hausch et al. show that the
+win pool shares should equal the place
+and show pool shares; i.e. wi = place i = showi,
+where placei and showi are the shares of
+the respective pools bet on horse i. If
+these ratios differ, either the Harville
+assumption is wrong or the market is in-
+efficiently pricing one of the wagers.
+Hausch et al.’s prior is that place and
+show pools are likely to be less efficient
+than the win pool for two reasons. First
+is the complexity of determining the ef-
+ficient payoff. Second, assuming that
+the typical bettor is risk-loving, few will
+pay attention to these pools, in which
+the payoffs are relatively low.
+The proposed betting rule is to wait
+until the last two minutes of the betting
+period, calculate the ratios for likely
+(low odds) horses and bet on horse i in
+the place or show pool when wi ⁄ place i
+or wi ⁄ showi is 1.15 or greater. Hausch et
+al. report that a positive, significant rate
+of return was realized in several simula-
+tions at various racetracks.
+This wagering rule is the basis of the
+“Dr. Z System,” which has received con-
+siderable attention in the racing world.
+The formulas have been encoded on
+computer chips and detailed in books
+for laymen (Ziemba and Hausch 1987).
+The widespread dissemination of this
+information should have a depressing
+effect on realized returns. This issue
+should be explored systematically, al-
+though there is already some evidence
+that this is the case. Financial columnist
+Daniel Seligman (1985) tested the Dr. Z
+System at Belmont Park in New York. In a
+two-week period, the system generated
+33 bets from 108 races, resulting in a rate
+of return of –0.067. Jay Ritter (1994) ar-
+gues that the racetrack market is one in
+which Dr. Z-type bettors efficiently ar-
+bitrage the implied price differences
+between different pools. Ritter obtains
+ex post profitability for a Dr. Z-type sys-
+tem using the known pool shares from
+the close of the market, but he shows in
+a simulation that a modest degree of
+uncertainty in the pool shares is suffi-
+cient to drive the rate of return to zero.
+Cross-Track 
+Arbitrage. 
+Wagering
+takes place at multiple locations, notably
+for races of national interest such as the
+Kentucky Derby and the Triple Crown
+series. In some cases the pools at each
+locale are independently managed, with
+the consequence that the payoffs at one
+44 Harville thus assumes that there is a “race
+within the race,” where the probability the horse j
+beats the remaining n-2 horses is independent of
+where k finishes. Indeed, it is independent of
+whether or not horse k even runs in the race. Al-
+though this is a useful assumption, there are cases
+in which it will mislead, since outcome of a race
+can be influenced by the strategies of the runners
+and the number of runners with each strategy. See
+Donald Hausch and William T. Ziemba (1994) for
+further discussion of the systematic biases in prob-
+abilities derived from this assumption, and Hal Stern
+(1990) for an alternative to the Harville model.
+ Sauer: Economics of Wagering Markets
+2047
+
+place, say Hollywood Park in California,
+might differ from another, say Churchill
+Downs in Kentucky.45  Differences in
+payoffs appear to reflect local informa-
+tion or perhaps a rooting interest in a
+locally based horse. For example, the
+1986 Derby winner Ferdinand (a horse
+based in California) paid off at odds of
+7.4.–1 at Hollywood and 17.7–1 at
+Churchill. Price differences this large
+are obvious candidates for arbitrage.
+Hausch and Ziemba (1990) provide a
+systematic analysis of price differences
+for nine Triple Crown races in the early
+1980s. The prices come from separate
+wagering pools at between four and
+eleven race tracks scattered throughout
+North America.46  Hausch and Ziemba
+record the final odds at each location,
+and construct a portfolio of wagers de-
+signed to yield a certain return of $1.
+By wagering the appropriate amount on
+each horse at the track where its odds
+are the highest, they can calculate the
+minimum cost of winning $1. This cost
+is less than $1 in seven of the nine cases,
+with an average rate of return of about
+5 percent. These opportunities do not arise
+frequently however, and some of the
+wagering 
+pools 
+are 
+small 
+enough
+(Hausch and Ziemba 1990, p. 72) to limit
+the bet size and hence the magnitude of
+the returns. These considerations make it
+a leap to consider cross-track arbitrage
+as an unexploited profit opportunity.
+Still, the evidence does represent an-
+other crease in what is predominantly a
+smooth pattern of efficiency in the race-
+track betting markets.
+4.5 Summary of the Literature 
+   on Racetrack Betting
+Before turning to point spread bet-
+ting, it is worthwhile to summarize the
+key findings of the literature on race-
+track betting.
+1. Win pool shares wi are good
+approximations to pi, the probability
+that a horse i wins the race, the favor-
+ite–long shot bias notwithstanding.
+2. There is ample evidence that the
+betting market creates improved esti-
+mates of pi through trading. Disparate
+sources of information are aggregated
+in the market, and the opinions of
+“experts” appear to be fully discounted
+in market prices.
+3. Odds adjustments improve predic-
+tion, but adjustment stops short of be-
+ing complete. Due to transaction costs,
+there is little incentive for additional
+trading to complete the process, since
+final odds in both pari-mutuel and fixed
+odds markets generally yield negative
+expected returns.
+4. Late money is smart money. In ad-
+dition, there is evidence that suggests
+that informed traders earn positive
+profits in the bookmaking markets of
+the U.K. and Australia.
+5. Representative-agent models em-
+phasizing risk-loving behavior can pro-
+vide an equilibrium explanation of the
+favorite-long shot bias. However, there
+is abundant evidence (points 2–4 above)
+that bettors are different, and that
+these differences are integral to estab-
+lishing efficient prices. Models with
+heterogenous bettors, in which risk
+preference is ignored, are consistent
+with some features of the favorite-long
+shot bias, but more work needs to be
+done. Work documenting the source of
+variation in the favorite-long shot bias
+would be particularly useful.
+6. Trading rules documenting posi-
+tive profits exist, but in three of the
+45 Advances in telecommunications and pari-mu-
+tuel systems now enable such wagering pools to be
+merged. Merged pools have since become the
+norm.
+46 The number of tracks offering such wagering
+varied during the period, as did Hausch and
+Ziemba’s success in obtaining information on the
+wagering pools. Note that I ignore for purposes of
+this discussion one race where their sample con-
+tains data from just two race tracks.
+2048
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+four cases studied here—Crafts (1985),
+Hausch, Ziemba, and Rubinstein (1981),
+and Hausch and Ziemba (1990)—the re-
+turns from following these rules may
+not cover the fixed costs required to
+execute them. The fourth rule (Schnyt-
+zer and Shilony 1995) used data not
+available in a real-time setting, but is
+suggestive of a very large discrepancy
+between returns based on public and
+private information.
+In sum, models of efficient pricing
+can account for much of the variation in
+prices and rates of return at the race-
+track. Yet numerous outstanding puz-
+zles remain, and fundamental modeling
+problems remain to be solved. The evi-
+dence suggests that an informed class of
+bettors is responsible for altering prices
+in these markets, yet observed returns
+are uniformly non-positive. We do not
+yet have an equilibrium model that mo-
+tivates the acquisition of information
+and at the same time remains consistent
+with these facts.
+5. Point Spread Betting on Team Sports
+5.1 Simple Tests of Point Spread
+   Efficiency
+Although fixed odds betting exists on
+some team sports, most papers have fo-
+cused on the point spread market, in
+which bettors attempt to “beat the
+spread” through superior prediction of
+the score difference of games.47  Most
+studies focus on the restrictions im-
+posed on point spreads by models of ef-
+ficient pricing. Two basic questions
+have been extensively explored. First, is
+it possible to identify systematic profit
+opportunities in point spread betting?
+Second, provided that certain distri-
+butional assumptions are satisfied, effi-
+ciency implies that the point spread
+(PS) is an unbiased, minimum variance
+estimator of the difference in points
+(DP) scored in a game—does this prop-
+erty hold? Beyond this, some interest-
+ing and creative applications of the effi-
+ciency concept have been employed,
+but we begin with the basics.
+Efficient pricing of wagers is gener-
+ally asserted by the absence of profit
+opportunities condition, as defined in
+Section 2.2. Let p(1 – p) represent the
+probability of winning a point spread
+bet by wagering on the favorite (under-
+dog). Using equation (2), efficiency re-
+stricts p (also 1– p) to the interval
+p ∈[.476, .524]
+(5)
+since τ = .1 in the Las Vegas market.
+Again, τ = 0 would imply that p = .5, and
+thus that PS is the median of the distri-
+bution of DP.
+An alternative to the favorite/under-
+dog condition redefines the score dif-
+ference and point spread to a home
+team minus visiting team basis. This
+procedure has been adopted in much of
+the recent literature. This is useful,
+since point spreads under this ordering
+measure the market’s estimate of the
+home court advantage, a factor (in con-
+trast to a team’s favoritism) which is
+fundamental in its own right to the out-
+come of the game.
+Provided that the distribution of
+score differences is symmetric, an addi-
+tional implication of efficiency is that
+PS is an unbiased forecast of DP:48 
+PS = E(DP)
+(6)
+Continuing within this framework, a
+stronger definition of efficiency implies
+that the point spread fully incorporates
+47 A notable exception is Woodland and Wood-
+land (1991), which shows that no favorite long-
+shot bias exists in the odds market for baseball
+games.
+48 Again, this follows if transactions costs (τ) are
+zero; with symmetry the median and mean of
+point differences coincide. This is strong but al-
+lows the use of standard hypothesis testing proce-
+dures. The exchange between William Even and
+Nicholas Noble (1992), and Gandar et al. (1993)
+covers distributional issues.
+ Sauer: Economics of Wagering Markets
+2049
+
+all relevant information. Denoting the
+set of all relevant information by Ω, this
+requires that
+E(DP − PS  | Ω) = 0
+(7)
+which says that the forecast error is un-
+related to relevant information (because
+this is already present in equal amounts
+in both DP and PS).
+Table 7 presents data from the bet-
+ting market on NBA games. This table
+can be used to assess the implications
+listed above, using both the home team-
+away team and favorite-underdog order-
+ing of score differences. Also included
+are all partitions of these orderings, in-
+cluding games in which there was no fa-
+vorite (PS = 0). Panel A examines equa-
+tion (5). In no partition is the ratio of
+winning to total bets outside the bounds
+implied by (5).
+Sample means and standard devia-
+tions of DP, PS, and DP-PS are pre-
+sented in panel B of Table 7. Note the
+TABLE 7
+SCORE DIFFERENCES AND POINT SPREADS FOR NBA GAMES
+A. Sample Frequencies
+Differencing Method/
+Sample Partition
+Games
+Bets
+Wins
+Ties
+Wins/Bets
+A1. Home-Away
+    All Games
+5636
+5510
+2789
+126
+.506
+    Home Favorites
+4341
+4243
+2148
+ 98
+.506
+    Home Underdogs
+1209
+1181
+ 600
+ 28
+.508
+    Pick ’em Games
+  86
+  86
+  41
+  0
+.477
+A2. Favorite-Underdog
+5550
+5424
+2729
+126
+.503
+B. Sample Means and Standard Deviations
+Differencing Method/
+Sample Partition
+DP
+PS
+DP-PS
+t-stat
+B1. Home-Away
+    All Games
+ 4.62(12.42)
+ 4.38(5.59)
+ 0.24(11.15)
+ 1.62
+    Home Favorites
+ 6.87(11.82)
+ 6.81(3.62)
+ 0.06(11.07)
+ 0.37
+    Home Underdogs
+–3.09(11.74)
+–4.05(2.30)
+ 0.96(11.45)
+ 2.91
+    Pick ’em Games
+–0.91(10.58)
+ 0.00(0.00)
+–0.91(10.58)
+−0.79
+B2. Favorite-Underdog
+ 6.05(11.83)
+ 6.21(3.56)
+–0.16(11.16)
+ 1.06
+Notes: (i) Sample Characteristics: The sample encompasses all regular season NBA games played in the six seasons
+from 1982–83 through 1987–88. Score differences were obtained from the annual edition of the Sporting News
+NBA Guide. Point spreads were obtained from The Basketball Scoreboard Book. These point spreads are those
+prevailing in the Las Vegas market about 2.5 hours prior to the start of play (5 PM Eastern time on a typical night).
+No point spread is reported for 22 games during this period, which reduces the sample from 5658 (all games played)
+to 5636 (all games with point spreads).
+ (ii) Panel A: This panel lists the number of games, bets (the number of games in which DP ≠ PS, which are ties),
+and the number of bets won by wagering on the team in the first position of the score difference. Wins/Bets is the
+sample estimate of p, the proportion of such bets won. Since this proportion always lies inside the bounds given by
+(2), no test statistic is required to evaluate this implication of efficient pricing.
+ (iii) Panel B: Standard deviations are given in parentheses. The t-statistic tests the null hypothesis that the mean
+forecast error (DP – PS) is zero. Although the null is rejected in the case of home underdogs, the failure to reject
+efficient pricing in panel A for this partition indicates that the rejection in B is caused by a departure from the
+symmetry assumption.
+2050
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+relatively high variability in DP: for pick
+’em games in which PS = 0, the average
+score difference is –0.91; but the range
+including just one standard deviation is
+[–11.49, 9.67], or about 21 points. NBA
+score differences thus appear to be very
+noisy. The hypothesis that PS is the ex-
+pected value of DP can be examined in
+panel B. The right-hand column con-
+tains t-statistics for testing the null hy-
+pothesis that E(DP – PS) = 0. Note that
+t = 2.91 in the case of home underdogs,
+which is sufficient to reject (6). The in-
+formation in panel A suggests that this
+rejection is due to a violation of the
+symmetry condition, and not a violation
+of efficient pricing, since the propor-
+tion of wins from bets is .508 in this
+partition. It makes sense to examine the
+data with simple procedures such as
+these so that subsequent errors are
+avoided, an issue we revisit in the fol-
+lowing section.
+Vergin and Scriabin (1978) examine a
+number of simple betting rules for po-
+tential profitability, and conclude that
+“discernable biased patterns” existed in
+NFL point spreads during the 1969–74
+seasons. An inaccurate but common
+interpretation of their results is that
+“Vergin and Scriabin have identified ex-
+ploitable biases . . . [and] show that
+arbitrage possibilities exist” (Peter Pope
+and David Peel 1989, p. 325). The arbi-
+trage claim can be traced to a single an-
+ecdote in Vergin and Scriabin (p. 816)
+on the existence of different point
+spreads in different cities for the same
+contest. What Vergin and Scriabin actu-
+ally show is that significant profits could
+have been realized if they obtained a
+point spread favoring a given betting
+strategy by one or two points over the
+published point spread. A proper inter-
+pretation of this evidence is that differ-
+ences in the spread as small as one or
+two points can have a tangible effect on
+wagering profitability.
+The success of the Vergin and Scri-
+abin strategies against actual point
+spreads is summarized in Table 8 for
+two samples. The table lists the sample
+sizes, proportion of winning bets, and
+p-values for two hypothesis tests for
+each strategy.49  Column 3 lists the p-
+value from testing the hypothesis that
+the proportion equals 0.5. This does not
+test the profitability proposition how-
+ever, as pointed out originally by Tryfos
+et al. (1984). Column 4 lists the p-value
+from testing the hypothesis that the
+proportion  < 0.524. While these strate-
+gies were profitable in Vergin and Scri-
+abin’s sample, the p-values in column 4
+are too high to reject the null hypothe-
+sis that p < .524 for two strategies,
+and a third is marginal (the p-value is
+.112).
+Tryfos et al. (1984) point out that one
+difficulty with this type of analysis is
+the large number of strategies “that can
+be defended on reasonably plausible a
+priori grounds.” Hence, it is not clear
+what a small number of biases really
+tells us about the point spread market.
+The acid test is if the strategies found
+profitable in an original study remain so
+out of sample. Tryfos et al. conducted
+out-of-sample tests on the Vergin and
+Scriabin strategies. The results for the
+1975–81 period are presented in panel
+B of Table 8. The strategy of betting big
+underdogs remained profitable, but the
+result is not statistically significant (the
+p-value is .277); the remaining strate-
+gies incurred losses. The Vergin and
+Scriabin paper and its extension by
+Tryfos et al. established a pattern that
+would be repeated: sightings of profit-
+able wagering rules are occasionally
+reported, but they often disappear on
+subsequent investigation.
+49 Of the rules considered in Vergin and Scri-
+abin, only the betting rules most favorable to the
+profitability proposition are presented in Table 8.
+ Sauer: Economics of Wagering Markets
+2051
+
+5.2 The Simple Linear Prediction Model
+Equation (6) has been repeatedly
+examined in the context of a linear
+prediction model. The basic form of
+this model is
+DP = α ⋅ H + β ⋅ PS + ε
+(8)
+where H is a vector of ones, α and β are
+regression coefficients, and ε is an error
+term. Market efficiency is examined by
+testing the joint null hypothesis that α =
+0 and β = 1; i.e., that PS is an unbiased
+linear predictor of DP. With scores and
+spreads ordered on a home team minus
+away team basis, it is clear that the inter-
+cept term α reflects advantages of the
+home team that are not priced in the
+betting market.
+The first versions of equation 5.4
+were estimated by Ben Amoako-Adu,
+Harry Marmer, and Joseph Yagil (1985)
+and Richard Zuber, John Gandar, and
+Benny Bowers (1985), and were pre-
+sented as evidence that point spreads
+were very poor and probably inefficient
+predictors of score differences of pro-
+fessional football games. Zuber et al.
+estimated separate regressions for each
+of the 16 weeks of the 1983 NFL regu-
+lar season, and failed to reject the
+non-informative null hypothesis that DP
+is unrelated to PS (i.e. that α = β = 0)
+in 15 of the 16 weeks.50  They conclude
+(p. 802) that the noninformative null
+hypothesis “is as consistent with the
+sample data as is the efficiency hy-
+pothesis.”
+Amoako-Adu et al. reversed the de-
+pendent and independent variables in
+the regression. Their estimated equa-
+tion is PS = −4.47 + 0.04 ⋅ DP, with an R2
+of .04 from a sample of 233 games.51
+TABLE 8
+THE PROFITABILITY OF SIMPLE BETTING RULES
+A. Vergin and Scriabin’s Sample 1969–74
+N
+p^
+p-value (p = 0.5)
+p-value (p < 0.5238)
+Bet on big underdogs
+674
+.546
+.017
+.249
+Bet against big winner
+ 78
+.538
+.499
+.795
+Bet on turnaround team
+ 59
+.627
+.051
+.112
+Bet on strongest team
+ 57
+.667
+.012
+.012
+B. Tryfos et al.’s Sample 1975–1981
+N
+p^
+p-value (p = 0.5)
+p-value (p < 0.5238)
+Bet on big underdogs
+735
+.535
+.060
+.277
+Bet against big winner
+N/A
+N/A
+N/A
+N/A
+Bet on turnaround team
+ 76
+.447
+.359
+—
+Bet on strongest team
+ 71
+.459
+.486
+—
+Notes: p^ is the proportion of winning bets from N tries. The p-values in the final two columns test the hypothesis
+that the true probability of winning is .5, and < .5238, respectively. Big underdogs are predicted to lose by more than
+5 points by the point spread. The big winner is the team with the largest margin of victory in the prior week. The
+turnaround team is the team that beat the spread by the largest amount over the prior 4 weeks. The strongest team
+is the team with the largest victory margin over the prior 4 weeks. Tryfos et al. did not reexamine the big winner
+strategy.
+50 Note that even in the absence of point spread
+effects (let β = 0), Zuber et. al’s non-informative
+null hypothesis could have been rejected if α were
+sufficiently non-zero. Hence, one interpretation of
+their results is that it is difficult to establish the
+well-known positive effect of playing at home us-
+ing a single week’s sample of games.
+51 In contrast to most studies, the ordering of
+point differences in Amoako-Adu et al. is as
+2052
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+This apparently weak relation lead them
+to conclude (p. 376) that “there is very
+little connection between spreads and
+actual game outcomes.”
+These conclusions are simply wrong.
+The lack of a tight statistical relation
+between DP and PS in these studies is
+due to the relatively large variation in
+DP. Sauer et al. (1988) argue that the
+weekly samples in Zuber et al. are too
+small (14 games each) to reject a non-
+informative null hypothesis. Amoako-
+Adu et al.’s method dilutes the signal to
+noise ratio. In the standard setup, the
+estimate of β in equation (8) is
+cov (PS,DP) ⁄ var (PS). By reversing the
+dependent and independent variables,
+the denominator becomes var(DP). This
+adds the noise source (ε) to the denomi-
+nator, which reduces the slope coeffi-
+cient in proportion to the variance of ε,
+and makes for a more complicated test
+of efficiency.52  
+Subsequent papers estimating equa-
+tion 5.4 in large samples (Gandar et al.
+1988, and Sauer et al. 1988) find that
+DP and PS are indeed related and were
+unable to reject the efficiency null. In-
+deed, pooling data from six NFL sea-
+sons, Gandar et al. obtained point esti-
+mates for α and β of 0.01 and 1.02,
+respectively. Although the equation ex-
+plained little of the variance in DP (R2
+was .14), the F-statistic testing the joint
+hypothesis that α = 0, β = 1 was also
+tiny (0.03). What seemed to be clear
+was that (a) score differences were
+noisy and hard to predict, and (b) the
+point spread was a weak but unbiased
+predictor of the score difference.
+Or was it? Joseph Golec and Maurry
+Tamarkin (1991, p. 312) argued that
+these “tests have low power to reject
+the null hypothesis of market efficiency
+because they are mis-specified.” The
+lack of power stems from the naivete of
+regressions based on (8), since it can
+test for mispricing only in the home
+team-visitor 
+dimension. 
+Golec 
+and
+Tamarkin argue that these regressions
+ignore potentially relevant information;
+for example, most of the time one team
+is favored and the other is an underdog,
+and this information is not fully ac-
+counted for in (8).
+Potential biases can potentially can-
+cel each other out, in the following way.
+Suppose that 2/3 of the games consist of
+favorites playing at home, and that fa-
+vorites at home are overbet on average
+by one point (i.e. that E(DP − PS) = −1 in
+this sub-sample). In the remaining 1/3
+of the games the home team is an un-
+derdog, and suppose these teams are
+underbet by two points. The reciprocal
+nature of point differences implies that
+favorites playing away are overbet by
+two points. Thus, in the full sample, all
+favorites are overbet, on average, by
+1.67 points. But when point differences
+are constructed on a home-away basis,
+the sample means of DP and PS are the
+same—the two biases posited above
+cancel exactly. It follows that a regres-
+sion based on (8) using home-away
+point differences will fail to detect what
+is, by construction, an obvious case of
+mispricing. This is the concern of Golec
+and Tamarkin.
+But their cure for this problem is
+printed in the daily papers; i.e. if the Cowboys are
+favored by 7 points over the Steelers, PS = −7.
+Hence there are no positive values for PS in the
+sample.
+52 The ratio of the slope coefficient to its stan-
+dard error (t-statistic) in Amoako-Adu et al. of
+2.93 implies there is a significant relation between
+DP and PS, but the low value of the regression
+coefficient makes the relation appear weak. Using
+the definitions of the least squares coefficients,
+their estimates, and the reported values of the t-
+statistic and R2, one can calculate the coefficients
+and t-statistic for the regression in its standard
+form. This equation is DP = −.527 + 0.89 ⋅ PS; by
+definition the value of R2 and the t-statistic (for
+β = 0) are the same. The t-statistic testing the
+hypothesis that β = 1 is –0.36; hence this evidence
+from Amoako-Adu et al. is actually consistent with
+efficient pricing.
+ Sauer: Economics of Wagering Markets
+2053
+
+worse than the disease. A simple ap-
+proach would be to partition the data as
+done in Table 7. Any potential bias in
+these dimensions will be revealed in the
+appropriate partition of the sample.
+Golec and Tamarkin stick with the re-
+gression model, and seek to estimate
+the following equation:
+DP = αI ⋅ I + αH ⋅ H + αF ⋅ F + β ⋅ PS + ε  (9)
+where I is a vector of ones, H is one for
+home teams and zero otherwise, and F is
+one for favorites and zero otherwise.
+Either the home-away or favorite-under-
+dog method of differencing this specifi-
+cation yields a singular matrix of regres-
+sors. Golec and Tamarkin’s solution is to
+randomize the differencing method (ad-
+justing the values of H, F, and PS ac-
+cordingly) and estimate the parameters
+using the randomized data. Their proce-
+dure yields nonzero estimates of αI in
+two specifications, leading Golec and
+Tamarkin to conclude that “unspecified
+biases” exist, “demonstrating that our
+statistical tests are more powerful” (p.
+313). This statement makes no sense.
+The estimates of αI are roughly the mean
+(conditioned on values of other regres-
+sors) of DP, where DP represents ran-
+domly determined point differences and
+hence has no meaningful interpretation.
+William Dare and Scott McDonald
+(1996) address the differencing prob-
+lem by taking appropriate account of
+the reciprocal relations inherent in
+point differences. The following equa-
+tion is a simplified version of their
+model, 
+appropriate 
+for 
+home-away
+point differences:
+DP = αHH + αFZ + βPS + ε
+(10)
+In this equation Z is a composite fa-
+vorite/underdog dummy variable which
+is 1 when the home team is favored and
+–1 when the home team is an under-
+dog.53  The simplest way to see how
+such an equation can be estimated is to
+posit a primitive 0/1 dummy variable
+model for the points scored by a team i:
+Pi = γ HHi + γ AAi + γ FFi + γ uUi + εi
+where Ai = 1 when team i plays away
+from home and γ AAi is the contribution
+of this factor to points scored by team i,
+with a similar interpretation of γUUi,
+where Ui = 1 when team i is an under-
+dog. Other variables are as previously
+defined.
+The key is Dare and McDonald’s im-
+position of symmetry on the home/away
+and favorite/underdog effects, so that
+γU = −γF and γA = −γH. Symmetry clearly
+makes sense since the model focuses on
+the possibility of bias in point differ-
+ences: if favorites are overbet by 2
+points then underdogs must be under-
+bet by two points. Let DP = Pi − Pj where
+i is the home team and j is the visitor.
+Then DP = γH(Hi − Hj) + γF(Fi − Fj) + εi − εj.
+(Hi − Hj) = 2 under home-away differenc-
+ing; (Fi − Fj) is 2 when the home team is
+favored and –2 when the home team is
+an underdog. Straightforward transfor-
+mations to this equation yield equation
+(10), with efficiency implying β = 1,
+αH = αF = 0.
+Dare and McDonald estimate a ver-
+sion of (10) which allows for slope
+effects in addition to intercept shifts,
+along with the ability to handle games
+with PS = 0, and games played at
+neutral sites. In contrast to Golec and
+Tamarkin, Dare and McDonald’s speci-
+fication results in a failure to reject the
+efficiency null on these dimensions of
+the data.54 
+53 For simplicity assume there are no “pick em”
+or neutral site games in the data. The full specifi-
+cation in Dare and McDonald handles these
+games appropriately.
+54 Their sample of 6685 college games over the
+same period does yield an estimate of 0.77 points
+for the condition of being favored (α F). The null
+is that this coefficient is zero, which leads Dare
+and McDonald to conclude that “lines of favored
+teams were downwardly biased by 0.77 points” (t =
+2.46). This result probably stems from a violation
+2054
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+The misspecification charges levied
+at equation 5.4 by both Golec and
+Tamarkin and Dare and McDonald are
+overstated—the “differencing problem”
+is a red herring. The Dare and McDon-
+ald specification incorporates the favor-
+ite/underdog information in the model
+in an appropriate way and thereby adds
+power against the null, but only in this
+dimension of the data. Numerous is-
+sues, notably the relation of fundamen-
+tal team characteristics to outcomes and
+point spreads, are omitted from these
+models. In pursuing these issues, the
+Dare and McDonald result can be re-
+lied on to simplify matters; i.e., it is ap-
+propriate to ignore the favorite/under-
+dog status of the team, and home-away
+differencing can be used in these re-
+gressions.55 
+5.3 Pricing of Fundamental Factors
+Zuber et al. (1985) investigated the
+market’s incorporation of fundamental
+factors into point spreads of NFL
+football games. Their procedure con-
+tains three components. First, an OLS
+model is estimated in which the score
+difference of a game is explained by
+differences in the characteristics and
+contemporaneous performance of the
+opposing teams. These variables include
+differences in yards gained rushing,
+yards passing, fumbles lost, intercep-
+tions, 
+penalties 
+incurred, 
+and 
+two
+indexes of team strength: the number of
+rookies, and the prior number of wins.
+Denote the difference in characteristics
+between teams playing the nth game in
+week m by the vector Xmn = Xmn
+h  − Xmn
+a ,
+where Xh and Xa represent charac-
+teristics and performance attributes for
+the home team and away team, respec-
+tively. 
+The 
+contemporaneous 
+least
+squares model of the score difference is
+then
+DPmn = γ + δXmn + ωmn.
+(11)
+where γ is a constant and ωmn is a game-
+specific disturbance. Home-away differ-
+encing is used, hence the estimate of γ
+measures the home field advantage, and
+δ is the marginal effect of the perfor-
+mance measures on the score difference.
+The regression achieved a good fit (R2 of
+.733) and the coefficient estimates are
+sensible.
+The second component is an attempt
+to predict future score differences.
+Team-specific moving averages of pass-
+ing yards, rushing yards, etc. from prior
+weeks are used to forecast Xmn
+h  and Xmn
+a
+for the following week’s games. These
+forecasts are combined with coefficient
+estimates from (11) to yield predicted
+score differences for subsequent games.
+This amounts to a simple fundamentals-
+based pricing model. The third compo-
+nent tests market efficiency with a
+simulation in which appropriate bets
+are placed when the market point
+spread differs from the model’s predic-
+tion. Zuber et al. found that their
+method earned a profit during the 1983
+NFL season. On this basis they reject
+efficient pricing: point spreads seem-
+ingly ignore relevant information con-
+tained in their list of fundamentals.
+This result proved to be fragile.
+Sauer et al. (1988) showed that while
+of the symmetry condition; blowouts are relatively
+common in college football, which can lead to this
+result. This conjecture is supported by Golec and
+Tamarkin’s data, where they report that the per-
+centage of winning bets on favorites was 49.8% in
+their sample of 6514 college games. Dare and
+McDonald do not report such a statistic. Dare and
+McDonald also refer to a possible violation of the
+efficiency condition for Super Bowl games, but
+this attention seems unwarranted given there are
+only 14 such games in their sample. As discussed
+earlier, the large variability of point differences
+renders samples of this size uninformative.
+55 As a general econometric matter, the imposi-
+tion of true restrictions improves the efficiency of
+parameter estimation. Thus, unless there is evi-
+dence to expect a nonzero coefficient estimate,
+the “factor” should be excluded from the regres-
+sion.
+ Sauer: Economics of Wagering Markets
+2055
+
+the contemporaneous regression model
+held up well out of sample, the Zuber et
+al. performance forecasts yielded no im-
+provement over the point spread in pre-
+dicting score differences. Denote the
+forecasts of Xmn by Xmn
+f , and add this
+variable to the equation (8):
+DPmn = α + β ⋅ PS + θ ⋅ Xmn
+f  + εmn
+(8′)
+Efficiency implies that the regressor
+Xf will not improve the fit of this equa-
+tion. Hence the complete efficiency
+null is that α = 0, β = 1, and θ = 0. Sauer
+et al. fail to reject this restriction for
+both the 1983 and 1984 NFL seasons.56
+The inference is that the betting market
+makes efficient use of the information
+contained in teams’ past performances.
+In addition, Sauer et al. show that the
+Zuber et al. betting method produced
+heavy losses out of sample. The profit-
+ability result may thus be spurious.
+5.4 Point Spread Variation 
+   and the Volatility Debate
+An important debate in financial eco-
+nomics concerns the ability of funda-
+mentals-based pricing models to explain
+variation in the prices of financial in-
+struments. It is well established that ag-
+gregate stock market returns exhibit
+volatility which is inconsistent with text-
+book models. John Cochrane (1991)
+shows that simple modifications can ac-
+count for much of the excess volatility
+result. In contrast, Stephen LeRoy
+(1989) and Robert Shiller (1989) argue
+that the models based on fundamentals
+are incapable of explaining observed
+volatility.
+The debate over the sources of excess
+volatility will be difficult to resolve, in
+part due to what LeRoy (1989) calls
+“the curse of dimensionality”—a change
+in expectations tied to one of many fac-
+tors at many future dates can cause the
+price of a financial asset to change. This
+multiplicity of possibilities makes it dif-
+ficult to tie price changes to changes in
+expectations. 
+Richard 
+Roll’s 
+(1984,
+1986) celebrated but failed attempts to
+obtain ex post explanatory power in em-
+pirical models of asset prices exemplify
+this problem.
+This problem is greatly simplified in
+the wagering market, since here the set
+of relevant fundamentals is reduced to
+those affecting a single, easily observed
+outcome. Pricing issues in which expec-
+tations depend on the expectations of
+others, for example, are largely irrele-
+vant in point spread markets. This pro-
+vides a unique opportunity to study the
+relation between fundamentals, price
+changes, and outcomes. Sauer (1991),
+William Brown and Sauer (1993a), and
+Jim Dana and Michael Knetter (1995)
+exploit this feature using explicit mod-
+els of score differences, and examine
+the restrictions these models impose on
+efficient point spreads.57  
+Sauer (1991) isolates a fundamental
+factor with observable changes and im-
+portant consequences: injuries to star
+basketball players in the NBA. To inves-
+tigate the effects of injuries on game
+scores and point spreads, Sauer esti-
+mated a fixed effects model of the point
+spread. The score difference for a game
+between teams i and j is assumed to be
+a function of four factors: luck, the
+home court advantage, the difference in
+the strengths of each team relative to
+the overall league, and an idiosyncratic
+factor relating to this particular match-
+up between teams i and j. Denote the
+home court advantage by αH, team
+strengths by Si and Sj, the idiosyncratic
+factor by ε, luck by ω, and let the
+56 Note that regressing the forecast error (DP  –
+PS) on Xf (i.e. imposing the efficiency restrictions
+on α and β alone) yields negative values of RBAR2
+for both seasons.
+57 These models share a common structure first
+developed in the statistics literature by Harville
+(1975).
+2056
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+function g(⋅) map these factors into the
+score difference. Assuming i is the
+home team and g(⋅) is linear, the score
+difference is:
+DP = αH + Si − Sj + ε + ω
+(12)
+Using (6) and noting that luck cannot be
+anticipated,
+PS = αH + Si − Sj + ε
+(13)
+A fixed effects/dummy variable model
+is used to obtain estimates of αH and
+the team strength variables S. Effi-
+ciency implies that the coefficients in
+equations (12) and (13) are the same.
+These restrictions are satisfied by NBA
+data (Sauer 1991, Brown and Sauer
+1993a).
+Coefficient estimates from the PS
+equation are used to predict point
+spreads out of sample PSHAT. Sauer
+(1991) 
+shows 
+that 
+PSHAT 
+is 
+an
+unbiased predictor of PS for games
+unaffected by injuries, and that the
+forecasts account for 80 to 90 percent
+of the variation in PS. It is important
+that the forecasts be accurate since
+heavy emphasis is placed on PS −
+PSHAT. For the sample of games af-
+fected by player injuries, Sauer inter-
+prets this difference as the market’s
+valuation of the injured player.
+Now define the order of differencing
+such that team i has the injured player
+and team j is at normal strength (games
+with multiple injuries are excluded).
+For injury spells in which players miss a
+lengthy series of games, the mean of PS
+− PSHAT is –2. That is, the estimated
+ability of the team with the injured
+player is two points lower, which seems
+a small amount for players of all-star
+caliber. However, PS is unbiased for
+these games, whereas PSHAT is signifi-
+cantly biased. Hence, the 2-point ad-
+justment in PS represents an efficient
+response to the change in a fundamen-
+tal factor.
+For short injury spells, the adjust-
+ment in PS is smaller. The value of the
+player is roughly the same, however, so
+that PS is significantly biased in games
+which the injured player misses (the
+team does worse than predicted by the
+spread). Sauer shows that this bias
+changes magnitude and sign throughout
+the injury spell in ways that are
+predicted by a model in which player
+participation is uncertain. In addition,
+the participation probability implied by
+the bias closely matches the probability
+estimate obtained from a hazard func-
+tion explaining the length of injury
+spells.58  Hence, given the uncertainty
+of playing, the change in PS can be
+viewed as an efficient pricing response
+to the injury.
+Brown and Sauer (1993a) examine
+the properties of PS − PSHAT for non-
+injury games. Brown and Sauer consider
+two opposing hypothesis. One hypothe-
+sis is that PS − PSHAT is meaningless
+noise. A second is that the residual rep-
+resents unobserved fundamentals which
+are difficult to include in a systematic
+regression. Table 9 presents the mean
+forecast errors (MFE) of PSHAT condi-
+tional on the value of PS − PSHAT.
+Define c = PS − PSHAT as the idiosyn-
+cratic component in the market point
+spread. Consider cases in which c is 3
+points. There are 211 such games in
+Brown and Sauer’s sample, with a
+MFE(PSHAT) of 2.75 points. For these
+games, the idiosyncratic component is
+essential to unbiased prediction. The
+story is much the same for other values
+of c, although the information content
+in the tails is weak given the paucity of
+observations.
+The predominance of positive values
+58 Injury spells are defined in the paper by
+games which players miss due to injury, which cre-
+ates selection bias if the probability that the player
+plays in the game is non-zero. Hence, in assessing
+the question of efficiency the extent of the selec-
+tion bias must be modeled explicitly, which is the
+approach taken in the paper.
+ Sauer: Economics of Wagering Markets
+2057
+
+of MFE(PSHAT) in Table 9 indicates
+that c does not represent meaningless
+noise; if it were, these values would be
+centered on 0. A fundamentals-based
+null hypothesis is that [c − (DP −
+PSHAT) | c ] = 0, which requires that
+MFE(PSHAT) increase with the value
+of c. Brown and Sauer fail to reject this
+hypothesis. Brown and Sauer interpret
+these results in light of Roll’s inability
+to explain stock price changes with a
+small scale model. Since the forecast
+errors in Table 9 tend to increase with
+c, this indicates that c represents
+unobserved fundamentals which are
+excluded from the team strength model.
+Brown and Sauer also identify cases
+in which the estimates of team strength
+change from season to season, and show
+that the changes in these estimates are
+essential to unbiased prediction. Brown
+and Sauer do not model the adjustment
+in team ability estimates, however.
+Dana and Knetter (1995) model this
+process explicitly using NFL data. Dana
+and Knetter examine how the market
+incorporates information from score dif-
+ferences in revising its estimates of
+team abilities. They estimate a version
+of equation (12) in which the team
+strength estimates follow a random
+walk. Efficient updating of these esti-
+mates is complicated by the low signal
+to noise ratio in score differences. Past
+score differences are used to estimate
+the team strength parameters, with an
+endogenously estimated threshold level
+beyond which increases in the score dif-
+ference are discounted rather than at-
+tributed to relative ability. Other indi-
+cators of noise—net turnovers and
+penalties—are used as regressors in the
+model in an attempt to clean the ability
+estimates from these factors.
+Dana and Knetter calculate a dis-
+count factor of .25 and a threshold of
+8.3 points, implying that score differ-
+ences beyond 8 points add about 1/4 of
+the information on relative ability com-
+pared to score differences within 8 points.
+The key question is whether market
+participants efficiently discount the
+noise in large score differences. Dana
+and Knetter conduct betting simula-
+tions both in and out of sample to exam-
+ine this question. These simulations fail
+TABLE 9
+THE INFORMATION CONTENT OF THE
+IDIOSYNCRATIC COMPONENT IN NBA POINT
+SPREADS
+c
+Number of
+ Observations
+MFE
+(PSHAT)
+Standard
+ Error
+ 0.0
+432
+–0.35
+10.14
+ 0.5
+744
+ 0.92
+11.19
+ 1.0
+624
+ 0.88
+10.17
+ 1.5
+535
+ 1.26
+11.37
+ 2.0
+398
+ 1.07
+11.06
+ 2.5
+307
+ 2.61
+11.77
+ 3.0
+211
+ 2.75
+11.34
+ 3.5
+162
+ 1.44
+10.53
+ 4.0
+ 90
+ 2.98
+12.27
+ 4.5
+ 57
+ 2.97
+ 9.60
+ 5.0
+ 35
+ 5.69
+12.35
+ 5.5
+ 21
+ 5.88
+ 8.84
+ 6.0
+ 14
+ 2.29
+12.65
+ 6.5
+  7
+–0.74
+ 7.05
+ 7.0
+  5
+ 8.00
+ 4.85
+ 7.5
+  8
+ 4.50
+13.69
+≥8.0
+  4
+–3.50
+ 6.90
+Source: Brown and Sauer 1993a. The data on scores
+and spreads are the same as in Table 5.1. c = PS –
+PSHAT is the idiosyncratic component of point
+spreads, based on out of sample forecasts using pa-
+rameters obtained from estimating equation 13. Note
+that negative values of PS – PSHAT (and the corre-
+sponding forecast errors) have been multiplied by –1.
+This conserves table space and statistical power. For
+example, suppose that MFE(PSHAT) = –3 for observa-
+tions where c = –4. The “adjustment” in the spread of
+–4 points accounted for by the unobserved component
+is thus 1 point too large. Converting these numbers to 3
+and 4 points, respectively, yields the same interpreta-
+tion and allows the positive and negative observations
+to be pooled.
+2058
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+to reach the threshold of profitability.
+By focusing on games in which noise
+may be a relatively large factor, Dana
+and Knetter do a bit better. They calcu-
+late a variable, DPAR, which stands for
+“difference in points attributable to ran-
+domness.” When a current game in-
+volves two teams with a large value of
+DPAR from the prior week, their
+model’s success at picking winning bets
+against the spread increases to the
+verge of profitability. Dana and Knetter
+interpret this as an “indication that
+learning is inhibited” by the noise in-
+herent in game outcomes. Their conclu-
+sion stands in contrast to interpreta-
+tions of excess volatility in financial
+markets, however. Dana and Knetter
+observe a form of “excess stability,”
+where noise causes agents to “weight
+recent observations less than our statis-
+tical model suggests is optimal.”
+Ultimately, Dana and Knetter report
+“scant 
+evidence” 
+against 
+efficiency.
+Regardless of this conclusion, what
+distinguishes their paper from run-of-
+the-mill tests is the explicit modeling of
+an important process—learning about a
+noisy world—and the pointed questions
+that can be asked when such a model is
+constructed. More work along these
+lines would be a welcome addition to
+the literature.
+5.5 Point Spread Changes 
+   During the Trading Period
+In the horse racing context, we have
+already seen how changes in odds dur-
+ing the trading period improve the bet-
+ting market’s estimates of the prob-
+ability of winning. A natural question
+for the point spread market is whether
+trading generates similar improvement.
+In the NFL market, Gandar et al.
+(1988) compared the mean square error
+of point spread forecasts using spreads
+from the beginning of the week with
+those from the end for the period 1980–
+85, and found virtually no difference in
+forecast accuracy. They also conducted
+an analysis of simple betting rules; the
+most successful are three behavioral
+rules which propose making wagers in
+opposition to recent public sentiment.
+Rule #5 reads as follows: “Bet on the
+team that becomes less favored (more
+of an underdog) over the course of the
+week’s betting. In effect, one is gener-
+ally betting against the direction bet by
+the majority of the public” (p. 1004).
+This betting rule achieved a success
+rate of 54.9 percent. The two other be-
+havioral 
+rules 
+(similarly 
+motivated)
+achieved similar success, all being sta-
+tistically profitable in the sample. This
+evidence stands in contrast to the bulk
+of the evidence on point spread pricing
+thus far. One can think of several fac-
+tors that may cause the efficient point
+spread to change over the course of a
+week.59  Gandar et al.’s (1988) evidence
+is inconsistent with the proposition
+that NFL point spread changes are effi-
+cient responses to changes in funda-
+mentals.
+Gandar et al. (1998) examine intra-
+day changes in point spreads for NBA
+games, and here the conclusion is quite
+different. Gandar et al. (1998) contrast
+the success of wagers made at the open-
+ing and closing spread with a method
+analogous to Brown and Sauer (1993a).
+They show that, conditional on the
+change in the spread, bets at the open-
+ing spread are profitable and depart sig-
+nificantly from the bounds implied by
+equation (5), whereas bets at the clos-
+ing spread are a coin flip. In this mar-
+ket, observed point spread changes are
+necessary to eliminate the existence of
+59 For example, a textbook on sports book man-
+agement asserts that bad weather reduces scoring
+and the score differences between good and bad
+teams, calling for adjustments in betting lines
+(Roxborough and Rhoden, p. 29). Changes in the
+status of injured players during the week also rep-
+resent a change in fundamentals.
+ Sauer: Economics of Wagering Markets
+2059
+
+profit opportunities—changes in NBA
+spreads make them more accurate pre-
+dictors of score differences.60  
+It is worth emphasizing that changes
+in NBA point spreads provide addi-
+tional evidence on the importance of
+differentially informed agents. Book-
+makers are experts who obviously have
+very strong incentives to be at least as
+well informed as the general betting
+public. Hence it is reasonable to conjec-
+ture that it is not the typical bettor, but
+rather individuals with scarce, highly
+specialized information that cause in-
+formative adjustments in NBA point
+spreads.
+5.6 The Hot Hand 
+Gambling markets are especially fer-
+tile ground for contests between the be-
+havioral and economic approaches to
+behavior. The behavioral approach em-
+phasizes the effects of persistent mis-
+perceptions on individual choice and
+market outcomes. The economic ap-
+proach emphasizes the role of economic
+forces in determining outcomes. For ex-
+ample, the average sports fan might
+have biased perceptions which over-
+state the probability that his team
+wins a game, but that observation does
+not establish that teams with more
+fans are poor bets in the point spread
+market.
+Gilovich, Robert Vallone, and Amos
+Tversky (1985) make the case that be-
+havior is influenced by biased percep-
+tions, in particular, that belief in the hot
+hand—non-random streakiness in per-
+formance—is a “widely shared cognitive
+illusion” (p. 313). They examine field
+goal shooting by the members of the
+Philadelphia 76ers, free throw shooting
+by the Boston Celtics, and free throw
+shooting by Cornell University basket-
+ball players, and in each case there is no
+evidence of serial dependence. Yet in
+the Cornell case, the players were will-
+ing to bet larger amounts at lower odds
+after making a shot, despite the fact
+that these shots were no more likely to
+be successful than shots after a miss.
+Belief in the hot hand, assert Gilovich
+et al., is belief in a myth.
+Colin Camerer (1993) uses data on
+basketball betting to address the mythi-
+cal hot hand argument in a repeated,
+nonexperimental setting. Camerer finds
+that bets on teams with recent winning
+streaks (against the point spread) are
+slightly more likely to be losers than
+winners. Camerer argues on this basis
+that the point spread market is an exam-
+ple where biased perceptions affect
+market prices. The proportion of win-
+ning bets, however, does not differ sig-
+nificantly from coin-flipping, hence the
+evidence is not fully persuasive.
+Brown and Sauer (1993b) study the
+question using a point spread pricing
+model based on equations (12) and (13).
+The advantage offered by the pricing
+model is its ability to measure any ad-
+justments in point spreads that stem
+from winning and losing streaks. Brown
+and Sauer find strong evidence that
+point spreads adjust by about 1/4 of a
+point (on average) for teams on a two or
+three game winning streak, and by
+about 2/3 of a point for teams on a
+streak of four or more games. The
+model thus confirms the market’s belief
+that streaks may represent something
+real. Again, efficiency imposes equality
+restrictions on the coefficients in the
+point spread and score difference equa-
+tions. Brown and Sauer fail to reject
+these restrictions, a result consistent
+with the existence of real streak effects.
+Note however that in single equation
+estimation, the score differences them-
+selves provide no evidence against the
+hypothesis 
+that 
+streaks 
+are 
+purely
+60 The contrast between these results and those
+for the NFL market is a puzzle that calls for expla-
+nation.
+2060
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+random.61  Brown and Sauer thus can-
+not reject the hypothesis that the hot
+hand is mythical.
+Statisticians, with no axe to grind in
+the debate between the behavioral and
+economic approaches, have also exam-
+ined the hot hand phenomenon. S.
+Christian Albright (1993) analyzed hit-
+ting by professional baseball players.
+The number of streaky hitters is consis-
+tent with a model in which hitting suc-
+cess is serially uncorrelated, with no
+persistence in the identity of who is
+streaky across seasons. Albright con-
+cludes that the stationary, purely ran-
+dom model of performance provides a
+“reasonably consistent” description of
+the data.
+Jim Albert (1993) and Stern and Carl
+Morris (1993) agree that real (as op-
+posed to random) streak effects are dif-
+ficult to detect in hitting data. But they
+do not accept the argument that the hot
+hand is a myth. Stern and Morris argue
+that the problem is due to low power
+against the random null. Suppose that
+the hot hand were to raise the prob-
+ability of a hit by as much as .1 during
+sub-periods of a season. Even with such
+a strong effect, their simulations show
+that Albright’s methods lack power and
+likely will fail to reject the random null.
+Stern and Morris (p. 1189) argue that
+emphasis on the random null is mis-
+placed in this context: “The evidence
+that all of us have obtained as partici-
+pants and fans, which suggests that
+there are streaks in sports, should be
+preferred to the null hypothesis, at least
+until reasonably powerful approaches
+fail to reject plausible alternatives.”
+6. Conclusion
+Wagering markets offer a unique set-
+ting for economists to study models of
+market pricing and choice under uncer-
+tainty. They provide a pricing mecha-
+nism for financial instruments in a con-
+text 
+where 
+outcomes 
+are 
+readily
+revealed and the scope of the pricing
+problem is reduced.
+These features simplify the analysis
+of questions that are important in other
+contexts, and hence the findings of this
+literature have a bearing on economic
+issues 
+elsewhere. Early 
+researchers
+such as McGlothlin (1956) and Weitz-
+man (1965) were not interested in the
+racetrack betting market per se, but in
+the information available from this mar-
+ket on choice under uncertainty. Al-
+though the literature on wagering has
+since become more specialized, the in-
+herent advantages for attacking ques-
+tions of general interest remain.
+Most of the evidence surveyed here
+can be given a coherent equilibrium in-
+terpretation, and standard definitions of
+market efficiency are generally satis-
+fied. The odds generated by racetrack
+betting efficiently predict the order of
+finish, and provide reasonably good es-
+timates of the probability of winning,
+the favorite-long shot bias notwith-
+standing. As a rule, point spreads are
+efficient estimates of the median of the
+distribution of score differences. There
+is a strong tendency in these markets
+for price changes to move in the direc-
+tion of outcomes.
+Nevertheless, there are empirical
+regularities that are inconsistent with
+generic notions of efficiency. Although
+the representative agent model with
+convex preferences can rationalize the
+favorite-long shot bias, it fails to explain
+why this bias is not present in some
+markets. Differences in the rate of re-
+turn associated with price changes are
+61 An obvious problem for modeling which
+Brown and Sauer do not address is that random
+outcomes in an efficient market will generate a
+two game streak (either winning or losing) in
+about half of all two game sequences. An objective
+basis for ferreting out which streaks are candidates
+for non-randomness and which are not seems
+crucial for gaining power against the random null.
+ Sauer: Economics of Wagering Markets
+2061
+
+inconsistent with representative agent
+models of asset pricing. In addition, sys-
+tematic differences in the rates of re-
+turn to wagering on the same event at
+different locations suggest the impor-
+tance of differentially informed agents.
+These findings present a challenge to
+equilibrium models of the wagering
+market. Models emphasizing heteroge-
+neous agents, information asymmetries,
+and transaction costs have enjoyed
+some success in addressing these issues.
+More work along these lines is certainly
+called for and may advance our under-
+standing of the forces that determine
+market prices.
+REFERENCES
+Albert, Jim. 1993. “Comment (on A Statistical
+Analysis of Hitting Streaks in Baseball),” J.
+Amer. Statist. Assoc., 88:424, pp. 1184–88.
+Albright, S. Christian. 1993. “A Statistical Analysis
+of Hitting Streaks in Baseball,” J. Amer. Statist.
+Assoc., 88:424, pp. 1175–83.
+Ali, Mukhtar M. 1977. “Probability and Utility Es-
+timates for Racetrack Bettors,” J. Polit. Econ.,
+85:4, pp. 803–15. Reprinted in Hausch et al.,
+1994.
+———. 1979. “Some Evidence of the Efficiency of
+a Speculative Market,” Econometrica, 47, 387–
+92. Reprinted in Hausch et al., 1994.
+Amoako–Adu, Ben; Harry Marmer, and Joseph
+Yagil. 1985. “The Efficiency of Certain Specula-
+tive Markets and Gambler Behavior,” J. Econ.
+Bus., 37, pp. 365–78
+Applebaum, Elie and Eliakim Katz. 1981.“Market
+Constraints as a Rationale for the Friedman–
+Savage Utility Function,” J. Polit. Econ., 89:4,
+pp. 819–25.
+Arrow, Kenneth. 1951. “Alternative Approaches to
+the Theory of Risk in Risk-Taking Situations,”
+Econometrica, 19, pp. 404–35.
+Asch, Peter; Burton G. Malkiel, and Richard E.
+Quandt. 1982. “Racetrack Betting and Informed
+Behavior,” J. Finan. Econ., 10, pp. 187–94. Re-
+printed in Hausch et al., 1994.
+———. “Market Efficiency in Racetrack Betting,”
+J. Business, 1984, 57, pp. 165–175. Reprinted in
+Hausch et al., 1994.
+———. 1986. “Market Efficiency in Racetrack
+Betting: Further Evidence and a Correction,” J.
+Bus., 59, pp. 157–60. Reprinted in Hausch et
+al., 1994.
+Asch, Peter, and Richard E. Quandt. 1987. “Effi-
+ciency 
+and 
+Profitability 
+in 
+Exotic 
+Bets,”
+Economica, 54, pp. 289–98. Reprinted in
+Hausch et al., 1994.
+Bassett, Gilbert W. Jr. 1981. “Point Spreads versus
+Odds,” J. Polit. Econ., 89:4, pp. 752–68.
+Benjamin, Daniel K. and William R. Dougan.
+1997. “Individual Assessments of the Risk of
+Death: A Reassessment of Previous Evidence,”
+J. Risk Uncertainty, pp. 115–33.
+Brenner, Reuven and Gabriele A. Brenner. 1990.
+Gambling and Speculation: A Theory, a His-
+tory, and a Future of Some Human Decisions,
+New York: Cambridge U. Press.
+Brown, William O. and Raymond D. Sauer. 1993.
+“Does the Basketball Market Believe in the Hot
+Hand? Comment,” Amer. Econ. Rev., 83:5, pp.
+1377–86.
+———. 1993. “Fundamentals or Noise? Evidence
+from the Point Spread Betting Market,” J. Fi-
+nance, 48:4, pp. 1193–209.
+Busche, Kelly, and Christopher Hall. 1988. “An
+Exception to the Risk Preference Anomaly,” J.
+Bus., 61, pp. 337–46. Reprinted in Hausch et
+al., 1994.
+Busche, Kelly. 1994. “Efficient Market Results in
+an Asian Setting,” in Efficiency of Racetrack
+Betting Markets. D. B. Hausch, V. S. Y. Lo, and
+W. T. Ziemba, eds., San Diego: Academic
+Press.
+Camerer, Colin. 1989. “Does the Basketball Mar-
+ket Believe in the Hot Hand?” Amer. Econ.
+Rev., 79:5, pp. 1257–61.
+Clotfelter, Charles T. and Phillip J. Cook. 1989.
+Selling Hope: State Lotteries in America, Cam-
+bridge, MA: Harvard U. Press.
+Cochrane, John H. 1991. “Volatility Tests and Ef-
+ficient Markets: A Rev. Essay,” J. Monet. Econ.
+27, 463–85.
+Conlisk, John. 1993. “The Utility of Gambling,” J.
+Risk Uncertainty, 6:3, 255–75.
+Crafts, N.F.R. 1985. “Some Evidence of Insider
+Knowledge in Horse Race Betting in Britain,”
+Economica, 52, pp. 295–304.
+———. 1994. “Insiders and Outsiders in British
+Horse Race Betting,” in Hausch, Lo, and
+Ziemba., pp. 545–49.
+Dana, Jim, and Michael Knetter. 1994. “Learning
+and Efficiency in a Gambling Market,” Manage.
+Sci., 40:10, pp. 1317–28.
+Dare, William H., and S. Scott McDonald. 1996.
+“A Generalized Model for Testing the Home
+and Favorite Team Advantage in Point Spread
+Markets,” J. Finan. Econ., 40, pp. 295–318.
+Dolbear, F. Trenery. 1993. “Is Racetrack Betting
+on Exactas Efficient?” Economica, 60, pp. 105–
+11.
+Dowie, Jack. 1976. “On the Efficiency and Equity
+of Betting Markets,” Economica 43, pp. 139–50.
+Reprinted in Hausch et al., 1994.
+Dwyer, Gerald P., Jr. et al. 1993. “Tests Of Ra-
+tional Expectations In A Stark Setting,” Econ.
+J., 103, pp. 586–601.
+Even, William, and Nicholas Noble. 1993. “Test-
+ing Efficiency in Gambling Markets,” Applied
+Econ., 24, pp. 85–88.
+Fama, Eugene F. 1970. “Efficient Capital Mar-
+kets: A Rev. of Theory and Empirical Work,” J.
+Finance, 25:2, pp. 383–417.
+2062
+ Journal of Economic Literature, Vol. XXXVI (December 1998)
+
+Figlewski, Stephen. 1979. “Subjective Information
+and Market Efficiency in a Betting Market.” J.
+Polit. Econ., 87:1, pp. 75–89.
+Findlay, John M. 1986. People of Chance: Gam-
+bling in American Society from Jamestown to
+Las Vegas, Oxford U. Press: New York.
+Friedman, Milton and Leonard Savage. 1948.
+“The Utility Analysis of Choices Involving
+Risk,” J. Polit. Econ., 56:4, pp. 279–304.
+Gabriel, Paul E. and James R. Marsden. 1990. “An
+Examination of Market Efficiency in British
+Racetrack Betting,” J. Polit. Econ., 98 (4), pp.
+874–85.
+———. 1991. “An Examination of Market Effi-
+ciency in British Racetrack Betting: Errata
+and Corrections,” J. Polit. Econ., 99:3, pp. 657–
+59.
+Gandar, John; W. Dare, Craig Brown and R.
+Zuber. 1998. “Informed Traders in the Betting
+Market for Professional Basketball Games,” J.
+Finance, 53, pp. 385–401.
+Gandar, John; Richard Zuber, Thomas O’Brien,
+and Ben Russo. 1988. “Testing Rationality in
+the Point Spread Betting Market,” J. Finance,
+43, pp. 995–1007.
+Gandar, John; Richard Zuber, and Ben Russo.
+1993. “Testing Efficiency in Gambling Markets:
+A Comment,” Appl. Econ., 25, pp. 937–43.
+Gilovich, Thomas. 1983. “Biased Evaluation and
+Persistence in gambling,” J. Personality and
+Psych., 44:6, pp. 1110–26.
+———, Robert Vallone, and Amos Tversky. 1985.
+“The Hot Hand in Basketball: On the Misper-
+ception of Random Sequences,” Cognitive
+Psych., 17, pp. 295–314.
+Golec, Joseph, and Maurry Tamarkin. 1991. “The
+Degree of Inefficiency in the Football Betting
+Market,” J. Finan. Econ., 30, pp. 311–23.
+Griffith, Richard M. 1949. “Odds Adjustment by
+American Horse Race Bettors,” Amer. J. Psych.,
+62, pp. 290–94. Reprinted in Hausch et al.,
+1994.
+Harris, H. A. 1972. Sport in Greece and Rome.
+Ithaca, N.Y.: Cornell U. Press.
+Harville, David A. 1973. “Assigning Probabilities
+to the Outcomes of Multi–entry Competitions,”
+J. Amer. Statist. Assoc., 68, pp. 312–16. Re-
+printed in Hausch et al., 1994.
+———. 1975. “Predictions for NFL Games via
+Linear Model Methodology,” J. Amer. Statist.
+Assoc., 75, pp. 516–24.
+Hausch, Donald B.; Victor S. Y. Lo, and William
+T. Ziemba, eds. 1994. Efficiency of Racetrack
+Betting Markets, San Diego: Academic Press.
+Hausch, Donald B.; William T. Ziemba, and Mark
+Rubinstein. 1981. “Efficiency of the Market for
+Racetrack Betting,” Manage. Sci., 27:12, pp.
+1435–52. Reprinted in Hausch et al., 1994.
+Hausch, Donald B. and William T. Ziemba. 1990.
+“Arbitrage Strategies for Cross-Track Betting
+on Major Horse Races,” J. Bus., 63, pp. 61–78.
+Reprinted in Hausch et al., 1994.
+———. 1985. “Transactions Costs, Extent of
+Inefficiencies, Entries, and Multiple Wagers
+in a Racetrack Betting Model,” Manage. Sci.,
+31, pp. 381–94. Reprinted in Hausch et al.,
+1994.
+———. 1992. “Efficiency of Sports and Lottery
+Betting Markets,” in The New Palgrave Diction-
+ary of Money and Banking, P. Newman, M.
+Milgate, and J. Eatwell, eds. London: Macmil-
+lan.
+———. 1994. “Efficiency of Sports and Lottery
+Betting Markets,” in R. Jarrow, V. Maksimovic,
+and W. T. Ziemba, eds., Finance Handbook, El-
+sevier-North Holland.
+Hirshleifer, Jack. 1966. “Investment Decision Un-
+der Uncertainty: Applications of the State-Pref-
+erence Approach,” Quart. J. Econ., 66, pp. 252–
+77.
+Hoerl, Arthur E. and Herbert K. Fallin. 1974.
+“Reliability of Subjective Evaluations in a High
+Incentive Situation,” J. Roy. Statist. Soc., 137,
+pp. 227–30.
+Humphrey, John H. 1986. Roman Circuses: Are-
+nas for Chariot Racing, U. California Press,
+Berkeley.
+Hurley, William and Lawrence McDonough. 1995.
+“A Note on the Hayek Hypothesis and the Fa-
+vorite Long Shot Bias in Parimutuel Betting,”
+Amer. Econ. Rev., 85:4, pp. 949–55.
+———. 1996. “The Favorite Long Shot Bias in
+Parimutuel Betting: A Clarification of the Ex-
+planation that Bettors Like to Bet Long Shots,”
+Economic Letters, 52:3, pp. 275–78.
+———. 1996. “An Unbiased Explanation of the
+Favourite Long Shot Bias in Parimutuel Bet-
+ting,” manuscript, The Royal Military College
+of Canada.
+Issacs, Rufus. 1953. “Optimal Horse Race Bets,”
+Amer. Math. Monthly, 60, pp. 310–15, Re-
+printed in Hausch et al., 1994.
+LeRoy, Stephen F. 1989. “Efficient Capital Mar-
+kets and Martingales,” J. Econ. Lit., 27, pp.
+1583–621.
+Longrigg, Robert. 1972. The History of Horse Rac-
+ing, NY: Stein and Day.
+Losey, Robert L. and John C. Talbott, Jr. 1980.
+“Back on the Track with the Efficient Markets
+Hypothesis,” J. Finance, 35:4, pp. 1038–43.
+Machina, Mark J. 1987. “Choice Under Uncer-
+tainty: Problems Solved and Unsolved,” J. Econ.
+Perspectives, 1:1, pp. 121–54.
+MacLean, L. C., W. T. Ziemba, and G. Blazenko.
+1992. “Growth Versus Security in Dynamic In-
+vestment Analysis,” Manage. Sci., 38, pp. 1562–
+85.
+Markowitz, Harry. 1952. “The Utility of Wealth,”
+J. Polit. Econ., 56:4, pp. 151–58.
+McGlothlin, W. H. 1956. “Stability of Choices
+Among 
+Uncertain 
+Alternatives,” 
+Amer. 
+J.
+Psych., 69, pp. 604–15. Reprinted in Hausch et
+al., 1994.
+Pankoff, Lynn. 1968. “Market Efficiency in Foot-
+ball Betting,” J. Bus., 41, pp. 203–14.
+Pope, Peter F. and David A. Peel. 1989. “Informa-
+tion, Prices, and Efficiency in a Fixed-Odds
+Betting Market,” Economica, 56, pp. 322–41.
+ Sauer: Economics of Wagering Markets
+2063
+
+Quandt, Richard E. 1986. “Betting and Equilib-
+rium,” Quart. J. Econ., 101:1, pp. 201–207.
+Ritter, Jay. 1994. “Racetrack Betting—An Exam-
+ple of a Market with Efficient Arbitrage,” in
+Hausch et al.
+Robertson, William H. P. 1964. The History of
+Thoroughbred Racing in America, Englewood
+Cliffs, NJ: Prentice Hall.
+Roll, Richard. 1984. “Orange Juice and Weather,”
+Amer. Econ. Rev., 74, pp. 861–80.
+———. 1988. “R2,” J. Finance, 43, pp. 541–66.
+Rosett, Richard N. 1975. “Gambling and Rational-
+ity,” J. Polit. Econ., 73:6, pp. 595–607. Re-
+printed in Hausch et al., 1994.
+Roxborough, Michael and Mike Rhoden. 1991.
+Race and Sports Book Management. Las Vegas:
+Las Vegas Sports Consultants.
+Russo, Ben J.; John Gandar, and Richard Zuber.
+1989. “Market Rationality Tests Based on
+Cross-Equation Restrictions,” J. Monet. Econ.,
+24, pp. 455–70.
+Samuelson, Paul. 1952. “Probability, Utility, and
+the Independence Axiom,” Econometrica, 20,
+pp. 670–78.
+Sauer, Raymond D. 1991. “Do Price Changes Ac-
+curately Reflect Changes in the Distribution of
+Outcomes? A Study of the Effects of Player In-
+juries on Basketball Scores and Spreads,” un-
+published manuscript, Clemson U.
+Sauer, Raymond D.; Vic Brajer, Stephen Ferris,
+and M. Wayne Marr. 1988. “Hold Your Bets:
+Another Look at the Efficiency of the Betting
+Market for NFL Games,” J. Polit. Econ., 96:1,
+pp. 206–13.
+Schnytzer, Adi; and Yuval Shilony. 1995. “Inside
+Information in a Betting Market,” Econ. J., 105,
+pp. 963–71.
+Shiller, Robert. 1989. Market Volatility. Cam-
+bridge, MA: MIT Press.
+Shin, Hyun Song. 1991. “Optimal Odds Against
+Insider Traders,” Econ. J., 101, pp. 1179–85.
+———. 1992. “Prices of State Contingent Claims
+With Insider Traders, and the Favourite Long
+Shot Bias,” Econ. J., 102, pp. 426–35. Reprinted
+in Hausch et al., 1994.
+———. 1993. “Measuring the Incidence of Insider
+Trading in a Market for State–Contingent
+Claims,” Econ. J., 103, pp. 1141–53.
+Slovic, Paul; Baruch Fischoff, and Sarah Lichten-
+stein. 1982. “Facts versus Fears: Understanding
+Perceived Risk,” in Judgement Under Uncer-
+tainty: Heuristics and Biases. D. Kahneman, P.
+Slovic, and A. Tversky, eds., Cambridge: Cam-
+bridge U. Press.
+Smith, Vernon L. 1971. “Economic Theory of
+Wager Markets,” Western Econ. J., 9, pp. 242–
+55.
+Snyder, Wayne W. 1978. “Horse Racing: Testing
+the Efficient Markets Model,” J. Finance, 33,
+pp. 1109–18. Reprinted in Hausch et al., 1994.
+Stern, Hal S. 1990. “Models for Distributions on
+Permutations,” J. Amer. Statist. Assoc., 85, pp.
+558–64.
+——— and Carl N. Morris. 1993. “Comment (on
+A Statistical Analysis of Hitting Streaks in Base-
+ball),” J. Amer. Statist. Assoc., 88:424, pp.
+1189–93.
+Thaler, Richard H. and William T. Ziemba. 1988.
+“Anomalies—Parimutuel 
+Betting 
+Markets:
+Racetracks and Lotteries,” J. Econ. Perspect., 2,
+pp. 161–74. Reprinted in Hausch et al., 1994.
+Tryfos, P.; S. Casey, S. Cook, G. Leger, and B.
+Pylypiak. 1984. “The Profitability of Wagering
+on NFL Games,” Manage. Sci., 30:1, pp. 123–
+32.
+Vamplew, Wray. 1976. The Turf. A Social and Eco-
+nomic History of Horse Racing. London: Allen
+Lane.
+Vaughan Williams, Leighton and David Paton.
+1997. “Why is There a Favourite Long Shot
+Bias in British Racetrack Betting Markets,”
+Econ. J., 107, pp. 150–58.
+Vergin, Roger C. and Michael Scriabin. 1978.
+“Winning Strategies for Wagering on National
+Football League Games,” Manage. Sci., 24, pp.
+809–18.
+Viscusi, W. Kip and Charles O’Connor. 1984.
+“Adaptive Responses to Chemical Labeling: Are
+Workers Bayesian Decision Makers?” Amer.
+Econ. Rev., pp. 942–56.
+Weitzman, Martin. 1965. “Utility Analysis and
+Group Behavior: An Empirical Study,” J. Polit.
+Econ., 73:1, pp. 18–26. Reprinted in Hausch et
+al., 1994.
+Woodland, Linda M. and Bill M. Woodland. 1991.
+“The Effects of Risk Aversion on Wagering:
+Point Spread versus Odds,” J. Polit. Econ., 99:3,
+pp. 638–53.
+———. 1994. “Market Efficiency and the Favorite
+Long Shot Bias: The Baseball Betting Market,”
+J. Finance, 49:1, pp. 269–80.
+Ziemba, William T. and Donald B Hausch. 1987.
+Dr. Z’s Beat the Racetrack. New York: William
+Morrow.
+Zuber, Richard; John M. Gandar, and Benny Bow-
+ers. 1985. “Beating the Spread: Testing the Ef-
+ficiency of the Gambling Market for NFL
+Games,” J. Polit. Econ., 93:4, pp. 800–806.
+2064
+ Journal of Economic Literature, Vol. XXXVI (December 1998)

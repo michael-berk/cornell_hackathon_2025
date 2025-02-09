@@ -1,0 +1,1888 @@
+American Economic Association
+The Economics of Rotating Savings and Credit Associations
+Author(s): Timothy Besley, Stephen Coate, Glenn Loury
+Source: The American Economic Review, Vol. 83, No. 4 (Sep., 1993), pp. 792-810
+Published by: American Economic Association
+Stable URL: http://www.jstor.org/stable/2117579 .
+Accessed: 16/01/2011 09:24
+Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at .
+http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless
+you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you
+may use content in the JSTOR archive only for your personal, non-commercial use.
+Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at .
+http://www.jstor.org/action/showPublisher?publisherCode=aea. .
+Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed
+page of such transmission.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of
+content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms
+of scholarship. For more information about JSTOR, please contact support@jstor.org.
+American Economic Association is collaborating with JSTOR to digitize, preserve and extend access to The
+American Economic Review.
+http://www.jstor.org
+
+The Economics of Rotating Savings 
+and Credit Associations 
+By TIMOTHY BESLEY, STEPHEN COATE, AND GLENN LoURY* 
+This paper analyzes the economic role and performance of a type of financial 
+institution which is observed worldwide: rotating savings and credit associations 
+(Roscas). Using a model in which individuals save for an indivisible durable 
+consumption good, we study Roscas which distribute funds using random 
+allocation and bidding. Each type of Rosca allows individuals without access to 
+credit markets to improve their welfare, but under a reasonable assumption on 
+preferences, random allocation is preferred when individuals have identical 
+tastes. This conclusion need not hold when individuals are heterogeneous. 
+We also discuss the sustainability of Roscas given the possibility of default. 
+(JEL 016, 017, G20) 
+This paper studies rotating savings and 
+credit associations (Roscas). These are in- 
+formal financial institutions which are found 
+all over the world.' They are most common 
+in developing countries but are also used by 
+immigrant groups in the United States (see 
+e.g., Ivan Light, 1972; Aubrey W. Bonnett, 
+1981). Furthermore, many of the U.S. sav- 
+ings and loan associations seem to have 
+started life as Roscas (see Edwin Symons 
+and James White, 1984; Richard Grossman, 
+1992). Roscas constitute one of a number of 
+institutions, share-cropping being another 
+example, whose existence is pervasive in 
+developing economies and demands some 
+explanation. Yet while their prevalence and, 
+to some degree, robustness has fascinated 
+anthropologists, they have attracted surpris- 
+ingly little attention from economists.2 Our 
+object in this paper and its companion piece 
+(Besley et al., 1992) is therefore to initiate 
+an analysis of their economic role and per- 
+formance. 
+The considerable literature on Roscas re- 
+veals much variation in how they actually 
+work in practice, but two main varieties can 
+be identified. The first, and most prevalent, 
+type allocates its funds randomly. In a ran- 
+dom Rosca, members commit to putting a 
+fixed sum of money into a "pot" for each 
+*Besley: Woodrow Wilson School and Department 
+of Economics, Princeton University, Bendheim Hall, 
+Princeton, NJ 08544-1022; Coate: Department of Eco- 
+nomics, University of Pennsylvania, 3718 Locust Walk, 
+Philadelphia, PA 19104-6297; Loury: Department of 
+Economics, Boston University, 270 Bay State Road, 
+Boston, MA 02215. We are grateful to Anne Case, 
+Richard Zeckhauser, two referees of this journal, and 
+seminar participants at Boston University, Cambridge, 
+Cornell, Harvard, Northwestern, Oxford, Penn, Prince- 
+ton, and Queen's for their helpful comments on vari- 
+ous parts of this research. We also thank Peter Walker 
+for excellent research assistance and the Center for 
+Energy Policy Studies at M.I.T., the Lynde and Harry 
+Bradley Foundation, and the Japanese Corporate As- 
+sociates Program at the Kennedy School of Govern- 
+ment, Harvard University, for financial support. 
+1Roscas travel under many different names; chit 
+funds in India, susu in Ghana, tontines in Senegal, 
+njangis in Cameroon, cheetu in Sri Lanka, and 
+pasanakus in Bolivia are just a few examples. 
+2The classic anthropological studies of Roscas are 
+by Clifford Geertz (1962) and Shirley Ardener (1964). 
+The latter paper is particularly recommended as an 
+introduction to the literature; see also Donald V. Kurtz 
+(1973) and Douglass G. Norville and James S. Wehrly 
+(1969). Phillipe Callier (1990) provides an economic 
+interpretation of Roscas. For informal economic analy- 
+ses of Roscas in particular countries, see Dale W. 
+Adams and Marie L. Canavesi de Sahonero (1989) on 
+Bolivia, Robert T. Anderson (1966) and S. Radhakrish- 
+nan et al. (1975) on India, Girma Begashaw (1978) on 
+Ethiopia, Edgar Fernando (1986) on Sri Lanka, and 
+Adeniyi Osuntogun and Remi Adeyemo (1981) on 
+Nigeria. 
+792 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+793 
+period of the life of the Rosca.3 Lots are 
+drawn, and the pot is randomly allocated to 
+one of the members. In the next period, the 
+process repeats itself, except that the previ- 
+ous winner is excluded from the draw for 
+the pot. The process continues, with every 
+past winner excluded, until each member of 
+the Rosca has received the pot once. At this 
+point, the Rosca is either disbanded or be- 
+gins over again. 
+Roscas may also allocate the pot using a 
+bidding procedure. We shall refer to this 
+institution as a bidding Rosca. One individ- 
+ual receives the pot in an earlier period 
+than another by bidding more, in the form 
+of a pledge of higher contributions to the 
+Rosca, or one-time side payments to the 
+other Rosca members. Under a bidding 
+Rosca, individuals may still receive the pot 
+only once-the 
+bidding process merely es- 
+tablishes priority.4 
+We take the view, documented in the 
+extensive informal literature on Roscas, that 
+these institutions are primarily used to save 
+up for the purchase of indivisible durable 
+goods.5 Random Roscas are not particularly 
+effective as institutions for buffering against 
+risk, since the probability of obtaining the 
+pot need not be related to one's immediate 
+circumstances. Even bidding Roscas, which 
+may allow a member to obtain the pot im- 
+mediately, only permit individuals to deal 
+with situations that cannot recur, since the 
+pot may be obtained no more than once. 
+Furthermore, since many kinds of risks in 
+LDC's are covariant, individuals will have 
+high valuations at the same instant. Roscas 
+do play a greater role in transferring re- 
+sources to meet life-cycle needs, such as 
+financing a wedding. However, even in this 
+context, they seem more appropriate for 
+dealing with significant, idiosyncratic events, 
+rather than the hump saving required for 
+old age. 
+Despite its manifest importance, there has 
+been relatively little work in the savings 
+literature on the notion of saving up to buy 
+an indivisible good. Yet, the existence of 
+indivisible goods is a reason for developing 
+institutions which mediate funds. In the ab- 
+sence of access to external funds, individu- 
+als must save to finance lumpy expenditures 
+and can gain from trading with one another; 
+the savings of some individuals can finance 
+the purchases of others. This is not true 
+when all goods are divisible, since gradual 
+autarkic accumulation is efficient in the ab- 
+sence of heterogeneity. 
+Roscas provide a means of making joint 
+savings work.6 They also determine a rule 
+for rationing access to the indivisible good: 
+random allocation in a random Rosca and 
+bidding in a bidding Rosca. We use a two- 
+good model with indivisibilities to make 
+precise how a group of individuals without 
+access to credit markets may improve their 
+welfare by forming a random or bidding 
+Rosca. We demonstrate how these institu- 
+tions work and examine their impact on 
+savings rates. We also compare random and 
+bidding Roscas, focusing on their relative 
+performance in terms of their members' 
+welfare. With homogeneous 
+individuals, 
+randomization is preferred to bidding as a 
+3Some forms of Roscas may require members to 
+make in-kind contributions. An example of this form 
+which may be familiar to the reader is that of "barn 
+raisings," which were common among 19th-century 
+frontier farmers in the United States. Consider a group 
+of farmers living in the same region, each of whom 
+wants to build a new barn. On the first Sunday in every 
+month, the group gets together and builds a new barn 
+for one of the farmers selected at random. They recon- 
+vene the next month and do the same, continuing until 
+each member in the group has a barn. 
+4While bidding and drawing lots seem to be the two 
+most common ways of allocating the pot, it is also 
+sometimes allocated according to need or known crite- 
+ria, such as age or kinship seniority. The reader is 
+referred to Ardener (1964) for a more detailed discus- 
+sion. 
+5Common examples are bicycles and tin roofs. See 
+Fritz Bouman (1977) and Geertz (1962) for more dis- 
+cussion of the various uses for the pot. 
+6This was clearly recognized by Ardener (1964 
+p. 217). "The most obvious function of these associa- 
+tions is that they assist in small-scale capital formation, 
+or more simply, they create savings. Members could 
+save their contributions themselves at home and accu- 
+mulate their own 'funds,' but this would withdraw 
+money from circulation: in a rotating credit association 
+capital need never be idle." 
+
+794 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+method of allocating funds within Roscas 
+under a plausible restriction on preferences. 
+However, with sufficient dispersion in indi- 
+viduals' valuations of the indivisible good, 
+this may not be true. 
+For Roscas to operate successfully it is 
+necessary that individuals keep their com- 
+mitment to pay into the Rosca after they 
+have won the pot. This may appear prob- 
+lematic since Rosca members are often not 
+able to borrow in conventional credit mar- 
+kets precisely because they cannot be pre- 
+sumed to repay loans. Roscas circumvent 
+such default problems by exploiting individ- 
+uals' social connectedness. This is borne out 
+in the anthropological literature, which re- 
+veals how the incentive to defect from a 
+Rosca is curbed by social constraints. Roscas 
+are thus typically formed among individuals 
+whose circumstances and characteristics are 
+well known to each other. Defaulters are 
+sanctioned socially as well as being pre- 
+vented from any further Rosca participa- 
+tion. Nonetheless, default does sometimes 
+occur, and organizers of Roscas must be 
+mindful of this. Thus, we discuss how con- 
+cerns about default influence the design and 
+performance of Roscas. 
+The remainder of this paper is organized 
+as follows. Section I sets up the model. 
+Section -11 describes how Roscas work and 
+can improve over autarky. Section III pro- 
+vides comparisons of lifetime utilities and 
+other features of the resource allocations 
+under random and bidding Roscas. In Sec- 
+tion IV, we extend the comparison to allow 
+for the possibility of heterogeneous tastes. 
+Section V discusses how considerations of 
+sustainability may influence the design of 
+Roscas, and Section VI concludes. 
+I. The Model 
+We use the simplest model that can cap- 
+ture the essential features of the problem at 
+hand. A group of n individuals would each 
+like to own an indivisible durable consump- 
+tion good. The group is assumed to have no 
+access to credit markets. Thus they may be 
+villagers in a traditional society or members 
+of an immigrant group, unfamiliar with the 
+banking practices of their new country. Each 
+individual lives for T years, receiving an 
+exogenous flow of income over his lifetime 
+of y > 0. We assume, at first, that individu- 
+als have identical, intertemporally additive 
+preferences. 
+Each individual's instanta- 
+neous utility depends on nondurable- con- 
+sumption, c, and on whether or not he 
+enjoys the services of the durable. The 
+durable does not depreciate and can be 
+purchased at a given cost of B. Once pur- 
+chased, it yields a constant flow of services 
+for the remainder of an individual's life- 
+time. We also assume that the durable's 
+services are not fungible across individuals; 
+one must own it to benefit from its services. 
+For simplicity, there is no discounting, 
+which precludes any motive for saving or 
+borrowing apart from the desire to acquire 
+the durable. An individual's instantaneous 
+utility with nondurable consumption c is 
+v(, c) if he owns the durable, and v(O, c) 
+otherwise. We assume that v(O, *) and 
+v(1, ) are increasing, strictly concave, and 
+three times continuously differentiable in 
+their second argument, using v'(i, c), v"(i, c), 
+and so forth to denote differentiation of 
+v(i, - ) with respect to c, for i = 0 or 1. 
+Given c, we define Av(c) 
+v(1, c) - v(0, c) 
+to be the instantaneous gain in utility from 
+owning the durable, and v(a,c) =av(1,c) 
++(1- a)v(O,c), 
+for O?<? <1, as the ex- 
+pected instantaneous utility when a is the 
+probability of owning the durable. 
+Our results require some further struc- 
+ture on preferences. The first, innocuous, 
+condition is that Av(c) > 0 for all c 2 0, 
+which says only that individuals like the 
+durable. We will also assume that Av'(c) 2 0 
+(i.e., that the marginal utility of nondurable 
+consumption is not decreased by owning the 
+durable). This is critical for much of our 
+analysis and can be interpreted as saying 
+that durable services and nondurable con- 
+sumption are complements. We regard the 
+assumption as reasonable for many of the 
+uses to which Rosca funds are put- 
+purchasing a bicycle, a household appliance, 
+or a tin roof for one's house. We will, how- 
+ever, indicate how the assumption affects 
+our analysis as we proceed. 
+Under autarky, individuals save up on 
+their own. Our assumptions imply that it is 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+795 
+optimal for each individual to save B at a 
+constant rate y - c, over an interval [0, t].7 
+Thus, lifetime utility maximization involves 
+each individual choosing c and t to: 
+(1) 
+maximize{t-v(O,c)+(T-t)-v(1,y)} 
+subject to t(y -c)= 
+B, and O <c < y. Let 
+(tav Ca) be the solution to (1) and let Wa be 
+the maximal value of lifetime utility. 
+We exploit a simple way of writing Wa. 
+First, substitute for t using the constraint in 
+(1). This yields a one-variable maximization 
+problem involving c, and the maximand can 
+be written as 
+T- v(1l y)-Bt 
+V(' Y) -(O 
+) ] 
+Next, define 
+v(l, y) - v(a, c)] 
+(2) 
+(?)-<mii< 
+L 
+Y- 
+O<?a <1. 
+Setting a = 0 in (2), lifetime utility under 
+autarky can be written as 
+(3) 
+Wa = T-v(l, y)-B-I(O). 
+Expression (3) has an appealing interpre- 
+tation, paralleled in our analysis of Roscas. 
+The first term represents lifetime utility if 
+the durable were free, while the second 
+term is the minimal utility cost of saving up 
+for the durable. This minimization trades 
+off the benefit of a shorter accumulation 
+period against the benefit of higher con- 
+sumption during this period. Letting, c*(a) 
+be the consumption level which solves (2), 
+the optimal autarkic consumption rate, Ca, 
+is c*(O). 
+Under autarky, no individual has the 
+durable good before date ta' at which time 
+all n individuals receive it. Thus the ex- 
+pected fraction of time that an individual 
+will enjoy the services of the durable during 
+the accumulation period is zero. This ex- 
+plains why autarky is represented by a = 0 
+in (2). Autarky is inefficient; each person 
+saves at rate y - ca = B/ta 
+and after an 
+interval of ta / n, there are enough savings 
+to buy a durable which could be given to 
+one of the group members. Roscas remedy 
+this inefficiency, with the cost function ,uX * ) 
+measuring the extent of welfare improve- 
+ment. 
+Before considering Roscas, we establish 
+some technical properties of ,u*) and c*(*), 
+which prove useful later. The proof of the 
+lemma is in the Appendix. 
+LEMMA: Under the assumptions on prefer- 
+ences set out above, the minimized cost ,u*) 
+in (2) is a decreasing, concave function of a, 
+and the cost-minimizing consumption rate 
+c*( ) is an increasing function of a. Both are 
+twice continuously differentiable on [0,1], 
+where they satisfy the identity ,u (a) 
+v'(a, c*(a)). Moreover, if v"'(i, c) > 0 for i= 
+0 and 1, and if Av"(c) ? 0, then c*(.) is 
+strictly convex. 
+II. Roscas 
+This section examines how members of a 
+group may improve their welfare by forming 
+either a random or a bidding Rosca. As well 
+as examining how Roscas operate and raise 
+lifetime utilities over autarky, we also con- 
+sider their effect on savings rates. We begin 
+with random Roscas. 
+A. Random Roscas 
+Imagine that our n-person group forms 
+a random Rosca which meets at equally 
+spaced dates up to ta (i.e., {ta/n, 2ta/n, 
+..., tal, with contributions of B/n at each 
+meeting). Each time the Rosca meets, an 
+individual is randomly selected to receive 
+the pot of B, allowing him to buy the 
+durable. Each individual continues to save 
+at rate B/ta 
+over the interval [0, ta], as 
+7Note that accumulation for purchase of the durable 
+is not desirable at all for some parameter values. It 
+follows from our analysis of (1) that an individual 
+would choose to save up on his own to purchase the 
+durable only if T Av(y)/B 
+is sufficiently large. Here 
+we shall consider only such cases where this condition 
+holds. 
+
+796 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+under autarky, but can now expect to re- 
+ceive the durable ta(n - 1)/2n sooner. Risk 
+aversion is not an issue here, since from 
+each individual's ex ante viewpoint, the ran- 
+dom Rosca does as well as autarky in every 
+state of the world, and strictly better in all 
+but one.8 
+A random Rosca which lasts until ta is 
+only one possibility. For example, the group 
+could also have met until ta /2 with contri- 
+butions of B/n and a durable being bought 
+after each interval of length ta /2n. Given 
+the uniform spacing of meeting dates and 
+the constant contribution rate, the duration 
+of the Rosca will be inversely proportional 
+to the rate at which the group saves and 
+accumulates the durable. 
+It seems natural to suppose that the 
+group would agree on a length for the Rosca 
+which maximizes the (ex ante expected) util- 
+ity of the representative group member.9 
+To characterize this length and the implied 
+savings rate, consider a "general" ran- 
+dom Rosca of length t, meeting at the 
+dates {t / n, 2 t / n, ..., t), with members con- 
+tributing B/n 
+at each meeting date. A 
+representative 
+member 
+of the 
+Rosca 
+views his receipt date for the pot (and 
+hence the durable) as a random vari- 
+able, ~, distributed uniformly on the set 
+{t/n, 
+2t/n,...,t). 
+Each member saves at 
+rate B / t over the life of the Rosca, and 
+nondurable consumption is thus c = y - 
+B/ t during this period. Given c, each mem- 
+ber's lifetime utility is the random variable: 
+X v(O, c) + (t - i) v(1, c) + (T - t) v(1, y), 
+where t = B/(y - c). Lifetime expected 
+utility in this random Rosca is the expected 
+value of the expression above, and since 
+E(X) = [(n + 1)/2n]t, each member's ex-ante 
+welfare is 
+(4) 
+W(c)- =( 
+2n ) v(0, c) + (n 
+v(l, c)] 
++ (T-t)v(l, 
+y) 
+where t = B/(y 
+- c). 
+The group's problem is now to choose t 
+(or equivalently c), to maximize (4). Let tr 
+denote the optimal length, cr the associated 
+consumption rate, and Wr the maximal value 
+of expected utility. This problem is similar 
+to that encountered under autarky. Indeed, 
+defining a = (n - 1)/2n, (4) may be rear- 
+ranged as follows: 
+W(c) = T v(1, y -B [ 
+] 
+By analogy with the reasoning leading to 
+(3), we obtain 
+(5) 
+Wr=T-v(1,y)-B 
+1y(a-) 
+with cr = 0(ii). 
+The interpretation is the same as that of 
+(3): welfare is the difference between what 
+lifetime utility would be were the durable a 
+free good and the minimal (expected) utility 
+cost of saving up for its purchase. This cost 
+is lower under the random Rosca than un- 
+der autarky because each member expects 
+to enjoy the durable's services for a fraction 
+a of the time in which he is saving up for 
+the durable. It is now easy to establish the 
+following proposition. 
+PROPOSITION 1: By forming a random 
+Rosca, group members raise their expected 
+lifetime utilities. The optimal random Rosca 
+involves members saving at a lower rate over 
+a longer interval than under autarky. Never- 
+theless, if v "'(i, c) > 0 for i = 0 and 1, and if 
+8This is also noted by Callier (1990 p. 274). "The 
+creation of a tontine is one of the most obvious Pareto 
+improvements that people who save in order to pur- 
+chase a bulky asset can create for themselves in a 
+society with fragmented capital markets.... The pool- 
+ing of resources reduces the time of 'waiting' before 
+the purchase for all participants except the one who is 
+last collecting the kitty (who nevertheless does not have 
+to wait more than if he had saved alone)." 
+9In Cameroon the typical length of njangis is two 
+years (see James Brooke, 1987). The cundina in Mexico 
+last between one and two years according to Kurtz 
+(1973). These lengths seem to be broadly in line with 
+many other studies of Roscas that we have found. The 
+literature reveals considerable variation in the size of 
+Roscas. Most seem to range from 10 to 20 members 
+although Osuntogun and Adeyemo (1981) report 
+Roscas' as large as 100 members in southwestern Nige- 
+ria. 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+797 
+Av"(c) > 0, then individuals expect to receive 
+the durable good sooner in the optimal ran- 
+dom Rosca than under autarky (i.e., 
+tr > 
+ta > (n + 1)tr /2n). 
+PROOF: 
+Equations (5) and (3) imply that Wr - 
+Wa= B[,u O) - p_(a)]. This is positive since, 
+as stated in the lemma, ,uX ) is a decreas- 
+ing function; so group members' expected 
+utility is higher in the random Rosca 
+than under autarky. The lemma also estab- 
+lished that c*(*) is increasing. Therefore 
+consumption is greater as well, since cr= 
+c*(a)> c*(O) = ca. However, the constraint 
+t(y - c) = B applies under both autarky and 
+the random Rosca. Hence tr > ta, and the 
+optimal random Rosca involves members 
+saving at a lower rate over a longer interval 
+than under autarky. 
+To prove that the expected receipt date 
+under the optimal random Rosca is sooner 
+than that under autarky we have to show 
+that ta > (n + 1)tr /2n = (1 - 
+a)tr. 
+Since 
+ta= B/[y-c*(O)] 
+and tr = B/[y-c*(Z0), 
+it will suffice to show that y -c*(Z)> 
+(1 - a-)[ y - c*(0)]. Now, in view of the as- 
+sumed concavity of v(1, *), inspection of (2) 
+reveals that y = c*(1). Therefore, we need 
+to show that c*(1) + (1 - a})c*(0) > c*(ii). 
+This follows from Jensen's inequality and 
+the convexity of c*(*) established under 
+these hypotheses in the lemma. 
+Welfare is raised by forming a Rosca be- 
+cause some financial intermediation reduces 
+everyone's utility cost of saving up. This 
+conclusion is independent of any restric- 
+tions we imposed on preferences other than 
+individuals' liking the durable. Showing that 
+nondurable consumption is higher and the 
+accumulation period is longer under the 
+random Rosca does require the assumption 
+that durable services and nondurable con- 
+sumption are complements. The result that 
+individuals receive the durable earlier on 
+average under the random Rosca is less 
+general, requiring the assumption, of posi- 
+tive third derivatives stated in Proposition 1. 
+The ranking of random Roscas and au- 
+tarky does not hold ex post since, though 
+individuals have the same prospects ex ante, 
+their circumstances differ once the order of 
+receipt has been determined. Using the in- 
+dex i to denote the person who wins the pot 
+at the ith meeting, at date tr(j / n), ex post 
+utilities under the random Rosca are given 
+by 
+(6) 
+Ur=tr[ ()V(O,Cr)+ 
+(1--)V(1,Cr) 
++(T-tr)V(1,Cr) 
+i= ,...,n. 
+Since his consumption/receipt-date pair 
+(Cr, tr) is feasible, but not optimal, under 
+autarky, the individual receiving the pot at 
+the final meeting date (i = n) has been made 
+strictly worse off (ex post) by joining the 
+random Rosca. 
+B. Bidding Roscas 
+Suppose now that individuals bid for the 
+right to receive the pot at a certain date 
+(i.e., they form a bidding Rosca). We as- 
+sume that Rosca members determine the 
+order of receipt for the pot when the Rosca 
+is initially organized at time zero.10 Since 
+there is no uncertainty, this does not seem 
+unreasonable. By a "bid" we mean a pledge 
+to contribute a certain amount to the Rosca 
+at a constant rate over its life, in exchange 
+for the right to receive the pot at a certain 
+meeting date. A higher bid would naturally 
+entitle an individual to an earlier receipt 
+date. 
+Of the many auction protocols that could 
+be imagined, all must result in individuals 
+being indifferent among bid/receipt-date 
+pairs, since individuals have identical pref- 
+erences and complete information. More- 
+over, any efficient auction procedure must 
+be structured so that total contributions 
+committed through bids are just adequate 
+to finance acquisition of the durable by the 
+recipient of the pot at each meeting date. 
+10The literature reveals considerable variation in 
+the bidding procedures used in practice. See Ardener 
+(1964) and Fernando (1986) for discussions of particu- 
+lar cases. 
+
+798 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+This precludes both redundant savings 
+within the Rosca and the necessity to save 
+outside of the Rosca. 
+The two requirements that individuals are 
+indifferent among bid/receipt pairs and that 
+the sum of the contributions equals the cost 
+of the durable completely determine the 
+outcome of the bidding procedure. Thus it 
+is unnecessary to commit to a particular 
+auction protocol. However, to provide a 
+concrete example, fix the duration t of the 
+bidding Rosca and suppose that a series of 
+n -1 oral, ascending-bid auctions are held 
+at date zero among n group members, de- 
+termining in sequence who receives the pot 
+at each meeting date except the last, with 
+each winner excluded from participation in 
+subsequent auctions. The last remaining in- 
+dividual has his contribution set so that the 
+sum of all commitments just equals the 
+durable's cost, B. It is easy to see, using a 
+backward-induction argument, that every 
+(subgame-perfect) equilibrium of this bid- 
+ding mechanism leaves all individuals at the 
+same level of lifetime utility. Moreover, by 
+construction, the winning bids (plus the last 
+recipient's contribution) will sum to the cost 
+of the durable. We now show how to char- 
+acterize these equilibrium bids. 
+If the bidding Rosca lasts until time t, 
+bidding determines who receives the dur- 
+able at each of the meeting dates {t/n, 
+2t/n, 
+. . .,t}. Let bi denote the promised 
+contribution of individual i, defined to be 
+the one who wins the pot at time (i/n)t. A 
+set of bids {bi}l 1 constitutes an equilibrium 
+if (i) no individual could do better by out- 
+bidding another for his place in the queue 
+and (ii) contributions are sufficient to allow 
+each participant to acquire the durable upon 
+receiving the pot. 
+If Rosca member i bids bi, he will have 
+nondurable consumption ci = y - (n / t)bi at 
+each moment during the Rosca's life. Thus, 
+we can characterize the Rosca in terms of 
+the consumption rates: {ci}li' 1. Condition (ii) 
+implies that individual i's equilibrium utility 
+level is 
+t 
+u(O,Tcj)(+ ,n) 
+ci) 
++ (T -t) 
+v(1, y) 
+in a bidding Rosca of length t. Letting ac 
+equal (n - i)/n, condition (i) implies, for all 
+individuals i and some number x, that 
+(7) 
+v(ati, ci) =x 
+i =l, ... ,n. 
+The number x represents the members' 
+common average utility during the life of a 
+bidding Rosca of length t, in a bidding 
+equilibrium. 
+Now define c to be the average non- 
+durable consumption rate of members dur- 
+ing the life of the Rosca [i.e., c 
+(l/n)Ei=jcj]. 
+Then condition (ii) is equiva- 
+lent to 
+(8) 
+t(y -c-) =B. 
+Given the Rosca's length t, the relations (7) 
+and (8) uniquely determine members' non- 
+durable consumption rates and their aver- 
+age utility over the life of the Rosca, consis- 
+tent with bidding equilibrium. Equivalently, 
+one could take as given the equilibrium 
+average utility level for the duration of the 
+Rosca, x. Then (7) gives individuals' equi- 
+librium consumption levels, 
+{Ci}i' 1; and 
+these, via (8), can be used to find the Rosca's 
+length, t. 
+As in the random Rosca, it is natural to 
+assume that the length of the bidding Rosca 
+is chosen to maximize the common utility 
+level of its members. The foregoing discus- 
+sion and (7) imply that this common welfare 
+is 
+T v(l, y) - B{[v(, 
+y)- x]/[y 
+-]. 
+Now let c^(a, x) be the function satisfying 
+v(a, c^) =- x, and define 
+1 n 
+)- 
+Then, when the equilibrium average utility 
+during a bidding Rosca is x, c^(ai, x) is 
+individual i's nondurable consumption rate 
+during the Rosca, and B/[ y - c(x)] is the 
+Rosca's length. Denote by tb and Wb, re- 
+spectively, the duration and common utility 
+level of the optimal bidding Rosca. Then, 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OFROSCAS 
+799 
+using by now familiar arguments, we may 
+write the following:" 
+(9) 
+Wb= Tv(1, y)- 
+BAb 
+where 
+( 10) 
+- 
+J( I Y ) 
+X ] 
+[ y -(x 
+J 
+Letting x* give the minimum in (10), then 
+tb = B/[y - c(x*)] is the length of the opti- 
+mal bidding Rosca. 
+Lifetime utility expressed in (9) admits 
+the same interpretation noted for autarky 
+and the random Rosca; it is the difference 
+between lifetime utility if the durable were 
+free and the minimal cost of saving up. The 
+latter, determined in (10), again trades off 
+higher welfare during the Rosca versus 
+faster acquisition of the durable. We may 
+now establish the following proposition. 
+PROPOSITION 2: By forming a bidding 
+Rosca, group members raise their lifetime util- 
+ities relative to autarky. 
+Moreover if 
+1/ v'(0, - ) is concave, the optimal bidding 
+Rosca involves group members saving at a 
+lower average rate and over a longer interval 
+than under autarky. 
+PROOF: 
+Equations (9) and (3) together imply that 
+Wb - 
+= B[,u(O)-,Ub], which is positive if 
+and only if ,u(0)> 
+>A 
+b. Since v(a, c) in- 
+creases with both a and c, c(a, x) decreases 
+with a; so, 
+c( v(0, c)) = 
+E A(at,v(0,c)) 
+r 0 ? c 
+E 
+re 
+(O v(0, C)) 
+= C 
+for 0 < c < y. Therefore c(v(0, ca)) < Ca; but 
+then, setting x = v(O, Ca) in (10) and com- 
+paring the value of the right-hand side with 
+the minimized value in (2), we see that 
+A(?)/> 
+Ab. Thus, by forming a bidding 
+Rosca, group members raise their lifetime 
+utilities. The proof of the second part of the 
+proposition is given in the Appendix. 
+Again, the welfare dominance of the 
+Rosca over autarky requires no assumption 
+on preferences other than individuals' liking 
+the durable good. The greater complexity of 
+the bidding Rosca is reflected in the need to 
+make an assumption on the curvature of the 
+inverse of the marginal utility of income 
+function in order to compare the Rosca's 
+savings rate to that under autarky. Concav- 
+ity of this function does not follow from any 
+well-known property of utility functions, 
+though it is satisfied for many cases. For 
+example, for isoelastic utility functions with 
+v(0, c) = c1-P/(1 - p), 1/ v'(0, c) is convex if 
+p > 1 and concave if p < 1. 
+Unlike autarky or the random Rosca, the 
+bidding Rosca leaves each individual with a 
+different rate of nondurable consumption 
+during the accumulation period. Earlier ac- 
+quirers of the durable bid a higher contribu- 
+tion to the Rosca and consume less of the 
+nondurable; (c1 < ...< 
+ca). Proposition 2 
+also reveals that the last individual to ac- 
+quire the durable in a bidding Rosca must 
+have greater nondurable consumption dur- 
+ing accumulation than under autarky (cn > 
+Ca). These higher contributions of earlier 
+recipients resemble interest payments, and 
+in this sense the bidding Rosca can be 
+likened to a market.12 
+III. Bidding versus Random Roscas 
+While we have already established that 
+either type of Rosca allows a group to use 
+its savings more effectively than under au- 
+tarky, they do not yield identical outcomes. 
+We observed above that bidding results in 
+recipients of early pots forgoing consump- 
+tion. The optimal savings rate may also dif- 
+itIn this minimization x is restricted to a range 
+defined by the requirement that the consumption levels 
+Ci= c^(ai, x) must be no less than zero and no greater 
+than y, i = 1. 
+n. 
+12Our companion paper (Besley et al., 1992) makes 
+the comparison exact. 
+
+800 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+fer between the two institutions. Compari- 
+son of these savings rates and welfare levels 
+is the object of this section. In particular, 
+understanding the latter may yield insight 
+into the circumstances when we would ex- 
+pect to observe one or the other of the 
+Rosca types in practice. Our main result for 
+.a homogeneous group is stated in the fol- 
+lowing proposition. 
+PROPOSITION 
+3: Group members' ex- 
+pected utility will be higher if they use a 
+random rather than a bidding Rosca. If the 
+value of the durable is independent of the 
+nondurable consumption rate [i.e., Av'(c)- 
+01, and if 1/ v'(O, ) is a convex function, 
+then the optimal random Rosca involves 
+members saving at a lower rate over a longer 
+interval than the optimal bidding Rosca. 
+PROOF: 
+From (5) and (9) we see that WJ - Wb - 
+B[Ab - A(" )], so we need to show that /lb > 
+IL(c). The proof is simple. Using (2), the 
+definition of c'(a, x), and the change of vari- 
+ables x = v(a, c), we can write 
+( 11) 
+AO C) = min [y- 
+et a, X )] 
+Comparing (11) with (10) we conclude: ,t(a) 
+< Pb 
+if c'(, x) < c(x), for all x; but c(i, x) 
+is c^(, x) evaluated at the average of ai, 
+while c(x) is the average of the values 
+c^(ai, x). Hence, by Jensen's inequality, our 
+conclusion holds if cf *, x) is strictly convex. 
+A bit of calculus shows 
+dc^da = - [Av( c^)/ v'( , c^)] < 0. 
+A bit more reveals 
+a2C^/da2 
+=-[-d c /dat][ v ( c, 
++ dc v'(a,e) i)] 
+which is positive provided that Av'(c) ? 0. 
+This proves the first claim of the proposi- 
+tion. The proof of the second claim is given 
+in the Appendix. 
+Thus according to Proposition 3 our as- 
+sumptions imply that individuals are better 
+off using a savings association that allocates 
+access to funds by lot. This may explain why 
+randomization is so widely used in practice. 
+Though this finding is at first sight counter- 
+intuitive, a natural explanation is available. 
+As will emerge in the next section, however, 
+the assumption of identical preferences is 
+crucial to the result; when individuals' pref- 
+erences differ, bidding permits them to sort 
+themselves. 
+The assumption that the durable and 
+nondurable goods are complements is key 
+to proving that random allocation domi- 
+nates bidding from an ex ante viewpoint. To 
+see why, consider two Roscas of the same 
+duration. Bidding requires members to have 
+the same average utility over the life of the 
+Rosca; random allocation requires them to 
+have the same nondurable consumption 
+rates. Each of these requirements consti- 
+tutes a constraint on the more general 
+scheme which randomly assigns members an 
+order of receipt i, 1 < i < n, and a consump- 
+tion rate ci, 0 < ci < y, but which requires 
+neither equal consumption rates nor equal 
+ex post utilities.13 Were such a scheme de- 
+signed to maximize ex ante expected wel- 
+fare, it would equate individuals' marginal 
+utilities: v'(ai , ci) = v'(a1, Cj), 1 < i, 
+< n.14 
+When Av'(c) > 0, random assignment with 
+equal nondurable consumption more closely 
+approximates this condition than does bid- 
+ding. In a bidding equilibrium, earlier recip- 
+ients of the pot contribute more to the 
+Rosca (lower ci) in exchange for greater 
+access to the durable during the Rosca 
+(higher ai). However, with Av'(c) 2 0, they 
+also have higher marginal utilities than those 
+13Hybrid Roscas of this sort seem not to be ob- 
+served in practice. This may be due to problems of 
+implementation, since losers in this lottery might pre- 
+fer to join another Rosca than to continue in the 
+original one. 
+"Otherwise it would be possible to increase ex ante 
+expected utility by increasing contributions to the Rosca 
+by an individual with lower marginal utility and reduc- 
+ing them for an individual with higher marginal utility, 
+keeping total contributions at each meeting just equal 
+to B. 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+801 
+Lifetime Utility 
+of Individual I 
+2C 
+B 
+/45? 
+? 0 
+2C 
+Lifetime Utility 
+of Individual 2 
+FIGURE 1. LIFETIME UTILITY POSSIBILITIES FOR A TWO-PERSON 
+GROUP WITH 
+TIME HORIZON T = 3 YEARS AND ROSCA LENGTH t = 2 YEARS 
+Note: 6 -- Av(c) > 0 is a constant. 
+receiving the pot later. This divergence of 
+marginal utilities is mitigated in the random 
+Rosca, which sets ci = Cr, for all i. Thus, 
+when the two goods are complements, the 
+equal-consumption-rate constraint of ran- 
+dom allocation is less inhibiting than is the 
+equal-average-utility constraint of bidding, 
+and the random Rosca performs better than 
+the bidding Rosca in this case.15 This is 
+particularly clear when Av' 0, since equal- 
+ity of consumption rates during the Rosca 
+implies equality of marginal utilities. How- 
+ever, equality of lifetime utilities constrains 
+consumption so that the marginal utility is 
+higher among those who receive the pot 
+earlier. 
+Figure 1 illustrates the latter case graphi- 
+cally. We depict lifetime utility possibilities 
+for a two-person group with time horizon 
+T = 3 years, and Rosca length t = 2 years. 
+The value of the durable's services, Av(c) 
+( > 0, is a constant. Since total annual con- 
+tributions to the Rosca must equal the 
+durable's cost, total annual consumption for 
+the individuals equals 2y - B during the 
+life of the Rosca. By considering alternative 
+nondurable consumption levels for the two 
+individuals satisfying this constraint, we 
+trace out two utility possibility frontiers. 
+Which is relevant depends upon who gets 
+the durable first. If individual 1 does, the 
+relevant utility possibility frontier is located 
+15Conversely, if durable and nondurable consump- 
+tion are sufficiently strong substitutes, then the equal- 
+average-utility constraint, by forcing ci and ai to co- 
+vary negatively in the group, can produce less inequal- 
+ity of marginal utilities than the equal-consumption-rate 
+constraint. For example, one can easily show that, if 
+v(O, c) = 1- exp(- c) and v(1, c) = v(O, c + 6), for some 
+> 0, then the optimal bidding Rosca achieves the 
+maximal ex ante expected utility among the more gen- 
+eral schemes of the sort discussed in the text. Less 
+obvious, but also true, is that this exponential form is 
+necessary for the bidding Rosca to attain the more 
+general maximum. 
+
+802 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+to the northwest in the figure, while if indi- 
+vidual 2 gets the durable first, the relevant 
+frontier is the one to the southeast. The 
+indivisibility of the durable good causes the 
+overall utility possibility set to be noncon- 
+vex. 
+Because a random Rosca yields equal 
+nondurable consumptions, its utility alloca- 
+tion is either at point A (if individual 1 wins 
+the first pot) or at point B (if individual 2 
+does). Note that, because Av'= 0, the slope 
+of the relevant utility possibility frontier is 
+-1 at points A and B; the line containing A 
+and B is tangent to the two frontiers at 
+those points. Since these utility allocations 
+have equal probability, each individual's 
+ex ante expected utility is at point C. The 
+sum of expected utilities at point C is maxi- 
+mal among all feasible expected utility allo- 
+cations. A bidding Rosca, by making utili- 
+ties equal, produces a utility allocation at 
+the intersection of the two frontiers. The 
+dominance of the random Rosca is now 
+obvious."6 
+Proposition 3 also compares the savings 
+rates in random and bidding Roscas, but it 
+requires that Av'(c) = 0 and imposes a re- 
+striction on the curvature of 1/ v'(O, .). No 
+general result appears to be available. Com- 
+bining Propositions 2 and 3, in the case of 
+separable logarithmic utility [i.e., where 
+v(O, c) = ln(c) and v(1, c) = v(O, c) + (, 6 > 
+0], then, since 1/ v'(O, c) is linear, ta < tb < 
+tr. Thus, in this case institutions with higher 
+ex ante welfare are also those with lower 
+savings rates and longer accumulation peri- 
+ods. 
+IV. Roscas with Heterogeneous Individuals 
+While there is some evidence that Roscas 
+are formed among relatively homogeneous 
+groups (see e.g., Thomas Cope and Kurtz, 
+1980), there is no good reason to suppose 
+that the individuals in any particular group 
+have identical preferences for the durable 
+and, hence, for receipt of the pot. In this 
+section we show how allowing for such dif- 
+ferences may reverse the ranking of the 
+bidding and random Roscas from an 
+ex ante viewpoint. With heterogeneous 
+tastes, bids can be used to order individuals, 
+with those who value the pot more acquir- 
+ing it sooner. This is true whether or not 
+information about tastes is private. Even if 
+valuations are public information, individu- 
+als can use bidding to realize "gains from 
+trade" within the Rosca, as members who 
+value the pot more exchange greater contri- 
+butions for earlier access to the pot. When 
+valuations are not commonly known, bid- 
+ding plays the additional role of inducing 
+individuals to reveal this information. We 
+restrict attention here to the case in which 
+preferences are common knowledge. 
+We consider the operation of a two-per- 
+son bidding Rosca."7 The preferences of 
+these two individuals are as above, except 
+that individual l's utility when he has the 
+durable is increased by a constant, with 
+individual 2's utility being reduced by the 
+same constant. Thus, prior to acquiring the 
+durable good, utility for both individuals is 
+v(O,c); after acquiring it, individual 1 has 
+utility v'(1, c) 
+v(1, c)+ (, and individual 2 
+has utility v2(1, c) v(1, c) - (, 
+for f 2 0. 
+The parameter 6 measures the difference in 
+the individuals' tastes. Note that 6 = 0 is the 
+case of homogeneous individuals considered 
+above and that an increase in 6 yields a 
+mean-preserving spread in the dispersion of 
+the individuals' valuations. The key assump- 
+tion is that the difference in individuals' 
+valuations of the durable is independent of 
+the level of nondurable consumption. Re- 
+laxing this would complicate the analysis 
+without adding new insights. As before, 
+Vi(a,c) denotes individual i's expected util- 
+ity flow at an instant when a is the probabil- 
+16The failure of bidding to achieve maximal ex- 
+pected utility parallels results obtained in other litera- 
+tures where indivisibilities are important. See, for ex- 
+ample, the model of conscription in Theodore 
+Bergstrom (1986), the location models of James A. 
+Mirrlees (1972) and Richard Arnott and John Riley 
+(1977), and the club membership model of Arye 
+Hillman and Peter Swan (1983). 
+17This restriction is for notational simplicity only. 
+The extension to many members is straightforward. 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OFROSCAS 
+803 
+ity of owning the durable. Hence, v' (a, c) = 
+v(a, c) + a4; and v2(a, c) = v(a, c) - a4. 
+Consider a bidding Rosca of length t, 
+meeting at dates t /2 and t. Let bi be 
+individual i's bid, and let ci be his non- 
+durable consumption rate during the Rosca. 
+Then ci = y -2bJ/t. 
+We will adopt the 
+auction protocol described in Subsection 
+II-B: an oral, ascending-bid auction where 
+the winner gets the first pot and the loser's 
+contribution is set to yield a total payment 
+of B at each meeting date. To understand 
+the outcome of such an auction, note that 
+individual 1 will always exceed the bid b, if 
+(12) 
+v1,Y-2- 
+> v1y-2 
+The left-hand side of (12) is individual l's 
+average utility during the Rosca if he wins 
+with bid b, and the right-hand side is his 
+average utility if individual 2 wins with the 
+same bid. As long as (12) holds then, by 
+bidding a little more than b, individual 1 
+raises his welfare if his bid prevails. Since 
+tastes are common knowledge, individual 2 
+will exceed any bid satisfying (12) knowing 
+that 1 will go higher. In this way, 2 can 
+reduce the size of his own contribution. 
+Thus the outcome of the auction will be 
+that individual 1 wins with a bid for which 
+(12) is an equality. 
+In bidding equilibrium, therefore, individ- 
+ual 1 will be indifferent between consump- 
+tion/receipt-date pairs (c2, t) and (c1, t/2). 
+Furthermore, consumption rates will satisfy 
+B = (t/2X2y-c1-c2). 
+These two condi- 
+tions uniquely determine the equilibrium 
+consumption (and hence, bids) in a bidding 
+Rosca of length t.'8 We now consider the 
+optimal length for such a Rosca. 
+To facilitate comparison with our previ- 
+ous analysis, suppose that the Rosca is utili- 
+tarian, its length being chosen to maximize 
+the average utility of its members. Given 
+length t, let x be the average of the mem- 
+bers' utility during the Rosca. In bidding 
+equilibrium 
+X-( 
+2') [ 
+1( 2',Cl)+ 
+V'(0, 
+C2)]. 
+Since bidding equilibrium requires v'(O, c2) 
+= v'(1/2, c1), we conclude that x = V(O, c2). 
+Using the function c(a, x) defined in Sub- 
+section II-B by the identity v(a, c^) x, write 
+equilibrium consumption rates as c1 = 
+c^(1/2, x - e /2) and c2 = ^(O, x). Letting 
+j(x, 6) denote the average equilibrium con- 
+sumption rate, we have 
+j(x,6)=- [C^(2 
+S x-f/2)+ 
+C^(O,x)]/2 
+Then the average welfare in bidding equi- 
+librium is 
+(13)~~~~~(1 
+) 
+( 13) 
+W=-Tvu(1, y )B 
+[Y 
+cj X . )] 
+Denote by Wb the level of average wel- 
+fare in the optimal bidding Rosca with het- 
+erogeneous preferences. Then (13) implies 
+the following familiar relationship: 
+(14) 
+Wb-= Tuv(l, y) 
+Bpb 
+where 
+(15) 
+V 
+i 
+(1, y) 
+x] 
+x 
+y -j(X, f) 
+We can interpret (14) and (15) as before. 
+Mean welfare in the optimal bidding Rosca 
+is the difference between what it would be if 
+the durable were free and the minimal cost 
+of saving-up. This cost, /bI is the value of a 
+minimization problem. 
+It is revealing to compare the expressions 
+above with the analogous equations (9) and 
+(10) which apply to the homogeneous bid- 
+ding Rosca. Mean welfare in the heteroge- 
+18In the natural extension of this analysis to the case 
+of n individuals, equilibrium consumptions will be de- 
+termined by the equations: 
+(i) 
+vu(aj,cj) = vu(aj+1,ci+1) 
+i = 1. 
+n - 
+(ii) 
+E Ci= n[ Y 
+] 
+
+804 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+neous case differs from that in the homoge- 
+neous case only because the corresponding 
+average consumption rates, c(x, e) and c(x), 
+differ. In the homogeneous case 
+C(X 
+-[(2 
+X) + C(0 
+X)]/2 
+Hence c(x, 0) = c(x), and so as individuals' 
+tastes become more similar, the outcome 
+with heterogeneity converges to the out- 
+come in the homogeneous bidding Rosca. 
+Moreover, since c(a, x) is increasing in x, 
+we know that c(x, ) is decreasing in 6. So, 
+a mean-preserving increase in the dispersion 
+of members' valuations of the durable good 
+reduces the mean utility cost of saving up to a 
+bidding Rosca and, hence, increases the indi- 
+viduals' mean welfare in bidding equilibrium. 
+To see why intuitively, let individual l's 
+valuation of the durable rise and let individ- 
+ual 2's fall by an equal amount, holding 
+fixed nondurable consumption rates. The 
+change in valuations has no impact on mean 
+welfare when both individuals have the 
+durable, and it increases mean welfare when 
+only individual 1 has it. Thus, as long as 
+individual 1 has priority of access, increas- 
+ing the dispersion of valuations holding 
+consumption fixed raises mean welfare. Al- 
+lowing consumption rates to move to their 
+equilibrium levels only reinforces this effect. 
+In a random Rosca, individuals 1 and 2 
+consume the nondurable good at the same 
+rate, and both have an even chance of ac- 
+quiring the durable on either of the same 
+two dates. It follows that the average of the 
+two individuals' expected utilities in a ran- 
+dom Rosca is independent of 6. Setting 
+6 = 0 and using (5), we conclude that aver- 
+age expected utility in the optimal random 
+Rosca with diverse tastes, denoted W, is 
+given by: 'r - T uv(1, y) - B ,u(1/4). (Since 
+n = 2, a = 1/4.) We now have the following 
+proposition. 
+PROPOSITION 4: The average of individu- 
+als' expected lifetime utilities in the optimal 
+bidding Rosca exceeds that in the optimal 
+random Rosca if the dispersion of individuals' 
+valuations is sufficiently large. 
+PROOF: 
+The above discussion implies that Wb > W' 
+if and only if Ab < A(1/4). Comparing (15) 
+with (11) we see that Ab < L(1/4) if 
+c(x*,)< 
+c(1/4,x*), where x* gives the 
+minimum in (11) for a-= 1/4. Writing- this 
+out, we have: ,ub<A(1l/4) 
+if c(1/2,x*- 
+6/2) < 2c(1/4, x*) - C(O, x*). Hence, to 
+conclude that Wb> W1 it suffices to know 
+that 
+x*- 6/2 < u(2, 2c(4, x*) - 
+(0, x*)) 
+or 
+2> 
+v(1,2c( 
+,x*)-c(0, 
+x*)). 
+Thus, bidding dominates for high enough 
+6, since the left-hand side of the above 
+inequality increases with 6 and the right- 
+hand side is independent of 6. Note that 
+the right-hand side of the inequality is posi- 
+tive since 
+c( 4, x*) < {e(0, 
+X*) + C(2, X*)} 
+from the proof of Proposition 3. This im- 
+plies that 
+v( 2, 2c( 4, x*) -c(0, x*)) < x* . 
+The reason for the result should be clear. 
+The bidding Rosca gives the pot to the 
+individual with the highest valuation first, 
+while a random Rosca does not respect 
+individuals' valuations. If the gain from do- 
+ing this is large enough, it outweighs that 
+from randomization which we demonstrated 
+in the previous section. Since our welfare 
+criterion is mean expected utility, the inter- 
+pretation of this result is as follows: given 
+sufficient heterogeneity, individuals choos- 
+ing "behind the veil of ignorance" (i.e., 
+before they know their tastes) would opt for 
+a bidding Rosca rather than a random 
+Rosca. 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+805 
+This analysis of heterogeneity is limited 
+by our assumption that individuals' valua- 
+tions are commonly known. To relax this 
+assumption would be of interest but would 
+take us far afield from the concerns of the 
+present paper. It is clear, however, that the 
+main insight from the simplest case, that 
+bidding can serve a useful sorting function, 
+will be robust in the face of further analysis. 
+V. The Sustainability of Roscas 
+We premised our analysis on an assump- 
+tion that the group of potential Rosca mem- 
+bers had no access to external credit 
+markets. This is not unreasonable for most 
+situations where Roscas are prevalent, 
+whether among an ethnic group within the 
+United States or in less developed coun- 
+tries. There are various reasons why particu- 
+lar groups may have difficulty in obtaining 
+credit in formal markets. First, immigrant 
+groups or rural villagers may be intimidated 
+by banks, which require their customers to 
+be literate and to be familiar with certain 
+banking practices. Second, groups may be 
+discriminated against, and thus unable to 
+obtain access to credit from regular sources. 
+Third, and perhaps most importantly, banks 
+may perceive the default risk of lending to 
+certain groups to be too high. Default may 
+occur either because borrowers face unreli- 
+able income streams, and thus are unable to 
+repay, or because they are unwilling to re- 
+pay, with the bank having insufficient sanc- 
+tions against them to make them do so. 
+Typically, individuals who join Roscas tend 
+to lack reliable forms of collateral which 
+can be used to assuage banks' fears of non- 
+repayment. 
+Since those who receive the pot early are 
+effectively in debt to the other group mem- 
+bers, Roscas too would seem vulnerable to 
+problems of nonrepayment, with individuals 
+refusing to honor their membership com- 
+mitment after winning the pot. However, 
+there are good reasons why Roscas do not 
+fall victim to the problem of deliberate de- 
+fault which banks might face. The key to 
+understanding Roscas is noting that, unlike 
+markets, they are not anonymous institu- 
+tions. They use preexisting social connec- 
+tions between individuals to help circum- 
+vent problems of imperfect information and 
+enforceability. The rules of Roscas reflect 
+concerns of this kind. For example, individ- 
+uals must be appropriately vetted before 
+being allowed to join. 
+A typical scenario for a Rosca is a group 
+of individuals from the same village or, in 
+an urban setting, from the same office.19 In 
+the United States, as we have noted, Roscas 
+are most often formed from among an eth- 
+nic group. Thus individuals are likely to 
+have good information about the reliability 
+of their neighbors and co-workers and can 
+enforce sanctions-social and economic- 
+on those who are delinquent without good 
+reason. It seems central to understanding 
+the sustainability of Roscas that there be 
+some kind of "social collateral" among a 
+group which can be harnessed in this way. 
+All this explains very well why Roscas 
+tend to avoid large-scale default in practice, 
+and the anthropological literature on Roscas 
+is replete with examples to illustrate this 
+point. Summing up these, Ardener (1964 
+p. 216) observes that "a member may go to 
+great lengths, such as stealing or selling a 
+daughter into prostitution in order to fulfill 
+his obligations to his association; failure to 
+meet obligations can even lead to suicide." 
+Reporting on Roscas in Cameroon, a recent 
+New York Times article noted that "bankers 
+complain of loan delinquency rates as high 
+as 50%. But [Rosca] payments are taken so 
+seriously that borrowers faced with delin- 
+quency have been known to commit suicide" 
+(Brooke, 1987 p. 30). Perhaps ironically, the 
+inability of Rosca members to enter credit 
+markets actually strengthens the value of 
+social sanctions, since individuals with bad 
+reputations earned in Roscas may expect 
+little other credit-market access.20 
+19Adams and Canavesi de Sahonero (1989) conduct 
+a detailed analysis of Roscas based in offices in urban 
+Bolivia. 
+20This may help to explain why Roscas become less 
+important in the process of economic development, 
+however, since as individuals' market opportunities ex- 
+pand, the value of social sanctions declines, and the 
+sustainability of Roscas becomes more problematic. 
+
+806 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+All of this notwithstanding, it would be 
+misleading to ignore default entirely. Here, 
+we shall examine how such considerations 
+may influence the design and performance 
+of Roscas. We do this within our model by 
+supposing that a defaulting individual is 
+subjected to social sanctions inflicted by 
+other group members with an exogenously 
+given utility cost of K.21 This cost might 
+represent the discomfort, loss of face, and 
+other social costs associated with having to 
+confront the other Rosca members each day 
+or, in the extreme, the costs of finding a 
+new job or place to live. In a more general 
+model, it might also represent the loss from 
+being excluded from Rosca participation in 
+the future. 
+Suppose now that individuals choose 
+whether or not to meet their Rosca obliga- 
+tions. Then a Rosca will be established only 
+if it satisfies a sustainability constraint, en- 
+suring that each individual prefers to main- 
+tain his contribution to the Rosca after he 
+has won the pot. With identical preferences, 
+this constraint takes a very simple form: it 
+holds for every Rosca member if it holds for 
+the first one to win the pot, the latter having 
+the greatest incentive to default. 
+Consider a random Rosca among n iden- 
+tical individuals, as defined in Subsection 
+II-A. If the consumption rate during the 
+Rosca is c, then it lasts until date t and 
+meets at ft / n, 2 t / n, ..., 
+t}, where t = 
+B/(y - c). Then, the benefit to the first 
+recipient of defaulting is 
+(n -1 )B [v(1,Y) - v(1,c) 
+n 
+l 
+y- c 
+(i.e., the gain from avoiding the n -1 re- 
+maining contributions to the Rosca). The 
+Rosca is sustainable if this benefit does not 
+exceed the default cost K. Letting 
+v(l, y) - V(1,C)1 
+g(c, a) 
+a (:x 
+and with a = (n - 1)/2n as before, the sus- 
+tainability constraint becomes- g(c, a) < 
+K/2B. The analysis of Section II implicitly 
+assumed K to be large enough for this 
+constraint to be satisfied at the optimal non- 
+durable consumption rate, c*(a). 
+If the constraint were not satisfied, the 
+allocation that we described for the random 
+Rosca would not be sustainable. Fixing n, 
+we can ask how the demands of sustainabil- 
+ity would affect the design of the Rosca. 
+Since utility is concave in c, g(c, a) de- 
+creases in c, for c < y. Thus, for a given 
+number of members, the sustainability con- 
+straint can be accommodated only by in- 
+creasing c above cr or, equivalently, in- 
+creasing t above tr. Thus, deterring default 
+requires increasing the duration of the 
+Rosca. Holding the duration of the Rosca 
+fixed, the benefit of default could be re- 
+duced by lowering n. Fewer meetings im- 
+plies a shorter period over which the first 
+recipient of the pot might enjoy the benefits 
+of default. Obviously, either of these adjust- 
+ments will reduce the welfare gain from 
+forming a Rosca, since the original alloca- 
+tion is being further constrained.22'23 
+21It would be theoretically more satisfying to have K 
+determined endogenously, arising from rational behav- 
+ior by the individuals in some extended version of the 
+model. A natural way of doing this would be to posit a 
+sequence of Roscas through time, supposing that fail- 
+ure to perform in the past results in future exclusion 
+from Rosca participation. Then K would depend posi- 
+tively on the benefit of Rosca participation relative to 
+autarky, and negatively on individuals' discount rates. 
+22Referring to the sustainability constraint, it is also 
+clear that a larger pot also may create problems of 
+sustainability. This is borne out in Stephen Haggblade's 
+(1978) discussions of the njangis in Cameroon. How- 
+ever, he does report that some Roscas with $40,000 
+pots are found there (p. 43). One imagines that the 
+severity of the social sanctions associated with default 
+would also be great in Roscas of this magnitude. As we 
+have seen, it is the ratio of default cost to pot size, 
+K/B, which matters. 
+23This discussion suggests the following reformula- 
+tion of the Rosca design problem: 
+u (1, y) - u(a, c)1 
+,u-min- 
+a, c 
+y- 
+c 
+subject to g(a, c) < K/2B, where (a, c) must also sat- 
+isfy 0 < c < y, and a E {(n - 1)/2n; n = 2,3,...}. 
+It is 
+easy to show, by writing out the first-order conditions 
+for this constrained minimization, that when the opti- 
+mal random Rosca discussed earlier is not sustainable, 
+a solution involves c > cr. 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+807 
+Equation (5) reveals that the expected 
+utility in a random Rosca of given length 
+increases with n. Hence, absent considera- 
+tions of sustainability, welfare is higher with 
+a larger Rosca membership. In practice, 
+however, we do not often observe Roscas of 
+more than a few score members, and sus- 
+tainability considerations would seem key to 
+understanding this fact. This is especially so 
+if one considers the determinants of the 
+default cost, K. In larger groups it becomes 
+more difficult to keep track of defecting 
+members (the evidence [e.g., Haggblade, 
+1978] seems to be that larger Roscas face 
+bigger default problems). This effect is likely 
+to outweigh the intermediation benefits of a 
+larger membership in groups above a cer- 
+tain size, since the marginal benefit of an- 
+other member declines with the size of the 
+group, while marginal monitoring and en- 
+forcement costs could be expected to in- 
+crease. 
+The issues of sustainability are broadly 
+similar for bidding Roscas. We should em- 
+phasize, however, that, because bidding for 
+priority forces a heavier obligation upon 
+earlier recipients, the incentive issues are 
+more serious. Moreover, there is an inter- 
+esting complication if individuals differ with 
+respect to their susceptibility to social sanc- 
+tions and if this difference is private infor- 
+mation. Those individuals who care little 
+about such sanctions would have a further 
+incentive to bid in order to get the pot 
+early, knowing that they need not continue 
+paying into the Rosca after winning the pot. 
+Thus, bidding brings along its own adverse- 
+selection problem. 
+Our discussion of sustainability has so far 
+focused exclusively on the problem of will- 
+ingness to continue making payments into 
+the Rosca, rather than ability to do so. The 
+latter might also be a problem if individuals' 
+incomes are stochastic, since then they might 
+sometimes be unable to contribute. The an- 
+thropological literature indicates that on 
+some occasions Roscas serve a risk-sharing 
+role, with one or more members paying the 
+contributions of another. Problems of moral 
+hazard and adverse selection seem less likely 
+to pervade such "insurance" schemes than 
+in other contexts, because of the social con- 
+nectedness of Rosca members. 
+VI. Concluding Remarks 
+This paper has investigated the economic 
+role and performance of Roscas. We have 
+sought their rationale in the fact that some 
+goods are indivisible, a fact which makes 
+autarkic saving inefficient. We have argued 
+here that Roscas can be understood as a- 
+response by a socially connected group to 
+credit-market exclusion. This seems broadly 
+consistent with what we see in practice. We 
+have made precise how Roscas improve over 
+autarky and have compared random and 
+bidding Roscas. We found that the indivisi- 
+bilities which might motivate the existence 
+of Roscas can explain why random alloca- 
+tion is so widely used. However, with suffi- 
+cient dispersion of the valuations of the 
+durable goods, bidding may be preferred as 
+a means of allocating rights to the pot. 
+Our analysis also discussed the problem 
+of sustainability, and we pointed out some 
+of the constraints that this might impose. In 
+general it may necessitate operating Roscas 
+with fewer members and longer durations 
+than would otherwise be desirable. Sustain- 
+ability seems likely to be more of a problem 
+in bidding than random Roscas, since the 
+gains from early default are greater, and 
+individuals with the lowest disutility from 
+social disapproval and sanctions have a 
+stronger incentive to bid in order to obtain 
+the pot early. 
+The analysis suggests a number of inter- 
+esting avenues for empirical investigation. 
+While there are many studies of Roscas, 
+few have tried to test concrete theoretical 
+hypotheses. Our analysis suggests at least 
+three directions in which this might go. First, 
+there are questions about Rosca member- 
+ships: do the groups appear to be homoge- 
+neous, and what social connections between 
+group members circumvent the problem of 
+default? Second, there are questions of 
+Rosca design-their length, their savings 
+rates, and whether bidding or random allo- 
+cation is used. On the last issue our model 
+gives predictions in terms of the structure of 
+preferences and the heterogeneity of the 
+group. Third, there are questions of what 
+Rosca winnings are used for. Our theory 
+predicts their use for the purchase of 
+durable goods. 
+
+808 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+A number of theoretical issues remain 
+outstanding. This paper has compared the 
+allocations achieved by random and bidding 
+Roscas to the autarkic allocation and to 
+each other. It is also interesting to ask how 
+the allocations attained by Roscas compare 
+with those that are, in principle, feasible for 
+the group. For example, are Roscas effi- 
+cient? Furthermore, would the group for- 
+mation of a credit market result in the same 
+allocation as a bidding Rosca? These and 
+other questions are pursued in our compan- 
+ion paper (Besley et al., 1992). We show 
+there that, in general, Roscas do not pro- 
+duce efficient allocations and that bidding 
+Roscas are inferior to credit markets. 
+Nonetheless, the element of chance offered 
+by random Roscas is still of value. Indeed, 
+we present an example in which an ex post 
+efficient market allocation is dominated 
+(under the ex ante expected-utility criterion) 
+by a random Rosca. 
+APPENDIX 
+PROOF OF LEMMA: 
+It is easy to see that, as long as acquiring 
+the durable good is desirable under autarky, 
+a unique interior solution to (2) exists. The 
+first-order condition for this problem im- 
+plies 
+V'(a, c*) = [v(1, y)- 
+v(a, c*)] /[ y-c*] 
+This is the identity claimed in the lemma. 
+Since v(a,c) is increasing in a, /ut ) must 
+be decreasing. Moreover, since pu( ) is the 
+value of a minimand linear in the parameter 
+a, elementary duality theory implies that 
+ut( ) is a concave function of a. By the 
+envelope theorem, 
+(a) 
+= - Av(c*)[y- 
+c*]. 
+These relations, the assumed three-times 
+continuous differentiability of the utility 
+function, and the implicit-function theorem 
+establish the extent of differentiability of 
+/u(* ) and c*(*) asserted in the lemma. Now 
+differentiate v'(a, c*) -,t(a) with respect to 
+a, and use the envelope result to get 
+dc* 
+[ 
+Av(c*) 1 
+da= - [ V"(ac,C*)][Av'(c*) 
++ 
+-* 
+>0O 
+da 
+y-c* 
+given concavity of the utility functions 
+v(i, *), and the assumption that Auv' ? 0. 
+Differentiate the identity v'(a, c*) - ,(a) 
+twice with respect to a to get 
+d2c 
+[II(a*)]l 
+da2 
+( 
+dc* \ 
+-v"'(a,c*) 
+. 
+d)2 
+>0 
+using the assumptions that Avu"(c*) 
+? 0 and 
+v"'(i, c*) > 0, for i = 0 and 1. 
+COMPLETION OF PROOF OF PROPO- 
+SITION 2: 
+We need to show that if 1/ v'(0, - ) is 
+concave then tb > ta* It is sufficient to show 
+that Ca< j(x*) to establish the result. By 
+the lemma, the first-order condition for the 
+minimization in (10), and the fact that A b < 
+,uL(0), we have that 
+V'(O, Ca) 
+AM(O) > Ib 
+= ((-) 
+E [v(aji,C^(ai,x*))] 
+1 
+However, because lXv'(c) ? 0, we have that 
+v '(a, c) ? v'(0, c). Therefore, using Jensen's 
+inequality and the assumed concavity of 
+lv'(O, 
+*), 
+V'(O, Ca) > (U 
+n) 
+v(0,c(i, 
+x))] 
+n 
+> v (O, c(x*) 
+The result now follows from the fact that 
+v"(O, c) < 0. 
+
+VOL. 83 NO. 4 
+BESLEYETAL.: ECONOMICS OF ROSCAS 
+809 
+COMPLETION OF PROOF OF PROPO- 
+SITION 3: 
+We need to show that lv'= 0 and 
+1/ v'(0, * ) convex imply tr > tb. It suffices to 
+deduce that cr> c(x*). By the same reason- 
+ing as employed in the completion of the 
+proof of Proposition 2, the fact that A(a) < 
+A b (proved in the text) and the assumption 
+that v'(a, c) is independent of a, we have 
+V a0g Cr) < ((n)E[ 
+o,c(ari, 
+x*))]) 
+< V' (at, c(x* 
+using Jensen's inequality and the convexity 
+hypothesis. The result follows at once. 
+REFERENCES 
+Adams, Dale W. and Canavesi de Sahonero, 
+Marie L., "Rotating Savings and Credit 
+Associations in Bolivia," Savings and De- 
+velopment, 1989, 13 (3), 219-36. 
+Anderson, Robert T., "Rotating Credit Asso- 
+ciations in India," Economic Development 
+and Cultural Change, April 1966, 14, 
+334-9. 
+Ardener, Shirley, "The Comparative Study of 
+Rotating Credit Associations," Journal of 
+the Royal Anthropological Institute of 
+Great Britain and Ireland, 1964, 94 (2), 
+202-29. 
+Arnott, Richard and Riley, John, "Asymmetri- 
+cal Production Possibilities, the Social 
+Gains from Inequality and the Optimum 
+Town," Scandinavian Journal of Eco- 
+nomics, 1977, 79 (3), 301-11. 
+Begashaw, Girma, "The Economic Role of 
+Traditional Savings Institutions in Ethio- 
+pia," Savings and Development, 1978, 2 
+(4), 249-62. 
+Bergstrom, Theodore, "Soldiers of Fortune?" 
+in Walter P. Heller, Ross M. Starr, and 
+David A. Starrett, eds., Equilibrium Anal- 
+ysis: Essays in Honor of Kenneth J. Arrow, 
+Cambridge: Cambridge University Press, 
+1986, pp. 57-80. 
+Besley, Timothy J., Coate, Stephen and Loury, 
+Glenn, "On the Allocative Performance of 
+Rotating 
+Savings and Credit Asso- 
+ciations," Research Program in Develop- 
+ment Studies at Princeton University Dis- 
+cussion Paper No. 163, 1992. 
+Bonnett, Aubrey W., Institutional Adaptation 
+of West Indian Immigrants to America: An 
+Analysis of Rotating Credit Associations, 
+Washington, DC: University Press of 
+America, 1981. 
+Bouman, Fritz J. A., "Indigenous Savings and 
+Credit Societies in the Third World: A 
+Message," 
+Savings and Development, 
+1977, 1 (4), 181-218. 
+Brooke, James, "Informal Capitalism Grows 
+in Cameroon," New York Times, 30 
+November 1987, p. 30. 
+Callier, Philippe, "Informal Finance: The 
+Rotating Savings and Credit Association 
+-An 
+Interpretation," Kyklos, 1990, 43 
+(2), 273-6. 
+Cope, Thomas and Kurtz, Donald V., "Default 
+and the Tanda: A Model Regarding Re- 
+cruitment for Rotating Credit Associa- 
+tions," Ethnology, April 1980, 18, 213-31. 
+Fernando, Edgar, "Informal Credit and Sav- 
+ings Organizations in Sri Lanka: The 
+Cheetu," Savings and Development, 1986, 
+10 (3), 253-63. 
+Geertz, Clifford, "The Rotating Credit Asso- 
+ciation: A 'Middle Rung' in Develop- 
+ment," Economic Development and Cul- 
+tural Change, April 1962, 10, 241-63. 
+Grossman, Richard, "Deposit 
+Insurance, 
+Regulation, and Moral Hazard in the 
+Thrift Industry: Evidence 
+from the 
+1930's," American Economic Review, 
+September 1992, 82, 800-22. 
+Haggblade, Stephen, "Africanization from Be- 
+low: The Evolution of Cameroon Savings 
+Societies into Western Style Banks," Ru- 
+ral Africana, Fall 1978, 2, 35-55. 
+Hillman, Arye and Swan, Peter, "Participation 
+Rules for Pareto Optimal Clubs," Journal 
+of Public Economics, February 1983, 20, 
+55-76. 
+Kurtz, Donald V., "The Rotating Credit As- 
+sociation: An Adaptation to Poverty," 
+Human Organization, Spring 1973, 32, 
+49-58. 
+Light, Ivan, Ethnic Enterprise in America, 
+Berkeley: University of California Press, 
+1972. 
+
+810 
+THE AMERICAN ECONOMIC REVIEW 
+SEPTEMBER 1993 
+Mirrlees, James A., "The Optimum Town," 
+Scandinavian 
+Journal of Economics, 
+March 1972, 74, 115-35. 
+Norville, Douglass G. and Wehrly, James S., "A 
+Rotating Credit Association in the Do- 
+minican Republic," Caribbean Studies, 
+April 1969, 9, 45-52. 
+Osuntogun, 
+Adenyi 
+and 
+Adeyemo, 
+Remi, 
+"Mobilization of Rural Savings and Credit 
+Extension in Pre-Cooperative Organiza- 
+tions in South-Western Nigeria," Savings 
+and Development, 1981, 5 (4), 247-61. 
+Radhakrishnan, S. et al., Chit Funds, Madras, 
+India: Institute for Financial Manage- 
+ment and Research, 1975. 
+Symons, Edwin and White, James, Banking 
+Law, 2nd Ed., St. Paul, MN: West Pub- 
+lishing, 1984.
