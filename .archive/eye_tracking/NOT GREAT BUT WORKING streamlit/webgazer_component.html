@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <style>
+        body { text-align: center; }
+        .calibration-dot {
+            width: 20px;
+            height: 20px;
+            background: rgb(0, 0, 255); /* Blue */
+            border-radius: 50%;
+            position: absolute;
+            cursor: pointer;
+        }
+        #calibration-container {
+            display: none;
+        }
+        #gazeDot {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: red;
+            border-radius: 50%;
+            display: none; /* Hidden during calibration */
+        }
+    </style>
+</head>
+<body>
+    <h2>Eye Tracking with 5-Tap Calibration</h2>
+    <button id="start-calibration">Start Calibration</button>
+    <button id="stop-calibration" disabled>Stop Calibration</button>
+    <div id="calibration-container"></div>
+    <div id="gazeDot"></div>
+
+    <script>
+        // 5 calibration points: Top-left, Top-right, Center, Bottom-left, Bottom-right
+        const positions = [
+            [50, 50],                        // Top-left
+            [window.innerWidth - 50, 50],    // Top-right
+            [window.innerWidth / 2, window.innerHeight / 2], // Center
+            [50, window.innerHeight - 50],   // Bottom-left
+            [window.innerWidth - 50, window.innerHeight - 50] // Bottom-right
+        ];
+
+        const tapsRequired = 5; // Number of taps per dot
+        let calibrationProgress = {}; // Track taps for each dot
+        let totalClicks = 0; // Track total completed taps
+
+        function startCalibration() {
+            calibrationProgress = {}; // Reset calibration progress
+            totalClicks = 0; // Reset total clicks
+            const container = document.getElementById("calibration-container");
+            container.innerHTML = ""; // Clear any previous dots
+            container.style.display = "block";
+            document.getElementById("gazeDot").style.display = "none"; // Hide red dot during calibration
+
+            // Add dots for calibration
+            positions.forEach(([x, y], index) => {
+                const dot = document.createElement("div");
+                dot.className = "calibration-dot";
+                dot.style.left = `${x}px`;
+                dot.style.top = `${y}px`;
+                dot.style.position = "absolute";
+
+                // Initialize progress for this dot
+                calibrationProgress[index] = 0;
+
+                dot.onclick = () => {
+                    // Increment progress for this dot
+                    if (calibrationProgress[index] < tapsRequired) {
+                        calibrationProgress[index]++;
+                        const progress = calibrationProgress[index];
+
+                        // Darken the dot as it is clicked
+                        const colorValue = 255 - Math.floor((progress / tapsRequired) * 255);
+                        dot.style.background = `rgb(0, 0, ${colorValue})`;
+
+                        if (progress === tapsRequired) {
+                            totalClicks++; // Track fully completed dots
+                            dot.style.background = "green"; // Fully calibrated
+                        }
+
+                        // Record gaze data for this dot
+                        const [dotX, dotY] = positions[index];
+                        webgazer.recordScreenPosition(dotX, dotY);
+
+                        // Check if calibration is complete
+                        if (totalClicks === positions.length) {
+                            alert("Calibration Complete!");
+                            stopCalibration();
+                            startTracking(); // Begin live gaze tracking
+                        }
+                    }
+                };
+
+                container.appendChild(dot);
+            });
+        }
+
+        function stopCalibration() {
+            const container = document.getElementById("calibration-container");
+            container.style.display = "none";
+            document.getElementById("stop-calibration").disabled = true;
+            document.getElementById("start-calibration").disabled = false;
+        }
+
+        function startTracking() {
+            const gazeDot = document.getElementById("gazeDot");
+            gazeDot.style.display = "block"; // Show red dot
+
+            // Start gaze listener for tracking
+            webgazer.setGazeListener((data) => {
+                if (data) {
+                    gazeDot.style.left = `${data.x}px`;
+                    gazeDot.style.top = `${data.y}px`;
+                }
+            }).begin();
+        }
+
+        document.getElementById("start-calibration").onclick = () => {
+            webgazer.begin(); // Start WebGazer
+            startCalibration();
+            document.getElementById("start-calibration").disabled = true;
+            document.getElementById("stop-calibration").disabled = false;
+        };
+
+        document.getElementById("stop-calibration").onclick = () => {
+            stopCalibration();
+        };
+
+        // Optional: Prevent issues if calibration was skipped
+        window.onload = () => {
+            webgazer.begin();
+        };
+    </script>
+</body>
+</html>
